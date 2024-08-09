@@ -1,0 +1,263 @@
+# May be overwritten in .github/workflows/github-pages.yml or other config files
+baseURL = 'https://qgis.org/'
+languageCode = 'en-us'
+title = 'QGIS Web Site'
+theme = 'hugo-bulma-blocks-theme'
+# Default pagination.
+# Can override this when needed e.g. {{ range (.Paginator 5).Pages }}
+paginate = 50
+
+# See https://mertbakir.gitlab.io/hugo/syntax-highlighting-in-hugo/
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+
+# Folders in these folders get published automatically
+staticDir = ['static']
+
+# See https://gohugo.io/templates/robots/
+# Set it to false to create a robots.txt file without using a template.
+# The file robot.txt will be copied into the root folder when building
+# the static file
+enableRobotsTXT = false
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages]
+
+  [languages.en]
+    contentDir = 'content'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'QGIS Web Site'
+    weight = 1   
+    #   [languages.en.params]
+ #     subtitle = 'Reference, Tutorials, and Explanations'
+  [languages.ja]
+    contentDir = 'content/locale/ja'
+    disabled = false
+    languageCode = 'ja-JP'
+    languageDirection = 'ltr'
+    languageName = 'Japanese'
+    title = 'QGIS　WEBサイト'
+    weight = 2
+    # [languages.ja.params]
+    #  subtitle = 'Referenz, Tutorials und Erklärungen'
+
+
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
+  # See readme for submenu notes
+  submenu = 'submenus'
+
+[params]
+# Brand colours:
+primary1 = "#589632"
+primary2 = "#55828b"
+primary3 = "#395c6b"
+primary4 = "#EEE766"
+primary5 = "#93B023"
+primary6 = "#ee7913"
+primary1-invert = "#fff"
+primary2-invert = "#eeeeee"
+primary3-invert = "#eeeeee"
+primary4-invert = "#363636"
+primary5-invert = "#eeeeee"
+primary6-invert = "#fff"
+links = "#3A9800"
+# TODO update these to gradient colours like above
+complementary1 = "#93B023"
+complementary2 = "#ee7913"
+complementary3 = "#EEE766"
+complementary4 = "#93b023"
+complementary5 = "#a7cecb"
+complementary6 = "#589732"
+complementary7 = "#93B022"
+complementary8 = "#385C6B"
+light1 = "#fbfbfb"
+light2 = "#eeeeee"
+light3 = "#E7E7E7"
+dark1 = "#808080"
+dark2 = "#000"
+text-primary1 = "#002033"
+text-primary2 = "#4D6370"
+# Bulma specific colours based on our branding
+black = "#000"
+white = "#ffffff"
+grey-dark = "#444444"
+grey-darker = "#363636"
+grey-light = "#d4d4d4"
+primary = "#a7cecb"
+danger = "#ee7913"
+info = "#93b023"
+success = "#589632"
+warning = "#EEE766"
+link = "#ee7913"
+# Brand fonts to override bulma font families
+heading-font = "'Trueno', sans-serif"
+text-font = "'Trueno', sans-serif"
+fancy-font = "'Sevillana', cursive"
+
+menuFontClass = "is-size-6"
+## Gh repo for site footer (include trailing slash)
+githubUrl = "https://github.com/kartoza/hugo-bulma-blocks-theme/"
+## GH Repo for filing a new issue
+githubIssueUrl = "https://github.com/kartoza/hugo-bulma-blocks-theme/issues/new/choose"
+### Edit content repo (set to automatically enter "edit" mode; this is good for "improve this page" links)
+githubEditUrl = "https://github.com/kartoza/hugo-bulma-blocks-theme/edit/main"
+### Radius for boxes
+corner-radius = "0px"
+
+## Url to navigation web component
+uniNavHeaderUrl = 'https://qgis.github.io/qgis-uni-navigation/index.js'
+uniNavHeaderLocationPrefix = ""
+
+## Url to news feed. After URL change you have to check 
+## themes/hugo-bulma-blocks-theme/layouts/partials/contextmenu.html 
+## file to ensure that it adresses the correct keys 
+newsfeed ='https://feed.qgis.org/?lang=en&json=1'
+
+## This will turn on Coockie popup. True to show popup
+cookiesstate = false
+
+# Matomo
+matomoURL = "//matomo.qgis.org/"
+matomoSiteId = '7'
+
+# commit hash file
+commitFile = "config/commit.toml"
+
+# This will cause html in markdown files to be rendered directly
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Syntax highlighter for code blocks
+# See https://mertbakir.gitlab.io/hugo/syntax-highlighting-in-hugo/
+[markup.highlight]
+      codeFences = true
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = false
+      lineNumbersInTable = false
+      tabWidth = 4
+      noClasses = false
+      style = "monokai"
+    
+[markup.tableOfContents]
+      endLevel = 3
+      ordered = false
+      startLevel = 2
+
+
+sectionPagesMenu = 'main'
+# See https://gohugo.io/content-management/menus/
+
+# Languages for translated docs
+[[menu.lang]]
+  name = "🇬🇧 English"
+  url = "en"
+  weight = 1
+
+[[menu.lang]]
+  name = "🇨🇿 Czech"
+  url = "cs"
+  weight = 2
+
+[[menu.lang]]
+  name = "🇩🇪 German"
+  url = "de"
+  weight = 3
+
+[[menu.lang]]
+  name = "🇪🇸 Spanish"
+  url = "es"
+  weight = 4
+
+[[menu.lang]]
+  name = "🇫🇷 French"
+  url = "fr"
+  weight = 5
+
+[[menu.lang]]
+  name = "🇭🇺 Hungarian"
+  url = "hu"
+  weight = 6
+
+[[menu.lang]]
+  name = "🇮🇹 Italian"
+  url = "it"
+  weight = 7
+
+[[menu.lang]]
+  name = "🇯🇵 Japanese"
+  url = "ja"
+  weight = 8
+
+[[menu.lang]]
+  name = "🇰🇷 Korean"
+  url = "ko"
+  weight = 9
+
+[[menu.lang]]
+  name = "🇱🇹 Lithuanian"
+  url = "lt"
+  weight = 10
+
+[[menu.lang]]
+  name = "🇳🇱 Dutch"
+  url = "nl"
+  weight = 11
+
+[[menu.lang]]
+  name = "🇧🇷 Portuguese - Brazil"
+  url = "pt_BR"
+  weight = 12
+
+[[menu.lang]]
+  name = "🇵🇹 Portuguese - Portugal"
+  url = "pt_PT"
+  weight = 13
+
+[[menu.lang]]
+  name = "🇷🇴 Romanian"
+  url = "ro"
+  weight = 14
+
+[[menu.lang]]
+  name = "🇷🇺 Russian"
+  url = "ru"
+  weight = 15
+
+[[menu.lang]]
+  name = "🇨🇳 Chinese - Simplified"
+  url = "zh-Hans"
+  weight = 16
+
+[outputs]
+  home = ["HTML", "RSS", "JSON", "version", "version-ltr", "version-json"]
+
+[outputFormats]
+[outputFormats.version]
+  baseName = "version"
+  isPlainText = true
+  mediaType = "text/plain"
+
+[outputFormats.version-ltr]
+  baseName = "version-ltr"
+  isPlainText = true
+  mediaType = "text/plain"
+
+[outputFormats.version-json]
+  baseName = "version"
+  isPlainText = true
+  mediaType = "application/json"
+
+

@@ -1,0 +1,339 @@
+
+[[main]]
+  name = "プロジェクト"
+  url = "/ja/project/overview"
+  weight = 10
+  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
+
+[[main]]
+  parent = "プロジェクト"
+  name = "概要"
+  url = "/ja/project/overview/"
+  weight = 10
+
+[[main]]
+  parent = "プロジェクト"
+  name = "ケーススタディ"
+  url = "/ja/project/case-studies/"
+  weight = 20
+
+[[main]]
+  parent = "概要"
+  name = "地図"
+  url = "/ja/project/overview/maps/"
+  weight = 30
+
+[[main]]
+  parent = "概要"
+  name = "スクリーンショット"
+  url = "/ja/project/overview/screenshots/"
+  weight = 30  
+
+[[main]]
+  parent = "プロジェクト"
+  name = "プラグイン"
+  url = "https://plugins.qgis.org"
+  weight = 30
+
+[[main]]
+  parent = "プロジェクト"
+  name = "ビジュアルチェンジログ"
+  url = "/ja/project/visual-changelogs"
+  weight = 40
+
+
+[[main]]
+  name = "コミュニティ"
+  url = "/ja/community/involve"
+  weight = 20
+
+[[main]]
+  parent = "コミュニティ"
+  name = "参加する"
+  url = "/ja/community/involve"
+  weight = 10
+
+[[main]]
+  parent = "コミュニティ"
+  name = "Certification Programme"
+  url = "/ja/community/certification"
+  weight = 20
+
+[[main]]
+  parent = "コミュニティ"
+  name = "QGIS Foundation"
+  url = "/community/foundation"
+  weight = 30
+
+[[main]]
+  parent = "QGIS Foundation"
+  name = "Charter"
+  url = "/ja/community/foundation/charter"
+  weight = 40
+
+[[main]]
+  parent = "QGIS Foundation"
+  name = "Annual General Meetings"
+  url = "/ja/community/foundation/annual_general_meetings"
+  weight = 50
+
+[[main]]
+  parent = "QGIS Foundation"
+  name = "Annual Reports"
+  url = "/ja/community/foundation/annual_reports"
+  weight = 60
+
+[[main]]
+  parent = "QGIS Foundation"
+  name = "Finance"
+  url = "/ja/community/foundation/finance"
+  weight = 70
+
+[[main]]
+  parent = "コミュニティ"
+  name = "プロジェクト組織"
+  url = "/ja/community/organisation"
+  weight = 80
+
+
+[[main]]
+  parent = "プロジェクト組織"
+  name = "Infrastructure"
+  url = "/ja/community/organisation/infrastructure"
+  weight = 100
+
+[[main]]
+  parent = "コミュニティ"
+  name = "ローカルユーザーグループ"
+  url = "/ja/community/groups"
+  weight = 110
+
+
+
+[[main]]
+  parent = "プロジェクト組織"
+  name = "Brand Guidelines"
+  url = "/ja/community/organisation/guidelines"
+  weight = 130
+
+[[main]]
+  parent = "プロジェクト組織"
+  name = "Contributor Credits"
+  url = "/ja/community/organisation/credits"
+  weight = 140
+
+[[main]]
+  parent = "プロジェクト組織"
+  name = "会合"
+  url = "/ja/community/organisation/meetings"
+  weight = 180
+
+[[main]]
+  parent = "会合"
+  name = "QGIS Developer Meetings"
+  url = "/ja/community/organisation/meetings/dev_meetings"
+  weight = 190
+
+[[main]]
+  parent = "会合"
+  name = "Reimbursements for Developer Meetings"
+  url = "/ja/community/organisation/meetings/reimbursements"
+  weight = 200
+
+[[main]]
+  parent = "会合"
+  name = "QGIS User Meetings"
+  url = "/ja/community/organisation/meetings/user_meetings"
+  weight = 210
+
+[[main]]
+  parent = "プロジェクト組織"
+  name = "メーリングリスト"
+  url = "/ja/community/organisation/mailinglists"
+  weight = 220
+  
+[[main]]
+  parent = "コミュニティ"
+  name = "メンバーブログ"
+  url = "https://plugins.qgis.org/planet/"
+  weight = 280
+
+[[main]]
+  name = "リソース"
+  url = "/ja/resources/hub"
+  weight = 40 # Sets the menu order 
+  #pre = "<i class='fa-solid fa-handshake-angle mr-1'></i>"
+
+[[main]]
+  parent = "リソース"
+  name = "文書"
+  url = "/ja/resources/hub"
+  weight = 5 # Sets the menu order 
+  #pre = "<i class='fa-solid fa-handshake-angle mr-1'></i>"  
+
+
+[[main]]
+  # parent = "Funding"
+  name = "Goodies"
+  url = "/ja/goodies"
+  weight = 60
+
+[[main]]
+  name = "Download"
+  url = "/download/"
+  #pre = "<i class='fa-solid fa-circle-down mr-1'></i>"
+  weight = 80 # Sets the menu order 
+
+[[main]]
+  name = "Archive"
+  url = "/ja/archive/"
+  #pre = "<i class='fa-solid fa-circle-down mr-1'></i>"
+  weight = 90 # Sets the menu order 
+
+[[main]]
+  name = "Funding"
+  url = "/ja/funding/donate"
+  #pre = "<i class='fa-solid fa-circle-down mr-1'></i>"
+  weight = 50 # Sets the menu order 
+
+[[main]]
+  parent = "Funding"
+  name = "Donate"
+  url = "/ja/funding/donate"
+  #pre = "<i class='fa-solid fa-circle-down mr-1'></i>"
+  weight = 30 # Sets the menu order 
+
+[[main]]
+  parent = "Funding"
+  name = "Membership"
+  url = "/ja/funding/membership"
+  weight = 230
+
+[[main]]
+  parent = "Membership"
+  name = "Members"
+  url = "/ja/funding/membership/members"
+  weight = 240
+
+
+[[main]]
+  parent = "Membership"
+  name = "Past Members"
+  url = "/ja/funding/membership/past_members"
+  weight = 260
+
+[[main]]
+  parent = "Donate"
+  name = "Donors"
+  url = "/ja/funding/donate/donors"
+  weight = 270
+
+# Submenus are done this way: parent -> identifier
+[[main]]
+  parent = "Resources"
+  name = "Installation guide"
+  url = "/ja/resources/installation-guide/"
+  weight = 10
+
+
+[[main]]
+  parent = "Resources"
+  name = "Testing"
+  url = "/ja/resources/testing/"
+  weight = 30
+
+[[main]]
+  parent = "Resources"
+  name = "Roadmap"
+  url = "/ja/resources/roadmap/"
+  weight = 40
+
+[[main]]
+  parent = "Resources"
+  name = "Reports"
+  url = "/ja/resources/reports/"
+  weight = 50
+
+[[main]]
+  parent = "Reports"
+  name = "OGC Certification"
+  url = "/ja/resources/reports/#ogc-certification"
+  weight = 60
+
+[[main]]
+  parent = "Reports"
+  name = "Performance"
+  url = "/ja/resources/reports/#performance"
+  weight = 70
+
+[[main]]
+  parent = "Reports"
+  name = "Security"
+  url = "/ja/resources/reports/#security"
+  weight = 80
+
+[[main]]
+  parent = "Resources"
+  name = "Books"
+  url = "/ja/resources/books/"
+  weight = 90
+
+[[main]]
+  parent = "Resources"
+  name = "Support"
+  url = "/ja/resources/support/"
+  weight = 100
+
+[[main]]
+  parent = "Support"
+  name = "FAQ"
+  url = "/ja/resources/support/faq"
+  weight = 110
+
+[[main]]
+  parent = "Support"
+  name = "Bug Reporting"
+  url = "/ja/resources/support/bug-reporting"
+  weight = 120
+
+[[main]]
+  parent = "Support"
+  name = "Communication channels"
+  url = "/ja/resources/support/#communication-channels"
+  weight = 130
+
+[[main]]
+  parent = "Support"
+  name = "Commercial support"
+  url = "/ja/resources/support/commercial-support"
+  weight = 140
+
+[[main]]
+  parent = "Support"
+  name = "StackExchange"
+  url = "/ja/resources/support/#stackexchange"
+  weight = 160
+
+[[main]]
+  parent = "Resources"
+  name = "QGIS Metrics"
+  url = "https://analytics.qgis.org"
+  weight = 180
+
+[[main]]
+  parent = "Resources"
+  name = "Plugins Metrics"
+  url = "https://plugins.qgis.org/metabase/public/dashboard/7ecd345f-7321-423d-9844-71e526a454a9"
+  weight = 190
+
+[[main]]
+  parent = "Resources"
+  name = "Blog"
+  url = "https://blog.qgis.org/"
+  weight = 200
+
+[[main]]
+  parent = "Support"
+  name = "Security"
+  url = "/ja/resources/support/security"
+  weight = 190
