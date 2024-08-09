@@ -55,14 +55,14 @@
 
 [[main]]
   parent = "コミュニティ"
-  name = "Certification Programme"
+  name = "認定プログラム"
   url = "/ja/community/certification"
   weight = 20
 
 [[main]]
   parent = "コミュニティ"
   name = "QGIS Foundation"
-  url = "/community/foundation"
+  url = "/ja/community/foundation"
   weight = 30
 
 [[main]]
@@ -230,26 +230,26 @@
 
 # Submenus are done this way: parent -> identifier
 [[main]]
-  parent = "Resources"
+  parent = "リソース"
   name = "Installation guide"
   url = "/ja/resources/installation-guide/"
   weight = 10
 
 
 [[main]]
-  parent = "Resources"
+  parent = "リソース"
   name = "Testing"
   url = "/ja/resources/testing/"
   weight = 30
 
 [[main]]
-  parent = "Resources"
+  parent = "リソース"
   name = "Roadmap"
   url = "/ja/resources/roadmap/"
   weight = 40
 
 [[main]]
-  parent = "Resources"
+  parent = "リソース"
   name = "Reports"
   url = "/ja/resources/reports/"
   weight = 50
@@ -273,13 +273,13 @@
   weight = 80
 
 [[main]]
-  parent = "Resources"
+  parent = "リソース"
   name = "Books"
   url = "/ja/resources/books/"
   weight = 90
 
 [[main]]
-  parent = "Resources"
+  parent = "リソース"
   name = "Support"
   url = "/ja/resources/support/"
   weight = 100
@@ -315,19 +315,19 @@
   weight = 160
 
 [[main]]
-  parent = "Resources"
+  parent = "リソース"
   name = "QGIS Metrics"
   url = "https://analytics.qgis.org"
   weight = 180
 
 [[main]]
-  parent = "Resources"
+  parent = "リソース"
   name = "Plugins Metrics"
   url = "https://plugins.qgis.org/metabase/public/dashboard/7ecd345f-7321-423d-9844-71e526a454a9"
   weight = 190
 
 [[main]]
-  parent = "Resources"
+  parent = "リソース"
   name = "Blog"
   url = "https://blog.qgis.org/"
   weight = 200
