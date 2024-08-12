@@ -1,0 +1,160 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/environmental-policy/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/environmental-policy/index.md
+msgid "page"
+msgstr ""
+
+#: content/environmental-policy/index.md
+#: content/environmental-policy/index.md:10
+msgid "Environmental Policy"
+msgstr ""
+
+#: content/environmental-policy/index.md:8
+msgid "{{< content-start classes=\"content narrow\">}}"
+msgstr ""
+
+#: content/environmental-policy/index.md:13
+msgid ""
+"Rationale[](https://www.qgis.org/en/site/getinvolved/governance/codeofconduct/environmentalpolicy.html#rationale"
+" \"Link to this heading\")"
+msgstr ""
+
+#: content/environmental-policy/index.md:16
+msgid ""
+"Environmental issues, such as the climate crisis, the rapid decrease of "
+"biodiversity, and pollution are pressing issues for everyone in the "
+"Geoscience community and beyond. Many QGIS users and contributors are "
+"geoscientists or geoinformatics specialists. As such, we need to act "
+"responsibly and serve as role models. If we act, there is a chance that "
+"the members of the general public that are less informed about these "
+"issues will also feel the urgency to act and help reduce the impact of "
+"human activity on our planet."
+msgstr ""
+
+#: content/environmental-policy/index.md:18
+msgid ""
+"Policy[](https://www.qgis.org/en/site/getinvolved/governance/codeofconduct/environmentalpolicy.html#policy"
+" \"Link to this heading\")"
+msgstr ""
+
+#: content/environmental-policy/index.md:21
+msgid ""
+"QGIS.ORG and the QGIS community are committed to act responsibly "
+"regarding their actions and activities where it has any relevant "
+"influence on the environment. This includes mainly our server "
+"infrastructure and our physical contributor meetings."
+msgstr ""
+
+#: content/environmental-policy/index.md:23
+msgid ""
+"Server "
+"infrastructure[](https://www.qgis.org/en/site/getinvolved/governance/codeofconduct/environmentalpolicy.html"
+"#server-infrastructure \"Link to this heading\")"
+msgstr ""
+
+#: content/environmental-policy/index.md:26
+msgid ""
+"The infrastructure provider should run the QGIS.ORG infrastructure with "
+"renewable energy. Rented server or cloud resources should be sized "
+"according to their expected load. Oversizing of infrastructure resources "
+"should be avoided."
+msgstr ""
+
+#: content/environmental-policy/index.md:28
+msgid ""
+"Physical contributor "
+"meetings[](https://www.qgis.org/en/site/getinvolved/governance/codeofconduct/environmentalpolicy.html"
+"#physical-contributor-meetings \"Link to this heading\")"
+msgstr ""
+
+#: content/environmental-policy/index.md:31
+msgid ""
+"*Choice of location:* ​when choosing the location for a contributor "
+"meeting, the remoteness of the location of the contributor meeting should"
+" be factored in. Very remote places where the majority of participants "
+"have to fly to should be avoided."
+msgstr ""
+
+#: content/environmental-policy/index.md:33
+msgid ""
+"*Traveling to the meeting:*​ when feasible, participants should be "
+"encouraged to choose more environmentally friendly transport options: "
+"preferably trains or buses rather than planes. When choosing transport by"
+" car, car pooling should be encouraged. QGIS.ORG has a program allowing "
+"contributor meeting participants to ask for travel expenses "
+"reimbursement. Efforts to travel with a low-impact means of "
+"transportation will be taken into account for travel grant decisions. "
+"Conditions for reimbursement of plane tickets :"
+msgstr ""
+
+#: content/environmental-policy/index.md:35
+msgid ""
+"no reimbursement if alternative train rides with a travel time <= 10 "
+"hours exist (12 hours when including a night train connection), even if "
+"the train ticket costs more than the airfare."
+msgstr ""
+
+#: content/environmental-policy/index.md:38
+msgid ""
+"When the air travel option has to be chosen and the traveller is claiming"
+" travel cost reimbursements, the traveller should pay extra for a carbon "
+"offset through an accredited carbon offset company. QGIS.ORG will also "
+"reimburse this extra cost."
+msgstr ""
+
+#: content/environmental-policy/index.md:41
+msgid ""
+"Sample organizations who offer carbon offset: MyClimate, Atmosfair or "
+"other comparable organizations."
+msgstr ""
+
+#: content/environmental-policy/index.md:43
+msgid ""
+"*Remote participation:* For participants who cannot attend in person, "
+"QGIS.org encourages meeting's organizers to enable remote participation "
+"through scheduled discussions and video conferencing."
+msgstr ""
+
+#: content/environmental-policy/index.md:45
+msgid ""
+"*Catering:* Local organizers should organize the catering in an "
+"environmentally friendly way as much as possible. Local food should be "
+"preferred over food that requires significant transportation. Reusable "
+"tableware, cups and cutlery should be preferred over disposable single-"
+"use options as they are generally considered to be more friendly to the "
+"environment. Meeting attendees should be encouraged to bring their own "
+"drinking bottle and event organisers should be requested to promote using"
+" potable water from the water mains system, or if that is not suitable, a"
+" 'drinking fountain' that can be used to fill up water containers without"
+" generating large amounts of plastic waste."
+msgstr ""
+
+#: content/environmental-policy/index.md:47
+msgid ""
+"*Smoking and e-cigarettes:* second-hand intake of nicotine-based products"
+" are hazardous to health and create an unpleasant environment for non-"
+"consumers when done near them. Be respectful and do not use these "
+"products in doorways or other common areas outside where non-smokers "
+"gather. Organizers should rather provide a designated smoking area and "
+"request that smokers and e-cigarette users refrain from smoking "
+"elsewhere."
+msgstr ""
+
+#: content/environmental-policy/index.md:49
+msgid "{{< content-end >}}"
+msgstr ""
+

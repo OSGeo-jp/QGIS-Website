@@ -1,0 +1,312 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funding/donate.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/funding/donate.md
+msgid "page"
+msgstr ""
+
+#: content/funding/donate.md
+msgid "Donate"
+msgstr ""
+
+#: content/funding/donate.md
+msgid ""
+"Your support is vital to enhance and promote QGIS as an essential tool "
+"for the global GIS community"
+msgstr ""
+
+#: content/funding/donate.md
+msgid "img/involve.jpg"
+msgstr ""
+
+#: content/funding/donate.md:11
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/funding/donate.md:14
+msgid ""
+"QGIS is developed by a team of dedicated volunteers, companies and "
+"organisations."
+msgstr ""
+
+#: content/funding/donate.md:16
+msgid ""
+"We rely on sponsorships and donations for much of our funding. If you "
+"would like to support us, donations are very welcome. Donations can be "
+"made by electronic funds transfer, by credit card, or by PayPal."
+msgstr ""
+
+#: content/funding/donate.md:18
+msgid ""
+"Donations to QGIS are tax-deductible in several countries. Please refer "
+"to your local tax office for details. If you want to tax-deduct as a "
+"german company or organization, please donate through the German QGIS "
+"user group. They can issue a payment confirmation as a tax-exempt german "
+"association."
+msgstr ""
+
+#: content/funding/donate.md:21
+msgid ""
+"{{< rich-box-start layoutClass=\"mt-6\">}} {{< rich-content-start "
+"themeClass=\"coloring-2\" >}}"
+msgstr ""
+
+#: content/funding/donate.md:23
+msgid "Sustaining Membership"
+msgstr ""
+
+#: content/funding/donate.md:24
+msgid "Create a recurring sustaining membership."
+msgstr ""
+
+#: content/funding/donate.md:26
+msgid ""
+"{{< button class = \"is-primary6\" link = \"funding/membership\" text = "
+"\"Subscribe\" >}}"
+msgstr ""
+
+#: content/funding/donate.md:28
+msgid "{{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/funding/donate.md:32
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right mt-6\" mode=\"html\" >}} {{< "
+"rich-content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/funding/donate.md:34
+msgid "Stripe Donation"
+msgstr ""
+
+#: content/funding/donate.md:36
+msgid ""
+"We use the stripe.com service to receive credit card donations. Note that"
+" the payment fees at Stripe are substantially lower than at Paypal - so "
+"we would appreciate it, if you could use Stripe instead of PayPal. No "
+"signup needed. {{< rich-content-end >}} {{< rich-right-start >}}<br />{{<"
+" stripe-widget >}} {{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/funding/donate.md:44
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right\" mode=\"html\" >}} {{< rich-"
+"content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/funding/donate.md:46
+msgid "Bank transfer"
+msgstr ""
+
+#: content/funding/donate.md:48
+msgid ""
+"Use the details below to make a donation via international money "
+"transfer: {{< rich-content-end >}} {{< rich-right-start >}}"
+msgstr ""
+
+#: content/funding/donate.md:51
+msgid ""
+"<pre class=\"donatbox\">\n"
+"Account name: QGIS.ORG\n"
+"Address:      Via Geinas 2\n"
+"              CH-7031 Laax\n"
+"BIC/SWIFT:    POFICHBEXXX\n"
+"IBAN:         CH09 0900 0000 9146 3839 8\n"
+"Reference:    Donation QGIS\n"
+"Currency:     EUR\n"
+"Bank name:    PostFinance AG\n"
+"Bank address: Mingerstrasse 20\n"
+"              3030 Berne\n"
+"              Switzerland\n"
+"VAT-number:   CHE-489.853.176\n"
+"</pre>\n"
+msgstr ""
+
+#: content/funding/donate.md:65
+msgid "{{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/funding/donate.md:69
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right paypal mb-6\" >}} {{< rich-"
+"content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/funding/donate.md:71
+msgid "Paypal Donation"
+msgstr ""
+
+#: content/funding/donate.md:73
+msgid ""
+"You can use Paypal to donate using your own credit card (but we prefer to"
+" use Stripe for that). The payment is processed by PayPal but you don't "
+"need to have a PayPal account or sign-up for one if you are paying by "
+"credit card."
+msgstr ""
+
+#: content/funding/donate.md:75
+msgid "You can also use your own Paypal account to donate."
+msgstr ""
+
+#: content/funding/donate.md:77
+msgid ""
+"{{< paypal-button >}} {{< rich-content-end >}} {{< rich-right-start "
+">}}<br />![](../paypal.png) {{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/funding/donate.md:85
+msgid "Your support is vital to keep QGIS improving"
+msgstr ""
+
+#: content/funding/donate.md:87
+msgid ""
+"We would like to extend our activities and improve the quality of QGIS. "
+"Your financial contribution will support the maintenance, improvement, "
+"and promotion of QGIS. Becoming a sustaining member is a way of ensuring "
+"the longevity and overall health of the project."
+msgstr ""
+
+#: content/funding/donate.md:89
+msgid ""
+"{{< columns-start >}} {{< column-start class=\"is-flex-direction-column "
+"is-one-third left-title\">}}"
+msgstr ""
+
+#: content/funding/donate.md:91
+msgid "Enhanced Infrastructure & Development Support"
+msgstr ""
+
+#: content/funding/donate.md:92 content/funding/donate.md:121
+msgid "{{< column-end >}}"
+msgstr ""
+
+#: content/funding/donate.md:94
+msgid ""
+"{{< column-start class=\"is-flex-direction-column is-two-thirds\">}} {{< "
+"rich-box-start >}} {{< rich-content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/funding/donate.md:97
+msgid "Maintaining Core Infrastructure"
+msgstr ""
+
+#: content/funding/donate.md:98
+msgid "The official QGIS.org website, a central hub for all things QGIS."
+msgstr ""
+
+#: content/funding/donate.md:99
+msgid "Our issue tracking system for efficient bug and feature reporting."
+msgstr ""
+
+#: content/funding/donate.md:100
+msgid ""
+"The continuous integration system, ensuring code quality and stability "
+"through automated tests. {{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/funding/donate.md:104 content/funding/donate.md:133
+msgid ""
+"{{< rich-box-start >}} {{< rich-content-start themeClass=\"coloring-1\" "
+">}}"
+msgstr ""
+
+#: content/funding/donate.md:106
+msgid "Software Development & QA"
+msgstr ""
+
+#: content/funding/donate.md:107
+msgid ""
+"Continually improve and package QGIS for various operating systems, "
+"making it accessible to more users worldwide."
+msgstr ""
+
+#: content/funding/donate.md:108
+msgid "Address bugs and other issues promptly, enhancing the user experience."
+msgstr ""
+
+#: content/funding/donate.md:109
+msgid ""
+"Manage pull requests and conduct thorough code reviews, ensuring the "
+"highest standards of software development. {{< rich-content-end >}} {{< "
+"rich-box-end >}}"
+msgstr ""
+
+#: content/funding/donate.md:113 content/funding/donate.md:140
+msgid "{{< column-end >}} {{< columns-end >}}"
+msgstr ""
+
+#: content/funding/donate.md:116
+msgid ""
+"{{< columns-start class=\"mb-6\">}} {{< column-start class=\"is-flex-"
+"direction-column is-one-third left-title\">}}"
+msgstr ""
+
+#: content/funding/donate.md:118
+msgid "Community Growth & Engagement"
+msgstr ""
+
+#: content/funding/donate.md:123
+msgid ""
+"{{< column-start class=\"is-flex-direction-column is-two-thirds \">}} {{<"
+" rich-box-start >}} {{< rich-content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/funding/donate.md:126
+msgid "Empowering Our Volunteers"
+msgstr ""
+
+#: content/funding/donate.md:127
+msgid ""
+"Mentoring new contributors, fostering a welcoming and productive "
+"community."
+msgstr ""
+
+#: content/funding/donate.md:128
+msgid ""
+"Translating QGIS into multiple languages, making the software truly "
+"global."
+msgstr ""
+
+#: content/funding/donate.md:129
+msgid ""
+"Running the QGIS grant system, enabling focused work on significant "
+"improvements and innovations that are often challenging for volunteers to"
+" undertake on their own. {{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/funding/donate.md:135
+msgid "Fostering Collaboration & Knowledge Sharing"
+msgstr ""
+
+#: content/funding/donate.md:136
+msgid ""
+"Organizing and supporting contributor meetings and QGIS conferences, "
+"essential for knowledge exchange, collaboration, and the collective "
+"advancement of the QGIS project. {{< rich-content-end >}} {{< rich-box-"
+"end >}}"
+msgstr ""
+
+#: content/funding/donate.md:143
+msgid ""
+"QGIS.ORG wants to be transparent with the funds we receive and how we "
+"spend them. Please have a look at the financial reports and budgets in "
+"our [Finance]({{< ref \"/community/foundation/finance\" >}}) section."
+msgstr ""
+
+#: content/funding/donate.md:145
+msgid "{{< content-end >}}"
+msgstr ""
+

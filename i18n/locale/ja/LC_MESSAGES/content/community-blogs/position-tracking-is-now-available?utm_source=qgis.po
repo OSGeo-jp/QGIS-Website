@@ -1,0 +1,60 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/position-tracking-is-now-"
+"available?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/position-tracking-is-now-available?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/position-tracking-is-now-available?utm_source=qgis.md
+msgid "Mergin Maps: [Changelog] Position tracking is now available"
+msgstr ""
+
+#: content/community-blogs/position-tracking-is-now-available?utm_source=qgis.md
+msgid "position-tracking-is-now-available?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/position-tracking-is-now-available?utm_source=qgis.md
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/position-tracking-is-now-available?utm_source=qgis.md
+msgid ""
+"https://wishlist.merginmaps.com/changelog/position-tracking-is-now-"
+"available?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/position-tracking-is-now-available?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/position-tracking-is-now-available?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/position-tracking-is-now-available?utm_source=qgis.md:11
+msgid ""
+"<p>I am pleased to announce that <strong>position tracking 📡 </strong>has"
+" been released today as part of Mobile version 2.3.0 and Plugin version "
+"2023.3.</p><p>You can learn more about the tracking feature and how to "
+"set it up by visiting: <a "
+"href=\"https://merginmaps.com/docs/field/tracking/\" rel=\"noopener "
+"noreferrer nofollow\" "
+"target=\"_blank\">https://merginmaps.com/docs/field/tracking/</a></p><p>Enjoy"
+" the tracking, and please let us know your thoughts! If you encounter any"
+" issues, please don’t hesitate to contact us.</p>\n"
+msgstr ""
+

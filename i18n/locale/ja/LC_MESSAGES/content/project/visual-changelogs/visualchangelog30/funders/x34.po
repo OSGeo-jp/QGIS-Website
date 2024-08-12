@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-"
+"changelogs/visualchangelog30/funders/x34.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x34.md
+msgid "Gis3W"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x34.md
+msgid "images/projects/thumbnails/69f8dd7f727158ebeb6bcbdce6fef4cb313ad9f9.png.150x50_q85.png"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x34.md
+msgid "http://www.gis3w.it/"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x34.md
+msgid "Small"
+msgstr ""
+

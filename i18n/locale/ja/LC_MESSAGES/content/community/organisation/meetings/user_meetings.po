@@ -1,0 +1,76 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"content/community/organisation/meetings/user_meetings.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community/organisation/meetings/user_meetings.md
+msgid "page"
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md
+#: content/community/organisation/meetings/user_meetings.md:13
+msgid "QGIS User Meetings"
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md
+msgid "4 June 2024"
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md
+msgid "Tim Sutton"
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md:11
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md:15
+msgid ""
+"{{< rich-box-start icon=\"💁\" layoutClass=\"tips\">}} {{< rich-content-"
+"start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md:17
+msgid "Do you want to organize a new meeting?"
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md:18
+msgid ""
+"We organize events on the [QGIS wiki](https://github.com/qgis/QGIS/wiki"
+"#qgis-hackfests)."
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md:20
+msgid ""
+"**Annual User Conference:** We hold an annual user conference with talks "
+"and presentations covering a broad range of topics that are presented by "
+"users, showcasing how they use QGIS to solve their day to day analysis "
+"needs."
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md:22
+msgid ""
+"**QGIS Open Day:** On the last Friday of every month we hold an informal "
+"virtual meeting to engage with the awesome QGIS community. The agenda is "
+"dependent on the community and encourages a culture of collaboration and "
+"self-organisation - you can add topics that interest you on the event "
+"page, or get in touch with the event organisers if you are interested in "
+"facilitating a session. {{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/community/organisation/meetings/user_meetings.md:27
+msgid "{{< content-end >}}"
+msgstr ""
+

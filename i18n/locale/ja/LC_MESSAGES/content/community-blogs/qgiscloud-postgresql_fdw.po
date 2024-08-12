@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/qgiscloud-postgresql_fdw.md "
+"1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/qgiscloud-postgresql_fdw.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-postgresql_fdw.md
+msgid "Sourcepole: QGIS Cloud: Publish Live Data in Web Map"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-postgresql_fdw.md
+msgid "qgiscloud-postgresql_fdw."
+msgstr ""
+
+#: content/community-blogs/qgiscloud-postgresql_fdw.md
+msgid "2023-03-30"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-postgresql_fdw.md
+msgid "https://blog.sourcepole.ch/2023/03/30/qgiscloud-postgresql_fdw/"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-postgresql_fdw.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-postgresql_fdw.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-postgresql_fdw.md:11
+msgid ""
+"The QGIS Cloud Support Team is often asked if it is possible to integrate"
+" data from external databases into the QGIS Cloud Web Map, so that the "
+"map information in the QGIS Cloud Web Map is always up-to-date. In this "
+"blog article we would like to show how this is possible with PostgreSQL. "
+"To publish data in the QGIS Cloud GDI, the data must always be stored in "
+"the personal QGIS Cloud database."
+msgstr ""
+

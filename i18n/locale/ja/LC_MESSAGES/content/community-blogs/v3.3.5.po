@@ -1,0 +1,60 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v3.3.5.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/v3.3.5.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v3.3.5.md
+msgid "QField releases: 3.3.5 - Darién"
+msgstr ""
+
+#: content/community-blogs/v3.3.5.md
+msgid "v3.3.5.5"
+msgstr ""
+
+#: content/community-blogs/v3.3.5.md
+msgid "2024-07-05"
+msgstr ""
+
+#: content/community-blogs/v3.3.5.md
+msgid "https://github.com/opengisch/QField/releases/tag/v3.3.5"
+msgstr ""
+
+#: content/community-blogs/v3.3.5.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v3.3.5.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v3.3.5.md:11
+msgid ""
+"<h2>What's Changed</h2>\n"
+"<ul>\n"
+"<li>Provider users with visual feedback when adding a child feature a "
+"slow/remote layer</li>\n"
+"<li>Avoid double-storing photos taken by QField when using the native "
+"camera</li>\n"
+"<li>Stabilize value map editor widget filtering</li>\n"
+"<li>Fix hard to read QFieldCloud server error reporting details</li>\n"
+"<li>Fix wrongly sized raster image decorator</li>\n"
+"<li>Fix missing cacert.pem to improve support for gdal's /vsicurl/ "
+"dataset access</li>\n"
+"</ul>\n"
+msgstr ""
+

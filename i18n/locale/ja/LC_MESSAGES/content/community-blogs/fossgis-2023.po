@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/fossgis-2023.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/fossgis-2023.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/fossgis-2023.md
+msgid "Sourcepole: FOSSGIS 2023"
+msgstr ""
+
+#: content/community-blogs/fossgis-2023.md
+msgid "fossgis-2023."
+msgstr ""
+
+#: content/community-blogs/fossgis-2023.md
+msgid "2023-03-16"
+msgstr ""
+
+#: content/community-blogs/fossgis-2023.md
+msgid "https://blog.sourcepole.ch/2023/03/16/fossgis-2023/"
+msgstr ""
+
+#: content/community-blogs/fossgis-2023.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/fossgis-2023.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/fossgis-2023.md:11
+msgid ""
+"<p>Sourcepole hat an der FOSSGIS 2023 in Berlin verschiedene Themen mit "
+"Vorträgen abgedeckt:</p>\n"
+"<ul>\n"
+"<li>QGIS Web Client 2 (QWC2) - Neues aus dem Projekt</li>\n"
+"<li>COPC, das neue cloudoptimierte Format für Point Clouds</li>\n"
+"<li>Cloudoptimierte Formate für Kacheln und multidimensionale "
+"Rasterdaten</li>\n"
+"<li>Geodatenverarbeitung mit Workflow-Engines</li>\n"
+"</ul>\n"
+msgstr ""
+

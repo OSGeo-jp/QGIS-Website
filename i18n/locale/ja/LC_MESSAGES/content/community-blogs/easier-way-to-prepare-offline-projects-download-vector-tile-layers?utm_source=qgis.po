@@ -1,0 +1,64 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/easier-way-to-prepare-"
+"offline-projects-download-vector-tile-layers?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/easier-way-to-prepare-offline-projects-download-vector-tile-layers?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/easier-way-to-prepare-offline-projects-download-vector-tile-layers?utm_source=qgis.md
+msgid ""
+"Mergin Maps: [Changelog] Easier way to prepare offline projects - "
+"download vector tile layers"
+msgstr ""
+
+#: content/community-blogs/easier-way-to-prepare-offline-projects-download-vector-tile-layers?utm_source=qgis.md
+msgid ""
+"easier-way-to-prepare-offline-projects-download-vector-tile-"
+"layers?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/easier-way-to-prepare-offline-projects-download-vector-tile-layers?utm_source=qgis.md
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/easier-way-to-prepare-offline-projects-download-vector-tile-layers?utm_source=qgis.md
+msgid ""
+"https://wishlist.merginmaps.com/changelog/easier-way-to-prepare-offline-"
+"projects-download-vector-tile-layers?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/easier-way-to-prepare-offline-projects-download-vector-tile-layers?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/easier-way-to-prepare-offline-projects-download-vector-tile-layers?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/easier-way-to-prepare-offline-projects-download-vector-tile-layers?utm_source=qgis.md:11
+msgid ""
+"<p>Introducing an easier way to prepare offline projects! </p><p>Now, you"
+" can download vector tile layers seamlessly by simply right-clicking on "
+"the layer and selecting 'Make available offline...' - making offline "
+"project preparation a breeze. </p><p>For a step-by-step guide, check out "
+"our documentation <a "
+"href=\"https://merginmaps.com/docs/gis/settingup_background_map"
+"/#downloading-vector-tiles-using-mergin-maps-plugin-for-qgis\" "
+"rel=\"noopener noreferrer nofollow\" target=\"_new\">here</a>. Enhance "
+"your offline mapping experience today!</p>\n"
+msgstr ""
+

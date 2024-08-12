@@ -1,0 +1,62 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v2.8.3.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/v2.8.3.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v2.8.3.md
+msgid "QField releases: 2.8.3 - Insightful Indri"
+msgstr ""
+
+#: content/community-blogs/v2.8.3.md
+msgid "v2.8.3.3"
+msgstr ""
+
+#: content/community-blogs/v2.8.3.md
+msgid "2023-06-25"
+msgstr ""
+
+#: content/community-blogs/v2.8.3.md
+msgid "https://github.com/opengisch/QField/releases/tag/v2.8.3"
+msgstr ""
+
+#: content/community-blogs/v2.8.3.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v2.8.3.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v2.8.3.md:11
+msgid ""
+"<h2>Changes</h2>\n"
+"<h3>✨ Improvements</h3>\n"
+"<ul>\n"
+"<li>File association to support opening .mbtiles standalone datasets</li>"
+"\n"
+"</ul>\n"
+"<h3>🐛 Bug Fixes</h3>\n"
+"<ul>\n"
+"<li>Fix a narrow scenario when checkbox editor widget fails to toggle to "
+"False</li>\n"
+"<li>Fix compass direction not pointing towards north for a number of "
+"CRSes</li>\n"
+"<li>Fix copying of bookmark details into the clipboard</li>\n"
+"</ul>\n"
+msgstr ""
+

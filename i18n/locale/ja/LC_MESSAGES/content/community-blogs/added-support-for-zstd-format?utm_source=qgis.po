@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/added-support-for-zstd-"
+"format?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/added-support-for-zstd-format?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/added-support-for-zstd-format?utm_source=qgis.md
+msgid "Mergin Maps: [Changelog] Added support for ZSTD format"
+msgstr ""
+
+#: content/community-blogs/added-support-for-zstd-format?utm_source=qgis.md
+msgid "added-support-for-zstd-format?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/added-support-for-zstd-format?utm_source=qgis.md
+msgid "2024-06-04"
+msgstr ""
+
+#: content/community-blogs/added-support-for-zstd-format?utm_source=qgis.md
+msgid ""
+"https://wishlist.merginmaps.com/changelog/added-support-for-zstd-"
+"format?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/added-support-for-zstd-format?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/added-support-for-zstd-format?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/added-support-for-zstd-format?utm_source=qgis.md:11
+msgid ""
+"<p>The mobile app is now capable of opening GeoTIFF files compressed with"
+" zstd format.</p>\n"
+msgstr ""
+

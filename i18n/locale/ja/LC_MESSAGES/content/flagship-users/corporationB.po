@@ -1,0 +1,32 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/flagship-users/corporationB.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/flagship-users/corporationB.md
+msgid "flagship-user"
+msgstr ""
+
+#: content/flagship-users/corporationB.md
+msgid "Corporation B"
+msgstr ""
+
+#: content/flagship-users/corporationB.md
+msgid "corporationB.png"
+msgstr ""
+
+#: content/flagship-users/corporationB.md
+msgid "true"
+msgstr ""
+

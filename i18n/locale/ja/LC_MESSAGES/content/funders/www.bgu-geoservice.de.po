@@ -1,0 +1,44 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funders/www.bgu-geoservice.de.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/funders/www.bgu-geoservice.de.md
+msgid "Small"
+msgstr ""
+
+#: content/funders/www.bgu-geoservice.de.md
+msgid "BGU Dr. Brehm & Grünz GbR"
+msgstr ""
+
+#: content/funders/www.bgu-geoservice.de.md
+msgid "www.bgu-geoservice.de.png"
+msgstr ""
+
+#: content/funders/www.bgu-geoservice.de.md
+msgid "2024-03-01"
+msgstr ""
+
+#: content/funders/www.bgu-geoservice.de.md
+msgid "2025-02-28"
+msgstr ""
+
+#: content/funders/www.bgu-geoservice.de.md
+msgid "https://www.bgu-geoservice.de/"
+msgstr ""
+
+#: content/funders/www.bgu-geoservice.de.md
+msgid "Germany"
+msgstr ""
+

@@ -1,0 +1,65 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/stake-out-mode-now-supports-"
+"multiple-distance-units?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/stake-out-mode-now-supports-multiple-distance-units?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/stake-out-mode-now-supports-multiple-distance-units?utm_source=qgis.md
+msgid ""
+"Mergin Maps: [Changelog] Stake out mode now supports multiple distance "
+"units"
+msgstr ""
+
+#: content/community-blogs/stake-out-mode-now-supports-multiple-distance-units?utm_source=qgis.md
+msgid "stake-out-mode-now-supports-multiple-distance-units?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/stake-out-mode-now-supports-multiple-distance-units?utm_source=qgis.md
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/stake-out-mode-now-supports-multiple-distance-units?utm_source=qgis.md
+msgid ""
+"https://wishlist.merginmaps.com/changelog/stake-out-mode-now-supports-"
+"multiple-distance-units?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/stake-out-mode-now-supports-multiple-distance-units?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/stake-out-mode-now-supports-multiple-distance-units?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/stake-out-mode-now-supports-multiple-distance-units?utm_source=qgis.md:11
+msgid ""
+"<p>Users now have the flexibility to utilize a variety of distance units "
+"in the stake out mode, moving beyond the conventional meters. This "
+"enhancement allows for a more customized and user-friendly experience, "
+"catering to diverse geographic contexts and preferences. </p><p>To "
+"configure these distance units, navigate to QGIS project settings and "
+"change “distance units“ to your preferred units.  </p><p>For detailed "
+"instructions on how to set up and leverage alternative distance units in "
+"stakeout mode, refer to our documentation <a "
+"href=\"https://merginmaps.com/docs/field/stake-out/#changing-stake-out-"
+"distance-units-in-qgis\" rel=\"noopener noreferrer nofollow\" "
+"target=\"_blank\">https://merginmaps.com/docs/field/stake-out/#changing-"
+"stake-out-distance-units-in-qgis</a>.</p>\n"
+msgstr ""
+

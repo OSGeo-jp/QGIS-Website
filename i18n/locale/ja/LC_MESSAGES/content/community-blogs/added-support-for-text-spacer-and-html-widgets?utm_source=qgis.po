@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/added-support-for-text-"
+"spacer-and-html-widgets?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/added-support-for-text-spacer-and-html-widgets?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/added-support-for-text-spacer-and-html-widgets?utm_source=qgis.md
+msgid "Mergin Maps: [Changelog] Added support for text, spacer and HTML widgets"
+msgstr ""
+
+#: content/community-blogs/added-support-for-text-spacer-and-html-widgets?utm_source=qgis.md
+msgid "added-support-for-text-spacer-and-html-widgets?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/added-support-for-text-spacer-and-html-widgets?utm_source=qgis.md
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/added-support-for-text-spacer-and-html-widgets?utm_source=qgis.md
+msgid ""
+"https://wishlist.merginmaps.com/changelog/added-support-for-text-spacer-"
+"and-html-widgets?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/added-support-for-text-spacer-and-html-widgets?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/added-support-for-text-spacer-and-html-widgets?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/added-support-for-text-spacer-and-html-widgets?utm_source=qgis.md:11
+msgid ""
+"<p>In our most recent update, we're thrilled to announce the addition of "
+"support for QGIS's spacer, text, and HTML widgets in our forms! This "
+"enhancement brings greater flexibility and customization to your data "
+"entry process. Easily incorporate spacers, add informative text, and use "
+"HTML elements to create dynamic and engaging forms tailored to your "
+"specific needs. </p><p></p><p></p>\n"
+msgstr ""
+

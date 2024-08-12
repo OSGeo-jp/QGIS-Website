@@ -1,0 +1,286 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community/foundation/finance.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community/foundation/finance.md
+msgid "page"
+msgstr ""
+
+#: content/community/foundation/finance.md
+#: content/community/foundation/finance.md:13
+msgid "Finance"
+msgstr ""
+
+#: content/community/foundation/finance.md
+msgid "img/involve.jpg"
+msgstr ""
+
+#: content/community/foundation/finance.md
+#: content/community/foundation/finance.md:14
+msgid ""
+"Please check the following reports, and see how your donations and "
+"sponsorships are important for the progress of the project."
+msgstr ""
+
+#: content/community/foundation/finance.md:11
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:16
+msgid "2024"
+msgstr ""
+
+#: content/community/foundation/finance.md:17
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2024.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third\" listTitle=\"Budget 2024\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:19
+msgid "2023"
+msgstr ""
+
+#: content/community/foundation/finance.md:20
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2023.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2023\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:22
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2023.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third\" listTitle=\"Budget 2023\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:24
+msgid "2022"
+msgstr ""
+
+#: content/community/foundation/finance.md:25
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2022.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2022\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:27
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-reports/Financial-Auditing-"
+"Report_QGIS-ORG_2022.pdf\" linkAttr=\"download\" layoutClass=\"third\" "
+"listTitle=\"Financial auditing report 2022\" listSubtitle=\"Download "
+"PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:29
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2022.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third \" listTitle=\"Budget 2022\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:31
+msgid "2021"
+msgstr ""
+
+#: content/community/foundation/finance.md:32
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2021.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2021\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:34
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-reports/Financial-Auditing-"
+"Report_QGIS-ORG_2021.pdf\" linkAttr=\"download\" layoutClass=\"third\" "
+"listTitle=\"Financial auditing report 2021\" listSubtitle=\"Download "
+"PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:36
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2021.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third \" listTitle=\"Budget 2021\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:38
+msgid "2020"
+msgstr ""
+
+#: content/community/foundation/finance.md:39
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2020.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2020\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:41
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-reports/Financial-Auditing-"
+"Report_QGIS-ORG_2020.pdf\" linkAttr=\"download\" layoutClass=\"third\" "
+"listTitle=\"Financial auditing report 2020\" listSubtitle=\"Download "
+"PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:43
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2020.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third \" listTitle=\"Budget 2020\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:45
+msgid "2019"
+msgstr ""
+
+#: content/community/foundation/finance.md:46
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2019.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2019\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:48
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-reports/Financial-Auditing-"
+"Report_QGIS-ORG_2019.pdf\" linkAttr=\"download\" layoutClass=\"third\" "
+"listTitle=\"Financial auditing report 2019\" listSubtitle=\"Download "
+"PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:50
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2019.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third \" listTitle=\"Budget 2019\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:52
+msgid "2018"
+msgstr ""
+
+#: content/community/foundation/finance.md:53
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2018.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2018\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:55
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-reports/Financial-Auditing-"
+"Report_QGIS-ORG_2018.pdf\" linkAttr=\"download\" layoutClass=\"third\" "
+"listTitle=\"Financial auditing report 2018\" listSubtitle=\"Download "
+"PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:57
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2018.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third \" listTitle=\"Budget 2018\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:59
+msgid "2017"
+msgstr ""
+
+#: content/community/foundation/finance.md:60
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2017.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2017\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:62
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-reports/Financial-Auditing-"
+"Report_QGIS-ORG_2017.pdf\" linkAttr=\"download\" layoutClass=\"third\" "
+"listTitle=\"Financial auditing report 2017\" listSubtitle=\"Download "
+"PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:64
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2017.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third \" listTitle=\"Budget 2017\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:66
+msgid "2016"
+msgstr ""
+
+#: content/community/foundation/finance.md:67
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2016.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2016\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:69
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2016.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third \" listTitle=\"Budget 2016\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:71
+msgid "2015"
+msgstr ""
+
+#: content/community/foundation/finance.md:72
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2015.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2015\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:74
+msgid ""
+"{{< rich-list listLink=\"../annual-budgets/QGISBudget2015.pdf\" "
+"linkAttr=\"download\" layoutClass=\"third \" listTitle=\"Budget 2015\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:76
+msgid "2014"
+msgstr ""
+
+#: content/community/foundation/finance.md:77
+msgid ""
+"{{< rich-list listLink=\"../annual-financial-"
+"reports/PublicQGISfinancialreport2014.pdf\" linkAttr=\"download\" "
+"layoutClass=\"third\" listTitle=\"Financial report 2014\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/finance.md:79
+msgid "{{< content-end >}}"
+msgstr ""
+

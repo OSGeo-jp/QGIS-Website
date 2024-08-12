@@ -1,0 +1,54 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/we-hope-youre-enjoying-the-"
+"new-experience?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/we-hope-youre-enjoying-the-new-experience?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/we-hope-youre-enjoying-the-new-experience?utm_source=qgis.md
+msgid "Mergin Maps: [Blog] We hope you’re enjoying the new experience!"
+msgstr ""
+
+#: content/community-blogs/we-hope-youre-enjoying-the-new-experience?utm_source=qgis.md
+msgid "we-hope-youre-enjoying-the-new-experience?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/we-hope-youre-enjoying-the-new-experience?utm_source=qgis.md
+msgid "2024-05-31"
+msgstr ""
+
+#: content/community-blogs/we-hope-youre-enjoying-the-new-experience?utm_source=qgis.md
+msgid ""
+"https://merginmaps.com/blog/we-hope-youre-enjoying-the-new-"
+"experience?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/we-hope-youre-enjoying-the-new-experience?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/we-hope-youre-enjoying-the-new-experience?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/we-hope-youre-enjoying-the-new-experience?utm_source=qgis.md:11
+msgid ""
+"We're excited to announce significant updates to our ecosystem. Over the "
+"past few months, we've dedicated ourselves to redesigning both the mobile"
+" app and dashboard, aiming to enhance your overall experience."
+msgstr ""
+

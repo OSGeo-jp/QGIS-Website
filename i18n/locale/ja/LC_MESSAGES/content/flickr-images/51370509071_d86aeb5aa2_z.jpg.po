@@ -1,0 +1,45 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/flickr-images/51370509071_d86aeb5aa2_z.jpg.md"
+" 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/flickr-images/51370509071_d86aeb5aa2_z.jpg.md
+msgid "flickr"
+msgstr ""
+
+#: content/flickr-images/51370509071_d86aeb5aa2_z.jpg.md
+msgid "TOPOGRAFICA - CAPITAIS DO BRASIL - SÃO PAULO - SP"
+msgstr ""
+
+#: content/flickr-images/51370509071_d86aeb5aa2_z.jpg.md
+msgid "51370509071_d86aeb5aa2_z.jpg.jpg"
+msgstr ""
+
+#: content/flickr-images/51370509071_d86aeb5aa2_z.jpg.md
+msgid "2021-08-11"
+msgstr ""
+
+#: content/flickr-images/51370509071_d86aeb5aa2_z.jpg.md
+msgid "https://live.staticflickr.com/65535/51370509071_d86aeb5aa2_z.jpg"
+msgstr ""
+
+#: content/flickr-images/51370509071_d86aeb5aa2_z.jpg.md
+msgid "false"
+msgstr ""
+
+#: content/flickr-images/51370509071_d86aeb5aa2_z.jpg.md
+msgid "map"
+msgstr ""
+

@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-"
+"changelogs/visualchangelog30/funders/x0e.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0e.md
+msgid "Alta ehf"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0e.md
+msgid "images/projects/thumbnails/f1efb1c25a3fee168c6b7570cd6a092901c16420.png.150x50_q85.png"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0e.md
+msgid "http://www.alta.is/"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0e.md
+msgid "Small"
+msgstr ""
+

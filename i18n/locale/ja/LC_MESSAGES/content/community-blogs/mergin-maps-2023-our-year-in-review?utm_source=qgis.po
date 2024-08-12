@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/mergin-maps-2023-our-year-in-"
+"review?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/mergin-maps-2023-our-year-in-review?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/mergin-maps-2023-our-year-in-review?utm_source=qgis.md
+msgid "Mergin Maps: [Blog] Mergin Maps 2023: our year in review"
+msgstr ""
+
+#: content/community-blogs/mergin-maps-2023-our-year-in-review?utm_source=qgis.md
+msgid "mergin-maps-2023-our-year-in-review?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/mergin-maps-2023-our-year-in-review?utm_source=qgis.md
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/mergin-maps-2023-our-year-in-review?utm_source=qgis.md
+msgid ""
+"https://merginmaps.com/blog/mergin-maps-2023-our-year-in-"
+"review?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/mergin-maps-2023-our-year-in-review?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/mergin-maps-2023-our-year-in-review?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/mergin-maps-2023-our-year-in-review?utm_source=qgis.md:11
+msgid ""
+"This year was another successful year for Mergin Maps, as we are growing "
+"to a feature-rich and scalable enterprise geodata collection solution."
+msgstr ""
+

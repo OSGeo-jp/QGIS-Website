@@ -1,0 +1,310 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/status-update-on-2023-crowd-"
+"funding.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md
+msgid "QGIS Project blog: Status Update on 2023 Crowd-Funding"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md
+msgid "status-update-on-2023-crowd-funding."
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md
+msgid "2023-02-15"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md
+msgid "https://blog.qgis.org/2023/02/16/status-update-on-2023-crowd-funding/"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:11
+msgid ""
+"<p><strong>An amazing 30 new sustaining members have already answered <a "
+"href=\"https://blog.qgis.org/2023/01/16/crowd-funding-call-2023/\">our "
+"crowd-funding call</a></strong> <strong>raising total member "
+"contributions to €158,000 annually. </strong></p>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:15
+msgid ""
+"<p>We are particularly happy to welcome our first medium-level university"
+" sustaining member, the University of Zurich, Department of "
+"Geography:</p>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:19
+msgid "<p><strong>New medium sustaining members</strong></p>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:23
+msgid ""
+"<figure class=\"wp-block-image size-thumbnail is-style-default\"><a "
+"href=\"https://www.limnowak.com\"><img data-attachment-id=\"2579\" data-"
+"permalink=\"https://blog.qgis.org/2023/02/16/status-update-on-2023-crowd-"
+"funding/image-4/\" data-orig-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image.png\" data-"
+"orig-size=\"226,56\" data-comments-opened=\"0\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image.png?w=226\" "
+"data-large-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image.png?w=226\" "
+"src=\"https://qgisblog.files.wordpress.com/2023/02/image.png?w=150\" "
+"alt=\"\" class=\"wp-image-2579\" "
+"srcset=\"https://qgisblog.files.wordpress.com/2023/02/image.png?w=150 "
+"150w, https://qgisblog.files.wordpress.com/2023/02/image.png 226w\" sizes"
+"=\"(max-width: 150px) 100vw, 150px\" /></a><figcaption class=\"wp-"
+"element-caption\">Institut Dr. Nowak GmbH, Germany</figcaption></figure>"
+"\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:27
+msgid ""
+"<figure class=\"wp-block-image size-thumbnail is-style-default\"><a "
+"href=\"https://bhinc.com\"><img data-attachment-id=\"2581\" data-"
+"permalink=\"https://blog.qgis.org/2023/02/16/status-update-on-2023-crowd-"
+"funding/image-1/\" data-orig-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image-1.png\" data-"
+"orig-size=\"412,61\" data-comments-opened=\"0\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-1\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image-1.png?w=300\" "
+"data-large-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image-1.png?w=412\" "
+"src=\"https://qgisblog.files.wordpress.com/2023/02/image-1.png?w=150\" "
+"alt=\"\" class=\"wp-image-2581\" "
+"srcset=\"https://qgisblog.files.wordpress.com/2023/02/image-1.png?w=150 "
+"150w, https://qgisblog.files.wordpress.com/2023/02/image-1.png?w=300 "
+"300w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></a><figcaption class"
+"=\"wp-element-caption\">Bohannan Huston, New Mexico, "
+"USA</figcaption></figure>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:31
+msgid ""
+"<figure class=\"wp-block-image size-thumbnail is-style-default\"><a "
+"href=\"https://www.geo.uzh.ch/en.html\"><img data-attachment-id=\"2585\" "
+"data-permalink=\"https://blog.qgis.org/2023/02/16/status-update-on-2023"
+"-crowd-funding/image-3-2/\" data-orig-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image-3.png\" data-"
+"orig-size=\"331,108\" data-comments-opened=\"0\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-3\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image-3.png?w=300\" "
+"data-large-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image-3.png?w=331\" "
+"src=\"https://qgisblog.files.wordpress.com/2023/02/image-3.png?w=150\" "
+"alt=\"\" class=\"wp-image-2585\" "
+"srcset=\"https://qgisblog.files.wordpress.com/2023/02/image-3.png?w=150 "
+"150w, https://qgisblog.files.wordpress.com/2023/02/image-3.png?w=300 "
+"300w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></a><figcaption class"
+"=\"wp-element-caption\">University of Zurich, Department of "
+"Geography</figcaption></figure>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:35
+msgid ""
+"<figure class=\"wp-block-image size-thumbnail is-style-default\"><a "
+"href=\"https://www.idrostudi.it\"><img data-attachment-id=\"2583\" data-"
+"permalink=\"https://blog.qgis.org/2023/02/16/status-update-on-2023-crowd-"
+"funding/image-2-2/\" data-orig-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image-2.png\" data-"
+"orig-size=\"794,208\" data-comments-opened=\"0\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-2\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image-2.png?w=300\" "
+"data-large-"
+"file=\"https://qgisblog.files.wordpress.com/2023/02/image-2.png?w=780\" "
+"src=\"https://qgisblog.files.wordpress.com/2023/02/image-2.png?w=150\" "
+"alt=\"\" class=\"wp-image-2583\" "
+"srcset=\"https://qgisblog.files.wordpress.com/2023/02/image-2.png?w=150 "
+"150w, https://qgisblog.files.wordpress.com/2023/02/image-2.png?w=298 "
+"298w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></a><figcaption class"
+"=\"wp-element-caption\">Idrostudi srl, Italy</figcaption></figure>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:39
+msgid "<p><strong>New small sustaining members</strong></p>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:43
+msgid ""
+"<ul>\n"
+"<li>Pacific Geomatics Limited, Canada</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:48
+msgid "<li>Helix Resources Limited, Australia</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:52
+msgid "<li>Sand Hill Geographic, Virginia, United States</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:56
+msgid "<li>GIS Pro Western Australia</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:60
+msgid "<li>The Spatial Distillery Company, Victoria, Australia</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:64
+msgid "<li>Qwast-GIS, The Netherlands</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:68
+msgid "<li>CEICOL, Colombia</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:72
+msgid "<li>QGIS user group Norway</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:76
+msgid "<li>Robex resources, Quebec, Canada</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:80
+msgid "<li>analyGIS GmbH, Switzerland</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:84
+msgid "<li>CartoExpert, France</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:88
+msgid "<li>addresscloud, UK</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:92
+msgid "<li>Baugeologie und Geo-Bau-Labor AG, Switzerland</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:96
+msgid "<li>Spatial Thoughts, India</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:100
+msgid "<li>Centremaps, UK</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:104
+msgid "<li>Geoideal, Colombia</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:108
+msgid "<li>theworksLA, California, United States</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:112
+msgid "<li>SoftWater s.r.l., Italy</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:116
+msgid "<li>menz umweltplanung,Germany</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:120
+msgid "<li>Oy Arbonaut Ltd, Finland</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:124
+msgid "<li>ZevRoss Spatial Analysis, New York, United States</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:128
+msgid "<li>Ecophylla Consulting, Ontario, Canada</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:132
+msgid "<li>DeBeer&amp;DeVos BV, Belgium</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:136
+msgid "<li>Reuther NetConsulting, Germany</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:140
+msgid "<li>H13, Denmark</li>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:144
+msgid ""
+"<li>Rockwater Pty Ltd, Australia</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:149
+msgid ""
+"<p>Even with this impressive list of new members, we also realize that we"
+" have not reached the campaign goals yet and that potential large and "
+"flagship members may need more time to respond.</p>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:153
+msgid "<p><strong>Our funding progress so far: </strong></p>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:157
+msgid ""
+"<figure class=\"wp-block-image size-large is-style-default\"><img "
+"src=\"https://docs.google.com/spreadsheets/d/e/2PACX-"
+"1vSOQjCiihDfhuRFdzcOBLHNq0Z_OGcUYyEzVgNckQNI2V2l4nVHN4dGyDaiGOGhY0ygv9bvO3pNBkW8/pubchart?oid=296741498&amp;format=image&amp;day=20230119\""
+" alt=\"\" /></figure>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:161
+msgid ""
+"<p>Therefore, we are extending the campaign until the end of March "
+"2023.</p>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:165
+msgid ""
+"<p><strong>Become a <a href=\"{{< ref \"/funding/membership.md\" "
+">}}\">sustaining member</a> or <a href=\"{{< ref \"/funding/donate.md\" "
+">}}\">donor</a>. Every contribution counts.</strong></p>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:169
+msgid ""
+"<p>Details: <a "
+"href=\"https://qgis.org/en/site/getinvolved/governance/sustaining_members/sustaining_members.html\">Sustaining"
+" Membership Program Overview</a></p>\n"
+msgstr ""
+
+#: content/community-blogs/status-update-on-2023-crowd-funding.md:173
+msgid "<p></p>\n"
+msgstr ""
+

@@ -1,0 +1,140 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/resources/reports/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/resources/reports/index.md
+msgid "page"
+msgstr ""
+
+#: content/resources/reports/index.md
+msgid "Reports"
+msgstr ""
+
+#: content/resources/reports/index.md
+msgid "5 June 2024"
+msgstr ""
+
+#: content/resources/reports/index.md
+msgid "Tim Sutton"
+msgstr ""
+
+#: content/resources/reports/index.md:11
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/resources/reports/index.md:13
+msgid "Daily Reports"
+msgstr ""
+
+#: content/resources/reports/index.md:15
+msgid "We generate reports on a daily basis to monitor the status of QGIS Server."
+msgstr ""
+
+#: content/resources/reports/index.md:17
+msgid "OGC Certification"
+msgstr ""
+
+#: content/resources/reports/index.md:19
+msgid ""
+"QGIS Server 3.28 is currently certified for WMS 1.3.0 (see [OGC Reference"
+" Implementation](http://www.opengeospatial.org/resource/products))."
+msgstr ""
+
+#: content/resources/reports/index.md:21
+msgid "![](qgis_server_wms_ogc_badge.png)"
+msgstr ""
+
+#: content/resources/reports/index.md:23
+msgid ""
+"In order to detect regressions, OGC tests are run daily basis **master** "
+"branch. Reports are generated for several OGC testsuites:"
+msgstr ""
+
+#: content/resources/reports/index.md:25
+msgid "WMS 1.3.0 : http://test.qgis.org/ogc_cite/wms_130/"
+msgstr ""
+
+#: content/resources/reports/index.md:27
+msgid "OGC API Features (aka WFS 3) : http://test.qgis.org/ogc_cite/ogcapif/"
+msgstr ""
+
+#: content/resources/reports/index.md:29
+msgid "WFS 1.1.0 : http://test.qgis.org/ogc_cite/wfs_110/"
+msgstr ""
+
+#: content/resources/reports/index.md:32
+msgid ""
+"Latest reports are [WMS "
+"1.3.0](http://test.qgis.org/ogc_cite/wms_130/latest/report.html) and [WFS"
+" 1.1.0](http://test.qgis.org/ogc_cite/wfs_110/latest/report.html)."
+msgstr ""
+
+#: content/resources/reports/index.md:34
+msgid "Performance"
+msgstr ""
+
+#: content/resources/reports/index.md:36
+msgid ""
+"At the moment, two tools are available to test and generate performance "
+"reports."
+msgstr ""
+
+#: content/resources/reports/index.md:38
+msgid ""
+"The first one is [MS-Perfs](https://github.com/camptocamp/ms_perfs) which"
+" supports comparison of QGIS Server with other map servers (like "
+"GeoServer or MapServer). Reports are generated weekly and available "
+"[here](http://test.qgis.org/perf_test/ms_perf/)."
+msgstr ""
+
+#: content/resources/reports/index.md:40
+msgid ""
+"The second one is [Graffiti](https://github.com/pblottiere/graffiti), "
+"which supports comparing versions of QGIS Server and/or specific project "
+"options (parallel rendering, trust option, and so on). Reports are also "
+"generated daily, and are available "
+"[at](http://test.qgis.org/perf_test/graffiti/). Note that [QGIS-Server-"
+"PerfSuite](https://github.com/Oslandia/QGIS-Server-PerfSuite) provides "
+"the deployment infrastructure to run Graffiti in continuous integration."
+msgstr ""
+
+#: content/resources/reports/index.md:42
+msgid "Security"
+msgstr ""
+
+#: content/resources/reports/index.md:44
+msgid ""
+"A global overview of our security can be found using the [OpenSSF "
+"Scorecard report "
+"tool](https://securityscorecards.dev/viewer/?uri=github.com/qgis/QGIS)."
+msgstr ""
+
+#: content/resources/reports/index.md:46
+msgid ""
+"This gives a quick overview of the best practices used in QGIS project. "
+"Some practices are however not applicable to a desktop GUI, like Fuzz "
+"testing, or Pinned Dependencies."
+msgstr ""
+
+#: content/resources/reports/index.md:48
+msgid ""
+"Security is a permanent process, more details about our security approach"
+" are available on [our dedicated page](/resources/support/security/)."
+msgstr ""
+
+#: content/resources/reports/index.md:51
+msgid "{{< content-end >}}"
+msgstr ""
+

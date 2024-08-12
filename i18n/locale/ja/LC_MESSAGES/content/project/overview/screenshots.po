@@ -1,0 +1,42 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/overview/screenshots.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/project/overview/screenshots.md
+msgid "page"
+msgstr ""
+
+#: content/project/overview/screenshots.md
+msgid "QGIS Maps"
+msgstr ""
+
+#: content/project/overview/screenshots.md:8
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/project/overview/screenshots.md:9
+msgid "QGIS Screenshots"
+msgstr ""
+
+#: content/project/overview/screenshots.md:11
+msgid "Screenshots of QGIS in action"
+msgstr ""
+
+#: content/project/overview/screenshots.md:13
+msgid ""
+"{{< flickr-images showcase=\"screenshot\" quantity=\"100\" columns=\"6\" "
+">}} {{< content-end >}}"
+msgstr ""
+

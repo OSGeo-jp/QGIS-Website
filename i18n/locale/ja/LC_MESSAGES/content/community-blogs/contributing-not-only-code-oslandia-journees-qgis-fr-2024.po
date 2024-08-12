@@ -1,0 +1,58 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/contributing-not-only-code-"
+"oslandia-journees-qgis-fr-2024.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/contributing-not-only-code-oslandia-journees-qgis-fr-2024.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/contributing-not-only-code-oslandia-journees-qgis-fr-2024.md
+msgid ""
+"QGIS Oslandia: (Fr) Contributing, not only code : Oslandia @ Journées "
+"QGIS-Fr 2024"
+msgstr ""
+
+#: content/community-blogs/contributing-not-only-code-oslandia-journees-qgis-fr-2024.md
+msgid "contributing-not-only-code-oslandia-journees-qgis-fr-2024."
+msgstr ""
+
+#: content/community-blogs/contributing-not-only-code-oslandia-journees-qgis-fr-2024.md
+msgid "2024-04-12"
+msgstr ""
+
+#: content/community-blogs/contributing-not-only-code-oslandia-journees-qgis-fr-2024.md
+msgid ""
+"https://oslandia.com/en/2024/04/26/contributing-not-only-code-oslandia-"
+"journees-qgis-fr-2024/"
+msgstr ""
+
+#: content/community-blogs/contributing-not-only-code-oslandia-journees-qgis-fr-2024.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/contributing-not-only-code-oslandia-journees-qgis-fr-2024.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/contributing-not-only-code-oslandia-journees-qgis-fr-2024.md:11
+msgid ""
+"<p class=\"qtranxs-available-languages-message qtranxs-available-"
+"languages-message-en\">Sorry, this entry is only available in <a class"
+"=\"qtranxs-available-language-link qtranxs-available-language-link-fr\" "
+"href=\"http://oslandia.com/fr/tag/qgis-en/feed/atom/\" "
+"title=\"Fr\">French</a>.</p>\n"
+msgstr ""
+

@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-"
+"changelogs/visualchangelog30/funders/x03.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x03.md
+msgid "QGIS user group Denmark"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x03.md
+msgid "images/projects/thumbnails/a6678418323905fba4f0647c8948dedc61c5c533.png.150x50_q85.png"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x03.md
+msgid "http://www.qgis.dk/"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x03.md
+msgid "Medium"
+msgstr ""
+

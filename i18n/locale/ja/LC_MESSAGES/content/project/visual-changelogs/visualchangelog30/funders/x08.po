@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-"
+"changelogs/visualchangelog30/funders/x08.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x08.md
+msgid "Office of Public Works, Flood Risk Management and Data Management Section"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x08.md
+msgid "images/projects/thumbnails/35602d87c0858381e9a95a481808b27249f0f592.jpg.150x50_q85.jpg"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x08.md
+msgid "http://www.opw.ie/"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x08.md
+msgid "Medium"
+msgstr ""
+

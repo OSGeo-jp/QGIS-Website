@@ -1,0 +1,82 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v3.1.0.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/v3.1.0.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v3.1.0.md
+msgid "QField releases: 3.1.0 - Borneo"
+msgstr ""
+
+#: content/community-blogs/v3.1.0.md
+msgid "v3.1.0.0"
+msgstr ""
+
+#: content/community-blogs/v3.1.0.md
+msgid "2023-12-09"
+msgstr ""
+
+#: content/community-blogs/v3.1.0.md
+msgid "https://github.com/opengisch/QField/releases/tag/v3.1.0"
+msgstr ""
+
+#: content/community-blogs/v3.1.0.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v3.1.0.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v3.1.0.md:11
+msgid ""
+"<h2>Changes</h2>\n"
+"<p><a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://github.com/opengisch/QField/assets/1728657/8d7c6540-c32c-"
+"4d62-bf6e-1636a011567f\"><img "
+"src=\"https://github.com/opengisch/QField/assets/1728657/8d7c6540-c32c-"
+"4d62-bf6e-1636a011567f\" alt=\"splash\" style=\"max-width: "
+"100%;\"></a></p>\n"
+"<h3>🚀 Features</h3>\n"
+"<ul>\n"
+"<li>QField can now snap to common angles when digitizing lines and "
+"polygons</li>\n"
+"<li>Expression-driven locking of geometry per feature</li>\n"
+"<li>QField's QML camera now adds direction metadata alongside "
+"geographical information</li>\n"
+"<li>QField's QML also features a grid overlay</li>\n"
+"<li>Vertex editor has again a new undo mechanism and capability to select"
+" a vertex by finger tapping on the screen</li>\n"
+"<li><code>@positioning_orientation</code> variable available when running"
+" on devices equipped with a compass</li>\n"
+"<li>Functionality to allow for non-cloud projects to be updated through a"
+" ZIP file containing refreshed and/or new datasets and project file</li>"
+"\n"
+"</ul>\n"
+"<h3>✨ Improvements</h3>\n"
+"<ul>\n"
+"<li>Improvement on the rendering of the coordinate cursor and digitizing "
+"rubber bands to insure visibility against both light and dark "
+"backgrounds</li>\n"
+"<li>Screen lock improvements, including disabling interactions with the "
+"back button</li>\n"
+"<li>Significant stability improvements; in particular, a bad camera-"
+"related crash in the upstream Qt library has been resolved</li>\n"
+"<li>Better handling of camera, microphone, and location permissions</li>\n"
+"</ul>\n"
+msgstr ""
+

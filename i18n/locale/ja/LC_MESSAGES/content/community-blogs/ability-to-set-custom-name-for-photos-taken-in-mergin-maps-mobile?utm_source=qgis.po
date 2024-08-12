@@ -1,0 +1,67 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/ability-to-set-custom-name-"
+"for-photos-taken-in-mergin-maps-mobile?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/ability-to-set-custom-name-for-photos-taken-in-mergin-maps-mobile?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/ability-to-set-custom-name-for-photos-taken-in-mergin-maps-mobile?utm_source=qgis.md
+msgid ""
+"Mergin Maps: [Changelog] Ability to set custom name for photos taken in "
+"Mergin Maps mobile"
+msgstr ""
+
+#: content/community-blogs/ability-to-set-custom-name-for-photos-taken-in-mergin-maps-mobile?utm_source=qgis.md
+msgid ""
+"ability-to-set-custom-name-for-photos-taken-in-mergin-maps-"
+"mobile?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/ability-to-set-custom-name-for-photos-taken-in-mergin-maps-mobile?utm_source=qgis.md
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/ability-to-set-custom-name-for-photos-taken-in-mergin-maps-mobile?utm_source=qgis.md
+msgid ""
+"https://wishlist.merginmaps.com/changelog/ability-to-set-custom-name-for-"
+"photos-taken-in-mergin-maps-mobile?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/ability-to-set-custom-name-for-photos-taken-in-mergin-maps-mobile?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/ability-to-set-custom-name-for-photos-taken-in-mergin-maps-mobile?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/ability-to-set-custom-name-for-photos-taken-in-mergin-maps-mobile?utm_source=qgis.md:11
+msgid ""
+"<p>Mergin Maps QGIS plugin is now capable of setting a custom QGIS "
+"expression that will be used as a name for the photos taken in the Mergin"
+" Maps mobile app. It is possible to combine field values, variables (even"
+" Mergin Maps variables) and other QGIS expression elements to create your"
+" custom photo name format (subfolders supported). You can find this "
+"configuration in the QGIS project settings &gt; Mergin Maps. </p><p><img "
+"src=\"https://vault.featureos.app/uploads/attachment/upload/thumb-"
+"e929e0edd0a384d8c25f39ba59d90a92.png\" />Available since Mergin Maps QGIS"
+" plugin 2023.2 and Mergin Maps mobile 2.2</p><p></p><p>Read more about "
+"this in our documentation here: <a href=\"https://merginmaps.com/docs/gis"
+"/photo-names/\" rel=\"noopener noreferrer nofollow\" "
+"target=\"_blank\">https://merginmaps.com/docs/gis/photo-names/</a></p>\n"
+msgstr ""
+

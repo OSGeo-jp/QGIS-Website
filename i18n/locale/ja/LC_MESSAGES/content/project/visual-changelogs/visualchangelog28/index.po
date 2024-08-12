@@ -1,0 +1,1101 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-"
+"changelogs/visualchangelog28/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/project/visual-changelogs/visualchangelog28/index.md
+msgid "Changelog for QGIS 2.8"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md
+msgid "2015-02-20"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md
+msgid "project"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md
+msgid "visual-changelog"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:10
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:12
+msgid "Changelog for QGIS 2.8 {#changelog28}"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:14
+msgid "Release date: 2015-02-20"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:16
+msgid ""
+"This is the change log for the next release of QGIS - version 2.8 \\' "
+"Wien\\'. Wien is German for \\'Vienna\\' - host city to our developer "
+"meet up in November 2009 and again in March 2014."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:18
+msgid "**Long Term Release**"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:20
+msgid ""
+"This is a special release since it is designated an \\'LTR\\' (Long Term "
+"Release). LTR releases will be supported with backported bug fixes for "
+"one year, and will be in permanent feature freeze (i.e. no new features "
+"will be added, only bug fixes and trivial updates)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:22
+msgid ""
+"The purpose of LTR releases is to provide a stable and less frequently "
+"changing platform for enterprises and organisations that do not want to "
+"deal with updating user skills, training materials etc. more than once "
+"per year. The success of the LTR is very much down to you, our beloved "
+"users - we need your support to help funding bug fixes and making sure in"
+" your support contracts with support providers specify that any bug fixes"
+" done on your behalf are applied to the LTR branch as well as our normal "
+"development branch."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:24
+msgid ""
+"If an LTR is important to you, please consider also directly supporting "
+"the QGIS project, or encourage your commercial provider to use LTR as a "
+"basis for your enterprise solution so that everyone may benefit from a "
+"stable platform that is being continuously improved and refined. Note "
+"that for users and organisations that like to live on the frontier, our "
+"regular four monthly releases will continue unabated."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:26
+msgid "**New Features**"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:28
+msgid ""
+"QGIS 2.8 is also a special release because it includes so many great new "
+"features, tweaks and enhancements to make the most popular Free desktop "
+"GIS even more feature filled and useful."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:30
+msgid ""
+"Whenever new features are added to software they introduce the "
+"possibility of new bugs - if you encounter any problems with this "
+"release, please file a ticket [on the QGIS Bug "
+"Tracker](http://hub.qgis.org)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:32
+msgid "**Thanks**"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:34
+msgid ""
+"We would like to thank the developers, documenters, testers and all the "
+"many folks out there who volunteer their time and effort (or fund people "
+"to do so)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:36
+msgid ""
+"From the QGIS community we hope you enjoy this release! If you wish to "
+"donate time, money or otherwise get involved in making QGIS more awesome,"
+" please wander along to [qgis.org](https://qgis.org) and lend a hand!"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:38
+msgid ""
+"Finally we would like to thank our official sponsors for the invaluable "
+"financial support they provide to this project:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:40
+msgid "**GOLD Sponsor: Asia Air Survey, Japan** <http://www.asiaairsurvey.com/>"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:41
+msgid "SILVER Sponsor: [Sourcepole AG, Switzerland](http://www.sourcepole.com/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:42
+msgid "SILVER Sponsor: [State of Vorarlberg, Austria](http://www.vorarlberg.at/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:43
+msgid ""
+"SILVER Sponsor: [Office of Public Works, Ireland, "
+"Ireland](http://www.opw.ie/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:44
+msgid "BRONZE Sponsor: [GIS3W, Italy](http://www.gis3w.it/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:45
+msgid "BRONZE Sponsor: [www.molitec.it, Italy](http://www.molitec.it/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:46
+msgid "BRONZE Sponsor: [www.argusoft.de, Germany](http://www.argusoft.de)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:47
+msgid "BRONZE Sponsor: [www.openrunner.com, France](http://www.openrunner.com)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:48
+msgid ""
+"BRONZE Sponsor: [GKG Kassel,(Dr.-Ing. Claas Leiner), Germany](http://www"
+".gkg-kassel.de/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:49
+msgid ""
+"BRONZE Sponsor: [Customer Analytics, "
+"USA](http://www.customeranalytics.com/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:50
+msgid "BRONZE Sponsor: [Urbsol, Australia](http://www.urbsol.com.au/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:51
+msgid "BRONZE Sponsor: [MappingGIS, Spain](http://www.mappinggis.com/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:52
+msgid "BRONZE Sponsor: [Lutra Consulting, UK](http://www.lutraconsulting.co.uk/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:53
+msgid "BRONZE Sponsor: [ADLARES GmbH, Germany](http://www.adlares.com/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:54
+msgid ""
+"BRONZE Sponsor: [Avioportolano Italia, "
+"Italy](http://www.avioportolano.it/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:55
+msgid ""
+"BRONZE Sponsor: [Faculty of Geology, Geophysics and Environmental "
+"Protection, AGH, ​University of Science and Technology, "
+"Poland](http://www.wggios.agh.edu.pl/en)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:57
+msgid ""
+"A current list of donors who have made financial contributions large and "
+"small to the project can be seen on our [donors "
+"list](https://qgis.org/en/site/about/sponsorship.html#list-of-donors). If"
+" you would like to become an official project sponsor, please visit [our "
+"sponsorship "
+"page](https://qgis.org/en/site/about/sponsorship.html#sponsorship) for "
+"details. Sponsoring QGIS helps us to fund our six monthly developer "
+"meetings, maintain project infrastructure and fund bug fixing efforts."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:59
+msgid ""
+"If you enjoy using QGIS, please consider making a donation to support the"
+" project - either "
+"[financial](https://qgis.org/en/site/getinvolved/donations.html) or of "
+"[your time and skills](https://qgis.org/en/site/getinvolved/index.html)! "
+"Lastly we would like to also take a moment to encourage you to fund a "
+"[special campaign](http://blog.vitu.ch/10102014-1046/crowdfunding-"
+"initiative-automated-testing) by one of our QGIS developers to get a "
+"working test suite for QGIS so that we can improve out quality assurance "
+"process and deliver you the best possible releases."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:61
+msgid ""
+"QGIS is Free software and you are under no obligation to pay anything to "
+"use it - in fact we want to encourage people far and wide to use it "
+"regardless of what your financial or social status is - we believe "
+"empowering people with spatial decision making tools will result in a "
+"better society for all of humanity."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:63
+msgid "{{< table-of-contents >}}"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:65
+msgid "General"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:67
+msgid "Feature: Enter expressions into spin boxes"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:69
+msgid ""
+"When editing attributes in the **attribute table or forms**, you can now "
+"enter expressions directly into spin boxes, e.g. `5 * 2.5` and they will "
+"be automatically evaluated."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:71
+msgid "![](images/entries/e094287244ee1fe161c8ca95951c2d11ca1e6cdd.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:73
+msgid "Feature: Bookmarks can be imported/exported"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:75
+msgid ""
+"It is now possible to save / load your bookmarks to a file. This makes it"
+" easy to share bookmarked locations, or transfer them between computers."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:77
+msgid "**This feature was developed by:** Salvatore Larosa"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:79
+msgid "![](images/entries/e3d35c32da659821bc0c657b8e7ba40587a1bfb2.jpg)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:81
+msgid "Feature: Improvements to expressions"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:83
+msgid ""
+"**Integer division produces a double when required**: Previously dividing"
+" two integers in an expression would always result in an integer value, "
+"i.e. `5 / 2 = 2`. Now the result will always be double when required, so "
+"`5 / 2 = 2.5`, which is much more expected for users. A new integer "
+"divide operator - `//` has been added to mimic the old behaviour, i.e. `5"
+" // 2 = 2`."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:84
+msgid ""
+"**New \\'if()\\' function**: There is now a new `if(cond, true, false)` "
+"expression"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:85
+msgid "**Lazy evaluation for expressions**"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:86
+msgid ""
+"**Added get and transform geometry**: These new keywords can be used with"
+" `getFeature` for some geometry tests like intersects, crosses, contains,"
+" etc."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:87
+msgid "`geometry` - returns the feature\\'s geometry"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:88
+msgid "`transform` - returns the transformed geometry"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:90
+msgid "![](images/entries/ec56f9b8331e619ad1a44970fde655b68125f9d8.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:92
+msgid "Feature: Continuous testing framework and QA improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:94
+msgid ""
+"In our ongoing quest to improve the stability and quality of QGIS, every "
+"commit is now tested against a growing test suite to identify regressions"
+" automatically. In the image on the right you can see the list of "
+"incoming pull requests on our GitHub page are now automatically annotated"
+" with a check or cross based on whether our test suite successfully ran "
+"on [Travis.ci](https://travis-ci.org/qgis/QGIS) when the pull request is "
+"made or updated."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:96
+msgid ""
+"We are also now regularly performing Coverity scans of QGIS codebase. As "
+"a result of this, we have identified and fixed over 1000 flagged issues, "
+"including memory leaks and potential crashes. QGIS has a defect density "
+"of 0.01 wheras the average for programs of similar size is about 1.0."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:98
+msgid "![](images/entries/4ec86080ff150743f1bdc88d3ac7881a6cd405de.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:100
+msgid "Analysis tools"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:102
+msgid "Feature: Measure dialog improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:104
+msgid ""
+"The measure tool has been improved so that you can now select which units"
+" should be used in the measure dialog. There is also a new info section "
+"in the dialog that shows which settings are being used during measurement"
+" calculations."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:106
+msgid "![](images/entries/67a001d3d800feec8805de698ed364e91d00daab.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:108
+msgid "Browser"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:110
+msgid "More responsive browser"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:112
+msgid ""
+"In the QGIS Browser items are now expanded in their own threads, speeding"
+" up the load time of the browser and making the browser more responsive. "
+"Navigating PostGIS sources is now much faster in the browser. The "
+"animated snapshot to the right (click image to see the animation) shows "
+"the loading of two slow WMS servers in parallel . The browser\\'s state "
+"(tree expansion) is restored on startup."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:114
+msgid "**This feature was developed by:** Radim Blazek"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:116
+msgid "![](images/entries/c8df646572084b8f12027fd54c1210f14c80c8e1.gif)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:118
+msgid "Data Providers"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:120
+msgid "Feature: Support for contextual WMS legend graphics"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:122
+msgid ""
+"If your WMS server supports contextual legends, you can make use of them "
+"in QGIS now too. Contextual legends are getLegendGraphic requests which "
+"return only the relevant legend for your current view extent, and thus do"
+" not include legend items for things you can\\'t see in the current map."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:124
+#: content/project/visual-changelogs/visualchangelog28/index.md:346
+msgid ""
+"**This feature was funded by:** [Regione "
+"Toscana](http://www.regione.toscana.it/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:126
+#: content/project/visual-changelogs/visualchangelog28/index.md:368
+msgid "**This feature was developed by:** [Faunalia](http://www.faunalia.eu/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:128
+msgid "![](images/entries/e516a25492b547113c487d00475cfe07bc7b131e.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:130
+msgid "Data management"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:132
+msgid "Feature: Custom prefix for joins"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:134
+msgid ""
+"You can now define a custom prefix in the joins manager in the layer "
+"properties dialog. When using a prefix, the attribute table in will show "
+"joined attribute names with your preferred prefix."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:136
+msgid "![](images/entries/372e6561a4db3ed3ca3d418c946f81bce0d0d134.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:138
+msgid "Feature: Support for creation of temporary memory layers"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:140
+msgid ""
+"This release add support for creating new temporary scratch layers within"
+" QGIS core. Scratch layers can be created in the `Layer --> Create layer "
+"--> New Temporary Scratch Layer` menu option."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:142
+msgid "![](images/entries/bddbbd6cb55e9a19441ea564275dd480661e61de.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:144
+msgid "Feature: Support for calculations on selected rows"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:146
+msgid ""
+"In the attribute table you can now do calculations on selected rows only "
+"thanks to the new button added to the field calculator bar."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:148
+msgid "![](images/entries/1b7ead001901ed4242d26556abac055834e367b2.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:150
+msgid "Digitising"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:152
+msgid "Feature: Advanced digitizing tools"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:154
+msgid ""
+"If you ever wished you could digitise lines exactly parallel or at right "
+"angles, lock lines to specific angles and so on in QGIS, now you can! The"
+" advanced digitizing tools is a port of the CADinput plugin and adds a "
+"new panel to QGIS. The panel becomes active when capturing new geometries"
+" or geometry parts"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:156
+msgid "![](images/entries/50f726e5899eb72dcec76e4bed1936bcf957e75f.jpg)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:158
+msgid "Feature: Improved simplify tool"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:160
+msgid "The simplify tool has been overhauled, adding:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:162
+msgid "OTF reprojection support"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:163
+msgid "user can specify exact tolerance (not just non-sense relative value)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:164
+msgid "tolerance can be specified either in map units or layer units or pixels"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:165
+msgid "tolerance settings are stored in settings"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:166
+msgid ""
+"simplify multiple features at once (drag a rectangle instead of just "
+"clicking)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:167
+msgid "support for multi-part features"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:168
+msgid "statistics about reduction of the number of vertices"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:170
+msgid ""
+"**This feature was funded by:** [Tracks for "
+"Africa](http://tracks4africa.com/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:172
+#: content/project/visual-changelogs/visualchangelog28/index.md:194
+msgid ""
+"**This feature was developed by:** [Lutra "
+"Consulting](http://www.lutraconsulting.co.uk/) in cooperation with "
+"[Kartoza](http://kartoza.com/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:174
+msgid "![](images/entries/20b7f96ffc7d37b8c2ae09189d7957a929a716e5.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:176
+msgid "Feature: Snapping improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:178
+msgid ""
+"There is a new snapping mode : **snap to all layers** which makes it "
+"quick to enable snapping between all layers. Also the underlying snapping"
+" architecture of QGIS has been overhauled making snapping much faster on "
+"large projects and improving the precision with which snapping takes "
+"place. ​There's also less confusion with snapping tolerances being to map"
+" units or layer units, so those anticipated 1 metre tolerances don't "
+"become 1 degree tolerances without you knowing."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:180
+msgid ""
+"**This feature was funded by:** [Ville de Vevey, "
+"SITNyon](http://www.vevey.ch/) and [QGIS Usergroup "
+"Switzerland](http://www.qgis.ch/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:182
+msgid ""
+"**This feature was developed by:** [Lutra "
+"Consulting](http://www.lutraconsulting.co.uk/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:184
+msgid "![](images/entries/8454af2743154585eb82325ab2694e50e7d9efcd.jpg)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:186
+msgid "Layer Legend"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:188
+msgid "Feature: Show rule-based renderer\\'s legend as a tree"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:190
+msgid ""
+"Advanced users who leverage QGIS\\'s rule based renderer system will be "
+"pleased to see that the rules are now presented as a tree in the legend. "
+"Better still, each node in the **tree** can be **toggled on/off** "
+"individually providing for great flexibility in which sublayers get "
+"rendered in your map."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:192
+msgid "**This feature was funded by:** [SIGE](http://www.sige.ch/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:196
+msgid "![](images/entries/0d39448aa0893d7a71c5241aa2181750535e62c3.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:198
+msgid "Map Composer"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:200
+msgid "Feature: Composer GUI Improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:202
+msgid ""
+"View menu option to **hide bounding boxes**. This allows users to hide "
+"the bounding boxes for selected items within a composition. It\\'s a "
+"handy feature for allowing interaction with items while previewing "
+"exactly how they will look when the composition is exported, without "
+"large boxes blocking the view."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:203
+msgid "**Full screen mode for composer**"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:204
+msgid ""
+"Option to **toggle display of panels** in composer, available by both the"
+" `view menu`, using the shortcut `F10` and by pressing `Tab` when the "
+"composer canvas is selected. It\\'s useful for maximising the space when "
+"planning a map layout."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:206
+msgid "![](images/entries/10677c6e1612a4392e8bca0a9cbe31126426becf.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:208
+msgid "Feature: Grid improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:210
+msgid ""
+"In the composer you now have finer control of frame and annotation "
+"display. Previously, for rotated maps or reprojected grids, the composer "
+"would draw all coordinates for every map side. This resulted in a mix of "
+"latitude/y and longitude/x coordinates showing on a side. Now you can "
+"control whether you want all coordinates, latitude only or longitude only"
+" for each map frame side. Similar options have also been added for "
+"controlling how a map grid frame is divided."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:212
+msgid ""
+"New vertical descending direction for annotations. This change adds a new"
+" descending vertical direction mode for map grid annotations. Previously "
+"only ascending text was supported for vertical annotations."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:214
+msgid "![](images/entries/288d533cbed1f6beeef17004897060c8639bbbb4.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:216
+msgid "Feature: Label item margins"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:218
+msgid ""
+"You can now control both horizontal and vertical **margins for label** "
+"items. Previously only a single margin setting would apply to both "
+"horizontal and vertical margins. This change allows users to specify "
+"different horizontal and vertical margins."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:219
+msgid ""
+"You can now specify negative margins for label items, **allowing text to "
+"be drawn slightly outside of a label item\\'s bounds**. This is desirable"
+" for aligning label items with other items while allowing for optical "
+"margin alignment for the label type."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:221
+msgid "![](images/entries/7f4905d74ca140ed369bea8866357b9d952ee212.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:223
+msgid "Plugins"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:225
+msgid "Feature: Python console improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:227
+msgid ""
+"You can now drag and drop python scripts into QGIS window and they will "
+"be executed automatically. We also added a toolbar icon to the plugins "
+"toolbar and a shortcut ( `Ctrl-Alt-P` ) for quick access to the python "
+"console."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:229
+msgid "![](images/entries/03be8f30ce341816bd3bcd1a58f3b913ddcea07c.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:231
+msgid "Processing"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:233
+msgid "Feature: New geometric predicate parameter type"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:235
+msgid ""
+"With this new parameter type, used in **Select by location, Extract by "
+"location** and **Join attributes by location** algorithms, the user can "
+"select precisely the spatial operator to use."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:237
+msgid ""
+"**This feature was funded by:** [French Ministry of Ecology, Sustainable "
+"Development and Energy](http://www.developpement-durable.gouv.fr/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:239
+msgid "**This feature was developed by:** [Camptocamp](http://www.camptocamp.com)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:241
+msgid "![](images/entries/cd198b98cf28e611f5c2e3be93bc5ec90dd0a5b4.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:243
+msgid "Feature: New algorithms"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:245
+msgid "A number of new algorithms have been added to the processing framework:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:247
+msgid "**Regular points** algorithm (addresses #5953)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:248
+msgid "**Symetrical difference** algorithm (addresses #5953)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:249
+msgid "**Vector split** algorithm (addresses #5953)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:250
+msgid "**Vector grid** algorithm (addresses #5953)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:251
+msgid "**Hypsometric curves** calculation algorithm"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:252
+msgid "**Split lines with lines**"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:253
+msgid "**Refactor fields** attributes manipulation algorithm"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:255
+msgid "![](images/entries/b2403fae20cd24cfb1883d24e97de6fc51e40c88.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:257
+msgid "Programmability"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:259
+msgid "Feature: Add comment functionality to expressions"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:261
+msgid "Comments can now be added to expressions using an SQL style `--` prefix."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:263
+msgid "![](images/entries/e1579eec6d8ab74330fb2f784c68ed16c83bb79d.jpg)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:265
+msgid "Feature: Custom expression function editor"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:267
+msgid ""
+"You can now define custom expression functions in the expression widget. "
+"See [this blog post](http://nathanw.net/2015/01/19/function-editor-for-"
+"qgis-expressions/) for more details."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:269
+msgid "![](images/entries/503dd9dadec4fb85ee5ab6335e4f03979a8e7d77.jpg)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:271
+msgid "Feature: Qt5 support"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:273
+msgid ""
+"QGIS can now be built using Qt5 libraries. Note that currently most "
+"binaries will still with Qt4 by default."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:275
+msgid "![](images/entries/c702d89260cbab35323c052a15ab5c5728fc7115.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:277
+msgid "Feature: Bulk loading spatial index"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:279
+msgid ""
+"In the API we have added support for bulk loading of spatial index. This "
+"is much faster way of initializing a spatial index. From python it is as "
+"simple as:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:281
+msgid "`index = QgsSpatialIndex( layer.getFeatures() )`"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:283
+msgid "From a simple test with 50K points in a memory layer:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:285
+msgid "**bulk loading \\~ 100 ms**"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:287
+msgid "inserting features \\~ 600 ms"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:289
+msgid ""
+"The index tree should be also in theory be better constructed and may "
+"result in faster lookups."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:291
+msgid "![](images/entries/80cea18c68b7885cb71c1682ca3777caa048ff9e.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:293
+msgid "Feature: Run only the selected part of a SQL query"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:295
+msgid ""
+"In the DB Manager SQL editor, it is now possible to highlight a portion "
+"of the SQL and only that portion will be executed when you press `F5` or "
+"click the `run` button"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:297
+msgid "![](images/entries/0d1343e84aa0946becab1e37880a58ceeffbd491.jpg)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:299
+msgid "QGIS Server"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:301
+msgid "Feature: Server python plugins"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:303
+msgid ""
+"Python plugins support for QGIS server brings the power of python to "
+"server side, allowing for fast and efficient development and deployment "
+"of new features."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:305
+msgid ""
+"**This feature was developed by:** [Alessandro Pasotti "
+"(ItOpen)](http://www.itopen.it/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:307
+msgid "Feature: Support for layer styles"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:309
+msgid "QGIS Server now supports predefined layer styles in GetMap requests"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:310
+msgid ""
+"QGIS Server now supports multiple styles in GetStyles request (see "
+"symbology section below)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:312
+msgid "Feature: Add DescribeLayer Method to WMS"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:314
+msgid "**Styled Layer Descriptor profile of the Web Map Service : DescribeLayer**"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:316
+msgid "<http://www.opengeospatial.org/standards/sld>"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:318
+msgid ""
+"Defining a user-defined style requires information about the features "
+"being symbolized, or at least their feature/coverage type. Since user-"
+"defined styles can be applied to a named layer, there needs to be a "
+"mechanism by which a client can obtain feature/coverage-type information "
+"for a named layer. This is another example of bridging the gap between "
+"the WMS concepts of layers and styles and WFS/WCS concepts such as "
+"feature-type and coverage layer. To allow this, a WMS may optionally "
+"support the **DescribeLayer** request."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:320
+msgid ""
+"DescribeLayer method has been thought to be a better approach than "
+"overloading the WMS capabilities document even more."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:322
+msgid ""
+"For each named layer, the description should indicate if it is indeed "
+"based on feature data and if so it should indicate the WFS/WCS (by a URL "
+"prefix) and the feature/coverage types. Note that it is perfectly valid "
+"for a named layer not to be describable in this way."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:324
+msgid "Symbology"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:326
+msgid "Feature: Raster image fill type"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:328
+msgid ""
+"This new symbol layer type allows for filling polygons with a (tiled) "
+"raster image."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:330
+msgid ""
+"Options include (data defined) file name, opacity, image size (in pixels,"
+" mm or map units), coordinate mode (feature or view), and rotation."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:332
+msgid "![](images/entries/3c372b247f1f5583768532c2be96f169dcff1e8f.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:334
+msgid "Feature: Live heatmap renderer"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:336
+msgid ""
+"The new heatmap vector layer renderer allows for live, dynamic heatmaps "
+"for point layers."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:338
+msgid ""
+"Options include specifying heatmap radius in pixels, mm or map units, "
+"choice of color ramp,weighting points by field, and a slider for "
+"selecting a tradeoff between render speed and quality."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:340
+msgid "![](images/entries/a13862e4cf8707ec70ddb37a8e3e824db6af883d.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:342
+msgid "Feature: Multiple styles per layer"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:344
+msgid ""
+"It is now possible to set multiple styles for a layer and then easily "
+"toggle between them. This functionality is available in the `legend "
+"context menu --> styles sub-menu` where it is possible to add/remove "
+"styles and quickly switch between them. Layer sets remember styles, and "
+"different styles can also be applied to individual composer map items. "
+"The multiple styles defined are also available when the project is served"
+" via QGIS Server as a WMS layer. For more information on this see also "
+"this [blog post](http://www.lutraconsulting.co.uk/blog/2015/02/19"
+"/towering-qgis-release/)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:348
+msgid ""
+"**This feature was developed by:** [Gis3W](http://www.gis3w.it/), [Lutra "
+"Consulting](http://www.lutraconsulting.co.uk/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:350
+msgid "![](images/entries/e6d0058bbae51c52fb9fffc79d4cc459fbaf853b.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:352
+msgid "Feature: More data-defined symbology settings"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:354
+msgid ""
+"The user interface for data defined symbology settings has been improved "
+"- moving the data defined option next to each data definable property (in"
+" keeping with other parts of QGIS such as the labeling properties). Also "
+"many new properties have been made data definable for symbology. This "
+"user interface improvement also provides a way to immediately see if a "
+"data defined override is defined as well as easier access to the data-"
+"defined settings."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:356
+msgid "![](images/entries/1af9b133ea80a4469e9be81107449b0e22df442b.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:358
+msgid "Feature: DXF export: improve marker symbol export"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:360
+msgid ""
+"The exporter functionality for DXF files has been improved, with better "
+"fidelity of exported marker symbols to the original QGIS symbology."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:362
+msgid "Feature: Map rotation in canvas, improved rotation in composer"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:364
+msgid ""
+"This release includes preliminary support for rotation in the map canvas."
+" You can rotate the canvas using the new rotation widget in the status "
+"bar. Rotation support has been extended into the map composer too so that"
+" it correctly handles labelling and symbology, etc."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:366
+msgid ""
+"**This feature was funded by:** [Japan Space Imaging Corporation "
+"(JSI)](http://www.spaceimaging.co.jp/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:370
+msgid "![](images/entries/b655549a3336c2fb16eef87f6f30fe50f5abe9f9.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:372
+msgid "User Interface"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:374
+msgid "Feature: Improved/consistent projection selection"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:376
+msgid ""
+"All dialogs now use a consistent projection selection widget, which "
+"allows for quickly selecting from recently used and standard project/QGIS"
+" projections."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:378
+msgid "![](images/entries/7a9b103d6b537f8fd6d2c53b81dc4f9a2e3f736c.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:380
+msgid "."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog28/index.md:382
+msgid "{{< content-end >}}"
+msgstr ""
+

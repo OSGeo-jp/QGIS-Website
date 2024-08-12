@@ -1,0 +1,74 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v2.8.0.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/v2.8.0.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v2.8.0.md
+msgid "QField releases: 2.8.0 - Insightful Indri"
+msgstr ""
+
+#: content/community-blogs/v2.8.0.md
+msgid "v2.8.0.0"
+msgstr ""
+
+#: content/community-blogs/v2.8.0.md
+msgid "2023-06-25"
+msgstr ""
+
+#: content/community-blogs/v2.8.0.md
+msgid "https://github.com/opengisch/QField/releases/tag/v2.8.0"
+msgstr ""
+
+#: content/community-blogs/v2.8.0.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v2.8.0.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v2.8.0.md:11
+msgid ""
+"<h2>Changes</h2>\n"
+"<p><a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://github.com/opengisch/QField/assets/1728657/1792bb88-9fdb-"
+"41e7-9716-7fd65f8837ce\"><img "
+"src=\"https://github.com/opengisch/QField/assets/1728657/1792bb88-9fdb-"
+"41e7-9716-7fd65f8837ce\" alt=\"28_highlights\" style=\"max-width: "
+"100%;\"></a></p>\n"
+"<h3>🚀 Features</h3>\n"
+"<ul>\n"
+"<li>Sensors data handling (reading, writing to feature, tracking) within "
+"QField</li>\n"
+"<li>Skip the welcome screen and jump right into your last opened - or "
+"user-specified - project when launching QField</li>\n"
+"<li>Functionality to log NMEA streams to text field</li>\n"
+"<li>IMU correction for supported Happy GNSS devices</li>\n"
+"<li>Global map shading rendering support</li>\n"
+"</ul>\n"
+"<h3>✨ Improvements</h3>\n"
+"<ul>\n"
+"<li>Greatly improved feature search for the value relation editor "
+"widget</li>\n"
+"<li>Draw in the bottom navigation bar when set to gesture mode</li>\n"
+"<li>Handle opening of individual datasets with mixed geometry layers</li>"
+"\n"
+"<li>Feature lists are now sorted, everywhere</li>\n"
+"</ul>\n"
+msgstr ""
+

@@ -1,0 +1,32 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/news/qgis3.28.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/news/qgis3.28.md
+msgid "news"
+msgstr ""
+
+#: content/news/qgis3.28.md
+msgid "QGIS 3.30 Released"
+msgstr ""
+
+#: content/news/qgis3.28.md
+msgid "true"
+msgstr ""
+
+#: content/news/qgis3.28.md:7
+msgid "We are pleased to announce the immediate availability of QGIS 3.28!"
+msgstr ""
+

@@ -1,0 +1,37 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-"
+"changelogs/visualchangelog218/funders/x05m.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/project/visual-changelogs/visualchangelog218/funders/x05m.md
+msgid "images/projects/thumbnails/be6891585ad856e8c2bbbba4b78e37d303f10d72.png.150x50_q85.png"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog218/funders/x05m.md
+msgid "Medium"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog218/funders/x05m.md
+msgid "QGIS user group Germany"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog218/funders/x05m.md
+msgid "http://www.qgis.de/"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog218/funders/x05m.md
+msgid "Germany"
+msgstr ""
+

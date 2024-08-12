@@ -1,0 +1,44 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funders/qgis.no.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/funders/qgis.no.md
+msgid "Small"
+msgstr ""
+
+#: content/funders/qgis.no.md
+msgid "QGIS user group Norway (QGIS Norge)"
+msgstr ""
+
+#: content/funders/qgis.no.md
+msgid "qgis.no.jpg"
+msgstr ""
+
+#: content/funders/qgis.no.md
+msgid "2024-03-01"
+msgstr ""
+
+#: content/funders/qgis.no.md
+msgid "2025-02-28"
+msgstr ""
+
+#: content/funders/qgis.no.md
+msgid "https://qgis.no/"
+msgstr ""
+
+#: content/funders/qgis.no.md
+msgid "Norway"
+msgstr ""
+

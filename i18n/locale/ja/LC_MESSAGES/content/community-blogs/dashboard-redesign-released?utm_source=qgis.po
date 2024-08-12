@@ -1,0 +1,59 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/dashboard-redesign-"
+"released?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/dashboard-redesign-released?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/dashboard-redesign-released?utm_source=qgis.md
+msgid "Mergin Maps: [Changelog] Dashboard redesign released!"
+msgstr ""
+
+#: content/community-blogs/dashboard-redesign-released?utm_source=qgis.md
+msgid "dashboard-redesign-released?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/dashboard-redesign-released?utm_source=qgis.md
+msgid "2024-05-02"
+msgstr ""
+
+#: content/community-blogs/dashboard-redesign-released?utm_source=qgis.md
+msgid ""
+"https://wishlist.merginmaps.com/changelog/dashboard-redesign-"
+"released?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/dashboard-redesign-released?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/dashboard-redesign-released?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/dashboard-redesign-released?utm_source=qgis.md:11
+msgid ""
+"<p>We are excited to share that our redesigned dashboard has been "
+"released. Explore it yourself at <a href=\"http://merginmaps.com\" "
+"rel=\"noopener noreferrer nofollow\" target=\"_blank\">merginmaps.com</a>"
+" or read redesign <a href=\"https://merginmaps.com/blog/mergin-maps-app-"
+"is-getting-a-fresh-new-look\" rel=\"noopener noreferrer nofollow\" "
+"target=\"_blank\">blog post here.</a></p><p></p><p>This release also "
+"includes multiple user experience enhancements in the members tab, "
+"project collaborators tab and ease of use of sharing dialogues.</p>\n"
+msgstr ""
+

@@ -1,0 +1,1301 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/resources/installation-guide/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/resources/installation-guide/index.md
+msgid "page"
+msgstr ""
+
+#: content/resources/installation-guide/index.md
+msgid "Installation Guide"
+msgstr ""
+
+#: content/resources/installation-guide/index.md
+msgid "4 June 2024"
+msgstr ""
+
+#: content/resources/installation-guide/index.md
+msgid "Tim Sutton"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:11
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:13
+msgid "QGIS Installers"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:15
+msgid ""
+"QGIS is available on Windows, macOS, Linux, FreeBSD, OpenBSD, Android and"
+" iOS."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:17
+msgid "![Icons of Operating Systems](img/icons.png)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:19
+msgid ""
+"We recommend installing the Long Term Release (LTR) packages since our "
+"LTR versions undergo more rigorous testing before release and receive at "
+"least one year of bug fix updates."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:21
+msgid "See also [the main installers page]({{< ref \"download\" >}})."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:23
+msgid ""
+"To evaluate the upcoming release and to allow non-developers to support "
+"development we also provide testing packages (note the "
+"[warning](#warning))."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:25
+msgid ""
+"In the feature frozen phase preceding a release (see [Release "
+"schedule]({{< ref \"roadmap#release-schedule\" >}})) these packages are "
+"effectively **pre-releases, which we strongly urge users to test**."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:27
+msgid "Windows"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:29
+msgid "There are two options for installing on Windows:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:31
+msgid "Standalone installers"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:33
+msgid ""
+"Standalone installers include everything QGIS needs in a single download."
+" Once you have the installer, no internet is required to complete the "
+"installation. When a new release is available, you need to download the "
+"complete installer again in order to upgrade. For beginners, the "
+"standlone installer is probably the easiest way to install QGIS:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:35
+#: content/resources/installation-guide/index.md:58
+#: content/resources/installation-guide/index.md:60
+#: content/resources/installation-guide/index.md:62
+#: content/resources/installation-guide/index.md:182
+msgid "Release"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:35
+#: content/resources/installation-guide/index.md:58
+#: content/resources/installation-guide/index.md:182
+#: content/resources/installation-guide/index.md:207
+#: content/resources/installation-guide/index.md:327
+#: content/resources/installation-guide/index.md:354
+msgid "Version"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:35
+#: content/resources/installation-guide/index.md:58
+msgid "Package"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:37
+#: content/resources/installation-guide/index.md:60
+#: content/resources/installation-guide/index.md:184
+msgid "Latest Release"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:37
+#: content/resources/installation-guide/index.md:60
+msgid ""
+"{{< param \"release\" >}} {{< param \"codename\" >}} {{< param "
+"\"releasenote\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:37
+msgid "[Installer]({{< param \"lr_msi\" >}}) [Checksum]({{< param \"lr_sha\" >}})"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:38
+#: content/resources/installation-guide/index.md:62
+msgid "Long Term Release"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:38
+#: content/resources/installation-guide/index.md:62
+msgid ""
+"{{< param \"ltrrelease\" >}} {{< param \"ltrcodename\" >}} {{< param "
+"\"ltrnote\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:38
+msgid "[Installer]({{< param \"ltr_msi\">}}) [Checksum]({{< param \"ltr_sha\">}})"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:39
+#: content/resources/installation-guide/index.md:64
+msgid "Development"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:39
+#: content/resources/installation-guide/index.md:64
+#: content/resources/installation-guide/index.md:192
+msgid "{{< param \"devversion\" >}} master"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:39
+msgid "[Weekly snapshots]({{< param \"weekly_msi\">}})"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:41
+msgid ""
+"The weekly snapshots of the nightly qgis-dev package of OSGeo4W are for "
+"users that cannot use OSGeo4W (see below) for some reason or just prefer "
+"standalone installers. In the feature freeze phase, theset also act as "
+"**release candidate** installers."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:43
+msgid "OSGeo4W installer"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:45
+msgid ""
+"More advanced QGIS users should use OSGeo4W packages. This installer "
+"makes it possible to install several versions of QGIS in parallel and "
+"also to do much more efficient updates as only changed components are "
+"downloaded and installed with each new release."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:47
+msgid ""
+"The OSGeo4W repository contains a lot of software from OSGeo projects. "
+"QGIS and all dependencies are included, along with Python, GRASS, GDAL, "
+"etc. The installer is able to install from internet or just download all "
+"needed packages beforehand. The downloaded files are kept in a local "
+"directory for future installations and could also be used to install "
+"offline."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:49
+msgid "Installation steps are:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:51
+msgid ""
+"Download [OSGeo4W Installer](https://download.osgeo.org/osgeo4w/v2"
+"/osgeo4w-setup.exe) and run it."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:53
+msgid ""
+"Choose _Express Install_ and select _QGIS_ to install the _latest "
+"release_ and/or _QGIS LTR_ to install the _long term release_."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:56
+msgid ""
+"Alternatively, instead of doing the _Express_ install, you can use the "
+"_Advanced Install_, navigate to the _Desktop_ section and pick one or "
+"more of the following packages:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:58
+#: content/resources/installation-guide/index.md:182
+msgid "Description"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:60
+msgid "qgis"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:61
+msgid "qgis-rel-dev [[1]](#id1)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:61
+msgid "Nightly build of the upcoming point release"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:62
+msgid "qgis-ltr"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:63
+msgid "qgis-ltr-dev [[1]](#id1)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:63
+msgid "Nightly build of the upcoming long term point release"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:64
+msgid "qgis-dev [[1]](#id1)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:64
+msgid "Nightly build of the development version"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:66
+msgid ""
+"{{< footnote \"1\" >}} Nightlies are debug builds (including debugging "
+"output that can be used by developers to better understand issues with "
+"the build)."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:68
+msgid ""
+"The packages listed in the above table only install the necessary "
+"dependencies needed to run QGIS. Corresponding to those packages there "
+"are also meta packages with the suffix `-full-free` and `-full`. The "
+"`-full-free` contains additional optional dependencies that some popular "
+"(not included in the default QGIS install) plugins use. The `-full` "
+"includes everything from `-full-free` and also adds proprietary "
+"extensions like Oracle drivers, ECW and MrSID."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:70
+msgid ""
+"The Express installs reference the corresponding `-full` variant and the "
+"standalone installers are also made from these OSGeo4W package sets."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:72
+msgid ""
+"Before installing any of the nightly builds note the [warnings](#warning)"
+" below."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:74
+msgid "Linux"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:76
+msgid ""
+"Most linux distributions split QGIS into several packages; you’ll "
+"probably need `qgis` and `qgis-python` (to run plugins). Packages like "
+"`qgis-grass` (or `qgis-plugin-grass`), `qgis-server` can be skipped "
+"initially, or installed only when you need them."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:78
+msgid ""
+"Below you will find specific instructions per distribution. For most "
+"distro’s there are instructions to install QGIS stable and instructions "
+"to install a cutting edge QGIS testing build (note the "
+"[warning](#warning))."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:80
+msgid "Debian/Ubuntu"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:82
+msgid "Quickstart"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:84
+#: content/resources/installation-guide/index.md:288
+msgid ""
+"{{< rich-box-start icon=\"💁\" layoutClass=\"tips\">}} {{< rich-content-"
+"start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:86
+#: content/resources/installation-guide/index.md:95
+#: content/resources/installation-guide/index.md:126
+#: content/resources/installation-guide/index.md:149
+#: content/resources/installation-guide/index.md:166
+#: content/resources/installation-guide/index.md:290
+#: content/resources/installation-guide/index.md:605
+msgid "Note"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:87
+msgid ""
+"In the section following this one, you will find ALL possible options to "
+"install different versions of QGIS in different versions of "
+"Debian/Ubuntu. If you have problems, verify whether your distribution is "
+"still supported as the repositories also contain older **unsupported** "
+"distributions with the last QGIS version that was supported. Be aware "
+"that those might have meanwhile ceased to work. {{< rich-content-end >}} "
+"{{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:91
+msgid ""
+"Simply install the latest stable QGIS ({{< param \"version\" >}}.x {{< "
+"param \"codename\" >}}) in your Debian or Ubuntu without having to edit "
+"config files."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:93
+msgid ""
+"{{< rich-box-start icon=\"🌀\" layoutClass=\"tips\">}} {{< rich-content-"
+"start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:96
+msgid ""
+"Although you see ‘Debian’ in some places, this also works for ‘Ubuntu’, "
+"as one is actually a symlink to the other on our server. {{< rich-"
+"content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:100
+msgid "First install some tools you will need for these instructions:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:106
+msgid ""
+"Now install the QGIS Signing Key, so QGIS software from the QGIS repo "
+"will be trusted and installed:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:113
+msgid ""
+"Add the QGIS repo for the latest stable QGIS ({{< param \"version\" >}}.x"
+" {{< param \"codename\" >}}) to `/etc/apt/sources.list.d/qgis.sources`:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:124
+msgid ""
+"{{< rich-box-start icon=\"💬\" layoutClass=\"tips\">}} {{< rich-content-"
+"start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:127
+msgid ""
+"`Suites` in above lines depends on your distribution. `lsb_release -cs` "
+"will show your distribution name."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:129
+msgid ""
+"In some distributions (like Linux Mint), `. /etc/os-release; echo "
+"\"$UBUNTU_CODENAME\"` will show the correct distibution name."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:131
+msgid ""
+"See [Available codenames](#available-codenames). {{< rich-content-end >}}"
+" {{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:135
+msgid ""
+"Update your repository information to also reflect the newly added QGIS "
+"one:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:141
+msgid "Now, install QGIS:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:147
+msgid ""
+"{{< rich-box-start icon=\"✍️\" layoutClass=\"tips\">}} {{< rich-content-"
+"start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:150
+msgid ""
+"Add `qgis-server` to the above line if you also want to install QGIS "
+"Server {{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:154
+msgid "Repositories"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:156
+msgid ""
+"Default Debian and Ubuntu software repositories often contain older "
+"versions of QGIS."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:158
+msgid ""
+"To have newer versions, you have to add alternative software "
+"repositories, by adding one of the deb-lines below to your "
+"`/etc/apt/sources.list.d/qgis.sources` file."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:160
+msgid ""
+"Our main repository contains multiple lines of packages for several "
+"versions of **Debian and Ubuntu** based on the dependencies the "
+"individual distributions provide."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:162
+msgid ""
+"For Ubuntu we also used to have extra packages in a separate repository "
+"that are based on [ubuntugis](https://launchpad.net/~ubuntugis), which "
+"held more up-to-date versions of other GIS packages than Ubuntu itself "
+"for LTS versions. If you want those you also need to include ubuntugis-"
+"unstable ppa in your /etc/apt/sources.list.d/qgis.list file (see "
+"[ubuntugis "
+"documentation](https://trac.osgeo.org/ubuntugis/wiki/UbuntuGISRepository))."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:164
+msgid ""
+"{{< rich-box-start icon=\"💁\" layoutClass=\"tips\" mode=\"html\" >}} {{< "
+"rich-content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:167
+msgid ""
+"The release packages are only produced once, shortly after a new version "
+"has been released. As unstable, not yet released debian versions "
+"(testing) and ubuntugis-unstable can have library changes the packages "
+"might sooner or later be broken for these targets, when the development "
+"in debian, ubuntu or ubuntugis-unstable moves on and their packages used "
+"as dependencies in QGIS change. In that event you can either:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:169
+msgid "move to a stable debian version and use the released packages for it,"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:171
+msgid ""
+"wait for the next point release (due {{< param \"nextpointreleasedate\" "
+">}}), which happens every month and will include the updated "
+"dependencies,"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:173
+msgid ""
+"switch to a nightly repository (available for the **two** release "
+"branches and master) whose packages are rebuild on regular basis and will"
+" also pickup the updated dependencies automatically or"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:175
+msgid ""
+"build your own set of packages (see [build-debian-"
+"packages](https://github.com/qgis/QGIS/blob/master/INSTALL.md#310"
+"-building-debian-packages)). {{< rich-content-end >}} {{< rich-box-end "
+">}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:180
+msgid "Lines of packages:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:182
+#: content/resources/installation-guide/index.md:434
+msgid "Repository"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:184
+msgid ""
+"{{< param \"version\" >}}.x {{< param \"codename\" >}} {{< param "
+"\"releasenote\">}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:184
+#: content/resources/installation-guide/index.md:188
+msgid "Release for **Debian and Ubuntu**"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:184
+msgid "https://qgis.org/debian <br> https://qgis.org/ubuntu"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:185
+#: content/resources/installation-guide/index.md:189
+msgid "Release with ubuntugis-unstable dependencies"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:185
+msgid "https://qgis.org/ubuntugis"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:186
+#: content/resources/installation-guide/index.md:190
+msgid "Nightly build of upcoming point release for Debian and Ubuntu [[5]](#id5)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:186
+msgid ""
+"https://qgis.org/debian-nightly-release <br> https://qgis.org/ubuntu-"
+"nightly-release"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:187
+#: content/resources/installation-guide/index.md:191
+msgid ""
+"Nightly build of upcoming point release with ubuntugis-unstable "
+"dependencies [[5]](#id5)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:187
+msgid "https://qgis.org/ubuntugis-nightly-release"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:188
+msgid "Long Term Release Repository"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:188
+msgid ""
+"{{< param \"ltrversion\" >}}.x {{< param \"ltrcodename\" >}} {{< param "
+"\"ltrnote\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:188
+msgid "https://qgis.org/debian-ltr https://qgis.org/ubuntu-ltr"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:189
+msgid "https://qgis.org/ubuntugis-ltr"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:190
+msgid ""
+"https://qgis.org/debian-nightly-ltr <br> https://qgis.org/ubuntu-nightly-"
+"ltr"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:191
+msgid "https://qgis.org/ubuntugis-nightly-ltr"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:192
+msgid "Development Version"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:192
+msgid "Nightly build for **Debian and Ubuntu** [[5]](#id5)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:192
+msgid "https://qgis.org/debian-nightly <br> https://qgis.org/ubuntu-nightly"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:193
+msgid "Nightly build with ubuntugis-unstable dependencies [[5]](#id5)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:193
+msgid "https://qgis.org/ubuntugis-nightly"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:195
+msgid ""
+"{{< footnote \"5\" >}} Nightlies are debug builds (including debugging "
+"output)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:197
+msgid ""
+"<small>\n"
+"Next point release: {{< param \"nextpointreleasedate\" >}}\n"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:200
+msgid "Next release: {{< param \"nextreleasedate\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:202
+msgid ""
+"(For more dates see Release Schedule on [Road Map]({{< ref "
+"\"resources/roadmap\" >}})) </small>"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:205
+msgid "Supported distribution versions: {#available-codenames}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:207
+#: content/resources/installation-guide/index.md:327
+#: content/resources/installation-guide/index.md:354
+#: content/resources/installation-guide/index.md:434
+msgid "Distribution"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:207
+msgid "Codename"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:207
+msgid "Also available based on ubuntugis-unstable dependencies?"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:209
+msgid "Debian"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:209
+msgid "12.x (stable)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:209
+msgid "bookworm"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:210
+msgid "11.x (oldstable)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:210
+msgid "bullseye"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:211
+msgid "unstable"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:211
+msgid "sid"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:212
+msgid "Ubuntu"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:212
+msgid "24.04 (LTS)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:212
+msgid "noble"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:212
+msgid "yes [[6]](#id6)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:213
+msgid "23.10"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:213
+msgid "mantic"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:214
+msgid "23.04"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:214
+msgid "lunar"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:215
+msgid "22.04 (LTS)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:215
+msgid "jammy"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:215
+msgid "yes"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:217
+msgid "{{< footnote \"6\" >}} starting with nightlies of 3.34.9/3.38.2"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:219
+msgid ""
+"To use the QGIS archive you have to first add the archive’s repository "
+"public key:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:226
+msgid "Should output:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:236
+msgid "After you have verified the output you can install the key with:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:243
+msgid ""
+"Alternatively you can download the key directly without manual "
+"verification:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:250
+msgid ""
+"With the keyring in place you can add the repository as "
+"`/etc/apt/sources.list.d/qgis.sources` with following content:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:261
+msgid "Example for the latest long term release for Ubuntu 22.04 Jammy:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:272
+#: content/resources/installation-guide/index.md:315
+#: content/resources/installation-guide/index.md:342
+msgid "After that type the commands below to install QGIS:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:279
+msgid "In case you would like to install QGIS Server, type:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:291
+msgid ""
+"Please remove all the QGIS and GRASS packages you may have installed from"
+" other repositories before doing the update. {{< rich-content-end >}} {{<"
+" rich-box-end >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:295
+#: content/resources/installation-guide/index.md:329
+#: content/resources/installation-guide/index.md:356
+msgid "Fedora"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:297
+msgid "Get packages for any Fedora version by typing:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:303
+msgid "Default Fedora software repositories often hold older versions of QGIS."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:305
+msgid ""
+"To have newer versions or the latest LTR, you have to add alternative "
+"software repositories based on the version you want to install (stable, "
+"LTR or testing)."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:307
+#: content/resources/installation-guide/index.md:450
+#: content/resources/installation-guide/index.md:460
+#: content/resources/installation-guide/index.md:466
+#: content/resources/installation-guide/index.md:619
+msgid "QGIS stable"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:309
+#: content/resources/installation-guide/index.md:336
+msgid "Enable the repository:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:321
+#: content/resources/installation-guide/index.md:348
+msgid ""
+"In case you would like to install QGIS Server (note that it’s not a "
+"common practice to install both client and server applications on the "
+"same machine), type:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:327
+#: content/resources/installation-guide/index.md:354
+msgid "QGIS version"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:327
+#: content/resources/installation-guide/index.md:354
+msgid "GRASS GIS version"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:329
+#: content/resources/installation-guide/index.md:356
+msgid "36"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:329
+#: content/resources/installation-guide/index.md:330
+msgid "3.28"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:329
+#: content/resources/installation-guide/index.md:356
+msgid "8.0"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:330
+#: content/resources/installation-guide/index.md:357
+msgid "37"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:330
+#: content/resources/installation-guide/index.md:357
+msgid "8.2"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:332
+msgid ""
+"More information are available at "
+"https://copr.fedorainfracloud.org/coprs/dani/qgis/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:334
+msgid "QGIS LTR (Long Term Release)"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:356
+#: content/resources/installation-guide/index.md:357
+msgid "3.22"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:359
+msgid ""
+"More information are available at "
+"https://copr.fedorainfracloud.org/coprs/dani/qgis-ltr/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:361
+msgid "NixOS"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:363
+msgid ""
+"Latest stable and LTR packages are [available in "
+"nixpkgs](https://search.nixos.org/packages?channel=24.05&show=qgis&from=0&size=50&sort=relevance&type=packages&query=qgis)."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:365
+msgid "Basic Install"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:367
+#: content/resources/installation-guide/index.md:399
+msgid "**Ephemeral use:**"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:372
+msgid "or"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:378
+#: content/resources/installation-guide/index.md:407
+msgid ""
+"**Or added to your NixOS configuration.nix so that it becomes part of "
+"your system install:**"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:380
+msgid "For the LTR:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:388
+msgid "For latest stable:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:395
+msgid "Running with extra python packages:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:397
+msgid ""
+"Because of the atomic nature of NixOS packages, you need to override the "
+"package if you want extra python packages to be available to QGIS. For "
+"example to run QGIS with numpy, geopandas and rasterio python libraries "
+"you can do:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:430
+msgid "SUSE / openSUSE"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:432
+msgid ""
+"Latest stable and LTR packages called `qgis` and `qgis-ltr` are available"
+" in the following repositories:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:436
+msgid "Tumbleweed"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:436
+msgid "https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Tumbleweed/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:437
+msgid "Leap 15.2"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:437
+msgid "https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_15.2/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:438
+msgid "Leap 15.1"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:438
+msgid "https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_15.1/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:439
+msgid "Factory ARM"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:439
+msgid "https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Factory_ARM/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:440
+msgid "Factory PowerPC"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:440
+msgid "https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Factory_PowerPC/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:441
+msgid "SLE 15 SP1 Backports"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:441
+msgid "https://download.opensuse.org/repositories/Application:/Geo/SLE_15_SP1_Backports/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:442
+msgid "SLE 15 SP1 Backports debug"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:442
+msgid "https://download.opensuse.org/repositories/Application:/Geo/SLE_15_SP1_Backports_debug/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:444
+msgid "All packages include GRASS and Python support."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:446
+msgid ""
+"All openSUSE Geo repositories can be found here: "
+"https://download.opensuse.org/repositories/Application:/Geo/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:448
+msgid "Mandriva"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:452
+msgid "Current:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:458
+msgid "Slackware"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:462
+msgid "Packages on https://slackbuilds.org/result/?search=qgis"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:464
+msgid "Arch Linux"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:468
+msgid ""
+"Arch Linux is available in official repository : "
+"https://archlinux.org/packages/extra/x86_64/qgis/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:470
+msgid "Install with:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:476
+#: content/resources/installation-guide/index.md:634
+msgid "QGIS LTR"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:478
+msgid "QGIS Long Term Release is available in AUR (Arch User Repository)."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:480
+#: content/resources/installation-guide/index.md:492
+msgid "Install with yaourt or other package manager which support AUR:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:486
+msgid ""
+"For bugs and other behaviour, read comments here : "
+"https://aur.archlinux.org/packages/qgis-ltr/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:488
+msgid "QGIS testing"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:490
+msgid "QGIS testing is available in AUR (Arch User Repository)."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:498
+msgid ""
+"For bugs and other behaviour, read comments here : "
+"https://aur.archlinux.org/packages/qgis-git"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:500
+msgid "Flatpak"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:502
+msgid ""
+"There is an QGIS flatpak for QGIS Stable available, maintained by the "
+"flathub community."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:504
+msgid "For general Linux Flatpak install notes, see https://flatpak.org/setup/"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:506
+msgid "QGIS on Flathub: https://flathub.org/apps/details/org.qgis.qgis"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:508
+#: content/resources/installation-guide/index.md:547
+msgid "To install:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:514
+msgid "Then to run:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:520
+msgid "To update your flatpak QGIS:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:526
+msgid ""
+"On certain distributions, you may also need to install xdg-desktop-portal"
+" or xdg-desktop-portal-gtk packages in order for file dialogs to appear."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:528
+msgid ""
+"Flathub files: https://github.com/flathub/org.qgis.qgis and report issues"
+" here: https://github.com/flathub/org.qgis.qgis/issues"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:530
+msgid ""
+"Note: if you need to install additional Python modules, because they are "
+"needed by a plugin, you can install the module with (here installing the "
+"scipy module):"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:539
+msgid "Spack"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:541
+msgid ""
+"Spack is a distro agnostic package manager for Linux, which is developed "
+"in the context of high-performance computing."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:543
+msgid "General info on installing Spack: https://github.com/spack/spack"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:545
+msgid ""
+"QGIS package file on Spack: "
+"https://github.com/spack/spack/blob/develop/var/spack/repos/builtin/packages/qgis/package.py"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:553
+msgid ""
+"which builds and installs QGIS and **all** dependencies from scratch. "
+"Afterwards, QGIS can be used via:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:559
+msgid ""
+"If additional python packages need to be installed, using a Spack "
+"environment is recommended. For example:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:568
+msgid ""
+"Spack related issues should be reported at: "
+"https://github.com/spack/spack/issues"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:570
+msgid "Mac OS X / macOS"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:572
+msgid ""
+"Official All-in-one, signed installers for macOS High Sierra (10.13) and "
+"newer can be downloaded from the [QGIS download page]({{< ref "
+"\"download\" >}})."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:574
+msgid "QGIS nightly release"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:576
+msgid ""
+"A nightly updated standalone installer from QGIS master can be downloaded"
+" from [here](/downloads/macos/qgis-macos-nightly.dmg)."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:578
+msgid "MacPorts"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:580
+msgid ""
+"The package management system [MacPorts](https://www.macports.org) offers"
+" both the latest release version (port `qgis3`) and the long term version"
+" (port `qgis3-ltr`). This will install QGIS with native architecture, "
+"Intel x86_64 or Apple ARM. Main software dependencies such as GDAL, PDAL "
+"and GRASS GIS are usually the latest version available."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:582
+msgid ""
+"[Installing MacPorts and updating](https://guide.macports.org) it and the"
+" _ports_ are made with the _Terminal_. QGIS is however installed as an "
+"app bundle at `/Applications/MacPorts/QGIS3.app`."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:584
+msgid "Get information of a port:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:590
+msgid "Install port, e.g with GRASS GIS:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:596
+msgid "Update:"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:603
+msgid ""
+"{{< rich-box-start icon=\"👩‍💻\" layoutClass=\"tips\">}} {{< rich-content-"
+"start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:607
+msgid ""
+"Concurrent installation of Homebrew and MacPorts is not compatible and "
+"will almost certainly lead to conflicts. If you choose to install one of "
+"the package systems you need to uninstall the other. {{< rich-content-end"
+" >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:611
+msgid "Old releases"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:613
+msgid ""
+"Previous releases of the official installer can be downloaded from "
+"https://qgis.org/downloads/macos/."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:615
+msgid ""
+"Previous releases of the kyngchaos installer can be downloaded from "
+"https://www.kyngchaos.com/software/archive/qgis/. The oldest installers "
+"support macOS 10.4 Tiger."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:617
+msgid "FreeBSD"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:621
+#: content/resources/installation-guide/index.md:636
+msgid "To install QGIS from binary packages type"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:627
+#: content/resources/installation-guide/index.md:642
+msgid "Or to customize compilation options, you can build it from FreeBSD ports"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:649
+msgid "OpenBSD"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:651
+msgid "QGIS Stable"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:653
+msgid "To install QGIS from third-party package"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:659
+msgid ""
+"See: - https://openbsd.app/?search=qgis # for -stable OpenBSD - "
+"https://openbsd.app/?search=qgis&current=on # for -current OpenBSD"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:661
+msgid "QGIS Testing warning"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:663
+msgid ""
+"{{< rich-box-start icon=\"⚠️\" layoutClass=\"tips\">}} {{< rich-content-"
+"start themeClass=\"coloring-6\" >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:665
+msgid "Warning"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:667
+msgid ""
+"QGIS testing packages are provided for some platforms in addition to the "
+"QGIS stable version. QGIS testing contains unreleased software that is "
+"currently being worked on. They are only provided for testing purposes to"
+" early adopters to check if bugs have been resolved and that no new bugs "
+"have been introduced. Although we carefully try to avoid breakages, it "
+"may at any given time not work, or may do bad things to your data. Take "
+"care. You have been warned! {{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:671
+msgid "Installing from Source"
+msgstr ""
+
+#: content/resources/installation-guide/index.md:673
+msgid ""
+"Please refer to [the developer installation "
+"notes](https://github.com/qgis/QGIS/blob/master/INSTALL.md) for notes on "
+"how to build and install QGIS from source for the different platforms we "
+"support."
+msgstr ""
+
+#: content/resources/installation-guide/index.md:675
+msgid "{{< content-end >}}"
+msgstr ""
+

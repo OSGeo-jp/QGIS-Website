@@ -1,0 +1,228 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/pyqgis-jupyter-notebooks-on-"
+"windows-using-conda.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md
+msgid "anitagraser.com: PyQGIS Jupyter notebooks on Windows using Conda"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md
+msgid "pyqgis-jupyter-notebooks-on-windows-using-conda."
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md
+msgid "2023-01-21"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md
+msgid ""
+"https://anitagraser.com/2023/01/21/pyqgis-jupyter-notebooks-on-windows-"
+"using-conda/"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:11
+msgid ""
+"<p>The <a href=\"https://anaconda.org/conda-forge/qgis\">QGIS conda "
+"packages</a> have been around for a while. One of their use cases, for "
+"example, is to <a href=\"https://gisunchained.wordpress.com/2019/05/29"
+"/using-qgis-from-conda/\">allow Linux users to easily install multiple "
+"versions of QGIS</a>.</p>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:15
+msgid ""
+"<p>Similarly, we&#8217;ve seen posts on using <a "
+"href=\"https://lerryws.xyz/posts/PyQGIS-in-Jupyter-Notebook\">PyQGIS in "
+"Jupyter notebooks</a>. However, I find the setup with *.bat files rather "
+"tricky.</p>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:19
+msgid ""
+"<p>This post presents a way to set up a conda environment with QGIS that "
+"is ready to be used in Jupyter notebooks. </p>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:23
+msgid ""
+"<p>The first steps are to create a new environment and install QGIS. I "
+"use mamba for the installation step because it is faster than conda but "
+"you can use conda as well:</p>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:26
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: "
+"powershell; title: ; notranslate\">\n"
+"(base) PS C:\\Users\\anita&gt; conda create -n qgis python=3.9\n"
+"(base) PS C:\\Users\\anita&gt; conda activate qgis\n"
+"(qgis) PS C:\\Users\\anita&gt; mamba install -c conda-forge qgis=3.28.2 \n"
+"(qgis) PS C:\\Users\\anita&gt; qgis\n"
+"</pre></div>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:34
+msgid ""
+"<p>If we now try to import the qgis module in Python, we get an "
+"error:</p>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:37
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: "
+"powershell; title: ; notranslate\">\n"
+"(qgis) PS C:\\Users\\anita&gt; python\n"
+"Python 3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:41:22) "
+"&#91;MSC v.1929 64 bit (AMD64)] on win32\n"
+"Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or "
+"&quot;license&quot; for more information.\n"
+"&gt;&gt;&gt; import qgis\n"
+"Traceback (most recent call last):\n"
+"  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;\n"
+"ModuleNotFoundError: No module named 'qgis'\n"
+"</pre></div>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:48
+msgid ""
+"<p>To fix this error, we need to get the paths from the Python console "
+"inside QGIS:</p>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:51
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: "
+"python; title: ; notranslate\">\n"
+"import sys\n"
+"sys.path\n"
+"&#91;'H:/miniconda3/envs/qgis/Library/./python', "
+"'C:/Users/anita/AppData/Roaming/QGIS/QGIS3\\\\profiles\\\\default/python',"
+" ... ]\n"
+"</pre></div>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:58
+msgid ""
+"<figure class=\"wp-block-image size-large\"><img data-attachment-"
+"id=\"8345\" data-permalink=\"https://anitagraser.com/2023/01/21/pyqgis-"
+"jupyter-notebooks-on-windows-using-conda/pyqgis-path/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/01/pyqgis-path.png\" "
+"data-orig-size=\"708,283\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"pyqgis-path\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/01/pyqgis-"
+"path.png?w=300\" data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/01/pyqgis-"
+"path.png?w=545\" src=\"https://underdark.files.wordpress.com/2023/01"
+"/pyqgis-path.png?w=708\" alt=\"\" class=\"wp-image-8345\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/01/pyqgis-path.png "
+"708w, https://underdark.files.wordpress.com/2023/01/pyqgis-path.png?w=150"
+" 150w, https://underdark.files.wordpress.com/2023/01/pyqgis-"
+"path.png?w=300 300w\" sizes=\"(max-width: 708px) 100vw, 708px\" "
+"/></figure>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:62
+msgid ""
+"<p>This list of paths can be configured as the defaults for our qgis "
+"environment using conda develop: </p>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:65
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: "
+"powershell; title: ; notranslate\">\n"
+"(qgis) PS C:\\Users\\anita&gt; conda activate base\n"
+"(base) PS C:\\Users\\anita&gt; mamba install conda-build -c conda-forge\n"
+"(base) PS C:\\Users\\anita&gt; conda develop -n qgis &#91;list of paths "
+"from qgis python console] \n"
+"</pre></div>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:72
+msgid "<p>With this setup, the import should now work without errors:</p>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:75
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: "
+"powershell; title: ; notranslate\">\n"
+"(base) PS C:\\Users\\anita&gt; conda activate qgis\n"
+"(qgis) PS C:\\Users\\anita&gt; python\n"
+"Python 3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:41:22) "
+"&#91;MSC v.1929 64 bit (AMD64)] on win32\n"
+"Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or "
+"&quot;license&quot; for more information.\n"
+"&gt;&gt;&gt; import qgis\n"
+"</pre></div>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:84
+msgid ""
+"<p>The example Jupyter notebook covers running a QGIS Processing "
+"algorithm and visualizing the results in the notebook using "
+"GeoPandas:</p>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:88
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/01/vscode-"
+"pyqgis.png\"><img data-attachment-id=\"8331\" data-"
+"permalink=\"https://anitagraser.com/2023/01/21/pyqgis-jupyter-notebooks-"
+"on-windows-using-conda/vscode-pyqgis/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/01/vscode-pyqgis.png\" "
+"data-orig-size=\"969,1440\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"vscode-pyqgis\" data-image-description=\"\" data-"
+"image-caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/01/vscode-"
+"pyqgis.png?w=202\" data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/01/vscode-"
+"pyqgis.png?w=545\" src=\"https://underdark.files.wordpress.com/2023/01"
+"/vscode-pyqgis.png?w=689\" alt=\"\" class=\"wp-image-8331\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/01/vscode-"
+"pyqgis.png?w=689 689w, https://underdark.files.wordpress.com/2023/01"
+"/vscode-pyqgis.png?w=101 101w, "
+"https://underdark.files.wordpress.com/2023/01/vscode-pyqgis.png?w=202 "
+"202w, https://underdark.files.wordpress.com/2023/01/vscode-"
+"pyqgis.png?w=768 768w, https://underdark.files.wordpress.com/2023/01"
+"/vscode-pyqgis.png 969w\" sizes=\"(max-width: 689px) 100vw, 689px\" "
+"/></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/pyqgis-jupyter-notebooks-on-windows-using-conda.md:92
+msgid ""
+"<p>Head over to Github to find the full instructions: <a "
+"href=\"https://github.com/anitagraser/QGIS-"
+"resources/blob/master/qgis3/notebooks/hello-"
+"world.ipynb\">https://github.com/anitagraser/QGIS-"
+"resources/blob/master/qgis3/notebooks/hello-world.ipynb</a></p>\n"
+msgstr ""
+

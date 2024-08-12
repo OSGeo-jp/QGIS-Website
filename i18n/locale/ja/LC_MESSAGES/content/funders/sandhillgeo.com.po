@@ -1,0 +1,44 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funders/sandhillgeo.com.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/funders/sandhillgeo.com.md
+msgid "Small"
+msgstr ""
+
+#: content/funders/sandhillgeo.com.md
+msgid "Sand Hill Geographic"
+msgstr ""
+
+#: content/funders/sandhillgeo.com.md
+msgid "sandhillgeo.com.jpg"
+msgstr ""
+
+#: content/funders/sandhillgeo.com.md
+msgid "2023-01-01"
+msgstr ""
+
+#: content/funders/sandhillgeo.com.md
+msgid "2024-02-29"
+msgstr ""
+
+#: content/funders/sandhillgeo.com.md
+msgid "https://sandhillgeo.com/"
+msgstr ""
+
+#: content/funders/sandhillgeo.com.md
+msgid "United States of America"
+msgstr ""
+

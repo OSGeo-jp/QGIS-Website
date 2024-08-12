@@ -1,0 +1,88 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v2.7.0.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/v2.7.0.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v2.7.0.md
+msgid "QField releases: 2.7.0 - Heroic Hedgehog"
+msgstr ""
+
+#: content/community-blogs/v2.7.0.md
+msgid "v2.7.0.0"
+msgstr ""
+
+#: content/community-blogs/v2.7.0.md
+msgid "2023-03-10"
+msgstr ""
+
+#: content/community-blogs/v2.7.0.md
+msgid "https://github.com/opengisch/QField/releases/tag/v2.7.0"
+msgstr ""
+
+#: content/community-blogs/v2.7.0.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v2.7.0.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v2.7.0.md:11
+msgid ""
+"<h2>Changes</h2>\n"
+"<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https"
+"://user-images.githubusercontent.com/1728657/224213255-e51e619a-2505"
+"-49dc-a03d-088bfa2530e4.png\"><img src=\"https://user-"
+"images.githubusercontent.com/1728657/224213255-e51e619a-2505-49dc-a03d-"
+"088bfa2530e4.png\" alt=\"27\" style=\"max-width: 100%;\"></a></p>\n"
+"<h2><g-emoji class=\"g-emoji\" alias=\"rocket\" fallback-"
+"src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f680.png\">🚀</g-emoji>"
+" Features</h2>\n"
+"<ul>\n"
+"<li>Map canvas rotation support (via pinch rotation gesture and mouse "
+"middle button)</li>\n"
+"<li>Audio and video attachment recording within the feature form</li>\n"
+"<li>Audio and video attachment playback within the feature form</li>\n"
+"<li>File attachment support added to the feature form</li>\n"
+"<li>User interface dark theme styling (defaulting to current system "
+"default on Android)</li>\n"
+"<li>User interface font scaling</li>\n"
+"<li>A completely revamped non-native camera featuring zoom support, flash"
+" toggle, GPS location metadata, and a much better interface</li>\n"
+"</ul>\n"
+"<h2><g-emoji class=\"g-emoji\" alias=\"sparkles\" fallback-"
+"src=\"https://github.githubassets.com/images/icons/emoji/unicode/2728.png\">✨</g-emoji>"
+" Improvements</h2>\n"
+"<ul>\n"
+"<li>Default value expressions relying on aggregate() now work properly "
+"within the feature form</li>\n"
+"<li>Image metadata values are now preserved when setting a maximum image "
+"size setting (via qfieldsync)</li>\n"
+"<li>Feature form’s field labels will now respect the color and style "
+"overrides defined in project files</li>\n"
+"<li>Upstream libraries updated, including brand new QGIS 3.30</li>\n"
+"</ul>\n"
+"<h2><g-emoji class=\"g-emoji\" alias=\"bug\" fallback-"
+"src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png\">🐛</g-emoji>"
+" Bug Fixes</h2>\n"
+"<ul>\n"
+"<li>Vertical grid datasets containing spaces in their paths now "
+"working</li>\n"
+"</ul>\n"
+msgstr ""
+

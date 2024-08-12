@@ -1,0 +1,58 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/diversity/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/diversity/index.md
+msgid "page"
+msgstr ""
+
+#: content/diversity/index.md content/diversity/index.md:10
+msgid "Diversity statement"
+msgstr ""
+
+#: content/diversity/index.md:8
+msgid "{{< content-start classes=\"content narrow\">}}"
+msgstr ""
+
+#: content/diversity/index.md:12
+msgid "The QGIS Project welcomes and encourages participation by everyone."
+msgstr ""
+
+#: content/diversity/index.md:14
+msgid ""
+"No matter how you identify yourself or how others perceive you: we "
+"welcome you. We welcome contributions from everyone as long as they "
+"interact constructively with our community."
+msgstr ""
+
+#: content/diversity/index.md:16
+msgid ""
+"While much of the work for our project is technical in nature, we value "
+"and encourage contributions from those with expertise in other areas, and"
+" welcome them into our community."
+msgstr ""
+
+#: content/diversity/index.md:18
+msgid "Useful contacts:"
+msgstr ""
+
+#: content/diversity/index.md:20
+msgid "QGIS PSC (Project Steering Commity: [psc@qgis.org](mailto:psc@qgis.org))"
+msgstr ""
+
+#: content/diversity/index.md:22
+msgid "{{< content-end >}}"
+msgstr ""
+

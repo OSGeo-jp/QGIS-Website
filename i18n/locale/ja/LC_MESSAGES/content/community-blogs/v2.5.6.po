@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v2.5.6.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/v2.5.6.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v2.5.6.md
+msgid "QField releases: 2.5.6 - Fancy Flamingo"
+msgstr ""
+
+#: content/community-blogs/v2.5.6.md
+msgid "v2.5.6.6"
+msgstr ""
+
+#: content/community-blogs/v2.5.6.md
+msgid "2022-12-03"
+msgstr ""
+
+#: content/community-blogs/v2.5.6.md
+msgid "https://github.com/opengisch/QField/releases/tag/v2.5.6"
+msgstr ""
+
+#: content/community-blogs/v2.5.6.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v2.5.6.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v2.5.6.md:11
+msgid ""
+"<h2>Changes</h2>\n"
+"<h2><g-emoji class=\"g-emoji\" alias=\"bug\" fallback-"
+"src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png\">🐛</g-emoji>"
+" Bug Fixes</h2>\n"
+"<ul>\n"
+"<li>Geometry editor rubberband fix (<a class=\"issue-link js-issue-link\""
+" data-error-text=\"Failed to load title\" data-id=\"1469350413\" data-"
+"permission-text=\"Title is private\" data-"
+"url=\"https://github.com/opengisch/QField/issues/3709\" data-hovercard-"
+"type=\"pull_request\" data-hovercard-"
+"url=\"/opengisch/QField/pull/3709/hovercard\" "
+"href=\"https://github.com/opengisch/QField/pull/3709\">#3709</a>)</li>\n"
+"<li>Keep the feature form model alive when hiding form to digitize child "
+"geometry (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed "
+"to load title\" data-id=\"1468422102\" data-permission-text=\"Title is "
+"private\" data-url=\"https://github.com/opengisch/QField/issues/3705\" "
+"data-hovercard-type=\"pull_request\" data-hovercard-"
+"url=\"/opengisch/QField/pull/3705/hovercard\" "
+"href=\"https://github.com/opengisch/QField/pull/3705\">#3705</a>)</li>\n"
+"</ul>\n"
+msgstr ""
+

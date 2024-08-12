@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/change-view-mode-for-"
+"relations-from-gallery-to-text?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/change-view-mode-for-relations-from-gallery-to-text?utm_source=qgis.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/change-view-mode-for-relations-from-gallery-to-text?utm_source=qgis.md
+msgid ""
+"Mergin Maps: [Changelog] Change view mode for relations from gallery to "
+"text"
+msgstr ""
+
+#: content/community-blogs/change-view-mode-for-relations-from-gallery-to-text?utm_source=qgis.md
+msgid "change-view-mode-for-relations-from-gallery-to-text?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/change-view-mode-for-relations-from-gallery-to-text?utm_source=qgis.md
+msgid "2024-05-02"
+msgstr ""
+
+#: content/community-blogs/change-view-mode-for-relations-from-gallery-to-text?utm_source=qgis.md
+msgid ""
+"https://wishlist.merginmaps.com/changelog/change-view-mode-for-relations-"
+"from-gallery-to-text?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/change-view-mode-for-relations-from-gallery-to-text?utm_source=qgis.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/change-view-mode-for-relations-from-gallery-to-text?utm_source=qgis.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/change-view-mode-for-relations-from-gallery-to-text?utm_source=qgis.md:11
+msgid ""
+"<p>If you prefer using text mode for relations instead of the gallery "
+"mode, add “nogallery“ text to your relation editor title. The mobile app "
+"will then display text mode instead of gallery. The fix is now released "
+"in 2024.1.0.</p>\n"
+msgstr ""
+

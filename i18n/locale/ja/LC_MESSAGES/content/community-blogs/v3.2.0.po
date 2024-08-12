@@ -1,0 +1,100 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v3.2.0.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/v3.2.0.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md
+msgid "QField releases: 3.2.0 - Congo"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md
+msgid "v3.2.0.0"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md
+msgid "2024-03-08"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md
+msgid "https://github.com/opengisch/QField/releases/tag/v3.2.0"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md:11
+msgid "<h2>Changes</h2>\n"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md:13
+msgid ""
+"<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https"
+"://private-user-images.githubusercontent.com/1728657/310742115-bedae1db-"
+"c12e-498c-"
+"92f0-d29033ed688d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ3ODExMzEsIm5iZiI6MTcxNDc4MDgzMSwicGF0aCI6Ii8xNzI4NjU3LzMxMDc0MjExNS1iZWRhZTFkYi1jMTJlLTQ5OGMtOTJmMC1kMjkwMzNlZDY4OGQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDUwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA1MDRUMDAwMDMxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NDAwNzhkMTZmYWMyYWMzNmY2OGYzYmExYmVjMTIwODc0M2MxZmY2MTYxNDdhZDE4MTllNmE4ZTBiNGM0OGVkZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.p5brLWqaOm7X8iPkpdEHdI1prOr0gshIFx5E7Mq8n8c\"><img"
+" src=\"https://private-user-"
+"images.githubusercontent.com/1728657/310742115-bedae1db-c12e-498c-"
+"92f0-d29033ed688d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ3ODExMzEsIm5iZiI6MTcxNDc4MDgzMSwicGF0aCI6Ii8xNzI4NjU3LzMxMDc0MjExNS1iZWRhZTFkYi1jMTJlLTQ5OGMtOTJmMC1kMjkwMzNlZDY4OGQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDUwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA1MDRUMDAwMDMxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NDAwNzhkMTZmYWMyYWMzNmY2OGYzYmExYmVjMTIwODc0M2MxZmY2MTYxNDdhZDE4MTllNmE4ZTBiNGM0OGVkZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.p5brLWqaOm7X8iPkpdEHdI1prOr0gshIFx5E7Mq8n8c\""
+" alt=\"qfield32\" content-type-secured-asset=\"image/png\" style=\"max-"
+"width: 100%;\"></a></p>\n"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md:15
+msgid ""
+"<h3>🚀 Features</h3>\n"
+"<ul>\n"
+"<li>Project-defined tracking sessions activated on project load</li>\n"
+"<li>Background push and synchronization for cloud projects</li>\n"
+"<li>Automatically push pending changes to the cloud on a regular "
+"interval</li>\n"
+"<li>New undo/redo functionality allowing you to reverse undesired "
+"digitizing and feature editing</li>\n"
+"<li>Title and copyright decoration overlay on top of the map canvas</li>\n"
+"</ul>\n"
+"<h3>✨ Improvements</h3>\n"
+"<ul>\n"
+"<li>Better progress feedback when  downloading and synchronizing cloud "
+"projects</li>\n"
+"<li>Visual indicators of ‘newer’ cloud project available on the server in"
+" QField</li>\n"
+"<li>Relationship’s children can now be created <em>prior to</em> saving "
+"their parent feature</li>\n"
+"<li>Insure positioning precise view (i.e. stake-out) works on compass-"
+"less devices</li>\n"
+"<li>User interface polishing, including a brand new main menu layout</li>"
+"\n"
+"<li>Support for gpsd-served NMEA streams over TCP/UDP</li>\n"
+"<li>Updated several underlying libraries, including QGIS (v3.36) and Qt "
+"(v6.6.2)</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/v3.2.0.md:34
+msgid ""
+"<h3>🤖 Android improvements</h3>\n"
+"<ul>\n"
+"<li>Massive re-work of native camera, gallery, and file opening "
+"activities unlocking proper OS activity overlay</li>\n"
+"</ul>\n"
+msgstr ""
+

@@ -1,0 +1,108 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/qgis-3-30-s-hertogenbosch-is-"
+"released.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md
+msgid "QGIS Project blog: QGIS 3.30 ‘s-Hertogenbosch is released!"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md
+msgid "qgis-3-30-s-hertogenbosch-is-released."
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md
+msgid "2023-03-06"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md
+msgid "https://blog.qgis.org/2023/03/07/qgis-3-30-s-hertogenbosch-is-released/"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md:11
+msgid ""
+"<p>We are pleased to announce the release of QGIS 3.30 "
+"&#8216;s-Hertogenbosch!</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md:15
+msgid ""
+"<p><a href=\"https://qgis.org/en/site/forusers/download.html\">Installers"
+" for all supported operating systems </a>are already out. QGIS 3.30 comes"
+" with tons of new features, as you can see in <a "
+"href=\"https://qgis.org/en/site/forusers/visualchangelog330/\">our visual"
+" changelog</a>. QGIS 3.30 &#8216;s-Hertogenbosch is named after this "
+"year&#8217;s QGIS user conference and contributor meeting host city.</p>"
+"\n"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md:19
+msgid ""
+"<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-"
+"block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class"
+"=\"wp-block-embed__wrapper\">\n"
+"<div class=\"jetpack-video-wrapper\"><iframe class=\"youtube-player\" "
+"width=\"780\" height=\"439\" "
+"src=\"https://www.youtube.com/embed/q7O819lFKc4?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent\""
+" allowfullscreen=\"true\" style=\"border:0;\" sandbox=\"allow-scripts "
+"allow-same-origin allow-popups allow-presentation\"></iframe></div>\n"
+"</div></figure>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md:25
+msgid ""
+"<p>We would like to thank the developers, documenters, testers and all "
+"the many folks out there who volunteer their time and effort (or fund "
+"people to do so). From the QGIS community we hope you enjoy this release!"
+" If you wish to donate time, money or otherwise get involved in making "
+"QGIS more awesome, please wander along to <a class=\"reference external\""
+" href=\"http://qgis.org/\">qgis.org</a> and lend a hand!</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md:29
+msgid ""
+"<p>QGIS is supported by donors and sustaining members. A current list of "
+"donors who have made financial contributions large and small to the "
+"project can be seen on our <a class=\"reference external\" "
+"href=\"http://qgis.org/en/site/about/sponsorship.html#list-of-"
+"donors\">donors list</a>. If you would like to become a sustaining "
+"member, please visit <a class=\"reference external\" "
+"href=\"http://qgis.org/en/site/about/sponsorship.html#sponsorship\">our "
+"page for sustaining members</a> for details. Your support helps us fund "
+"our six monthly developer meetings, maintain project infrastructure and "
+"fund bug fixing efforts.</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-3-30-s-hertogenbosch-is-released.md:33
+msgid ""
+"<p>QGIS is Free software and you are under no obligation to pay anything "
+"to use it &#8211; in fact we want to encourage people far and wide to use"
+" it regardless of what your financial or social status is &#8211; we "
+"believe empowering people with spatial decision making tools will result "
+"in a better society for all of humanity.</p>\n"
+msgstr ""
+

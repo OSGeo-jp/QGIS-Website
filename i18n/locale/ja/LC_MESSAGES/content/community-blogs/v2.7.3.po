@@ -1,0 +1,56 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v2.7.3.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/v2.7.3.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v2.7.3.md
+msgid "QField releases: 2.7.3 - Heroic Hedgehog"
+msgstr ""
+
+#: content/community-blogs/v2.7.3.md
+msgid "v2.7.3.3"
+msgstr ""
+
+#: content/community-blogs/v2.7.3.md
+msgid "2023-03-31"
+msgstr ""
+
+#: content/community-blogs/v2.7.3.md
+msgid "https://github.com/opengisch/QField/releases/tag/v2.7.3"
+msgstr ""
+
+#: content/community-blogs/v2.7.3.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v2.7.3.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v2.7.3.md:11
+msgid ""
+"<h2>Changes</h2>\n"
+"<h3><g-emoji class=\"g-emoji\" alias=\"bug\" fallback-"
+"src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png\">🐛</g-emoji>"
+" Bug Fixes</h3>\n"
+"<ul>\n"
+"<li>Significant improvement in Bluetooth connection reliability</li>\n"
+"<li>Dark theme tweaks</li>\n"
+"</ul>\n"
+msgstr ""
+

@@ -1,0 +1,40 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/conf.qgis.osgeo.fr.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/conf.qgis.osgeo.fr.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/conf.qgis.osgeo.fr.md
+msgid "Rencontres des Utilisateurs Francophones de QGIS - édition 2023"
+msgstr ""
+
+#: content/community-blogs/conf.qgis.osgeo.fr.md
+msgid "conf.qgis.osgeo.fr."
+msgstr ""
+
+#: content/community-blogs/conf.qgis.osgeo.fr.md
+msgid "https://conf.qgis.osgeo.fr/"
+msgstr ""
+
+#: content/community-blogs/conf.qgis.osgeo.fr.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/conf.qgis.osgeo.fr.md
+msgid "qug"
+msgstr ""
+

@@ -1,0 +1,44 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/showcase/user-group-events.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/showcase/user-group-events.md
+msgid "page"
+msgstr ""
+
+#: content/showcase/user-group-events.md
+msgid "QGIS User Group Events"
+msgstr ""
+
+#: content/showcase/user-group-events.md
+msgid "Updates from user groups around the world"
+msgstr ""
+
+#: content/showcase/user-group-events.md
+msgid "true"
+msgstr ""
+
+#: content/showcase/user-group-events.md
+msgid "img/banners/banner3.png"
+msgstr ""
+
+#: content/showcase/user-group-events.md
+msgid "showcase"
+msgstr ""
+
+#: content/showcase/user-group-events.md:11
+msgid "{{< blogroll showcase=\"qug\">}}"
+msgstr ""
+

@@ -1,0 +1,66 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funding/membership/members.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/funding/membership/members.md
+msgid "page"
+msgstr ""
+
+#: content/funding/membership/members.md
+#: content/funding/membership/members.md:12
+msgid "Members and Donors"
+msgstr ""
+
+#: content/funding/membership/members.md
+msgid "img/involve.jpg"
+msgstr ""
+
+#: content/funding/membership/members.md:10
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/funding/membership/members.md:13
+msgid ""
+"We thank our sustaining members and donors who support the QGIS project, "
+"often regularly, and enable us to pay for our infrastructure and "
+"important development work, as well as finance developer meetings and "
+"promotion of QGIS in workshops and conferences."
+msgstr ""
+
+#: content/funding/membership/members.md:15
+msgid ""
+"{{< rich-box-start icon=\"💁\" layoutClass=\"tips\">}} {{< rich-content-"
+"start themeClass=\"coloring-2\" >}}"
+msgstr ""
+
+#: content/funding/membership/members.md:17
+msgid "How become a sustaining member?"
+msgstr ""
+
+#: content/funding/membership/members.md:18
+msgid ""
+"For information on becoming a sustaining member, please visit [Sustaining"
+" Membership Program Overview]({{< ref \"/funding/membership\" >}}). {{< "
+"rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/funding/membership/members.md:23
+msgid "{{< fund type=\"active\" >}}"
+msgstr ""
+
+#: content/funding/membership/members.md:27
+msgid "{{< content-end >}}"
+msgstr ""
+

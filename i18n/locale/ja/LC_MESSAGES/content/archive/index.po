@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/archive/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/archive/index.md
+msgid "page"
+msgstr ""
+
+#: content/archive/index.md content/archive/index.md:13
+msgid "Archive"
+msgstr ""
+
+#: content/archive/index.md
+msgid "1 June 2024"
+msgstr ""
+
+#: content/archive/index.md
+msgid "Tim Sutton"
+msgstr ""
+
+#: content/archive/index.md:11
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/archive/index.md:15
+msgid "Previous releases of QGIS are available at the following locations:"
+msgstr ""
+
+#: content/archive/index.md:17
+msgid "[QGIS.org hosted downloads](/downloads)"
+msgstr ""
+
+#: content/archive/index.md:18
+msgid "[Older releases for macOS / OS X](/downloads/macOS/)"
+msgstr ""
+
+#: content/archive/index.md:19
+msgid "[OSGeo hosted downloads](https://download.osgeo.org/qgis/)"
+msgstr ""
+
+#: content/archive/index.md:20
+msgid ""
+"[Legacy 'Kyngchaos' macOS / OS X "
+"downloads](https://www.kyngchaos.com/software/archive/)."
+msgstr ""
+
+#: content/archive/index.md:22
+msgid ""
+"Plugins for QGIS are also available [at "
+"plugins.qgis.org](https://plugins.qgis.org/plugins/)."
+msgstr ""
+
+#: content/archive/index.md:26
+msgid "{{< content-end >}}"
+msgstr ""
+

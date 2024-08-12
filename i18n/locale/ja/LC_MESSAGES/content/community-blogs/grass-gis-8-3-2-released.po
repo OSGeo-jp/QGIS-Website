@@ -1,0 +1,56 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/grass-gis-8-3-2-released.md "
+"1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: content/community-blogs/grass-gis-8-3-2-released.md
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-2-released.md
+msgid "Markus Neteler: GRASS GIS 8.3.2 released"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-2-released.md
+msgid "grass-gis-8-3-2-released."
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-2-released.md
+msgid "2024-03-12"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-2-released.md
+msgid "https://neteler.org/blog/grass-gis-8-3-2-released/"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-2-released.md
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-2-released.md
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-2-released.md:11
+msgid ""
+"<p>The GRASS GIS 8.3.2 maintenance release contains more than 30 changes "
+"compared to 8.3.1. This new patch release includes important fixes and "
+"improvements to the GRASS GIS modules and the graphical user interface "
+"(GUI), making it even more stable for daily work.</p>\n"
+"<p>The post <a href=\"https://neteler.org/blog/grass-"
+"gis-8-3-2-released/\">GRASS GIS 8.3.2 released</a> appeared first on <a "
+"href=\"https://neteler.org\">Markus Neteler Consulting</a>.</p>\n"
+msgstr ""
+
