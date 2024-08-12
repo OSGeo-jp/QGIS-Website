@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/qgiscloud-map-slow.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/qgiscloud-map-slow.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-map-slow.md:0
+msgid "Sourcepole: My QGIS Cloud Map is slow. How can I make it faster?"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-map-slow.md:0
+msgid "qgiscloud-map-slow."
+msgstr ""
+
+#: content/community-blogs/qgiscloud-map-slow.md:0
+msgid "2024-05-02"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-map-slow.md:0
+msgid "https://blog.sourcepole.ch/2024/05/02/qgiscloud-map-slow/"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-map-slow.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-map-slow.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-map-slow.md:11
+msgid ""
+"QGIS Cloud Support is repeatedly asked: ‘Why is my QGIS Cloud map so slow "
+"and what can I do to make it faster?’ Basically, the bottlenecks can be "
+"traced back to poor data management and/or a slow internet connection. In "
+"this short blog article, I would like to give you a few tips on what you can"
+" do to speed up a slow loading map. Optimise the data Make sure that your "
+"database is optimised and that you only use the necessary data in your web "
+"map."
+msgstr ""

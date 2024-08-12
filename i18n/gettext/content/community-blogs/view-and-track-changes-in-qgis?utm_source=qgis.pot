@@ -1,0 +1,48 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/view-and-track-changes-in-qgis?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/view-and-track-changes-in-qgis?utm_source=qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/view-and-track-changes-in-qgis?utm_source=qgis.md:0
+msgid "Mergin Maps: [Blog] View and track changes in QGIS"
+msgstr ""
+
+#: content/community-blogs/view-and-track-changes-in-qgis?utm_source=qgis.md:0
+msgid "view-and-track-changes-in-qgis?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/view-and-track-changes-in-qgis?utm_source=qgis.md:0
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/view-and-track-changes-in-qgis?utm_source=qgis.md:0
+msgid ""
+"https://merginmaps.com/blog/view-and-track-changes-in-qgis?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/view-and-track-changes-in-qgis?utm_source=qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/view-and-track-changes-in-qgis?utm_source=qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/view-and-track-changes-in-qgis?utm_source=qgis.md:11
+msgid ""
+"With the recent changes to the Mergin Maps plugin for QGIS, you can "
+"visualise the local changes before synchronising your data. Read more in our"
+" blog post!"
+msgstr ""

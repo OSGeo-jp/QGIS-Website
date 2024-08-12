@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/qgiscloud-externe-services.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/qgiscloud-externe-services.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-externe-services.md:0
+msgid "Sourcepole: Adding external WMS to the QGIS Cloud Web Map"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-externe-services.md:0
+msgid "qgiscloud-externe-services."
+msgstr ""
+
+#: content/community-blogs/qgiscloud-externe-services.md:0
+msgid "2024-07-23"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-externe-services.md:0
+msgid "https://blog.sourcepole.ch/2024/07/23/qgiscloud-externe-services/"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-externe-services.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-externe-services.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-externe-services.md:11
+msgid ""
+"The use of WMS/WMTS layers in a QGIS Cloud map project can significantly "
+"degrade the performance of the map display. I have already discussed how to "
+"counter this problem in an earlier post. One of the solutions is to load "
+"external WMS as background layers. The problem with this approach, however, "
+"is that only one WMS background layer can be loaded at a time. If further "
+"WMS layers are to be loaded into the map at the same time, this approach "
+"cannot be used."
+msgstr ""

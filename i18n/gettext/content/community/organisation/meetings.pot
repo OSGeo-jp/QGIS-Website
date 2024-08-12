@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community/organisation/meetings.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community/organisation/meetings.md:0
+msgid "list"
+msgstr ""
+
+#: content/community/organisation/meetings.md:0
+#: content/community/organisation/meetings.md:13
+msgid "Meetings"
+msgstr ""
+
+#: content/community/organisation/meetings.md:0
+msgid "4 June 2024"
+msgstr ""
+
+#: content/community/organisation/meetings.md:0
+msgid "Tim Sutton"
+msgstr ""
+
+#: content/community/organisation/meetings.md:11
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/community/organisation/meetings.md:14
+msgid ""
+"Since 2009 the QGIS community has been organizing developer and user "
+"meetings around the world."
+msgstr ""
+
+#: content/community/organisation/meetings.md:16
+msgid "{{< columns-start >}} {{< column-start>}}"
+msgstr ""
+
+#: content/community/organisation/meetings.md:19
+msgid "{{< rich-box-start >}} {{< rich-content-start themeClass=\"coloring-6\">}}"
+msgstr ""
+
+#: content/community/organisation/meetings.md:21
+msgid "Developer Meetings"
+msgstr ""
+
+#: content/community/organisation/meetings.md:22
+msgid "[Go to meetings](dev_meetings)"
+msgstr ""
+
+#: content/community/organisation/meetings.md:24
+msgid ""
+"{{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< column-"
+"start>}}"
+msgstr ""
+
+#: content/community/organisation/meetings.md:29
+msgid ""
+"{{< rich-box-start >}} {{< rich-content-start themeClass=\"coloring-6\" >}}"
+msgstr ""
+
+#: content/community/organisation/meetings.md:31
+msgid "Users Meetings"
+msgstr ""
+
+#: content/community/organisation/meetings.md:33
+msgid ""
+"[Go to meetings](user_meetings) {{< rich-content-end >}} {{< rich-box-end "
+">}} {{< column-end >}} {{< columns-end >}}"
+msgstr ""
+
+#: content/community/organisation/meetings.md:41
+msgid ""
+"{{< rich-box-start icon=\"💁\" layoutClass=\"tips\">}} {{< rich-content-start"
+" themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/community/organisation/meetings.md:43
+msgid "Do you want to organize a new meeting?"
+msgstr ""
+
+#: content/community/organisation/meetings.md:44
+msgid ""
+"The organization of events happens on the [QGIS "
+"wiki](https://github.com/qgis/QGIS/wiki#qgis-hackfests). {{< rich-content-"
+"end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/community/organisation/meetings.md:49
+msgid "{{< content-end >}}"
+msgstr ""

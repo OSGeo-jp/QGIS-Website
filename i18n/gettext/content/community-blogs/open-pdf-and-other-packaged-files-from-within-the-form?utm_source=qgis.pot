@@ -1,0 +1,56 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis.md:0
+msgid ""
+"Mergin Maps: [Changelog] Open PDF and other packaged files from within the "
+"form"
+msgstr ""
+
+#: content/community-blogs/open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis.md:0
+msgid ""
+"open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis.md:0
+msgid "2024-06-04"
+msgstr ""
+
+#: content/community-blogs/open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis.md:0
+msgid ""
+"https://wishlist.merginmaps.com/changelog/open-pdf-and-other-packaged-files-"
+"from-within-the-form?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/open-pdf-and-other-packaged-files-from-within-the-form?utm_source=qgis.md:11
+msgid ""
+"<p>PDF and other files can now be opened from within the feature form. Use "
+"an HTML link with the address "
+"<code>project://&lt;path_to_file_within_project&gt;</code> to open packaged "
+"files! HTML links can be placed inside an HTML widget or a multiline text "
+"editor.</p><p></p><img "
+"src=\"https://vault.featureos.app/uploads/attachment/upload/thumb-9aed1f5d41a10cd02c07c2ec5d562023.gif\""
+" />\n"
+msgstr ""

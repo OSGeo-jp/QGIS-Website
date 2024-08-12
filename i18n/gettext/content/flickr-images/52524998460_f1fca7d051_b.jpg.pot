@@ -1,0 +1,42 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/flickr-images/52524998460_f1fca7d051_b.jpg.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/flickr-images/52524998460_f1fca7d051_b.jpg.md:0
+msgid "flickr"
+msgstr ""
+
+#: content/flickr-images/52524998460_f1fca7d051_b.jpg.md:0
+msgid ""
+"Where people live in Estonia. Relative height of houses.  #30DayMapChallenge"
+" 14. and 21.11.2022 Hexagons and Data: Kontur Population Dataset"
+msgstr ""
+
+#: content/flickr-images/52524998460_f1fca7d051_b.jpg.md:0
+msgid "52524998460_f1fca7d051_b.jpg.jpg"
+msgstr ""
+
+#: content/flickr-images/52524998460_f1fca7d051_b.jpg.md:0
+msgid "2022-11-26"
+msgstr ""
+
+#: content/flickr-images/52524998460_f1fca7d051_b.jpg.md:0
+msgid "https://live.staticflickr.com/65535/52524998460_f1fca7d051_b.jpg"
+msgstr ""
+
+#: content/flickr-images/52524998460_f1fca7d051_b.jpg.md:0
+msgid "false"
+msgstr ""
+
+#: content/flickr-images/52524998460_f1fca7d051_b.jpg.md:0
+msgid "screenshot"
+msgstr ""

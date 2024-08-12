@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/hello-world.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/hello-world.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/hello-world.md:0
+msgid "QGIS NL Community: Hello world!"
+msgstr ""
+
+#: content/community-blogs/hello-world.md:0
+msgid "hello-world."
+msgstr ""
+
+#: content/community-blogs/hello-world.md:0
+msgid "2024-02-08"
+msgstr ""
+
+#: content/community-blogs/hello-world.md:0
+msgid "https://qgis.nl/uncategorized/hello-world/"
+msgstr ""
+
+#: content/community-blogs/hello-world.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/hello-world.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/hello-world.md:11
+msgid ""
+"<p>Welcome to WordPress. This is your first post. Edit or delete it, then "
+"start writing!</p>\n"
+msgstr ""

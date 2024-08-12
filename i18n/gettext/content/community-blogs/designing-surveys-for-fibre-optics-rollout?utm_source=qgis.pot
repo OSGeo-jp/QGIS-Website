@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/designing-surveys-for-fibre-optics-rollout?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/designing-surveys-for-fibre-optics-rollout?utm_source=qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/designing-surveys-for-fibre-optics-rollout?utm_source=qgis.md:0
+msgid "Mergin Maps: [Case Study] Designing surveys for fibre optics rollout"
+msgstr ""
+
+#: content/community-blogs/designing-surveys-for-fibre-optics-rollout?utm_source=qgis.md:0
+msgid "designing-surveys-for-fibre-optics-rollout?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/designing-surveys-for-fibre-optics-rollout?utm_source=qgis.md:0
+msgid "2024-02-26"
+msgstr ""
+
+#: content/community-blogs/designing-surveys-for-fibre-optics-rollout?utm_source=qgis.md:0
+msgid ""
+"https://merginmaps.com/case-studies/designing-surveys-for-fibre-optics-"
+"rollout?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/designing-surveys-for-fibre-optics-rollout?utm_source=qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/designing-surveys-for-fibre-optics-rollout?utm_source=qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/designing-surveys-for-fibre-optics-rollout?utm_source=qgis.md:11
+msgid ""
+"Jacops was starting a new project for the fiber rollout and needed the tools"
+" to organise a national survey. Previously they had used tools provided by a"
+" partner and needed to find a solution that allowed them to manage the full "
+"scope of the project."
+msgstr ""

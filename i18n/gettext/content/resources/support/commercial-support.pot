@@ -1,0 +1,86 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/resources/support/commercial-support.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/resources/support/commercial-support.md:0
+msgid "page"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:0
+msgid "Commercial Support"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:9
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:11
+msgid "Commercial support"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:13
+msgid ""
+"Do you plan to use QGIS in your company or organization, but worry about "
+"whether there is commercial support available? Are you looking for a "
+"developer to add features you need or fix bugs you encounter? Here is an "
+"alphabetical list, divided in categories, of support contractors."
+msgstr ""
+
+#: content/resources/support/commercial-support.md:15
+msgid ""
+"{{< rich-box-start icon=\"🦸\" layoutClass=\"tips\">}} {{< rich-content-start"
+" themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:17
+msgid "Note"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:18
+msgid ""
+"we take responsibility for the accuracy, reliability or completeness of the "
+"provided information for **Core contributors** only. {{< rich-content-end "
+">}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:23
+msgid "Core contributors"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:25
+#: content/resources/support/commercial-support.md:31
+msgid "In lexical order:"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:27
+msgid "{{< commercial-support dataFile=\"core_contributors\" >}}"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:29
+msgid "Contributors"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:33
+msgid "{{< commercial-support dataFile=\"contributors\" >}}"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:35
+msgid "Others"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:37
+msgid "{{< commercial-support dataFile=\"others\" >}}"
+msgstr ""
+
+#: content/resources/support/commercial-support.md:39
+msgid "{{< content-end >}}"
+msgstr ""

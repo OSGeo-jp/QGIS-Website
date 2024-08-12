@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/?lang=en.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/?lang=en.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/?lang=en.md:0
+msgid "QGIS NL Community: New version of PDOKServiceplugin"
+msgstr ""
+
+#: content/community-blogs/?lang=en.md:0
+msgid "?lang=en."
+msgstr ""
+
+#: content/community-blogs/?lang=en.md:0
+msgid "2023-12-22"
+msgstr ""
+
+#: content/community-blogs/?lang=en.md:0
+msgid ""
+"https://qgis.nl/2023/12/22/pdokserviceplugin-met-openbasiskaart-en-"
+"vectortiles/?lang=en"
+msgstr ""
+
+#: content/community-blogs/?lang=en.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/?lang=en.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/?lang=en.md:11
+msgid "Sorry, mostly interested for dutch readers"
+msgstr ""

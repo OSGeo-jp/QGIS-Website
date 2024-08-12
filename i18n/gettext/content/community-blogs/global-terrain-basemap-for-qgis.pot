@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/global-terrain-basemap-for-qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/global-terrain-basemap-for-qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/global-terrain-basemap-for-qgis.md:0
+msgid "maptiler.com: Global terrain basemap for QGIS"
+msgstr ""
+
+#: content/community-blogs/global-terrain-basemap-for-qgis.md:0
+msgid "global-terrain-basemap-for-qgis."
+msgstr ""
+
+#: content/community-blogs/global-terrain-basemap-for-qgis.md:0
+msgid "2023-12-21"
+msgstr ""
+
+#: content/community-blogs/global-terrain-basemap-for-qgis.md:0
+msgid "https://www.maptiler.com/news/2022/02/global-terrain-basemap-for-qgis"
+msgstr ""
+
+#: content/community-blogs/global-terrain-basemap-for-qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/global-terrain-basemap-for-qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/global-terrain-basemap-for-qgis.md:11
+msgid ""
+"Details of MapTiler QGIS Plugin 3.0 with a global terrain basemap and "
+"customizable OpenStreetMap vector tiles."
+msgstr ""

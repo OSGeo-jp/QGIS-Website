@@ -1,0 +1,67 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:0
+msgid ""
+"QGIS Project blog: Getting ready for our user conference and contributor "
+"meeting in ‘s-Hertogenbosch"
+msgstr ""
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:0
+msgid ""
+"getting-ready-for-our-user-conference-and-contributor-meeting-in-s-"
+"hertogenbosch."
+msgstr ""
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:0
+msgid "2023-02-27"
+msgstr ""
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:0
+msgid ""
+"https://blog.qgis.org/2023/02/27/getting-ready-for-our-user-conference-and-"
+"contributor-meeting-in-s-hertogenbosch/"
+msgstr ""
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:11
+msgid ""
+"<p>In a few weeks, our 25th Contributor Meeting and International QGIS User "
+"Conference  <a href=\"https://uc2023.qgis.nl/\">uc2023.qgis.nl</a> will take"
+" off on 18 April.</p>\n"
+msgstr ""
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:15
+msgid ""
+"<p>Register or become a speaker yourself. For details on all the exciting "
+"opportunities to get involved, check out the introduction by our awesome "
+"organizing team:</p>\n"
+msgstr ""
+
+#: content/community-blogs/getting-ready-for-our-user-conference-and-contributor-meeting-in-s-hertogenbosch.md:19
+msgid ""
+"<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n"
+"<div class=\"embed-youtube\"><iframe title=\"QGIS User Conference 2023\" width=\"780\" height=\"439\" src=\"https://www.youtube.com/embed/g3ADPpXvGDg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n"
+"</div></figure>\n"
+msgstr ""

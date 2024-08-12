@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/enhanced-viewing-zoom-feature-now-available-in-the-mobile-app?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/enhanced-viewing-zoom-feature-now-available-in-the-mobile-app?utm_source=qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/enhanced-viewing-zoom-feature-now-available-in-the-mobile-app?utm_source=qgis.md:0
+msgid ""
+"Mergin Maps: [Changelog] Enhanced viewing: zoom feature now available in the"
+" mobile app"
+msgstr ""
+
+#: content/community-blogs/enhanced-viewing-zoom-feature-now-available-in-the-mobile-app?utm_source=qgis.md:0
+msgid ""
+"enhanced-viewing-zoom-feature-now-available-in-the-mobile-"
+"app?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/enhanced-viewing-zoom-feature-now-available-in-the-mobile-app?utm_source=qgis.md:0
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/enhanced-viewing-zoom-feature-now-available-in-the-mobile-app?utm_source=qgis.md:0
+msgid ""
+"https://wishlist.merginmaps.com/changelog/enhanced-viewing-zoom-feature-now-"
+"available-in-the-mobile-app?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/enhanced-viewing-zoom-feature-now-available-in-the-mobile-app?utm_source=qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/enhanced-viewing-zoom-feature-now-available-in-the-mobile-app?utm_source=qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/enhanced-viewing-zoom-feature-now-available-in-the-mobile-app?utm_source=qgis.md:11
+msgid ""
+"<p>In our latest mobile app update, we've added an enhanced viewing feature "
+"that allows users to smoothly zoom in and out of images. This new "
+"functionality provides a more detailed and flexible viewing experience, "
+"letting you focus on intricate details or take in the big picture with ease."
+" Navigate your visual data with precision and control!</p><img "
+"src=\"https://vault.featureos.app/uploads/attachment/upload/thumb-e64e44810b242ba9627d61b042e4b4f0.gif\""
+" /><p></p><p></p><p></p>\n"
+msgstr ""

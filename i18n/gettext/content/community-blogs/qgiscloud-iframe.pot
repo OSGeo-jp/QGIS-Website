@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/qgiscloud-iframe.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/qgiscloud-iframe.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-iframe.md:0
+msgid "Sourcepole: Integrate a QGIS Cloud Map into a Web Page"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-iframe.md:0
+msgid "qgiscloud-iframe."
+msgstr ""
+
+#: content/community-blogs/qgiscloud-iframe.md:0
+msgid "2023-05-10"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-iframe.md:0
+msgid "https://blog.sourcepole.ch/2023/05/10/qgiscloud-iframe/"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-iframe.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-iframe.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/qgiscloud-iframe.md:11
+msgid ""
+"After a beautiful map has been created with QGIS and published on "
+"https://qgiscloud.com, the desire quickly arises to integrate this map into "
+"one&rsquo;s own website. This way, visitors to the website could access the "
+"map directly and without having to go via https://qgiscloud.com. With a "
+"little HTML, this is easy to do. But let&rsquo;s start from the beginning. "
+"Make a QGIS Cloud Map As always with QGIS Cloud, a map must first be "
+"published."
+msgstr ""

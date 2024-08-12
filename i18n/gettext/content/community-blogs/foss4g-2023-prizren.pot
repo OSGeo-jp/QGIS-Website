@@ -1,0 +1,47 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/foss4g-2023-prizren.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/foss4g-2023-prizren.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/foss4g-2023-prizren.md:0
+msgid "Sourcepole: FOSS4G 2023 Prizren"
+msgstr ""
+
+#: content/community-blogs/foss4g-2023-prizren.md:0
+msgid "foss4g-2023-prizren."
+msgstr ""
+
+#: content/community-blogs/foss4g-2023-prizren.md:0
+msgid "2023-07-04"
+msgstr ""
+
+#: content/community-blogs/foss4g-2023-prizren.md:0
+msgid "https://blog.sourcepole.ch/2023/07/04/foss4g-2023-prizren/"
+msgstr ""
+
+#: content/community-blogs/foss4g-2023-prizren.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/foss4g-2023-prizren.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/foss4g-2023-prizren.md:11
+msgid ""
+"<p>FOSS4G is the annual global event of free and open source geographic "
+"technologies and open geospatial data hosted by OSGeo. In 2023 it took place"
+" in Prizren, Kosovo.</p>\n"
+msgstr ""

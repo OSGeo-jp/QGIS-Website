@@ -1,0 +1,90 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v3.0.0.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/v3.0.0.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v3.0.0.md:0
+msgid "QField releases: 3.0.0 - Amazonia"
+msgstr ""
+
+#: content/community-blogs/v3.0.0.md:0
+msgid "v3.0.0.0"
+msgstr ""
+
+#: content/community-blogs/v3.0.0.md:0
+msgid "2023-10-09"
+msgstr ""
+
+#: content/community-blogs/v3.0.0.md:0
+msgid "https://github.com/opengisch/QField/releases/tag/v3.0.0"
+msgstr ""
+
+#: content/community-blogs/v3.0.0.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v3.0.0.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v3.0.0.md:11
+msgid ""
+"<h2>Changes</h2>\n"
+"<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/opengisch/QField/assets/1728657/ea4dcbc3-00f2-485b-b505-480d58d0d221\"><img src=\"https://github.com/opengisch/QField/assets/1728657/ea4dcbc3-00f2-485b-b505-480d58d0d221\" alt=\"30splash\" style=\"max-width: 100%;\"></a></p>\n"
+"<h3>🚀 Features</h3>\n"
+"<p><em>General features:</em></p>\n"
+"<ul>\n"
+"<li>Near-Field Communication (NFC) text tag reading support</li>\n"
+"<li>The welcome screen’s recent projects list is now equipped with a map canvas preview</li>\n"
+"<li>New active layer feature search functionality in the top search bar</li>\n"
+"<li>New map canvas rendering quality setting to unlocked faster rendering speeds and lower memory usage at the cost of a slightly rendering quality reduction</li>\n"
+"<li>A list of feature(s) under which a long press has occurred is now appended to the map canvas menu with action shortcuts</li>\n"
+"<li>Relationship-related editor widgets now allows for zooming onto the child/parent within the feature form</li>\n"
+"<li>Layer credits are now displayed within the layer properties panel when available in opened projects</li>\n"
+"<li>Imperial and nautical scale bar support</li>\n"
+"<li>Feature form text widget support</li>\n"
+"</ul>\n"
+"<p><em>Tracking features:</em></p>\n"
+"<ul>\n"
+"<li>New erroneous position safeguard defined as a maximum distance threshold</li>\n"
+"<li>Resumption of tracking across sessions</li>\n"
+"</ul>\n"
+"<p><em>Digitizing features:</em></p>\n"
+"<ul>\n"
+"<li>New snapping button which allows users to toggle snapping on/off while digitizing</li>\n"
+"<li>New legend snapping badges when project is set up to advanced snapping mode</li>\n"
+"<li>Digitizing of geometry vertices through volume keys</li>\n"
+"<li>Brand new geometry editor’s eraser tool allowing users to remove parts of a geometry by drawing areas of deletion</li>\n"
+"</ul>\n"
+"<h3>✨ Improvements</h3>\n"
+"<p><em>QField built against Qt6:</em></p>\n"
+"<ul>\n"
+"<li>Dramatically improved Material theme used to style UI elements such as combo boxes</li>\n"
+"<li>Improved dark theme color scheme</li>\n"
+"<li>Improved internal positioning handling of satellite information</li>\n"
+"<li>Years worth of fixes and improves when compared to the previously used version</li>\n"
+"</ul>\n"
+"<p><em>Quality of life improvements:</em></p>\n"
+"<ul>\n"
+"<li>The value relation editor widget has received several fixes and UX improvements</li>\n"
+"<li>When duplicating features, users are now asked to move the duplicated feature immediately</li>\n"
+"<li>Duplication of features will now copy any children of any existing relationships set to composition strength</li>\n"
+"<li>Missing project fonts are now downloaded in the background and automatically added into QField</li>\n"
+"<li>Labels visibility on vector tile layers can now be toggle on/off</li>\n"
+"<li>QField now exports layouts as PDFs on iOS</li>\n"
+"<li>Improvements in the handling of altitude with external GNSS receivers</li>\n"
+"<li>Countless optimizations have made QField’s UI smoother than ever</li>\n"
+"</ul>\n"
+msgstr ""

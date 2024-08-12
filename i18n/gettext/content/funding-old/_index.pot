@@ -1,0 +1,98 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funding-old/_index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/funding-old/_index.md:0 content/funding-old/_index.md:0
+msgid "funding"
+msgstr ""
+
+#: content/funding-old/_index.md:0
+msgid "2023-01-18"
+msgstr ""
+
+#: content/funding-old/_index.md:0
+msgid "QGIS Funding"
+msgstr ""
+
+#: content/funding-old/_index.md:0
+msgid "Funding avenues that support our work."
+msgstr ""
+
+#: content/funding-old/_index.md:0
+msgid "true"
+msgstr ""
+
+#: content/funding-old/_index.md:0
+msgid "Funding"
+msgstr ""
+
+#: content/funding-old/_index.md:0
+msgid "donations"
+msgstr ""
+
+#: content/funding-old/_index.md:0
+msgid "sustaining-members"
+msgstr ""
+
+#: content/funding-old/_index.md:0
+msgid "shop"
+msgstr ""
+
+#: content/funding-old/_index.md:17
+msgid ""
+"{{< content-start >}} QGIS is a community project, and although we make the "
+"software available for free, it is not free to develop. Creating an "
+"excellent software application like QGIS requires time and skills for many "
+"contributors around the world, and the maintainance of expensive "
+"infrastructure like download servers and backend systems. We encourage you "
+"to read more about the [value proposition](../value-proposition/) for QGIS "
+"and then support us financially in any way that you can, using the options "
+"below. {{< content-end >}}"
+msgstr ""
+
+#: content/funding-old/_index.md:21
+msgid ""
+"{{< columns-start >}} {{< column-start class=\"is-half\">}} {{< block "
+"title=\"Donate.\" subtitle=\"Make a one-off donation to support our work.\" "
+"image=\"\" sub-block-side=\"bottom\" class=\"is-primary\"<br />title-"
+"size=\"is-4\" subtitle-size=\"is-6\" link=\"donate/\" link-text=\"Donate!\""
+msgstr ""
+
+#: content/funding-old/_index.md:33
+msgid ""
+"}}{{< /block >}} {{< column-end >}} {{< column-start class=\"is-half\" >}} "
+"{{< block title=\"Sustaining Members.\" subtitle=\"Create a recurring "
+"sustaining membership.\" image=\"\" sub-block-side=\"bottom\" class=\"is-"
+"danger\" title-size=\"is-4\" subtitle-size=\"is-6\"<br "
+"/>link=\"funding/sustaining-members/\" link-text=\"Subscribe!\" }}{{< /block"
+" >}} {{< column-end >}}"
+msgstr ""
+
+#: content/funding-old/_index.md:49
+msgid ""
+"{{< column-start class=\"is-half\">}} {{< block title=\"Shop.\" "
+"subtitle=\"Support our work and enjoy some QGIS branded products.\" "
+"image=\"\" sub-block-side=\"bottom\" class=\"is-warning\"<br />title-"
+"size=\"is-4\" subtitle-size=\"is-6\"<br "
+"/>link=\"https://shop.spreadshirt.net/qgis/\" link-text=\"Shop\""
+msgstr ""
+
+#: content/funding-old/_index.md:60
+msgid ""
+"}}{{< /block >}} {{< column-end >}} {{< column-start class=\"is-half\">}} "
+"{{< block title=\"Direct Engagement.\" subtitle=\"Hire community members "
+"directly to engage their services for the benefit of the QGIS project.\" "
+"image=\"\" sub-block-side=\"bottom\" class=\"is-success\"<br />title-"
+"size=\"is-4\" subtitle-size=\"is-6\"<br />link=\"contributors/\" link-"
+"text=\"Contributors\"<br />}}{{< /block >}} {{< column-end >}} {{< columns-"
+"end >}}"
+msgstr ""

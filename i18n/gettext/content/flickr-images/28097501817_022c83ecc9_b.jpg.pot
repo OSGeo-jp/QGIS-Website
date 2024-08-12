@@ -1,0 +1,40 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/flickr-images/28097501817_022c83ecc9_b.jpg.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/flickr-images/28097501817_022c83ecc9_b.jpg.md:0
+msgid "flickr"
+msgstr ""
+
+#: content/flickr-images/28097501817_022c83ecc9_b.jpg.md:0
+msgid "QGIS & SVG ranks Emojione"
+msgstr ""
+
+#: content/flickr-images/28097501817_022c83ecc9_b.jpg.md:0
+msgid "28097501817_022c83ecc9_b.jpg.jpg"
+msgstr ""
+
+#: content/flickr-images/28097501817_022c83ecc9_b.jpg.md:0
+msgid "2018-06-23"
+msgstr ""
+
+#: content/flickr-images/28097501817_022c83ecc9_b.jpg.md:0
+msgid "https://live.staticflickr.com/1800/28097501817_022c83ecc9_b.jpg"
+msgstr ""
+
+#: content/flickr-images/28097501817_022c83ecc9_b.jpg.md:0
+msgid "false"
+msgstr ""
+
+#: content/flickr-images/28097501817_022c83ecc9_b.jpg.md:0
+msgid "screenshot"
+msgstr ""

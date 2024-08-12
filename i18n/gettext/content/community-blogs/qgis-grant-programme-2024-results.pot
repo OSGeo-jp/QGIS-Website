@@ -1,0 +1,152 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/qgis-grant-programme-2024-results.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:0
+msgid "QGIS Project blog: QGIS Grant Programme 2024 Results"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:0
+msgid "qgis-grant-programme-2024-results."
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:0
+msgid "2024-05-01"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:0
+msgid "https://blog.qgis.org/2024/05/01/qgis-grant-programme-2024-results/"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:11
+msgid ""
+"<p>We are extremely pleased to announce the 5 winning proposals for our 2024"
+" QGIS.ORG grant programme:</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:15
+msgid ""
+"<ul class=\"wp-block-list\">\n"
+"<li><a href=\"https://github.com/qgis/QGIS-Enhancement-Proposals/issues/289\">QEP#289 Authentication system revision (v1.1)</a></li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:20
+msgid ""
+"<li><a href=\"https://github.com/qgis/QGIS-Enhancement-"
+"Proposals/issues/291\">QEP#291 Mitigate Abusive Tile Fetching on "
+"OpenStreetMap (OSM)</a></li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:24
+msgid ""
+"<li><a href=\"https://github.com/qgis/QGIS-Enhancement-"
+"Proposals/issues/287\">QEP#287 PyQGIS linter warnings</a></li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:28
+msgid ""
+"<li><a href=\"https://github.com/qgis/QGIS-Enhancement-"
+"Proposals/issues/290\">QEP#290 Clean up point cloud index and improve its "
+"thread safety</a></li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:32
+msgid ""
+"<li><a href=\"https://github.com/qgis/QGIS-Enhancement-Proposals/issues/292\">QEP#292 Implementing CI Qt6 Windows Builds through vcpkg</a></li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:37
+msgid ""
+"<p>Funding for the programme was sourced by you, our <a "
+"href=\"https://www.qgis.org/en/site/about/sponsorship.html\">project donors "
+"and sponsors</a>! <strong>Note:</strong> For more context surrounding our "
+"grant programme, please see: <a "
+"href=\"https://blog.qgis.org/2024/02/15/qgis-grants-9-call-for-grant-"
+"proposals-2024/\">QGIS Grants #9: Call for Grant Proposals 2024</a>.</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:41
+msgid ""
+"<p>The QGIS.ORG Grant Programme aims to support work from our community that"
+" would typically not be funded by client/contractor agreements. This means "
+"that we did not accept proposals for the development of new features. "
+"Instead proposals focus on infrastructure improvements and polishing of "
+"existing features.<span id=\"more-1420\"></span></p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:45
+msgid ""
+"<p>Voting to select the successful projects was carried out by our QGIS "
+"Voting Members. Each voting member was allowed to select up to 6 proposals. "
+"The full list of votes are available <a "
+"href=\"https://docs.google.com/spreadsheets/d/1em_TLEIIJH-6QmSNNHy82guwZZXsfsZI8oMuAfUJryU/edit?usp=sharing\">here</a>"
+" (on the first sheet). The following sheets contain the calculations used to"
+" determine the winner (for full transparency). The table below summarizes "
+"the voting tallies for the proposals:</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:49
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://blog.qgis.org/wp-content/uploads/2024/05/image.png\"><img "
+"alt=\"\" class=\"wp-image-2840\" height=\"250\" "
+"src=\"https://blog.qgis.org/wp-content/uploads/2024/05/image.png?w=847\" "
+"width=\"847\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:53
+msgid "<p>A couple of extra notes about the voting process:</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:57
+msgid ""
+"<ul class=\"wp-block-list\">\n"
+"<li>Voting was carried out based on the technical merits of the proposals and the competency of the applicants to execute on these proposals.</li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:62
+msgid ""
+"<li>No restrictions were in place in terms of how many proposals could be "
+"submitted per person / organization, or how many proposals could be awarded "
+"to each proposing person / organization.</li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:66
+msgid ""
+"<li>Voting was ‘blind’ (voters could not see the existing votes that had been placed).</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:71
+msgid ""
+"<p>We received 39 votes from 21 community representatives, 17 user group "
+"representatives, and the OSGeo voting member.</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-results.md:75
+msgid ""
+"<p>On behalf of the QGIS.ORG project, I would like to thank everyone who "
+"submitted proposals for this call!</p>\n"
+msgstr ""

@@ -1,0 +1,238 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community/involve.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community/involve.md:0
+msgid "page"
+msgstr ""
+
+#: content/community/involve.md:0
+msgid "Get involved"
+msgstr ""
+
+#: content/community/involve.md:0
+msgid ""
+"QGIS is developed by a team of dedicated volunteers and organizations. We "
+"aim to foster a welcoming community for people of all races, creeds, "
+"genders, and walks of life"
+msgstr ""
+
+#: content/community/involve.md:0
+msgid "img/involve.jpg"
+msgstr ""
+
+#: content/community/involve.md:10
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/community/involve.md:11
+msgid "Ways of Contributing"
+msgstr ""
+
+#: content/community/involve.md:13
+msgid ""
+"[Participate in Support Channels](#participate-in-support-channels \"scroll-"
+"on-page\") [Report Bugs](#report-bugs \"scroll-on-page\") [QGIS "
+"Documentation](#qgis-documentation \"scroll-on-page\") [Translate "
+"QGIS](#translate-qgis \"scroll-on-page\") [Develop a Plugin](#develop-a-"
+"plugin \"scroll-on-page\") [Develop QGIS Core](#develop-qgis-core \"scroll-"
+"on-page\") [Sustain & Donate](#sustain--donate \"scroll-on-page\")"
+msgstr ""
+
+#: content/community/involve.md:15 content/community/involve.md:36
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right rounded\" >}} {{< rich-content-"
+"start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/community/involve.md:17
+msgid "Participate in Support Channels"
+msgstr ""
+
+#: content/community/involve.md:19
+msgid ""
+"{{< button class=\"is-primary1 is-small is-rounded\" "
+"link=\"community/groups\" text=\"User groups 🇩🇪 🇫🇷 🇪🇸\" >}} {{< button "
+"class=\"is-primary1 is-small is-rounded\" "
+"link=\"community/organisation/mailinglists\" text=\"QGIS mailing lists\" >}}"
+" {{< button class=\"is-primary1 is-small is-rounded\" "
+"link=\"resources/support/#communication-channels\" text=\"Chats rooms\" >}}"
+msgstr ""
+
+#: content/community/involve.md:24
+msgid ""
+"Utilize channels to seek assistance from fellow users and developers or stay"
+" updated on current project events."
+msgstr ""
+
+#: content/community/involve.md:26
+msgid ""
+"Feel free to subscribe to any of the lists, and remember to contribute by "
+"answering questions and sharing your experiences."
+msgstr ""
+
+#: content/community/involve.md:28
+msgid ""
+"[Community support channels page]({{< ref \"resources/support\" >}}) {{< "
+"rich-content-end >}} {{< rich-right-start >}}<br />![](../img/Channels.jpg) "
+"{{< rich-right-end >}}"
+msgstr ""
+
+#: content/community/involve.md:34
+msgid "{{< rich-box-end >}}"
+msgstr ""
+
+#: content/community/involve.md:38
+msgid "Report Bugs"
+msgstr ""
+
+#: content/community/involve.md:40
+msgid ""
+"If you encounter any issues while working with QGIS, let the QGIS developers"
+" know about them."
+msgstr ""
+
+#: content/community/involve.md:42
+msgid ""
+"[Report an issue]({{< ref \"resources/support/bug-reporting\" >}}) {{< rich-"
+"content-end>}} {{< rich-right-start >}}<br />![](../img/Bugs.jpg) {{< rich-"
+"right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/community/involve.md:49 content/community/involve.md:62
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right rounded\" >}} {{< rich-content-"
+"start themeClass=\"coloring-4\" >}}"
+msgstr ""
+
+#: content/community/involve.md:51
+msgid "QGIS Documentation"
+msgstr ""
+
+#: content/community/involve.md:53
+msgid ""
+"Creating documentation offers an ideal starting point for your first "
+"contribution to the project. If you're interested in joining the "
+"documentation effort, you can find a gentle introduction and guidelines "
+"here:"
+msgstr ""
+
+#: content/community/involve.md:55
+msgid ""
+"[How to write "
+"documentation](https://docs.qgis.org/3.28/en/docs/documentation_guidelines/)"
+" {{< rich-content-end >}} {{< rich-right-start >}}<br "
+"/>![](../img/Documentation.jpg) {{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/community/involve.md:64
+msgid "Translate QGIS"
+msgstr ""
+
+#: content/community/involve.md:66
+msgid ""
+"If you're interested in contributing to the documentation effort, such as "
+"translating the English manual into another language, find out how to get "
+"started here:"
+msgstr ""
+
+#: content/community/involve.md:68
+msgid ""
+"[How to translate "
+"QGIS](https://docs.qgis.org/3.28/en/docs/documentation_guidelines/do_translations.html"
+" ) {{< rich-content-end >}} {{< rich-right-start >}}<br "
+"/>![](../img/Translate.jpg) {{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/community/involve.md:75
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right rounded\">}} {{< rich-content-"
+"start themeClass=\"coloring-6\" >}}"
+msgstr ""
+
+#: content/community/involve.md:77
+msgid "Develop a Plugin"
+msgstr ""
+
+#: content/community/involve.md:79
+msgid "Interested in crafting your own? Learn how to get started!"
+msgstr ""
+
+#: content/community/involve.md:81
+msgid ""
+"[Develop Python "
+"plugins](https://docs.qgis.org/3.28/en/docs/pyqgis_developer_cookbook/index.html)"
+" {{< rich-content-end >}} {{< rich-right-start >}}<br "
+"/>![](../img/Plugin.jpg) {{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/community/involve.md:88
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right rounded\" >}} {{< rich-content-"
+"start themeClass=\"coloring-6\" >}}"
+msgstr ""
+
+#: content/community/involve.md:90
+msgid "Develop QGIS Core"
+msgstr ""
+
+#: content/community/involve.md:92
+msgid ""
+"QGIS Core comprises libraries for building custom applications through a "
+"robust API. It also includes desktop and server applications that showcase "
+"the library capabilities, providing a user-friendly interface"
+msgstr ""
+
+#: content/community/involve.md:94
+msgid ""
+"[Get set up for QGIS Core "
+"development](https://docs.qgis.org/3.28/en/docs/developers_guide/index.html "
+")"
+msgstr ""
+
+#: content/community/involve.md:96
+msgid ""
+"[QGIS roadmap]({{< ref \"resources/roadmap\" >}}) {{< rich-content-end >}} "
+"{{< rich-right-start >}}<br />![](../img/Core.jpg) {{< rich-right-end >}} "
+"{{< rich-box-end >}}"
+msgstr ""
+
+#: content/community/involve.md:103
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right rounded\" mode=\"html\">}} {{< "
+"rich-content-start themeClass=\"coloring-2\" >}}"
+msgstr ""
+
+#: content/community/involve.md:105
+msgid "Sustain & Donate"
+msgstr ""
+
+#: content/community/involve.md:107
+msgid "We welcome two types of financial contributions:"
+msgstr ""
+
+#: content/community/involve.md:109
+msgid ""
+"{{< button class = \"is-primary1\" link = \"funding/membership\" text = "
+"\"Become a Sustaining Member\" >}} {{< button class = \"is-primary6\" link ="
+" \"funding/donate\" text = \"One-Time Donation\" >}}"
+msgstr ""
+
+#: content/community/involve.md:112
+msgid ""
+"{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< stripe-widget "
+"otherMethods=\"true\">}} {{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/community/involve.md:119
+msgid "{{< content-end >}}"
+msgstr ""

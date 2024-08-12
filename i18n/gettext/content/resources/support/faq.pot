@@ -1,0 +1,320 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/resources/support/faq.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/resources/support/faq.md:0
+msgid "page"
+msgstr ""
+
+#: content/resources/support/faq.md:0 content/resources/support/faq.md:11
+msgid "FAQ"
+msgstr ""
+
+#: content/resources/support/faq.md:9
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/resources/support/faq.md:13
+msgid "Here we collect answers to question that come up very often."
+msgstr ""
+
+#: content/resources/support/faq.md:15
+msgid ""
+"We will start of with this one page, maybe restructure it into sections, or "
+"even more pages if needed"
+msgstr ""
+
+#: content/resources/support/faq.md:18
+msgid "User"
+msgstr ""
+
+#: content/resources/support/faq.md:20
+msgid "Downloading issues"
+msgstr ""
+
+#: content/resources/support/faq.md:22
+msgid ""
+"If you are trying to download QGIS and nothing seems to happen, please "
+"consult the download manager of your browser. It can usually be found as an "
+"icon (based on arrow, stop-watch or pie-chart) at the top-right corner of "
+"your browser window. Click on the icon to see the download progress or "
+"cancel the download. The normal procedure with downloads in the browser is "
+"such, that it first asks you where to save the file (with a file browser "
+"dialogue) and then you have to wait until the download is finished. Because "
+"QGIS install packages can be rather large, depending on the operating "
+"system, you have to be patient. The download size can be anywhere between "
+"several hundred megabytes to sometimes more than one gigabyte (in case of MS"
+" Windows MSI packages). Depending on your download speed and the QGIS server"
+" load, downloads can take from several minutes up to several hours."
+msgstr ""
+
+#: content/resources/support/faq.md:31
+msgid "I have to donate in order to download QGIS"
+msgstr ""
+
+#: content/resources/support/faq.md:32
+msgid ""
+"This is a misconception that we hear from time to time, but it is not true. "
+"Donating to QGIS is optional. After downloading QGIS, there is a message "
+"appearing, reminding that you can optionally donate to QGIS. However, you "
+"can press \"Close this message\" and continue downloading without any "
+"problem. We want QGIS to be accessible to anyone, no matter how your "
+"financial situation might be. If you are a first-time QGIS user, we "
+"recommend that you download, install and test QGIS first and find out if the"
+" software is useful for the tasks you want to solve. Only if you like QGIS "
+"and it substantially helps with your business, tasks or processes, you "
+"should think about donating towards QGIS or supporting it as a sustaining "
+"member."
+msgstr ""
+
+#: content/resources/support/faq.md:40
+msgid "How to ask a QGIS question?"
+msgstr ""
+
+#: content/resources/support/faq.md:41
+msgid ""
+"If you are going to ask a QGIS related question via the [mailing lists]({{< "
+"ref \"community/organisation/mailinglists\" >}}), please provide enough "
+"information to help others easily understand what your problem is. Without a"
+" clear and precise question, it is very hard for anybody to answer, or it "
+"just takes too much time because the answer will be a question to you etc "
+"etc. You may provide information such as:"
+msgstr ""
+
+#: content/resources/support/faq.md:47
+msgid "preferably a descriptive title for your email"
+msgstr ""
+
+#: content/resources/support/faq.md:48
+msgid "which QGIS version you used at that moment (exact)"
+msgstr ""
+
+#: content/resources/support/faq.md:49
+msgid "what are you expecting to get"
+msgstr ""
+
+#: content/resources/support/faq.md:50
+msgid "if applicable, what have you tried and the result you got"
+msgstr ""
+
+#: content/resources/support/faq.md:51
+msgid "if your question is about something broken, you may also provide:"
+msgstr ""
+
+#: content/resources/support/faq.md:53
+msgid ""
+"what exactly is the error (if possible: screendump, stacktrace, copy of "
+"error text)"
+msgstr ""
+
+#: content/resources/support/faq.md:54
+msgid "which Operating System and version"
+msgstr ""
+
+#: content/resources/support/faq.md:55
+msgid "how you installed it (osgeo4w? standalone-installer? own build?)"
+msgstr ""
+
+#: content/resources/support/faq.md:56
+msgid ""
+"at what time did it break (reinstall, new install, system update, project "
+"changes)"
+msgstr ""
+
+#: content/resources/support/faq.md:58
+msgid ""
+"Keep in mind that the more precise your question is, the quicker and more "
+"accurate the answer can be."
+msgstr ""
+
+#: content/resources/support/faq.md:61
+msgid ""
+"{{< rich-box-start icon=\"💁\" layoutClass=\"tips\" mode=\"html\">}} {{< "
+"rich-content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/support/faq.md:63 content/resources/support/faq.md:142
+msgid "Note"
+msgstr ""
+
+#: content/resources/support/faq.md:64
+msgid ""
+"In case of a broken function, you may give a look at [QGIS issue "
+"tracker](https://github.com/qgis/QGIS/issues) before mailing to the list. "
+"More information at [bug-reporting]({{< ref \"resources/support/bug-"
+"reporting\" >}}). {{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/support/faq.md:68
+msgid "How are QGIS release names selected?"
+msgstr ""
+
+#: content/resources/support/faq.md:69
+msgid ""
+"After a successful developer meeting in Zurich (Switzerland), we decided "
+"that the next release should be related to it. Since then, all releases have"
+" been named after locations of our developer meetings."
+msgstr ""
+
+#: content/resources/support/faq.md:73
+msgid "How to cite QGIS?"
+msgstr ""
+
+#: content/resources/support/faq.md:75
+msgid ""
+"If you need to cite QGIS in your work or for an assignment, please use the "
+"citation style that would be most helpful:"
+msgstr ""
+
+#: content/resources/support/faq.md:78
+msgid "**Cite the QGIS project in general**"
+msgstr ""
+
+#: content/resources/support/faq.md:81
+msgid ""
+"QGIS.org, {{< param \"yeartag\" >}}. QGIS Geographic Information System. "
+"QGIS Association. http://www.qgis.org"
+msgstr ""
+
+#: content/resources/support/faq.md:84
+msgid "**Cite the QGIS Developers Manual**"
+msgstr ""
+
+#: content/resources/support/faq.md:87
+msgid ""
+"QGIS.org, {{< param \"yeartag\" >}}. QGIS {{< param \"ltrversion\" >}}. "
+"Geographic Information System Developers Manual. QGIS Association. "
+"Electronic document: {{< param-link \"devcite\" >}}"
+msgstr ""
+
+#: content/resources/support/faq.md:91
+msgid "**Cite the QGIS Installation Guide**"
+msgstr ""
+
+#: content/resources/support/faq.md:94
+msgid ""
+"QGIS.org, {{< param \"yeartag\" >}}. QGIS {{< param \"ltrversion\" >}}. "
+"Geographic Information System Installation Guide. QGIS Association. "
+"Electronic document: https://github.com/qgis/QGIS/blob/master/INSTALL.md"
+msgstr ""
+
+#: content/resources/support/faq.md:98
+msgid "**Cite the QGIS User Guide**"
+msgstr ""
+
+#: content/resources/support/faq.md:101
+msgid ""
+"QGIS.org, {{< param \"yeartag\" >}}. QGIS {{< param \"ltrversion\" >}}. "
+"Geographic Information System User Guide. QGIS Association. Electronic "
+"document: {{< param-link \"userguidecite\" >}}"
+msgstr ""
+
+#: content/resources/support/faq.md:104
+msgid "**Cite the QGIS Server Documentation**"
+msgstr ""
+
+#: content/resources/support/faq.md:106
+msgid ""
+"QGIS.org, {{< param \"yeartag\" >}}. QGIS {{< param \"ltrversion\" >}}. "
+"Geographic Information System API Documentation. QGIS Association. "
+"Electronic document: {{< param-link \"servercite\" >}}"
+msgstr ""
+
+#: content/resources/support/faq.md:110
+msgid "**Cite the QGIS API Documentation**"
+msgstr ""
+
+#: content/resources/support/faq.md:113
+msgid ""
+"QGIS.org, {{< param \"yeartag\" >}}. QGIS {{< param \"ltrversion\" >}}. "
+"Geographic Information System API Documentation. QGIS Association. "
+"Electronic document: {{< param-link \"apicite\" >}}"
+msgstr ""
+
+#: content/resources/support/faq.md:120
+msgid "**Preferred format:** [BibTeX](https://en.wikipedia.org/wiki/BibTeX)"
+msgstr ""
+
+#: content/resources/support/faq.md:123
+msgid "Example BibTeX entry:"
+msgstr ""
+
+#: content/resources/support/faq.md:135
+msgid "I created a map with QGIS, do I have to mention QGIS?"
+msgstr ""
+
+#: content/resources/support/faq.md:136
+msgid ""
+"There is no requirement to mention QGIS for maps produced with it. It is of "
+"course really welcome if you would like to add a note saying that the map "
+"was produced with QGIS. \"Made with QGIS\" or \"Map created using the Free "
+"and Open Source QGIS\" are good examples of such a note."
+msgstr ""
+
+#: content/resources/support/faq.md:140
+msgid ""
+"{{< rich-box-start icon=\"✋\" layoutClass=\"tips\" >}} {{< rich-content-"
+"start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/support/faq.md:144
+msgid ""
+"Do not say ©QGIS as QGIS does not hold copyrights on your work. {{< rich-"
+"content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/support/faq.md:148
+msgid "Can I open ECW files with QGIS?"
+msgstr ""
+
+#: content/resources/support/faq.md:149
+msgid ""
+"Yes you can... BUT depending on your Operating System, it is more or less "
+"difficult."
+msgstr ""
+
+#: content/resources/support/faq.md:151
+msgid ""
+"If you are under Windows and are using the OSGeo4w installer, it is "
+"included."
+msgstr ""
+
+#: content/resources/support/faq.md:153
+msgid ""
+"If you are using macOS, you can find the ECW plugin and install instructions"
+" at https://www.kyngchaos.com/software/frameworks"
+msgstr ""
+
+#: content/resources/support/faq.md:156
+msgid ""
+"For other instructions, eg look here: "
+"https://www.faunalia.eu/en/blog/2019-05-21_ecw_support"
+msgstr ""
+
+#: content/resources/support/faq.md:159
+msgid "Development"
+msgstr ""
+
+#: content/resources/support/faq.md:161
+msgid "Can I compile QGIS myself?"
+msgstr ""
+
+#: content/resources/support/faq.md:163
+msgid ""
+"Yes, compiling QGIS from source is possible whatever OS you use (Windows, OS"
+" X, Linux). Please read [Building QGIS from "
+"source](https://github.com/qgis/QGIS/blob/master/INSTALL.md)"
+msgstr ""
+
+#: content/resources/support/faq.md:166
+msgid "{{< content-end >}}"
+msgstr ""

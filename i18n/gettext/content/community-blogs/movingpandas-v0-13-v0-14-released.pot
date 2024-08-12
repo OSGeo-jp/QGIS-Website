@@ -1,0 +1,148 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/movingpandas-v0-13-v0-14-released.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:0
+msgid "anitagraser.com: MovingPandas v0.13 & v0.14 released!"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:0
+msgid "movingpandas-v0-13-v0-14-released."
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:0
+msgid "2022-12-29"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:0
+msgid "https://anitagraser.com/2022/12/29/movingpandas-v0-13-v0-14-released/"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:11
+msgid ""
+"<div class=\"wp-block-image\">\n"
+"<figure class=\"alignright\"><img data-attachment-id=\"7259\" data-permalink=\"https://anitagraser.com/movingpandas/logo/\" data-orig-file=\"https://underdark.files.wordpress.com/2020/06/logo.png\" data-orig-size=\"1881,1256\" data-comments-opened=\"1\" data-image-meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\" data-image-title=\"logo\" data-image-description=\"\" data-image-caption=\"\" data-medium-file=\"https://underdark.files.wordpress.com/2020/06/logo.png?w=300\" data-large-file=\"https://underdark.files.wordpress.com/2020/06/logo.png?w=545\" src=\"https://underdark.files.wordpress.com/2020/06/logo.png?w=150\" alt=\"\" class=\"wp-image-7259\" srcset=\"https://underdark.files.wordpress.com/2020/06/logo.png?w=150 150w, https://underdark.files.wordpress.com/2020/06/logo.png?w=300 300w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></figure></div>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:15
+msgid ""
+"<p>December has been busy with two new MovingPandas releases: v0.13 and "
+"v0.14.</p>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:19
+msgid ""
+"<p>The latest <a "
+"href=\"https://github.com/anitagraser/movingpandas/releases/tag/v0.14.rc1\">v0.14</a>"
+" release is now available from <a href=\"https://anaconda.org/conda-"
+"forge/movingpandas\">conda-forge</a>.</p>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:23
+msgid ""
+"<p>These releases are a huge step forward towards making MovingPandas easier"
+" to install with fewer mandatory dependencies. All interactive plotting "
+"libraries are now optional. So if you are using MovingPandas for trajectory "
+"data processing in the background and don&#8217;t need the interactive "
+"visualization features, the number of necessary libraries is now much lower."
+" This (and the fact that GeoPandas is now shipped with OSGeo4W) will also "
+"make it easier to use MovingPandas in QGIS plugins.</p>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:27
+msgid "<p>New features:</p>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:31
+msgid ""
+"<ul>\n"
+"<li><a href=\"https://github.com/anitagraser/movingpandas/pull/268\">#268</a>&nbsp;New add_angular_difference method</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:37
+msgid "<p>Includes fixes and enhancements for:</p>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:41
+msgid ""
+"<ul>\n"
+"<li><a href=\"https://github.com/anitagraser/movingpandas/pull/267\">#267</a> Improved documentation: direction values are [0, 360)</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:47
+msgid "<p>Behind the scenes:</p>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:51
+msgid ""
+"<ul>\n"
+"<li><a href=\"https://github.com/anitagraser/movingpandas/pull/269\">#269</a> Fixed read the docs build</li>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:56
+msgid ""
+"<li><a "
+"href=\"https://github.com/anitagraser/movingpandas/pull/261\">#261</a> Made "
+"interactive plotting libraries optional</li>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:60
+msgid ""
+"<li><a "
+"href=\"https://github.com/anitagraser/movingpandas/pull/257\">#257</a>&nbsp;Fixed"
+" broken pre-commit</li>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:64
+msgid ""
+"<li><a href=\"https://fosstodon.org/@movingpandas\">Created a Mastodon account</a></li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:69
+msgid ""
+"<p>As always, all tutorials are available from the <a "
+"href=\"https://github.com/anitagraser/movingpandas-examples\">movingpandas-"
+"examples</a> repository and on MyBinder:</p>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:72
+msgid ""
+"<div class=\"wp-block-image\">\n"
+"<figure class=\"aligncenter\"><a href=\"https://mybinder.org/v2/gh/anitagraser/movingpandas-examples/main\"><img data-attachment-id=\"7159\" data-permalink=\"https://anitagraser.com/2020/03/21/movingpandas-v0-3-released/binder/\" data-orig-file=\"https://underdark.files.wordpress.com/2020/03/binder.png\" data-orig-size=\"109,20\" data-comments-opened=\"1\" data-image-meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\" data-image-title=\"binder\" data-image-description=\"\" data-image-caption=\"\" data-medium-file=\"https://underdark.files.wordpress.com/2020/03/binder.png?w=109\" data-large-file=\"https://underdark.files.wordpress.com/2020/03/binder.png?w=109\" src=\"https://underdark.files.wordpress.com/2020/03/binder.png?w=545\" alt=\"\" class=\"wp-image-7159\" /></a></figure></div>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:76
+msgid ""
+"<p>If you have questions about using MovingPandas or just want to discuss "
+"new ideas, you&#8217;re welcome to join our <a "
+"href=\"https://github.com/anitagraser/movingpandas/discussions\"><strong>discussion"
+" forum</strong></a>.</p>\n"
+msgstr ""
+
+#: content/community-blogs/movingpandas-v0-13-v0-14-released.md:80
+msgid "<p></p>\n"
+msgstr ""

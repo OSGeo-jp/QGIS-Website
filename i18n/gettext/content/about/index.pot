@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/about/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/about/index.md:0
+msgid "page"
+msgstr ""
+
+#: content/about/index.md:0
+msgid "QGIS - The Leading Open Source Desktop GIS"
+msgstr ""
+
+#: content/about/index.md:0
+msgid ""
+"QGIS is a professional GIS application, built on top of Free and Open Source"
+" Software (FOSS), and takes pride in being a part of the FOSS community."
+msgstr ""
+
+#: content/about/index.md:0
+msgid "true"
+msgstr ""
+
+#: content/about/index.md:0
+msgid "img/banners/banner4.png"
+msgstr ""
+
+#: content/about/index.md:10
+msgid ""
+"{{< content-start >}} {{< block title=\"Mapping.\" subtitle=\"Unleash your "
+"creativity and experience first class cartographic design capabilities and "
+"design great maps for digital and print.\" image=\"\" sub-block-"
+"side=\"left\" class=\"is-primary1\""
+msgstr ""
+
+#: content/about/index.md:17 content/about/index.md:25
+#: content/about/index.md:33 content/about/index.md:41
+msgid "}}{{< /block >}}"
+msgstr ""
+
+#: content/about/index.md:19
+msgid ""
+"{{< block title=\"Editing.\" subtitle=\"Simple and sophisticated tools for "
+"efficiently capturing geospatial data.\" image=\"\" sub-block-side=\"left\" "
+"class=\"is-primary2\""
+msgstr ""
+
+#: content/about/index.md:27
+msgid ""
+"{{< block title=\"Process & Analyze.\" subtitle=\"Powerful tools for "
+"geospatial computational analysis at your fingertips.\" image=\"\" sub-"
+"block-side=\"left\" class=\"is-primary3\""
+msgstr ""
+
+#: content/about/index.md:35
+msgid ""
+"{{< block title=\"Sharing.\" subtitle=\"Reach a global audience online with "
+"your amazing maps and spatial information products. Powered by QGIS.\" "
+"image=\"\" sub-block-side=\"left\" class=\"is-primary4\""
+msgstr ""
+
+#: content/about/index.md:43
+msgid ""
+"{{< block title=\"Behind the scenes.\" subtitle=\"Leverage the work and "
+"experience of some the world’s top geospatial experts and developers. Use "
+"their creations to achieve your project goals.\" image=\"\" sub-block-"
+"side=\"left\" class=\"is-primary5\""
+msgstr ""
+
+#: content/about/index.md:49
+msgid "}}{{< /block >}} {{< content-end >}}"
+msgstr ""

@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/vector-basemaps-in-qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/vector-basemaps-in-qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/vector-basemaps-in-qgis.md:0
+msgid "maptiler.com: Vector basemaps in QGIS"
+msgstr ""
+
+#: content/community-blogs/vector-basemaps-in-qgis.md:0
+msgid "vector-basemaps-in-qgis."
+msgstr ""
+
+#: content/community-blogs/vector-basemaps-in-qgis.md:0
+msgid "2023-12-21"
+msgstr ""
+
+#: content/community-blogs/vector-basemaps-in-qgis.md:0
+msgid "https://www.maptiler.com/news/2021/09/vector-basemaps-in-qgis"
+msgstr ""
+
+#: content/community-blogs/vector-basemaps-in-qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/vector-basemaps-in-qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/vector-basemaps-in-qgis.md:11
+msgid ""
+"The new version of the MapTiler plugin pushes our maps from MapTiler Cloud "
+"almost to perfection"
+msgstr ""

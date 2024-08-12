@@ -1,0 +1,317 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:0
+msgid ""
+"anitagraser.com: Mapping relationships between Neo4j spatial nodes with "
+"GeoPandas"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:0
+msgid "mapping-relationships-between-neo4j-spatial-nodes-with-geopandas."
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:0
+msgid "2023-12-09"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:0
+msgid ""
+"https://anitagraser.com/2023/12/09/mapping-relationships-between-"
+"neo4j-spatial-nodes-with-geopandas/"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:11
+msgid ""
+"<p>Previously, <a href=\"https://anitagraser.com/2023/12/03/mapping-"
+"neo4j-spatial-nodes-with-geopandas/\">we mapped neo4j spatial nodes</a>. "
+"This time, we want to take it one step further and map relationships. </p>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:15
+msgid ""
+"<p>A prime example, are the relationships between GTFS StopTime and Trip "
+"nodes. For example, this is the Cypher query to get all StopTime nodes of "
+"Trip 17:</p>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:18
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: sql; title: ; notranslate\">\n"
+"MATCH \n"
+"    (t:Trip  {id: &quot;17&quot;})\n"
+"    &lt;-&#91;:BELONGS_TO]-\n"
+"    (st:StopTime) \n"
+"RETURN st\n"
+"</pre></div>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:27
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/12/image-5.png\"><img "
+"loading=\"lazy\" width=\"1024\" height=\"544\" data-attachment-id=\"8684\" "
+"data-permalink=\"https://anitagraser.com/2023/12/09/mapping-relationships-"
+"between-neo4j-spatial-nodes-with-geopandas/image-5-8/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-5.png\" data-"
+"orig-size=\"1214,645\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-5\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-5.png?w=300\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-5.png?w=545\" "
+"src=\"https://underdark.files.wordpress.com/2023/12/image-5.png?w=1024\" "
+"alt=\"\" class=\"wp-image-8684\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/12/image-5.png?w=1024 "
+"1024w, https://underdark.files.wordpress.com/2023/12/image-5.png?w=150 150w,"
+" https://underdark.files.wordpress.com/2023/12/image-5.png?w=300 300w, "
+"https://underdark.files.wordpress.com/2023/12/image-5.png?w=768 768w, "
+"https://underdark.files.wordpress.com/2023/12/image-5.png 1214w\" "
+"sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:31
+msgid "<p>To get the stop locations, we also need to get the stop nodes:</p>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:34
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: sql; title: ; notranslate\">\n"
+"MATCH \n"
+"    (t:Trip {id: &quot;17&quot;})\n"
+"    &lt;-&#91;:BELONGS_TO]-\n"
+"    (st:StopTime)\n"
+"    -&#91;:STOPS_AT]-&gt;\n"
+"    (s:Stop)\n"
+"RETURN st ,s\n"
+"</pre></div>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:45
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/12/image-6.png\"><img "
+"loading=\"lazy\" width=\"895\" height=\"566\" data-attachment-id=\"8687\" "
+"data-permalink=\"https://anitagraser.com/2023/12/09/mapping-relationships-"
+"between-neo4j-spatial-nodes-with-geopandas/image-6-8/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-6.png\" data-"
+"orig-size=\"895,566\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-6\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-6.png?w=300\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-6.png?w=545\" "
+"src=\"https://underdark.files.wordpress.com/2023/12/image-6.png?w=895\" "
+"alt=\"\" class=\"wp-image-8687\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/12/image-6.png 895w, "
+"https://underdark.files.wordpress.com/2023/12/image-6.png?w=150 150w, "
+"https://underdark.files.wordpress.com/2023/12/image-6.png?w=300 300w, "
+"https://underdark.files.wordpress.com/2023/12/image-6.png?w=768 768w\" "
+"sizes=\"(max-width: 895px) 100vw, 895px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:49
+msgid ""
+"<p>Adapting our code from the previous post, we can plot the stops: </p>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:52
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: python; title: ; notranslate\">\n"
+"from shapely.geometry import Point\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:55
+msgid ""
+"QUERY = &quot;&quot;&quot;MATCH ( t:Trip {id: &quot;17&quot;}) "
+"&lt;-&#91;:BELONGS_TO]- (st:StopTime) -&#91;:STOPS_AT]-&gt; (s:Stop) RETURN "
+"st ,s ORDER BY st.stopSequence &quot;&quot;&quot;"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:65
+msgid ""
+"with driver.session(database=&quot;neo4j&quot;) as session: tx = "
+"session.begin_transaction() results = tx.run(QUERY) df = "
+"results.to_df(expand=True) gdf = gpd.GeoDataFrame( "
+"df&#91;&#91;'s().prop.name']], crs=4326, "
+"geometry=df&#91;&quot;s().prop.location&quot;].apply(Point) )"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:74
+msgid "tx.close() m = gdf.explore() m </pre></div>"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:80
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/12/image-10.png\"><img "
+"loading=\"lazy\" width=\"527\" height=\"879\" data-attachment-id=\"8696\" "
+"data-permalink=\"https://anitagraser.com/2023/12/09/mapping-relationships-"
+"between-neo4j-spatial-nodes-with-geopandas/image-10-6/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-10.png\" data-"
+"orig-size=\"527,879\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-10\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-10.png?w=180\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-10.png?w=527\" "
+"src=\"https://underdark.files.wordpress.com/2023/12/image-10.png?w=527\" "
+"alt=\"\" class=\"wp-image-8696\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/12/image-10.png 527w, "
+"https://underdark.files.wordpress.com/2023/12/image-10.png?w=90 90w, "
+"https://underdark.files.wordpress.com/2023/12/image-10.png?w=180 180w\" "
+"sizes=\"(max-width: 527px) 100vw, 527px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:84
+msgid ""
+"<p>Ordering by stop sequence is actually completely optional. Technically, "
+"we could use the sorted GeoDataFrame, and aggregate all the points into a "
+"linestring to plot the route. But I want to try something different: "
+"we&#8217;ll use the NEXT_STOP relationships to get a DataFrame of the start "
+"and end stops for each segment:  </p>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:87
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: python; title: ; notranslate\">\n"
+"QUERY = &quot;&quot;&quot;\n"
+"MATCH (t:Trip {id: &quot;17&quot;})\n"
+"   &lt;-&#91;:BELONGS_TO]-\n"
+"   (st1:StopTime)\n"
+"   -&#91;:NEXT_STOP]-&gt;\n"
+"   (st2:StopTime)\n"
+"MATCH (st1)-&#91;:STOPS_AT]-&gt;(s1:Stop)\n"
+"MATCH (st2)-&#91;:STOPS_AT]-&gt;(s2:Stop)\n"
+"RETURN st1, st2, s1, s2\n"
+"&quot;&quot;&quot;\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:99
+msgid "from shapely.geometry import Point, LineString"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:101
+msgid ""
+"def make_line(row): s1 = Point(row&#91;&quot;s1().prop.location&quot;]) s2 ="
+" Point(row&#91;&quot;s2().prop.location&quot;]) return "
+"LineString(&#91;s1,s2])"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:106
+msgid ""
+"with driver.session(database=&quot;neo4j&quot;) as session: tx = "
+"session.begin_transaction() results = tx.run(QUERY) df = "
+"results.to_df(expand=True) gdf = gpd.GeoDataFrame( "
+"df&#91;&#91;'s1().prop.name']], crs=4326, geometry=df.apply(make_line, "
+"axis=1) )"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:115
+msgid "tx.close() gdf.explore(m=m) </pre></div>"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:120
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/12/image-11.png\"><img "
+"loading=\"lazy\" width=\"527\" height=\"975\" data-attachment-id=\"8698\" "
+"data-permalink=\"https://anitagraser.com/2023/12/09/mapping-relationships-"
+"between-neo4j-spatial-nodes-with-geopandas/image-11-6/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-11.png\" data-"
+"orig-size=\"527,975\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-11\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-11.png?w=162\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-11.png?w=527\" "
+"src=\"https://underdark.files.wordpress.com/2023/12/image-11.png?w=527\" "
+"alt=\"\" class=\"wp-image-8698\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/12/image-11.png 527w, "
+"https://underdark.files.wordpress.com/2023/12/image-11.png?w=81 81w, "
+"https://underdark.files.wordpress.com/2023/12/image-11.png?w=162 162w\" "
+"sizes=\"(max-width: 527px) 100vw, 527px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:124
+msgid ""
+"<p>Finally, we can also use Cypher to calculate the travel time between two "
+"stops: </p>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:127
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: sql; title: ; notranslate\">\n"
+"MATCH (t:Trip {id: &quot;17&quot;})\n"
+"   &lt;-&#91;:BELONGS_TO]-\n"
+"   (st1:StopTime)\n"
+"   -&#91;:NEXT_STOP]-&gt;\n"
+"   (st2:StopTime)\n"
+"MATCH (st1)-&#91;:STOPS_AT]-&gt;(s1:Stop)\n"
+"MATCH (st2)-&#91;:STOPS_AT]-&gt;(s2:Stop)\n"
+"RETURN st1.departureTime AS time1, \n"
+"   st2.arrivalTime AS time2, \n"
+"   s1.location AS geom1, \n"
+"   s2.location AS geom2, \n"
+"   duration.inSeconds(\n"
+"      time(st1.departureTime), \n"
+"      time(st2.arrivalTime)\n"
+"   ).seconds AS traveltime\n"
+"</pre></div>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:146
+msgid ""
+"<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" "
+"width=\"538\" height=\"322\" data-attachment-id=\"8709\" data-"
+"permalink=\"https://anitagraser.com/2023/12/09/mapping-relationships-"
+"between-neo4j-spatial-nodes-with-geopandas/image-14-4/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-14.png\" data-"
+"orig-size=\"538,322\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-14\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-14.png?w=300\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/12/image-14.png?w=538\" "
+"src=\"https://underdark.files.wordpress.com/2023/12/image-14.png?w=538\" "
+"alt=\"\" class=\"wp-image-8709\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/12/image-14.png 538w, "
+"https://underdark.files.wordpress.com/2023/12/image-14.png?w=150 150w, "
+"https://underdark.files.wordpress.com/2023/12/image-14.png?w=300 300w\" "
+"sizes=\"(max-width: 538px) 100vw, 538px\" /></figure>\n"
+msgstr ""
+
+#: content/community-blogs/mapping-relationships-between-neo4j-spatial-nodes-with-geopandas.md:150
+msgid ""
+"<p>As always, here&#8217;s the notebook: <a "
+"href=\"https://github.com/anitagraser/QGIS-"
+"resources/blob/master/qgis3/notebooks/neo4j.ipynb\">https://github.com/anitagraser/QGIS-"
+"resources/blob/master/qgis3/notebooks/neo4j.ipynb</a> </p>\n"
+msgstr ""

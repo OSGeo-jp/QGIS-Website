@@ -1,0 +1,1108 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-changelogs/visualchangelog260/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:0
+msgid "Changelog for QGIS 2.6"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:0
+msgid "2014-10-31"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:0
+msgid "project"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:0
+msgid "visual-changelog"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:10
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:12
+msgid "Changelog for QGIS 2.6 {#changelog26}"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:14
+msgid "Release date: 2014-10-31"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:16
+msgid ""
+"Change log for the next release of QGIS 2.6.0. We have added many new "
+"features, tweaks and enhancements to make the most popular Free desktop GIS "
+"even more feature filled and useful."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:18
+msgid ""
+"Whenever new features are added to software they introduce the possibility "
+"of new bugs - if you encounter any problems with this release, please file a"
+" ticket [on the QGIS Bug Tracker](http://hub.qgis.org)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:20
+msgid ""
+"We would like to thank the developers, documenters, testers and all the many"
+" folks out there who volunteer their time and effort (or fund people to do "
+"so)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:22
+msgid ""
+"From the QGIS community we hope you enjoy this release! If you wish to "
+"donate time, money or otherwise get involved in making QGIS more awesome, "
+"please wander along to [qgis.org](https://qgis.org) and lend a hand!"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:24
+msgid ""
+"Finally we would like to thank our official sponsors for the invaluable "
+"financial support they provide to this project:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:26
+msgid ""
+"**GOLD Sponsor: Asia Air Survey, Japan** <http://www.asiaairsurvey.com/>"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:27
+msgid ""
+"SILVER Sponsor: [Sourcepole AG, Switzerland](http://www.sourcepole.com/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:28
+msgid ""
+"SILVER Sponsor: [State of Vorarlberg, Austria](http://www.vorarlberg.at/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:29
+msgid ""
+"BRONZE Sponsor: [Lutra Consulting, UK](http://www.lutraconsulting.co.uk/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:30
+msgid "BRONZE Sponsor: [www.molitec.it, Italy](http://www.molitec.it/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:31
+msgid "BRONZE Sponsor: [www.argusoft.de, Germany](http://www.argusoft.de)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:32
+msgid ""
+"BRONZE Sponsor: [www.openrunner.com, France](http://www.openrunner.com)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:33
+msgid ""
+"BRONZE Sponsor: [GKG Kassel,(Dr.-Ing. Claas Leiner), "
+"Germany](http://www.eschenlaub.de/)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:35
+msgid ""
+"A current list of donors who have made financial contributions large and "
+"small to the project can be seen on our [donors "
+"list](https://qgis.org/en/site/about/sponsorship.html#list-of-donors). If "
+"you would like to become an official project sponsor, please visit [our "
+"sponsorship "
+"page](https://qgis.org/en/site/about/sponsorship.html#sponsorship) for "
+"details. Sponsoring QGIS helps us to fund our six monthly developer "
+"meetings, maintain project infrastructure and fund bug fixing efforts."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:37
+msgid ""
+"If you enjoy using QGIS, please consider making a donation to support the "
+"project - either "
+"[financial](https://qgis.org/en/site/getinvolved/donations.html) or of [your"
+" time and skills](https://qgis.org/en/site/getinvolved/index.html)! Lastly "
+"we would like to also take a moment to encourage you to fund a [special "
+"campaign](http://blog.vitu.ch/10102014-1046/crowdfunding-initiative-"
+"automated-testing) by one of our QGIS developers to get a working test suite"
+" for QGIS so that we can improve out quality assurance process and deliver "
+"you the best possible releases."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:39
+msgid ""
+"QGIS is Free software and you are under no obligation to pay anything to use"
+" it - in fact we want to encourage people far and wide to use it regardless "
+"of what your financial or social status is - we believe empowering people "
+"with spatial decision making tools will result in a better society for all "
+"of humanity."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:41
+msgid "{{< table-of-contents >}}"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:43
+msgid "General"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:45
+msgid "Feature: Project filename in properties"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:47
+msgid ""
+"You can now see the full path for the QGIS project file in the project "
+"properties dialog."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:49
+msgid "![](images/entries/8662dc4a69298f603dd9038d1199ab16fd25f786.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:51
+msgid ""
+"Feature: Allow removing last point while measuring via del/backspace keys"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:53
+msgid ""
+"Now when you are measuring areas and distances, you can remove unwanted "
+"vertices from your measurement line using the delete or backspace keys."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:55
+msgid "![](images/entries/ed471908937cb068e2f004e7b3311f2bdf307042.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:57
+msgid ""
+"Feature: select related feature on the canvas from the relation reference "
+"widget"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:59
+msgid "Feature: Editor widgets"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:61
+msgid "We have made a number of improvements to the editor widgets:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:63
+msgid "new edit widget for date/time capable of setting null dates"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:64
+msgid "filter line edit"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:65
+msgid "Proper handling of NULL values for edit widgets"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:66
+msgid "Photo widget preserves NULL value"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:67
+msgid "Web widget preserves NULL value"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:68
+msgid "Attribute table can distinguish between 0 and NULL"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:69
+msgid "Add suffix support for range widget"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:71
+msgid "![](images/entries/78fd27b2cf736f37bdf97694a5018f29c609c6cb.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:73
+msgid "Feature: Optionally use just a subset of fields from the joined layer"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:75
+msgid ""
+"You can now use just a subset of related fields when creating a vector join."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:77
+msgid "![](images/entries/14023cf2ee768960d9c4a43da6e2a1624d10b3c3.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:79
+msgid "Feature: Expression field (virtual fields)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:81
+msgid ""
+"Sometimes you want to have an attribute that is calculated and that is "
+"always \\'fresh\\' - reflecting the current state of the feature properties."
+" Now you can add virtual fields to your table which are based on an "
+"expression."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:83
+msgid "![](images/entries/5fe53ad54b8d0cf8b7a22b90e733a421bb929506.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:85
+msgid "Feature: Actions can now have an associated icon"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:87
+msgid ""
+"When creating a custom action for a vector layer, you can now define an icon"
+" to be used for the action too."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:89
+msgid "![](images/entries/e7bd5b306e3a72cc111a81f86a053b42679aa2f8.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:91
+msgid "Feature: Additional expressions types and options"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:93
+msgid "Allow using `+` for string concatenation."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:94
+msgid ""
+"New keyword: `attribute( feature, attribute_name )` - gets the specified "
+"attribute from a feature."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:95
+msgid "New keyword: `$currentfeature` - returns the current feature."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:96
+msgid "New keyword: `$atlasfeature` - returns the atlas feature."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:97
+msgid "New keyword: `getFeature` - gets a matching feature from a layer."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:99
+msgid "![](images/entries/e2e079bec87be65ccc97055251fc2544be91aaab.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:101
+msgid ""
+"Feature: Classes within graduated and categorised renderers can be toggled"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:103
+msgid ""
+"You can now choose to disable certain classes in graduated and categorised "
+"renderers without actually removing them."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:105
+msgid "![](images/entries/84d11c6d978775d92f6a1902092795735d1f32b3.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:107
+msgid "Feature: Legend improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:109
+msgid ""
+"The second phase of the legend / table of contents overhaul has been "
+"completed. This includes:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:111
+msgid "API cleanup (for developers)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:112
+msgid ""
+"Visibility groups of map layers in layer tree. This new toolbar button "
+"allows quick changes between the groups of layers that should be visible."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:113
+msgid "Ability to manage layer groups from the legend toolbar"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:114
+msgid ""
+"The new legend filter option on the legend toolbar will remove legend items "
+"for any classes which are not currently in the view extent. This is an "
+"awesome improvement as it ensures that your map legend does not contain "
+"entries for items not currently in the map view. It is available in the main"
+" map legend and in map composer and for WMS layers."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:115
+msgid "Rule-based renderer legends can now be displayed in a pseudo-tree"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:117
+msgid "![](images/entries/363048a7d08ac76d35463abbef514c65031922e7.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:119
+msgid "Data Providers"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:121
+msgid "Feature: DXF export improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:123
+msgid "tree view and attribute selection for layer assigment in dialog"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:124
+msgid "support fill polygons/HATCH"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:125
+msgid ""
+"represent texts as MTEXT instead of TEXT (including font, slant and weight)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:126
+msgid "support for RGB colors when there\\'s no exact color match"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:127
+msgid "use AutoCAD 2000 DXF (R15) instead of R12"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:128
+msgid "remove R18 test methods"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:130
+msgid "![](images/entries/4f615505e3fd6ec0b619278e42ecc5a3e79ac827.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:132
+msgid "Map Composer"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:134
+msgid "Feature: Control over hiding print composer items from prints/exports"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:136
+msgid ""
+"We have added a checkbox and data defined button for controlling whether an "
+"item is excluded from composer exports/printouts. If the item is unchecked "
+"it will be visible at composition design time only."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:138
+msgid "![](images/entries/f334447d13ee49a6c4c5cb4322e3f12824643416.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:140
+msgid "Feature: Control over page printing for empty composer frames"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:142
+msgid ""
+"For table or HTML frames, a checkbox now controls whether the containing "
+"page should be exported when the frame is empty."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:144
+msgid "![](images/entries/1500ba6abdf5b314c760ebfc63e460731dcc5110.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:146
+msgid "Feature: Item tree panel"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:148
+msgid ""
+"The item tree panel in the map composer allows for selection of items, "
+"hiding/showing items, toggling lock status of items and double-clicking to "
+"edit item id. You can also use drag and drop to reorder items."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:150
+msgid "![](images/entries/52b70bdf87d21a13c00798458bab6347dddd7910.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:152
+msgid "Feature: More control over appearance of composer arrow/line items"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:154
+msgid "Lines can be styled using line symbol style dialog"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:155
+msgid "Arrow head fill and outline colors can be user defined"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:156
+msgid "Arrow head outline width can be user defined"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:158
+msgid "![](images/entries/49757b3cc09839edb8af38f1cb1317458f279110.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:160
+msgid "Feature: Data defined control of composer items"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:162
+msgid ""
+"Many properties of composer items can now be controlled using data binding. "
+"These include:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:164
+msgid "Transparency and blend mode."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:165
+msgid "Item rotation."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:166
+msgid "Map scale, extents and rotation."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:167
+msgid "Atlas feature margin."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:168
+msgid "Item size and position."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:169
+msgid "Page size, orientation and number of pages."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:171
+msgid "![](images/entries/9f321489cd9c90eb4d66e577680fc5467756e58e.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:173
+msgid "Feature: Composer images can be specifed as remote URLS"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:175
+msgid ""
+"Picture items in the map composer now support remote urls as a picture "
+"source. This source can also be data defined."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:177
+msgid "![](images/entries/05cd7008c231df3b3af874753b840669a605cb0f.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:179
+msgid "Feature: Composer Table improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:181
+msgid "You can now set table header and content font colors."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:182
+msgid ""
+"Tables can now be split across multiple frames, allowing their content to be"
+" distributed over columns or over different pages."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:183
+msgid "Added option show headers on first frame, all frames, or no frames."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:184
+msgid "Allow manual control of column widths."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:185
+msgid ""
+"New options for table source, including current atlas feature and child "
+"features from a relation."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:186
+msgid ""
+"Choice of behaviour for empty tables, include hiding the entire table, "
+"showing empty cells, or displaying a set message in the table body."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:187
+msgid ""
+"Added a checkbox to filter table features to those which intersect the "
+"current atlas feature."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:188
+msgid "Added checkbox to remove duplicate rows from table."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:190
+msgid ""
+"Note that tables in existing projects are not automatically updated to the "
+"new table format which supports these features, and tables must be readded "
+"to a composition for the new settings to appear."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:192
+msgid "![](images/entries/9ccb75b2110daf0c95a3fba31ac18144c1345f0e.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:194
+msgid "Feature: Composer improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:196
+msgid ""
+"The map composer (used to prepare printable map compositions) has received a"
+" number of improvements in QGIS 2.6."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:198
+msgid "You can now change the secondary fill color for scalebars"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:199
+msgid ""
+"Holding shift while drawing line/arrow items constrains drawing to "
+"horizontal, vertical or 45 degree angles"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:200
+msgid ""
+"Holding shift while drawing other new items constrains them to squares, "
+"holding alt causes item to be drawn from the center"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:201
+msgid ""
+"Right click no longer locks/unlocks items, this is now handled by the new "
+"items panel. Locked items can no longer be selected from the composer "
+"canvas, allowing for interaction with items below them."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:202
+msgid ""
+"Holding alt while pressing cursor keys results in a 1px movement for items"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:203
+msgid ""
+"Removed the destructive \\'Load from template\\' menu item, replace with a "
+"new non-destructive \\'Add items from template\\' action"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:205
+msgid "![](images/entries/a7267ed637121bc9be70c5fa0afd2a63f9790bc7.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:207
+msgid "Feature: Improved item snapping"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:209
+msgid ""
+"Snapping thresholds are now set in pixels, allowing for finer movement and "
+"resizing of items when zoomed in to a composition. Items within a group are "
+"no longer used for auto snap lines."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:211
+msgid "![](images/entries/8e43479380c28942345f3d9500dd956bd13f43e8.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:213
+msgid "Feature: Multiple overviews for a map item"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:215
+msgid ""
+"Sometimes it is useful to be able to show more than one overview frame for a"
+" map frame. For example if you want to show where your map is in local, "
+"regional and global context, using multiple overview maps can help you to "
+"achieve this. As of QGIS 2.6 you can now achieve this by assigning as many "
+"maps as you like to the \\'overview\\' role in your composition."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:217
+msgid "![](images/entries/88b55cc5f5e7cfb62486fe3b4867b7133ae66953.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:219
+msgid "Feature: HTML item improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:221
+msgid "There are a number of useful new options for the HTML composer item:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:223
+msgid "Option for manual entry of HTML source"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:224
+msgid ""
+"QGIS expressions within HTML source can be evaluated prior to rendering HTML"
+" content"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:225
+msgid "Data defined URL for HTML source"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:226
+msgid "Allow for creating a user stylesheet to override HTML styles"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:228
+msgid "![](images/entries/7ed388f0c775b738648b2bd6eb6be0a75fa5816a.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:230
+msgid "Feature: Composer map grid improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:232
+msgid "You can now have multiple grids with different properties."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:233
+msgid "You can mix reprojected grids and Lat/Long grids."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:234
+msgid "You can use standard QGIS symbology grid lines etc."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:235
+msgid ""
+"There is a new frame/annotations only grid style. Selecting this style "
+"causes only the frame and annotations to be drawn, with no grid lines or "
+"other markings over the map."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:236
+msgid ""
+"There are now options for controlling which side of a map item the frame is "
+"drawn on."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:237
+msgid ""
+"There are new tick styles for frames, with inner ticks, outer ticks and both"
+" inner and outer tick options."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:238
+msgid ""
+"We have made improvements to grid annotations, including many new formats "
+"for annotations."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:239
+msgid ""
+"Grid annotations now use the typographically correct prime and double prime "
+"symbols for grid annotations."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:241
+msgid "![](images/entries/eeb61d7da3d3f95283b1bb47545cbdff9cc334ae.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:243
+msgid "Processing"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:245
+msgid "Feature: On-line collection of models and scripts"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:247
+msgid ""
+"Models and scripts can be downloaded from the online collection and "
+"installed directly from the Processing interface. The collection will be "
+"expanded with new scripts and models provided by Processing users."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:249
+msgid "![](images/entries/23e357ca0e559a33a7872206b306c0b1fbdb4b7d.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:251
+msgid "Feature: New modeler implementation"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:253
+msgid ""
+"The modeler has been rewritten, and now provides extra functionality such as"
+" allowing nested models with no depth limit. Models are now stored as JSON "
+"files. Backwards compatibility is kept, so all models can still be used. You"
+" can also now drag and drop items from the inputs and algorithms onto the "
+"modeler graph."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:255
+msgid "![](images/entries/72bb8beaf97133424d1e68da67ae6fe79ea6faf6.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:257
+msgid "Programmability"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:259
+msgid "Feature: API changes for QGIS widgets"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:261
+msgid ""
+"In order to normalise the naming of QGIS widgets, some minor API changes "
+"have been made. Almost all edit widgets were renamed by adding "
+"\\\"Wrapper\\\" at the end of their names. In particular this concerns:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:263
+msgid "QgsCheckboxWidget -\\> QgsCheckboxWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:264
+msgid "QgsClassificationWidget -\\> QgsClassificationWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:265
+msgid "QgsColorWidget -\\> QgsColorWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:266
+msgid "QgsEnumerationWidget -\\> QgsEnumerationWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:267
+msgid "QgsFilenameWidget -\\> QgsFilenameWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:268
+msgid "QgsHiddenWidget -\\> QgsHiddenWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:269
+msgid "QgsPhotoWidget -\\> QgsPhotoWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:270
+msgid "QgsRangeWidget -\\> QgsRangeWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:271
+msgid "QgsTexteditWidget -\\> QgsTexteditWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:272
+msgid "QgsUniquevalueWidget -\\> QgsUniquevalueWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:273
+msgid "QgsUuidWidget -\\> QgsUuidWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:274
+msgid "QgsValuemapWidget -\\> QgsValuemapWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:275
+msgid "QgsValuerelationWidget -\\> QgsValuerelationWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:276
+msgid "QgsWebviewWidget -\\> QgsWebviewWidgetWrapper"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:278
+msgid "QGIS Server"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:280
+msgid "Feature: Enhancements of searching with GetFeatureInfo request"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:282
+msgid ""
+"<https://github.com/qgis/QGIS/commit/8888c5f0c0e0ffdf23453a20addf6abaf125845d>"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:284
+msgid ""
+"Feature: Add a precision setting for GetFeatureInfo geometry attributes"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:286
+msgid "Symbology"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:288
+msgid "Feature: Better random colour choice"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:290
+msgid ""
+"We have improved the random colour algorithm for classified renderer so that"
+" the colours generated are more visually distinct from each other."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:292
+msgid "![](images/entries/ec29c9d6eb23d01b4dbbae32a6e20fe0b1f48198.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:294
+msgid "Feature: Symbology user interface improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:296
+msgid ""
+"Where possible, properties of symbol layer are maintained when changing "
+"symbol layer type."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:297
+msgid "Added an edit button for shapeburst and gradient color ramps."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:298
+msgid "Automatic update of label and neighboring ranges boundaries."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:299
+msgid ""
+"Classes are automatically converted from categorised and graduated classes "
+"when switching to rule based renderer."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:300
+msgid "Added units and number of decimal places to graduated renderer labels."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:301
+msgid ""
+"Improved responsiveness to changes in color ramp, inverted colour ramp, and "
+"other options in GUI."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:302
+msgid ""
+"Retain symbol when switching between simple, graduated, categorized, and "
+"other renderers."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:303
+msgid "Improved labelling of StdDev calculation mode."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:305
+msgid "![](images/entries/08305d5131c28c45b400662267ff0d174ef9c8ce.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:307
+msgid "User Interface"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:309
+msgid "Feature: Syntax highlighting code editor"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:311
+msgid ""
+"For python script editors, expression builder, filter window, composer HTML "
+"and CSS editors"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:313
+msgid "![](images/entries/54b470a064d65d6d65aa66a8feece43ba8cbf6c4.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:315
+msgid "Feature: Color palettes"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:317
+msgid "You can now define your own custom color palettes for use in QGIS."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:319
+msgid "Custom user global color palette (in options dialog)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:320
+msgid "Per project color palette (in project properties dialog)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:321
+msgid "Colors are shown in color button menus and new color picker dialog."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:322
+msgid "You can import/export colors to a GPL palette file."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:324
+msgid "![](images/entries/a156f408d7a87fc930095c8fd68e9fba0fc0a817.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:326
+msgid "Feature: New color picker dialog"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:328
+msgid "There is a new custom QGIS color picker dialog. Features include:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:330
+msgid "Sliders for hue, saturation, value, red, green, blue color components."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:331
+msgid "Alpha slider."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:332
+msgid "Option to copy/paste html color codes (in a variety of formats)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:333
+msgid "Before/after color preview, with alpha preview."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:334
+msgid "Interactive 2D color ramp widget."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:335
+msgid "Hue wheel/triangle widget."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:336
+msgid ""
+"Editable color palettes, including the ability to create new palettes and "
+"import/export colors to a GPL palette file."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:337
+msgid ""
+"Live color sampler with option to sample over a set radius (OS support "
+"dependant)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:338
+msgid ""
+"Supports interaction with other apps via drag and drop of colors (OS support"
+" dependant)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:339
+msgid "Option to disable the dialog and use the native picker dialog instead."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:341
+msgid "![](images/entries/7189c0fe2d1ff3fdc63c531a02f74b5d32b70bfd.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:343
+msgid "Feature: Single select feature tool merged into select by rectangle"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:345
+msgid ""
+"We have merged the single selection tool into the rectangle tool. If you "
+"want to select a single feature, simply enable the rectangle tool and then "
+"single click (rather than dragging a rectangle) a feature."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:347
+msgid "![](images/entries/f8a68fcdfcaa59e6162185acb5c92edb9145c881.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:349
+msgid "Feature: Add layer to map canvas behaviour"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:351
+msgid ""
+"In many of QGIS\\' dialogs that generate a new layer, the \\'Add layer to "
+"map canvas\\' checkbox is now checked by default so that the new layer "
+"automatically gets added to the map."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:353
+msgid "![](images/entries/f36f5912d2422a439d67b1a743fe81588e709dfb.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:355
+msgid "Feature: Add icon size 48 and 64"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:357
+msgid ""
+"For those using QGIS on touch devices (or if you just like big, chunky "
+"icons), you can now set the icons up to 64 x 64 pixels in size."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:359
+msgid "![](images/entries/3be3f51da2f54a8395f054f757f9fae1948a6103.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:361
+msgid "Feature: New colour buttons"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:363
+msgid ""
+"This is probably one of the most useful new features in QGIS 2.6 -especially"
+" if you are involved a lot in cartography work. The colour button used "
+"everywhere in QGIS has been enhanced, with drop down menus, colour swatches,"
+" default colours, etc. Click on the drop down item to the right of the "
+"colour button to see the quick options. Click on the button to the left of "
+"the colour widget to see a standard colour chooser dialog."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:365
+msgid "![](images/entries/54c211513bc86d00a5bce01a17476481937e0fbe.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:367
+msgid "Feature: Context menu for identify tool"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:369
+msgid ""
+"When using the identify tool, you can now right click on the canvas to use "
+"the identify tool in context mode. In the menu that appears you can define "
+"which feature types you wish to identify (all all if you like)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:371
+msgid "![](images/entries/c395c2ce4964826458a721a8a3f89cb7dc2853b5.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog260/index.md:373
+msgid "{{< content-end >}}"
+msgstr ""

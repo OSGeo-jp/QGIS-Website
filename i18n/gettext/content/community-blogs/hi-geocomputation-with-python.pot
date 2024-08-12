@@ -1,0 +1,64 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/hi-geocomputation-with-python.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/hi-geocomputation-with-python.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:0
+msgid "anitagraser.com: Hi ‘Geocomputation with Python’"
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:0
+msgid "hi-geocomputation-with-python."
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:0
+msgid "2023-12-13"
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:0
+msgid "https://anitagraser.com/2023/12/13/hi-geocomputation-with-python/"
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:11
+msgid "<p>Today, I want to point out a blog post over at </p>\n"
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:15
+msgid ""
+"<p><a href=\"https://geocompx.org/post/2023/geocompy-bp1/\" "
+"rel=\"nofollow\">https://geocompx.org/post/2023/geocompy-bp1/</a></p>\n"
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:19
+msgid ""
+"<p>In this post, Jakub Nowosad introduces our book &#8220;Geocomputation "
+"with Python&#8221;, also known as geocompy. It is an open-source book on "
+"geographic data analysis with Python, written by Michael Dorman, Jakub "
+"Nowosad, Robin Lovelace, and me with contributions from others. You can find"
+" it online at <a href=\"https://py.geocompx.org/\" "
+"rel=\"nofollow\">https://py.geocompx.org/</a></p>\n"
+msgstr ""
+
+#: content/community-blogs/hi-geocomputation-with-python.md:23
+msgid "<p></p>\n"
+msgstr ""

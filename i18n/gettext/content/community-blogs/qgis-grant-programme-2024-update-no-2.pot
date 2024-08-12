@@ -1,0 +1,126 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/qgis-grant-programme-2024-update-no-2.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:0
+msgid "QGIS Project blog: QGIS Grant Programme 2024 Update no. 2"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:0
+msgid "qgis-grant-programme-2024-update-no-2."
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:0
+msgid "2024-06-12"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:0
+msgid ""
+"https://blog.qgis.org/2024/06/14/qgis-grant-programme-2024-update-no-2/"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:11
+msgid ""
+"<p>Thanks to generous supporters, we are in the wonderful position to be "
+"able to announce that another project is successfully funded: </p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:15
+msgid "<ul class=\"wp-block-list\"></ul>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:19
+msgid ""
+"<ul class=\"wp-block-list\">\n"
+"<li><a href=\"https://github.com/qgis/QGIS-Enhancement-Proposals/issues/248\">QEP#248 Authentication System: allow Database storage for authentication DB</a></li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:25
+msgid "<p>Our thanks go out to:</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:29
+msgid ""
+"<ul class=\"wp-block-list\">\n"
+"<li><a href=\"https://gis3w.it/\">Gis3W </a></li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:34
+msgid ""
+"<li><a href=\"https://qtibia.com/\">QTIBIA Engineering</a> and QCooperative "
+"</li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:38
+msgid ""
+"<li><a href=\"https://qgis.de\">QGIS User Group Germany (QGIS Anwendergruppe"
+" Deutschland e.V.) </a></li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:42
+msgid ""
+"<li><a href=\"https://hytech-imaging.fr\">Hytech-imaging</a> spectral imaging for environmental mapping and monitoring in civil and defence applications </li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:47
+msgid ""
+"<p>for providing the additional funding to top up the QGIS Grant Programme "
+"contribution for QEP#248.</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:51
+msgid "<p>The next proposals on the wait list are:</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:55
+msgid ""
+"<ul class=\"wp-block-list\">\n"
+"<li><a href=\"https://github.com/qgis/QGIS-Enhancement-Proposals/issues/294\">QEP#294 Fix access to remote data sources in WebAssembly builds</a></li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:60
+msgid ""
+"<li><a href=\"https://github.com/qgis/QGIS-Enhancement-"
+"Proposals/issues/265\">QEP#265 Use pre-commit to automate installation and "
+"management of all pre-commit hooks</a></li>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:64
+msgid ""
+"<li><a href=\"https://github.com/qgis/QGIS-Enhancement-Proposals/issues/295\">QEP#295 Embedded end-user feedback</a></li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:69
+msgid ""
+"<p>If you want to help make these improvement a reality, please <a "
+"href=\"https://github.com/qgis/QGIS-Enhancement-"
+"Proposals/issues/248#issuecomment-2099990437\">get in touch</a>.</p>\n"
+msgstr ""
+
+#: content/community-blogs/qgis-grant-programme-2024-update-no-2.md:73
+msgid "<p></p>\n"
+msgstr ""

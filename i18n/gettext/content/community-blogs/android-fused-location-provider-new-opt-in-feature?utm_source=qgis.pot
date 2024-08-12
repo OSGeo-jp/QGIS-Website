@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/android-fused-location-provider-new-opt-in-feature?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/android-fused-location-provider-new-opt-in-feature?utm_source=qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/android-fused-location-provider-new-opt-in-feature?utm_source=qgis.md:0
+msgid ""
+"Mergin Maps: [Changelog] Android fused location provider, new opt-in feature"
+msgstr ""
+
+#: content/community-blogs/android-fused-location-provider-new-opt-in-feature?utm_source=qgis.md:0
+msgid "android-fused-location-provider-new-opt-in-feature?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/android-fused-location-provider-new-opt-in-feature?utm_source=qgis.md:0
+msgid "2024-07-12"
+msgstr ""
+
+#: content/community-blogs/android-fused-location-provider-new-opt-in-feature?utm_source=qgis.md:0
+msgid ""
+"https://wishlist.merginmaps.com/changelog/android-fused-location-provider-"
+"new-opt-in-feature?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/android-fused-location-provider-new-opt-in-feature?utm_source=qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/android-fused-location-provider-new-opt-in-feature?utm_source=qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/android-fused-location-provider-new-opt-in-feature?utm_source=qgis.md:11
+msgid ""
+"<p>We've integrated the Android Fused Location Provider into our app for "
+"enhanced location accuracy and efficiency. This update leverages all "
+"available location sources to provide faster and more precise location data "
+"while optimizing battery usage, ensuring your device stays powered longer. "
+"It is currently an opt-in feature, so you will need to enable it in the app "
+"settings under Manage GPS Providers. Enable this feature to enjoy improved "
+"location-based services and a longer-lasting battery with our latest "
+"enhancement!</p>\n"
+msgstr ""

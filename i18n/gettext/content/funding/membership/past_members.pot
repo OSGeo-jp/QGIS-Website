@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funding/membership/past_members.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/funding/membership/past_members.md:0
+msgid "page"
+msgstr ""
+
+#: content/funding/membership/past_members.md:0
+#: content/funding/membership/past_members.md:11
+msgid "Past sustaining members"
+msgstr ""
+
+#: content/funding/membership/past_members.md:9
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/funding/membership/past_members.md:13
+msgid "{{< fund type=\"inactive\" >}}"
+msgstr ""
+
+#: content/funding/membership/past_members.md:15
+msgid "{{< content-end >}}"
+msgstr ""

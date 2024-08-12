@@ -1,0 +1,86 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:0
+msgid "Alexandre Neto's blog: Goodbye WordPress, goodbye GIS Unchained"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:0
+msgid "goodbye-wordpress-goodbye-gis-unchained."
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:0
+msgid "2024-05-11"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:0
+msgid ""
+"https://gisunchained.wordpress.com/2024/05/11/goodbye-wordpress-goodbye-gis-"
+"unchained/"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:11
+msgid "<p>Hello all,</p>\n"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:15
+msgid ""
+"<p>Some time ago, I have become a freelancer worker. For this reason, I "
+"decided to move away from wordpress.com and this kind of hobby blog and make"
+" a bit more professional website. It took some time, but it&#8217;s ready "
+"now!</p>\n"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:19
+msgid ""
+"<p class=\"has-text-align-center has-large-font-size\"><a "
+"href=\"https://aneto.pt/\">www.aneto.pt</a></p>\n"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:23
+msgid ""
+"<p>I have move all the blog content to the new website. When it makes sense,"
+" I will try to update it to newer versions of QGIS and create new content "
+"regularly. Please follow me there. If you were following me using the RSS "
+"Feed, you can start using the following <a "
+"href=\"https://aneto.pt/index.xml\">URL</a>.<br /><br />As a farewell (and "
+"welcome) gift, here&#8217;s my brand new post there:<br /><a "
+"href=\"https://aneto.pt/posts/tutorials/2024-05-11-create-easy-pyqgis-"
+"developement-environment-using-conda-and-vscode/\">Create a PyQGIS "
+"Development Environment Using Conda and VScode</a></p>\n"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:27
+msgid "<p>Thank for being around,</p>\n"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:31
+msgid "<p>Alexandre Neto</p>\n"
+msgstr ""
+
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:35
+#: content/community-blogs/goodbye-wordpress-goodbye-gis-unchained.md:39
+msgid "<p></p>\n"
+msgstr ""

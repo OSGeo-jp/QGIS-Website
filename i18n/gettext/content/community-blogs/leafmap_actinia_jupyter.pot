@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/leafmap_actinia_jupyter.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/leafmap_actinia_jupyter.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/leafmap_actinia_jupyter.md:0
+msgid "Markus Neteler: Using leafmap with actinia in a Jupyter notebook"
+msgstr ""
+
+#: content/community-blogs/leafmap_actinia_jupyter.md:0
+msgid "leafmap_actinia_jupyter."
+msgstr ""
+
+#: content/community-blogs/leafmap_actinia_jupyter.md:0
+msgid "2024-03-12"
+msgstr ""
+
+#: content/community-blogs/leafmap_actinia_jupyter.md:0
+msgid "https://neteler.org/blog/leafmap_actinia_jupyter/"
+msgstr ""
+
+#: content/community-blogs/leafmap_actinia_jupyter.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/leafmap_actinia_jupyter.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/leafmap_actinia_jupyter.md:11
+msgid ""
+"<p>This blog post gives an overview of how to easily perform a geodata analysis of an online available dataset (here: a GeoTIFF file) with actinia and display the result in Leafmap browser-based.</p>\n"
+"<p>The post <a href=\"https://neteler.org/blog/leafmap_actinia_jupyter/\">Using leafmap with actinia in a Jupyter notebook</a> appeared first on <a href=\"https://neteler.org\">Markus Neteler Consulting</a>.</p>\n"
+msgstr ""

@@ -1,0 +1,101 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/felt-is-our-first-sustaining-member.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:0
+msgid ""
+"QGIS Project blog: Welcoming our first flagship sustaining member – Felt"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:0
+msgid "felt-is-our-first-sustaining-member."
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:0
+msgid "2023-03-21"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:0
+msgid "https://blog.qgis.org/2023/03/21/felt-is-our-first-sustaining-member/"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:11
+msgid ""
+"<p>It is with great pleasure that we would like to welcome <a "
+"href=\"https://felt.com/blog/felt-flagship-member-of-qgis\">Felt as our "
+"first flagship sustaining member</a>!</p>\n"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:15
+msgid ""
+"<p><a href=\"https://felt.com\">Felt</a> plays a revolutionary role for "
+"those who work with maps daily by making maps and spatial analysis more "
+"accessible across organizations through modern web-based collaboration "
+"features. Teams across planning, tech, infrastructure, consulting, "
+"environmental sciences and more are using QGIS &amp; Felt to access the "
+"power of desktop GIS alongside the ease of modern web-based collaboration "
+"features, including:</p>\n"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:19
+msgid ""
+"<ul>\n"
+"<li>Customize your maps with browser-based tools: draw, drop pins, leave notes, trace boundaries, find routes — even add a video — all just point and click</li>\n"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:24
+msgid ""
+"<li>Collaborate with your team on the same map in the moment, or hours and "
+"miles apart</li>\n"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:28
+msgid ""
+"<li>Invite one, a few, or the whole world to see your work with precise access controls</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:33
+msgid ""
+"<p>Have a look yourself and discover the <a "
+"href=\"https://felt.com/gallery\">inspiring maps shared by Felt "
+"users</a>.</p>\n"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:37
+msgid ""
+"<p>We are particularly excited about this collaboration since Felt users "
+"regularly pair the analytical power of QGIS with the team-based sharing and "
+"collaboration features of Felt. Together, we contribute to a winning "
+"ecosystem of easy-to-use map-making tools for modern teams and "
+"organizations. </p>\n"
+msgstr ""
+
+#: content/community-blogs/felt-is-our-first-sustaining-member.md:41
+msgid ""
+"<p>Felt&#8217;s support for QGIS helps us reach the goal of a stable "
+"financial basis to <a href=\"https://blog.qgis.org/2023/01/16/crowd-funding-"
+"call-2023/\">ensure another 20+ years of sustainable development</a> and "
+"keep bringing the most user-friendly GIS to users worldwide.</p>\n"
+msgstr ""

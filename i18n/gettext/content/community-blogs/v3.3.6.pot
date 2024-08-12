@@ -1,0 +1,48 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v3.3.6.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/v3.3.6.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v3.3.6.md:0
+msgid "QField releases: 3.3.6 - Darién"
+msgstr ""
+
+#: content/community-blogs/v3.3.6.md:0
+msgid "v3.3.6.6"
+msgstr ""
+
+#: content/community-blogs/v3.3.6.md:0
+msgid "2024-07-05"
+msgstr ""
+
+#: content/community-blogs/v3.3.6.md:0
+msgid "https://github.com/opengisch/QField/releases/tag/v3.3.6"
+msgstr ""
+
+#: content/community-blogs/v3.3.6.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v3.3.6.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v3.3.6.md:11
+msgid ""
+"<h2>What's Changed</h2>\n"
+"<ul>\n"
+"<li>Expose functions for plugin authors to handle global, project, and layer variables</li>\n"
+"</ul>\n"
+msgstr ""

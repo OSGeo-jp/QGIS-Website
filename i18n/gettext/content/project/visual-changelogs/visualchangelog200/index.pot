@@ -1,0 +1,1184 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-changelogs/visualchangelog200/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:0
+msgid "Changelog for QGIS 2.0"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:0
+msgid "2013-09-09"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:0
+msgid "project"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:0
+msgid "visual-changelog"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:10
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:12
+msgid "Changelog for QGIS 2.0 {#changelog20}"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:14
+msgid "Release date: 2013-09-09"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:16
+msgid "{{< table-of-contents >}}"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:18
+msgid "Analysis tools"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:20
+msgid "Feature: Processing Commander"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:22
+msgid ""
+"For quick access to geoprocessing functionality, just launch the processing "
+"commander (Ctrl + Alt + M) and start typing the name of the tool you are "
+"looking for. Commander will show you the available options and launch them "
+"for you. No more searching through menus to find tools. They are now right "
+"at your fingertips."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:24
+msgid "![image1](images/processing_commander_2.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:26
+msgid "Feature: Heatmap Plugin Improvements"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:28
+msgid ""
+"The heatmap plugin has seen numerous improvements and optimisations, "
+"resulting in much faster creation of heatmaps. Additionally, you now have "
+"the choice of which kernel function is used to create the heatmap."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:30
+msgid "![image2](images/Selection_027.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:32
+msgid "Feature: Processing Support"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:34
+msgid ""
+"The SEXTANTE project has been ported to and incorporated into QGIS as core "
+"functionality. SEXTANTE has been renamed to \\'Processing\\' and introduces "
+"a new menu in QGIS from where you can access a rich toolbox of spatial "
+"analysis tools. The processing toolbox has incredibly rich functionality - "
+"with a python programming API allowing you to easily add new tools, and "
+"hooks to provide access to analysis capabilities of many popular open source"
+" tools such as GRASS, OTB, SAGA etc."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:36
+msgid "![image3](images/Selection_028.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:38
+msgid "Feature: Processing Modeller"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:40
+msgid ""
+"One of the great features of the new processing framework is the ability to "
+"combine the tools graphically. Using the **Processing Modeller**, you can "
+"build up complex analysis from a series of small single purpose modules. You"
+" can save these models and then use them as building blocks in even more "
+"complex models. Awesome power integrated right into QGIS and very easy to "
+"use!"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:42
+msgid "![image4](images/Processing_modeler_029.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:44
+msgid "Application and Project Options"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:46
+msgid "Feature: Define default startup project and project templates"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:48
+msgid ""
+"With QGIS 2.0 you can specify what QGIS should do when it starts: `New "
+"Project` (legacy behaviour, starts with a blank project), `Most recent` "
+"(when you start QGIS it will load the last project you worked on), "
+"`Specific` (always load a specific project when QGIS starts). You can use "
+"the project template directory to specify where your template projects "
+"should be stored. Any project that you store in that directory will be "
+"available for use as a template when invoking the `Project --> New from "
+"template` menu."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:50
+msgid "![image5](images/Screen_Shot_2013-09-12_at_11.23.02_PM.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:52
+msgid "Feature: System environment variables"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:54
+msgid ""
+"Current system environment variables can now be viewed and many configured "
+"within the application Options dialog. Useful for platforms, such as Mac, "
+"where a GUI application does not necessarily inherit the user\\'s shell "
+"environment. Also useful for setting/viewing environment variables for the "
+"external tool sets controlled by the processing toolbox, e.g. SAGA, GRASS; "
+"and, for turning on debugging output for specific sections of the source "
+"code."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:56
+msgid "![image6](images/changelog-2.0_sys-env-options.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:58
+msgid "Feature: User-defined zoom scales"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:60
+msgid ""
+"A listing of zoom scales can now be configured for the application and "
+"optionally overridden per project. The list will show up in the `Scale` "
+"popup combo box in the main window status bar, allowing for quick access to "
+"known scales for efficiently viewing and working with the current data "
+"sources. Defined scales can be exported to an XML file that can be imported "
+"into other projects or another QGIS application."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:62
+msgid "![image7](images/changelog-2.0_predefined-scales.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:64
+msgid "Browser"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:66
+msgid "Feature: Improvements to in-app browser panel"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:68
+msgid "Directories can be filtered by wildcard or regex expressions"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:69
+msgid "New `Project home` (parent directory of current project)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:70
+msgid "View `Properties` of the selected directory in a dialog"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:71
+msgid "Choose which directories to `Fast scan`"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:72
+msgid ""
+"Choose to `Add a directory` directly to `Favourites` via filesystem browse "
+"dialog"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:73
+msgid "New `/Volumes` on Mac (hidden directory for access to external drives)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:74
+msgid "New `OWS` group (collation of available map server connections)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:75
+msgid ""
+"Open a second browser (`View -> Panels -> Browser (2)`) for drag-n-drop "
+"interactions between browser panels"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:76
+msgid ""
+"Icons now sorted by item group type (filesystem, databases, map servers)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:77
+msgid "Layer `Properties` now have better visual layout"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:79
+msgid "![image8](images/changelog-2.0_browser.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:81
+msgid "Data Providers"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:83
+msgid "Feature: Raster Data Provider overhaul"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:85
+msgid ""
+"The raster data provider system has been completely overhauled. One of the "
+"best new features stemming from this work is the ability to \\'Layer -\\> "
+"Save As\\...\\' to save any raster layer as a new layer. In the process you "
+"can clip, resample, and reproject the layer to a new Coordinate Reference "
+"System. You can also save a raster layer as a rendered image so if you for "
+"example have single band raster that you have applied a colour palette to, "
+"you can save the rendered layer out to a georeferenced RGB layer."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:87
+msgid "![image9](images/Selection_017.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:89
+msgid "Feature: Oracle Spatial support"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:91
+msgid "QGIS 2.0 now includes Oracle Spatial support."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:93
+msgid "![image10](images/oracle.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:95
+msgid "Feature: Web Coverage Service provider added"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:97
+msgid ""
+"QGIS now provides native support for Web Coverage Service layers - the "
+"process for adding WCS is similar to adding a WMS layer or WFS layer."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:99
+msgid "Feature: Raster 2% cumulative cut by default"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:101
+msgid ""
+"Many raster imagery products have a large number of outliers which result in"
+" images having a washed out appearance. QGIS 2.0 intoduces much more fine "
+"grained control over the rendering behaviour of rasters, including using a "
+"2% - 98% percent cumulative cut by default when determining the colour space"
+" for the image. The image here shows QGIS 1.8 (left) versus QGIS 2.0 (right)"
+" when rendering the same image with default settings."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:103
+msgid "![image11](images/Selection_023.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:105
+msgid "Feature: WMS identify format"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:107
+msgid ""
+"It is now possible to select the format of the identify tool result for WMS "
+"layers if multiple known formats are supported by the server. The supported "
+"formats are HTML, feature (GML) and plain text. If the feature (GML) format "
+"is selected, the result is in the same form as for vector layers, the "
+"geometry may be highlighted and the feature including attributes and "
+"geometry may be copied to clipboard and pasted to another layer."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:109
+msgid "![image12](images/wms-identify.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:111
+msgid "Feature: WMTS Support"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:113
+msgid ""
+"The WMS client in QGIS now supports WMTS (Web Mapping Tile Service) "
+"including selection of sub-datasets such as time slices. When adding a WMS "
+"layer from a compliant server, you will be prompted to select the time slice"
+" to display."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:115
+msgid "![image13](images/Selection_035.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:117
+msgid "General"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:119
+msgid "Feature: Quantum GIS is now known only as \\'QGIS\\'"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:121
+msgid ""
+"The \\'Quantum\\' in \\'Quantum GIS\\' never had any particular significance"
+" and the duality of referring to our project as both `Quantum GIS` and "
+"`QGIS` caused some confusion. We are streamlining our project and as part of"
+" that process we are officially dropping the use of the word `Quantum` - "
+"henceforth we will be known only as `QGIS` (spelled with all letters in "
+"upper case). We will be updating all our code and publicity material to "
+"reflect this."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:123
+msgid "![image14](images/qgis.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:125
+msgid "Labelling"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:127
+msgid "Feature: New labelling system"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:129
+msgid ""
+"The labelling system has been totally overhauled - it now includes many new "
+"features such as drop shadows, \\'highway shields\\', many more data bound "
+"options, and various performance enhancements. We are slowly doing away with"
+" the \\'old labels\\' system, although you will still find that "
+"functionality available for this release, you should expect that it will "
+"disappear in a follow up release."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:131
+msgid "![image15](images/Layer_labeling_settings_003_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:133
+msgid "Feature: Expression based label properties"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:135
+msgid ""
+"The full power of normal label and rule expressions can now be used for "
+"label properties. Nearly every property can be defined with an expression or"
+" field value giving you more control over the label result. Expressions can "
+"refer to a field (e.g. set the font size to the value of the field "
+"\\'font\\') or can include more complex logic."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:137
+msgid "Examples of bindable properties include:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:139
+msgid "Font"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:140
+msgid "Size"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:141
+msgid "Style"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:142
+msgid "Buffer size"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:144
+msgid "![image16](images/2013-09-05_09_44_59-qgis-dev-bin.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:146
+msgid "Feature: Older labelling engine deprecated"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:148
+msgid ""
+"Use of the older labelling engine available in QGIS \\<= 1.8 is now "
+"discouraged (i.e. deprecated), but has not been removed. This is to allow "
+"users to migrate existing projects from the old to new labelling engine."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:150
+msgid ""
+"The following guidelines for working with the older engine in QGIS 2.0 "
+"apply:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:152
+msgid ""
+"Deprecated labelling tab is removed from vector layer properties dialog for "
+"new projects or older opened projects that don\\'t use that labelling "
+"engine."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:153
+msgid ""
+"Deprecated tab remains active for older opened projects, if any layer uses "
+"them, and does not go away even if saving the project with no layers having "
+"the older labelling engine enabled."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:155
+msgid ""
+"Deprecated labelling tab can be enabled/disabled for the current project, "
+"via Python console commands, e.g.:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:161
+msgid ""
+"**NOTE**: There is a *very high likelihood* the deprecated labelling engine "
+"will be completely removed prior to the next stable release of QGIS. Please "
+"migrate older projects."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:163
+msgid "![image17](images/changelog-2.0_labels-deprecated.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:165
+msgid "Layer Legend"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:167
+msgid "Feature: Legend visual feedback and options"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:169
+msgid "Total count for features in layer, as well as per symbol"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:170
+msgid ""
+"Vector layers in edit mode now have a red pencil to indicate uncommitted "
+"(unsaved) edits"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:171
+msgid ""
+"Active layer is now underlined, to indicate it in multi-layer selections or "
+"when there is no selection"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:172
+msgid "Clicking in non-list-item whitespace now clears the selection"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:173
+msgid ""
+"`Right-clicks` are now treated as `left-clicks` prior to showing the "
+"contextual menu, allowing for one click instead of two"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:174
+msgid "Groups and layers can optionally be in a bold font style"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:175
+msgid ""
+"Raster layer generated preview icons can now be turned off, for projects "
+"where such rendering may be slow"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:177
+msgid "![image18](images/changelog-2.0_visual-options.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:179
+msgid "Feature: Duplicate existing map layer"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:181
+msgid ""
+"Duplicate selected vector and raster layers in the map layer legend. Similar"
+" to importing the same data source again, as a separate layer, then "
+"copy/pasting style and symbology attributes."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:183
+msgid "![image19](images/changelog-2.0_dup-layer_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:185
+msgid "Feature: Multi-layer toggle editing commands"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:187
+msgid ""
+"User can now select multiple layers in legend and, if any of those are "
+"vector layers in edit mode, choose to save, rollback, or cancel current "
+"uncommitted edits. User can also choose to apply those actions across all "
+"layers, regardless of selection."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:189
+msgid "![image20](images/changelog-2.0_current-edits.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:191
+msgid "Map Composer"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:193
+msgid "Feature: HTML Map Items"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:195
+msgid "You can now place html elements onto your map."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:197
+msgid "![image21](images/Composer_1_006.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:199
+msgid "Feature: Multipage support"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:201
+msgid "A single composer window can now contain more then one page."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:203
+msgid "![image22](images/2013-09-08_22_31_33-Composer_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:205
+msgid "Feature: Expressions in composer labels"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:207
+msgid ""
+"The composer label item in 1.8 was quite limited and only allowed a single "
+"token \\$CURRENT_DATE to be used. In 2.0 full expression support has been "
+"added too greater power and control of the final labels."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:209
+msgid "A label with an expression such as:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:213
+msgid "will be evaluated at print time (and display time) to generate:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:217
+msgid ""
+"When atlas generation is enabled the currently active features\\' attribute "
+"values will also be accessible in the expressions allowing such things as:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:221
+msgid "![image23](images/2013-09-06_09_53_30-Composer_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:223
+msgid "Feature: Auto snap lines"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:225
+msgid ""
+"Having nicely align map items is critical to making nice printed maps. Auto "
+"snapping lines have been added to allow for easy composer object alignment "
+"by simply dragging an object close to another."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:227
+msgid "![image24](images/2013-09-05_10_05_01-Composer_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:229
+msgid "Feature: Manual Snap Lines"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:231
+msgid ""
+"Sometimes you need to align objects a curtain distance on the composer. With"
+" the new manual snapping lines you are able to add manual snap lines which "
+"allow for better align objects using a common alignment. Simply drag from "
+"the top or side ruler to add new guide line."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:233
+msgid "![image25](images/2013-09-05_10_09_41-Composer_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:235
+msgid "Feature: Map series generation"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:237
+msgid ""
+"Ever needed to generate a map series? Of course you have. The composer now "
+"includes built in map series generation using the atlas feature. Coverage "
+"layers can be points, lines, polygons, and the current feature attribute "
+"data is available in labels for on the fly value replacement."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:239
+msgid "![image26](images/Picture1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:241
+msgid "Feature: Automatic overview support in map frame"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:243
+msgid ""
+"Need to show the current area of the main map frame in a smaller overview "
+"window. Now you can. The map frame now contains the ability to show the "
+"extents of other and will update when moved. Using this with the atlas "
+"generation feature now core in the composer allows for some slick map "
+"generation. Overview frame style uses the same styling as a normal map "
+"polygon object so your creativity is never restricted."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:245
+msgid "![image27](images/Picture1_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:247
+msgid "Feature: Layer blending"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:249
+msgid ""
+"Layer blending makes it possible to combine layers in new and exciting ways."
+" While in older versions, all you could do was to make the layer "
+"transparent, you can now choose between much more advanced options such as "
+"\\\"multiply\\\", \\\"darken only\\\", and many more."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:251
+msgid ""
+"Blending can be used in the normal map view as well as in print composer. "
+"For a short tutorial on how to use blending in print composer to make the "
+"most out of background images, see [\\\"Vintage map design using "
+"QGIS\\\"](http://anitagraser.com/2013/07/29/vintage-map-design-using-qgis/)."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:253
+msgid "![image28](images/printcomposer_blending_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:255
+msgid "Feature: HTML Label support"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:257
+msgid ""
+"HTML support has been added map composer label item to give you even more "
+"control over your final maps. HTML labels support full css styles sheets, "
+"html, and even javascript if you are that way inclined."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:259
+msgid "![image29](images/html.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:261
+msgid "Feature: Multicolumn composer legend"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:263
+msgid ""
+"The composer legend now supports multiple columns. Splitting of a single "
+"layer with many classes into multiple columns is optional. Single symbol "
+"layers are now added by default as single line item. Three different styles "
+"may be assigned to layer/group title: Group, Subgroup or Hidden. Title "
+"styles allow arbitrary visual grouping of items. For example, a single "
+"symbol layer may be displayed as single line item or with layer title (like "
+"in 1.8), symbols from multiple following layers may be grouped into a single"
+" group (hiding titles) etc. Feature counts may be added to labels."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:265
+msgid "![image30](images/multicolumn-legend.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:267
+msgid "Feature: Updates to map composer management"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:269
+msgid "The following improvements have been made to map composer management:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:271
+msgid ""
+"Composer name can now be defined upon creation, optionally choosing to start"
+" from other composer names"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:272
+msgid "Composers can now be duplicated"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:273
+msgid ""
+"`New from Template` and from `Specific` (in Composer Manager) creates a "
+"composer from a template located anywhere on the filesystem"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:274
+msgid "Parent project can now be saved directly from the composer work space"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:275
+msgid ""
+"All composer management actions now accessible directly from the composer "
+"work space"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:277
+msgid "![image31](images/changelog-2.0_composer-mngmnt.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:279
+msgid "Plugins"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:281
+msgid "Feature: Revamped plugin manager"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:283
+msgid ""
+"In QGIS 1.x managing plugins was somewhat confusing with two interfaces - "
+"one for managing already installed plugins and one for fetching python "
+"plugins from an only plugin repository. In QGIS 2.0 we introduce **a new, "
+"unified, plugin manager** which provides a *one stop shop* for downloading, "
+"enabling/disabling and generally managing you plugins. Oh, and the user "
+"interface is gorgeous too with side tabs and easy to recognise icons!"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:285
+msgid "![image32](images/Plugin_Manager_024.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:287
+msgid "Programmability"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:289
+msgid "Feature: New Python Console"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:291
+msgid ""
+"The new Python console gives you even more power. Now the with auto complete"
+" support, syntax highlighting, adjustable font settings. The side code "
+"editor allows for easier entry of larger blocks of code with the ability to "
+"open and run any Python file in the QGIS session."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:293
+msgid "![image33](images/pyconsole.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:295
+msgid "Feature: Even more expression functions"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:297
+msgid ""
+"With the expression engine being used more and more though out QGIS to allow"
+" for things like expression based labels and symbol, many more functions "
+"have been added to the expression builder and are all accessible though the "
+"expression builder. All functions include comprehensive help and usage "
+"guides for ease of use."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:299
+msgid "![image34](images/2013-09-06_09_10_49-Expression_based_label.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:301
+msgid "Feature: Custom expression functions"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:303
+msgid ""
+"If the expression engine doesn\\'t have the function that you need. Not to "
+"worry. New functions can be added via a plugin using a simple Python API."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:305
+msgid ""
+"![image35](images/2013-09-06_09_14_58-untitled__routing_-"
+"_Sublime_Text_UNREGISTERED.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:307
+msgid "Feature: New cleaner Python API"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:309
+msgid ""
+"The Python API has been revamped to allow for a more cleaner, more pythonic,"
+" programming experience. The QGIS 2.0 API uses SIP V2 which removes the "
+"messy toString(), toInt() logic that was needed when working with values. "
+"Types are now converted into native Python types making for a much nicer "
+"API. Attributes access is now done on the feature itself using a simple key "
+"lookup, no more index lookup and attribute maps."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:315
+msgid ""
+"The way features are read from a layer has also been improved allowing for "
+"multithreading in the future versions."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:320
+msgid ""
+"![image36](images/2013-09-06_09_28_08-untitled__routing_-"
+"_Sublime_Text_UNREGISTERED.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:322
+msgid "Feature: Code compatibility with version 1.x releases"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:324
+msgid ""
+"As this is a major release, it is not completely API compatible with "
+"previous 1.x releases. In most cases porting your code should be fairly "
+"straightforward - you can use [this "
+"guide](https://github.com/qgis/QGIS/wiki/Python_plugin_API_changes_from_18_to_20)"
+" to get started. Please use the developer mailing list if you need further "
+"help."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:326
+msgid "![image37](images/Selection_021.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:328
+msgid "Feature: Python project macros"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:330
+msgid ""
+"A Python module, saved into a project.qgs file, can be loaded and have "
+"specific functions run on the following project events:"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:332
+msgid "`openProject()`"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:333
+msgid "`saveProject()`"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:334
+msgid "`closeProject()`"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:336
+msgid ""
+"Whether the macros are run can be configured in the application options."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:338
+msgid "![image38](images/changelog-2.0_project-macros_w-setttings.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:340
+msgid "Symbology"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:342
+msgid "Feature: Data defined properties"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:344
+msgid ""
+"With the new data defined properties, it is possible to control symbol type,"
+" size, color, rotation, and many other properties through feature "
+"attributes."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:346
+msgid "![image39](images/datadefinedproperties2.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:348
+msgid "Feature: Improved symbol layer management"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:350
+msgid ""
+"The new symbol layer overview uses a clear, tree-structured layout which "
+"allows for easy and fast access to all symbol layers."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:352
+msgid "![image40](images/symbollayertree.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:354
+msgid "Feature: Support for transparency in colour definitions"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:356
+msgid ""
+"In most places where you select colours, QGIS now allows you to specify the "
+"alpha channel (which determins how transparent the colour should be). This "
+"allows you to create great looking maps and to hide data easily that you "
+"don\\'t want users to see."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:358
+msgid "![image41](images/Layer_Properties_-_nat_026_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:360
+msgid "Feature: Color Control for Raster Layers"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:362
+msgid ""
+"QGIS 2.0 allows you to precisely control exactly how you\\'d like raster "
+"layers to appear. You now have complete control over the brightness, "
+"contrast and saturation of raster layers. There\\'s even options to allow "
+"display of rasters in grayscale or by colorising with a specified color."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:364
+msgid "![image42](images/Layer_Properties_-_blue_marble_032.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:366
+msgid "Feature: Copy symbology between layers"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:368
+msgid ""
+"Its now super easy to copy symbology from one layer to another layer. If you"
+" are working with several similar layer, you can simply `right-click` on one"
+" layer, choose `Copy Style` from the context menu and then `right-click` on "
+"another layer and choose `Paste-Style`."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:370
+msgid "![image43](images/Selection_034.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:372
+msgid "Feature: Save styles in your database"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:374
+msgid ""
+"If you are using a database vector data store, you can now store the layer "
+"style definitions directly in the database. This makes it easy to share "
+"styled layers in an enterprise or multi-user environment."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:376
+msgid "![image44](images/Selection_037.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:378
+msgid "Feature: Colour ramp support"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:380
+msgid ""
+"Colour ramps are now available in many places in QGIS symbology settings and"
+" QGIS ships with a rich, extensible set of colour ramps. You can also design"
+" your own and many [cpt-city](http://soliton.vm.bytemark.co.uk/pub/cpt-"
+"city/) themes are included in QGIS now \\'out of the box\\'. Color ramps "
+"even have full support for transparency!"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:382
+msgid "![image45](images/Selection_038.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:384
+msgid "Feature: Set custom default styles for all layer types"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:386
+msgid ""
+"Now QGIS lets you control how new layers will be drawn when they do not have"
+" an existing `.qml` style defined. You can also set the default transparency"
+" level for new layers and whether symbols should have random colours "
+"assigned to them."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:388
+msgid "![image46](images/Screen_Shot_2013-09-12_at_11.18.52_PM.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:390
+msgid "User Interface"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:392
+msgid "Feature: New icon theme"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:394
+msgid ""
+"We have updated out icon theme to use the \\'GIS\\' theme which introduces "
+"an improved level of consistency and professionalism to the QGIS user "
+"interface."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:396
+msgid "![image47](images/Selection_001_1.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:398
+msgid "Feature: Side tabs, collapsable groups"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:400
+msgid ""
+"We have standardised the layout of tabs and introduced collapsible group "
+"boxes into many of our dialogs to make navigating the various options more "
+"easy, and to make better use of screen real estate."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:402
+msgid "![image48](images/Selection_005.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:404
+msgid "Feature: Soft notifications"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:406
+msgid ""
+"In many cases we want to tell you something, but we don\\'t want to stop "
+"your work or get in your way. With the new notification system QGIS can let "
+"you know about important information via a yellow message bar that appears "
+"at the top of the map canvas but doesn\\'t force you to deal with it if you "
+"are busy doing something else. Programmers can create these notification "
+"(e.g. from a plugin) too using our python API."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:408
+msgid "![image49](images/Selection_030.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:410
+msgid "Feature: Application custom font and Qt stylesheet"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:412
+msgid ""
+"The system font used for the application\\'s user interface can now be set. "
+"Any C++ or Python plugin that is a child of the QGIS GUI application or has "
+"copied/applied the application\\'s GUI stylesheet can inherit its styling, "
+"which is useful for GUI fixes across platforms and when using custom QGIS Qt"
+" widgets, like `QgsCollapsibleGroupBox`."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:414
+msgid ""
+"The generated QGIS GUI application stylesheet for the current platform can "
+"be accessed after launching with (in PyQGIS):"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:418
+msgid "![image50](images/changelog-2.0_app-font.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:420
+msgid "Feature: Live color chooser dialogs and buttons"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:422
+msgid ""
+"Every color chooser button throughout the interface has been updated to give"
+" visual feedback on whether the current color has a transparent, or "
+"\\'alpha,\\' component. The color chooser opened by the new color buttons "
+"will now always be the default for the operating system. If the user has "
+"`Use live-updating color chooser dialogs` checked under `Options -> General "
+"-> Application`, any change in the color chooser will immediately be shown "
+"in the color button and for any item currently being edited, where "
+"applicable."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:424
+msgid "![image51](images/changelog-2.0_live-color-dlgs.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:426
+msgid "Feature: SVG Annotations"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:428
+msgid ""
+"With QGIS 2.0 you can now add SVG annotations to your map - either pinned to"
+" a specific place or in a relative position over the map canvas."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:430
+msgid "![image52](images/Screen_Shot_2013-09-14_at_9.39.11_AM.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:432
+msgid "Feature: Drag and drop form builder"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:434
+msgid ""
+"QGIS 2.0 supports a great new system for creating data entry forms. With the"
+" drag and drop form designer you can create smart looking forms with tabs to"
+" group common fields together. Now it is much easier to control the data "
+"entry experience for your users."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:436
+msgid "![image53](images/Screen_Shot_2013-09-14_at_2.17.27_PM.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:438
+msgid "Feature: Default action tool"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:440
+msgid ""
+"If you are a user of vector layer actions (small tasks that can run when you"
+" click on a feature), you will love the new action tool on the toolbar. With"
+" it you can select an active action and then click on your features to "
+"invoke that action."
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:442
+msgid "![image54](images/Screen_Shot_2013-09-14_at_2.27.03_PM.png)"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog200/index.md:444
+msgid "{{< content-end >}}"
+msgstr ""

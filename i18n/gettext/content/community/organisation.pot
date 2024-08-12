@@ -1,0 +1,536 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community/organisation.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community/organisation.md:0
+msgid "page"
+msgstr ""
+
+#: content/community/organisation.md:0
+msgid "Project organisation"
+msgstr ""
+
+#: content/community/organisation.md:9
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/community/organisation.md:11
+msgid "Who's Who"
+msgstr ""
+
+#: content/community/organisation.md:12
+msgid ""
+"QGIS as a Project is currently organised as an association legally based in "
+"Switzerland with the following structure:"
+msgstr ""
+
+#: content/community/organisation.md:14
+msgid ""
+"![QGIS Organizational Structure](./QGIS-ORG_Organizational_structure.png)"
+msgstr ""
+
+#: content/community/organisation.md:16
+msgid "QGIS Organizational Structure"
+msgstr ""
+
+#: content/community/organisation.md:18
+msgid ""
+"The QGIS project is managed by the Board (3 members, legal representation) "
+"and the PSC which consists of 6 members (with their individual "
+"responsibilities listed in brackets):"
+msgstr ""
+
+#: content/community/organisation.md:20
+msgid "Board"
+msgstr ""
+
+#: content/community/organisation.md:23
+msgid "Marco Bernasocchi (Chair) \\[since 5.2020\\]"
+msgstr ""
+
+#: content/community/organisation.md:25
+msgid "Anita Graser (Vice chair) \\[since 9.2022\\]"
+msgstr ""
+
+#: content/community/organisation.md:27
+msgid ""
+"Andreas Neumann (Treasurer; Contact for Sustaining Members) \\[since "
+"11.2015\\]"
+msgstr ""
+
+#: content/community/organisation.md:30
+msgid ""
+"To contact the board, please write to "
+"[board@qgis.org](mailto:board@qgis.org)."
+msgstr ""
+
+#: content/community/organisation.md:32
+msgid "Project Steering Committee"
+msgstr ""
+
+#: content/community/organisation.md:35
+msgid ""
+"Marco Bernasocchi (Chair) \\[Chair since May 2020; Vice chair April 2018 - "
+"April 2020\\]"
+msgstr ""
+
+#: content/community/organisation.md:37
+msgid ""
+"Anita Graser (Vice chair) \\[Design Advisor; Vice chair since Sept. 2022\\]"
+msgstr ""
+
+#: content/community/organisation.md:39
+msgid ""
+"Andreas Neumann (Treasurer; Contact for Sustaining Members) \\[since Nov. "
+"2015\\]"
+msgstr ""
+
+#: content/community/organisation.md:41
+msgid "Jürgen Fischer (Release Manager) \\[since Sept. 2013\\]"
+msgstr ""
+
+#: content/community/organisation.md:43
+msgid "Alessandro Pasotti (PSC Member) \\[Vice chair May 2020 - Sept.2022\\]"
+msgstr ""
+
+#: content/community/organisation.md:45
+msgid "Régis Haubourg (PSC Member) \\[Since Oct. 2022\\]"
+msgstr ""
+
+#: content/community/organisation.md:48
+msgid ""
+"To contact the PSC, please write to [psc@qgis.org](mailto:psc@qgis.org)."
+msgstr ""
+
+#: content/community/organisation.md:50
+msgid "Honorary PSC Members"
+msgstr ""
+
+#: content/community/organisation.md:52
+msgid "Gary Sherman (Founder and lifetime Honorary PSC Member)"
+msgstr ""
+
+#: content/community/organisation.md:54
+msgid ""
+"Tim Sutton (awarded Honorary PSC member in 9.2018 at the FOSS4G in Tanzania)"
+msgstr ""
+
+#: content/community/organisation.md:57
+msgid "Former PSC Members"
+msgstr ""
+
+#: content/community/organisation.md:59
+msgid "Tim Sutton (Chair; Testing/QA Manager) (until 2018)"
+msgstr ""
+
+#: content/community/organisation.md:61
+msgid ""
+"Paolo Cavallini \\[Member April 2020 - 09-2022; Chair April 2018 - April "
+"2020; Vice chair Jan. 2008 - March 2018; \\]"
+msgstr ""
+
+#: content/community/organisation.md:63
+msgid "Marco Hugentobler \\[until 2016\\]"
+msgstr ""
+
+#: content/community/organisation.md:65
+msgid "Otto Dassau (Community Advisor) \\[2007 - 2016\\]"
+msgstr ""
+
+#: content/community/organisation.md:67
+msgid "Richard Duivenvoorde (Infrastructure Manager) \\[2013 - 2019\\]"
+msgstr ""
+
+#: content/community/organisation.md:70
+msgid ""
+"Read more about the responsibilities of the PSC [here]({{< ref "
+"\"/community/foundation/charter.md\" >}})"
+msgstr ""
+
+#: content/community/organisation.md:72
+msgid "Address of the Organization"
+msgstr ""
+
+#: content/community/organisation.md:74
+msgid "QGIS.ORG Böschacherstrasse 10a CH-8624 Grüt (Gossau ZH)"
+msgstr ""
+
+#: content/community/organisation.md:76
+msgid "Voting members"
+msgstr ""
+
+#: content/community/organisation.md:78
+msgid "Honorable Voting Members"
+msgstr ""
+
+#: content/community/organisation.md:80
+msgid "Harrissou Sant-anna \\[since 5.2020\\]"
+msgstr ""
+
+#: content/community/organisation.md:82
+msgid "Nyall Dawson \\[since 5.2020\\]"
+msgstr ""
+
+#: content/community/organisation.md:85
+msgid "Country Voting Members"
+msgstr ""
+
+#: content/community/organisation.md:87
+msgid ""
+"According to our statutes, for each country user group that is formed, that "
+"group will select a QGIS Country User Group Voting Member to represent their"
+" interests. These voting members are listed [here]({{< ref "
+"\"/community/groups.md\" >}}) . Please email "
+"[trademark@qgis.org](mailto:trademark@qgis.org) if you have registered a new"
+" country user group, or have changed your user group representative."
+msgstr ""
+
+#: content/community/organisation.md:89
+msgid "Community Voting Members"
+msgstr ""
+
+#: content/community/organisation.md:91
+msgid ""
+"According to our statutes, one member from the broader community can be "
+"elected for each country voting member. The following list includes the "
+"current community voting members:"
+msgstr ""
+
+#: content/community/organisation.md:93
+msgid "Martin Dobias, Slovakia"
+msgstr ""
+
+#: content/community/organisation.md:95
+msgid "Nathan Woodrow, Australia"
+msgstr ""
+
+#: content/community/organisation.md:97
+msgid "Matthias Kuhn, Switzerland"
+msgstr ""
+
+#: content/community/organisation.md:99
+msgid "Larry Shaffer, United States"
+msgstr ""
+
+#: content/community/organisation.md:101
+msgid "Nyall Dawson, Australia"
+msgstr ""
+
+#: content/community/organisation.md:103
+msgid "Giovanni Manghi, Portugal"
+msgstr ""
+
+#: content/community/organisation.md:105
+msgid "Denis Rouzaud, Switzerland"
+msgstr ""
+
+#: content/community/organisation.md:107
+msgid "Alexander Bruy, Ukraine"
+msgstr ""
+
+#: content/community/organisation.md:109
+msgid "Regis Haubourg, France"
+msgstr ""
+
+#: content/community/organisation.md:111
+msgid "Even Rouault, France"
+msgstr ""
+
+#: content/community/organisation.md:113
+msgid "Werner Macho, Austria"
+msgstr ""
+
+#: content/community/organisation.md:115
+msgid "Vincent Picavet, France"
+msgstr ""
+
+#: content/community/organisation.md:117
+msgid "Yves Jacolin, France"
+msgstr ""
+
+#: content/community/organisation.md:120
+msgid "Added 2017"
+msgstr ""
+
+#: content/community/organisation.md:122
+msgid "Alessandro Pasotti, Italy"
+msgstr ""
+
+#: content/community/organisation.md:124
+msgid "Victor Olaya, France/Spain"
+msgstr ""
+
+#: content/community/organisation.md:126
+msgid "Lene Fischer, Denmark"
+msgstr ""
+
+#: content/community/organisation.md:128
+msgid "Paul Blottiere, France"
+msgstr ""
+
+#: content/community/organisation.md:130
+msgid "Mathieu Pellerin, Indonesia"
+msgstr ""
+
+#: content/community/organisation.md:132
+msgid "Luigi Pirelli, Spain"
+msgstr ""
+
+#: content/community/organisation.md:134
+msgid "Alexandre Neto, Portugal"
+msgstr ""
+
+#: content/community/organisation.md:136
+msgid "Tom Chadwin, United Kingdeom"
+msgstr ""
+
+#: content/community/organisation.md:138
+msgid "Marco Hugentobler, Switzerland"
+msgstr ""
+
+#: content/community/organisation.md:141
+msgid "Added 2018"
+msgstr ""
+
+#: content/community/organisation.md:143
+msgid "Hugo Mercier, France"
+msgstr ""
+
+#: content/community/organisation.md:146
+msgid "Added 2019"
+msgstr ""
+
+#: content/community/organisation.md:148
+msgid "None (No new user groups created)"
+msgstr ""
+
+#: content/community/organisation.md:151
+msgid "Added 2020"
+msgstr ""
+
+#: content/community/organisation.md:153
+msgid "David signer, Switzerland"
+msgstr ""
+
+#: content/community/organisation.md:155
+msgid "Enrico Ferreguti, Italy"
+msgstr ""
+
+#: content/community/organisation.md:157
+msgid "Etienne Trimaille, France"
+msgstr ""
+
+#: content/community/organisation.md:159
+msgid "Pedro Venâncio, Portugal"
+msgstr ""
+
+#: content/community/organisation.md:161
+msgid "Peter Petrik, Czech Republic"
+msgstr ""
+
+#: content/community/organisation.md:163
+msgid "Richard Duivenvoorde, Netherlands"
+msgstr ""
+
+#: content/community/organisation.md:166
+msgid "Release Management"
+msgstr ""
+
+#: content/community/organisation.md:168
+msgid "Current Release Manager: Jürgen E. Fischer"
+msgstr ""
+
+#: content/community/organisation.md:170
+msgid ""
+"QGIS Releases are managed by the Release Team (Release Manager and Release "
+"Assistants). Together with numerous contributors, they oversee timely, "
+"regular, stable releases of QGIS on the various supported platforms. The "
+"release team recruits and supports build managers to create packages for "
+"supported platforms and oversee the maintenance of the bug tracking system."
+msgstr ""
+
+#: content/community/organisation.md:172
+msgid "Packaging Team"
+msgstr ""
+
+#: content/community/organisation.md:174
+msgid ""
+"QGIS is being packaged for different types of operating systems. The people "
+"responsible for these packages are as follows:"
+msgstr ""
+
+#: content/community/organisation.md:176
+msgid "Windows Team: Jürgen E. Fischer"
+msgstr ""
+
+#: content/community/organisation.md:178
+msgid "OS X Team: William Kyngesburye, Peter Petrik"
+msgstr ""
+
+#: content/community/organisation.md:180
+msgid "Linux Team:"
+msgstr ""
+
+#: content/community/organisation.md:182
+msgid "OpenSuSE RPM Maintainer: Angelos Tzotsos"
+msgstr ""
+
+#: content/community/organisation.md:184
+msgid "Fedora RPM Maintainer: Daniel Viganò"
+msgstr ""
+
+#: content/community/organisation.md:186
+msgid "Debian / Ubuntu Deb Maintainer: Jürgen E. Fischer, Bas Couwenberg"
+msgstr ""
+
+#: content/community/organisation.md:189
+msgid "Testing Team"
+msgstr ""
+
+#: content/community/organisation.md:191
+msgid "Ubuntu Linux: Ricardo Soares Garcia, Giovanni Manghi, Luís de Sousa"
+msgstr ""
+
+#: content/community/organisation.md:193
+msgid "Debian Linux: Paolo Cavallini, Pedro Venâncio, Ivan Mincik"
+msgstr ""
+
+#: content/community/organisation.md:195
+msgid ""
+"Windows: Giovanni Manghi, Pedro Venâncio, Duarte Carreira, Andre Mano, Rui "
+"Pedro Henriques"
+msgstr ""
+
+#: content/community/organisation.md:197
+msgid "MacOS: Larry Shaffer, Tim Sutton, Denis Rouzaud, Peter Petrik"
+msgstr ""
+
+#: content/community/organisation.md:200
+msgid "Security Team"
+msgstr ""
+
+#: content/community/organisation.md:202
+msgid ""
+"For security questions, please write to "
+"[security@qgis.org](mailto:security@qgis.org)."
+msgstr ""
+
+#: content/community/organisation.md:204
+msgid "Community Resources"
+msgstr ""
+
+#: content/community/organisation.md:207
+msgid ""
+"The QGIS community resources are managed by the Community Team (Community "
+"Manager and Assistants). With numerous contributors they keep contact to the"
+" community, take care of QGIS events, documentation, GUI translations, and "
+"ensure smooth running of the QGIS.org online experience including web sites,"
+" blog, and mailing lists."
+msgstr ""
+
+#: content/community/organisation.md:209
+msgid "Current Community Team Leaders:"
+msgstr ""
+
+#: content/community/organisation.md:211
+msgid "Lene Fischer (community tasks)"
+msgstr ""
+
+#: content/community/organisation.md:213
+msgid "Matteo Ghetta (documentation)"
+msgstr ""
+
+#: content/community/organisation.md:216
+msgid ""
+"Find the list of documentation and website translators at: "
+"[https://github.com/qgis/QGIS-Documentation](https://github.com/qgis/QGIS-"
+"Documentation)"
+msgstr ""
+
+#: content/community/organisation.md:218
+msgid "Translation"
+msgstr ""
+
+#: content/community/organisation.md:220
+msgid "Current Translation Team Lead: Werner Macho"
+msgstr ""
+
+#: content/community/organisation.md:222
+msgid ""
+"The QGIS Translation is managed by the Community Assistant (Translation Team"
+" Lead) and supported by additional language specific teams. Information "
+"about the current documentation status and the translation process is "
+"provided at the [Translators "
+"Corner](https://docs.qgis.org/latest/en/docs/documentation_guidelines/do_translations.html)."
+msgstr ""
+
+#: content/community/organisation.md:224
+msgid ""
+"Contact : [qgis-community-"
+"team](http://lists.osgeo.org/mailman/listinfo/qgis-community-team) list or "
+"[QGIS Translation Mailing "
+"list](http://lists.osgeo.org/mailman/listinfo/qgis-tr)"
+msgstr ""
+
+#: content/community/organisation.md:226
+msgid "Press Material + Translation"
+msgstr ""
+
+#: content/community/organisation.md:228
+msgid "Current Press Material Team Lead: Anita Graser"
+msgstr ""
+
+#: content/community/organisation.md:230
+msgid ""
+"QGIS Press Material and its translations are managed by the Community "
+"Assistant (Press Material Team Lead) and supported by additional language "
+"specific teams. Information about current activities and the translation "
+"process is provided at the Press Centre."
+msgstr ""
+
+#: content/community/organisation.md:232
+msgid "TEAM"
+msgstr ""
+
+#: content/community/organisation.md:235
+msgid ""
+"A successful project requires many people to play many different roles. Some"
+" members write code or documentation, while others are valuable as testers, "
+"submitting patches and suggestions."
+msgstr ""
+
+#: content/community/organisation.md:237
+msgid ""
+"The number of Contributors to the project is unbounded. Get involved today. "
+"All contributions (adding code or documentation, fixing typo error, "
+"reporting issues…) to the project are greatly appreciated."
+msgstr ""
+
+#: content/community/organisation.md:239
+msgid ""
+"These [individuals](https://github.com/qgis/QGIS/graphs/contributors) are "
+"recognised as Contributors to the main code [github "
+"repository](https://github.com/qgis/QGIS)."
+msgstr ""
+
+#: content/community/organisation.md:241
+msgid ""
+"Follow the lists of maintainers of the "
+"[documentation](https://github.com/qgis/QGIS-"
+"Documentation/graphs/contributors) and the "
+"[website](https://github.com/qgis/QGIS-Website/graphs/contributors). Feel "
+"free to join any of those teams."
+msgstr ""
+
+#: content/community/organisation.md:243
+msgid "{{< content-end >}}"
+msgstr ""

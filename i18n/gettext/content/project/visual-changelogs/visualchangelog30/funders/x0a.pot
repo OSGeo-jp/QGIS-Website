@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-changelogs/visualchangelog30/funders/x0a.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0a.md:0
+msgid "2D3D.GIS"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0a.md:0
+msgid ""
+"images/projects/thumbnails/b3196a2b5781e788e6adac40ecf6964eddc4d38e.png.150x50_q85.png"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0a.md:0
+msgid "http://www.2d3d-gis.com/"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0a.md:0
+msgid "Small"
+msgstr ""

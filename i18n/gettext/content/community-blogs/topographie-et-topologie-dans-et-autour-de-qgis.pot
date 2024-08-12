@@ -1,0 +1,89 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/topographie-et-topologie-dans-et-autour-de-qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/topographie-et-topologie-dans-et-autour-de-qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/topographie-et-topologie-dans-et-autour-de-qgis.md:0
+msgid "QGIS Oslandia: Topography and Topology in and around QGIS"
+msgstr ""
+
+#: content/community-blogs/topographie-et-topologie-dans-et-autour-de-qgis.md:0
+msgid "topographie-et-topologie-dans-et-autour-de-qgis."
+msgstr ""
+
+#: content/community-blogs/topographie-et-topologie-dans-et-autour-de-qgis.md:0
+msgid "2024-06-13"
+msgstr ""
+
+#: content/community-blogs/topographie-et-topologie-dans-et-autour-de-qgis.md:0
+msgid ""
+"https://oslandia.com/en/2024/05/16/topographie-et-topologie-dans-et-autour-"
+"de-qgis/"
+msgstr ""
+
+#: content/community-blogs/topographie-et-topologie-dans-et-autour-de-qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/topographie-et-topologie-dans-et-autour-de-qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/topographie-et-topologie-dans-et-autour-de-qgis.md:11
+msgid ""
+"<p>Since 2018 and the arrival of Loïc Bartoletti, Oslandia has accelerated its focus on topography and topology within and around QGIS.</p>\n"
+"<p>Two questions have driven this focus:</p>\n"
+"<ul class=\"part\">\n"
+"<li class=\"\">How to draw directly in GIS by integrating drawing tools inspired by the CAD world into QGIS.</li>\n"
+"<li class=\"\">How to integrate plugins for topographic calculations directly into QGIS.</li>\n"
+"</ul>\n"
+"<p class=\"part\">To address this, Oslandia has worked on several fronts: training, developing open-source plugins, and improvements in QGIS.</p>\n"
+"<h2 class=\"part\">1- Plugins</h2>\n"
+"<p>The following plugins were developed by Oslandia or partners, with contributions from Oslandia:</p>\n"
+"<ul>\n"
+"<li class=\"part\"><strong>landsurveycodesimport</strong> : <a href=\"https://gitlab.com/Oslandia/qgis/landsurveycodesimport\" rel=\"noopener\" target=\"_blank\">https://gitlab.com/Oslandia/qgis/landsurveycodesimport</a><br />\n"
+"A plugin for surveyors working with the point coding methodology in topography.</li>\n"
+"<li class=\"part\"><strong>QompliGIS</strong> : <a href=\"https://gitlab.com/Oslandia/qgis/qompligis\" rel=\"noopener\" target=\"_blank\">https://gitlab.com/Oslandia/qgis/qompligis</a><br />\n"
+"A tool to ensure your dataset or plan complies with a specification.</li>\n"
+"<li class=\"part\"><strong>Total Open Station</strong> : <a href=\"https://github.com/totalopenstation\" rel=\"noopener\" target=\"_blank\">https://github.com/totalopenstation</a><br />\n"
+"An open-source project initiated by Italian and French archaeologists, it is a tool to convert various formats of survey field books.</li>\n"
+"<li class=\"part\"><strong>Topaze</strong> : <a href=\"https://gitlab.com/azimut-fr/qgis/topaze\" rel=\"noopener\" target=\"_blank\">https://gitlab.com/azimut-fr/qgis/topaze</a><br />\n"
+"A topometric calculation tool developed with Jean-Marie Arsac (Azimut). It was a proof of concept that such calculations can be done within a GIS.</li>\n"
+"</ul>\n"
+"<p class=\"part\">These plugins can be used at different stages of a project. They can be used all together or only those needed and integrated into workflows.</p>\n"
+"<h2 class=\"part\">2- Improvements on QGIS</h2>\n"
+"<p>Oslandia also focuses on improving the core of QGIS. Last years, our teams have worked on:</p>\n"
+"<p class=\"part\">— Integration of shape tools: circles, ellipses, rectangles, regular polygons, etc.<br />\n"
+"— Improvement of snapping tools.<br />\n"
+"— Enhancement of Z and M coordinate support.<br />\n"
+"— Improvement of topological tools (relationships between geometries).</p>\n"
+"<p>Coming soon is the possibility to use geometry and topology validation and correction plugins directly in QGIS processing tools, developed by Jacky Volpès and Loïc Bartoletti.</p>\n"
+"<h2 class=\"part\">3- Training</h2>\n"
+"<p>Oslandia is QUALIOPI certified and offers a training program around QGIS and QField:</p>\n"
+"<ul class=\"part\">\n"
+"<li class=\"\">Drawing: Transition from CAD to GIS with QGIS: <a href=\"https://oslandia.com/en/formations/qgis3-dessiner-avec-qgis/\" rel=\"noopener\" target=\"_blank\">https://oslandia.com/formations/qgis3-dessiner-avec-qgis/</a></li>\n"
+"<li class=\"\">Topography with QGIS (LSCI, Topaze, QompliGIS, Total Open Station)</li>\n"
+"<li class=\"\">QField Training</li>\n"
+"<li class=\"\">Deployment of QField Cloud</li>\n"
+"</ul>\n"
+"<p class=\"part\"><em>« In 2023, 89 people were trained by Oslandia, who recommend our training at 90.9%.»</em></p>\n"
+"<h2 class=\"part\">4- And QField ?</h2>\n"
+"<p class=\"part\">Since our partnership with <a href=\"http://OPENGIS.ch\" rel=\"noopener\" target=\"_blank\">OPENGIS.ch</a>, Oslandia offers QField Cloud server deployment services, training, and QField support.</p>\n"
+"<h2 class=\"part\">5- Coming Soon!</h2>\n"
+"<p>Several technical posts are being prepared: how to open CAD files in a GIS? What are the differences between QField and LSCI? You will find them on our website in the coming weeks. <img alt=\"🙂\" class=\"wp-smiley\" src=\"https://s.w.org/images/core/emoji/11/72x72/1f642.png\" style=\"height: 1em;\" /></p>\n"
+"<p>Additionally, we are preparing a white paper on the topic of migrating from CAD to QGIS, which we should release in September.</p>\n"
+"<p>Stay tuned!</p>\n"
+"<p>&nbsp;</p>\n"
+msgstr ""

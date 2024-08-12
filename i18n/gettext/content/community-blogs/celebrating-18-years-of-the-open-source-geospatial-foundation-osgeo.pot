@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo.md:0
+msgid ""
+"Markus Neteler: Celebrating 18 Years of the Open Source Geospatial "
+"Foundation (OSGeo)"
+msgstr ""
+
+#: content/community-blogs/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo.md:0
+msgid "celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo."
+msgstr ""
+
+#: content/community-blogs/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo.md:0
+msgid "2024-03-12"
+msgstr ""
+
+#: content/community-blogs/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo.md:0
+msgid ""
+"https://neteler.org/blog/celebrating-18-years-of-the-open-source-geospatial-"
+"foundation-osgeo/"
+msgstr ""
+
+#: content/community-blogs/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo.md:11
+msgid ""
+"<p>The Open Source Geospatial Foundation (OSGeo) today celebrates its 18th anniversary, underscoring its pivotal role in the development of open source geospatial software and its impact on the world. Founded in 2006, OSGeo’s mission is to support and promote the collaborative development of open geospatial technologies and data. Over the years, it has become a cornerstone of the open geospatial community, fostering innovation, education and adoption of open source geospatial software worldwide.</p>\n"
+"<p>The post <a href=\"https://neteler.org/blog/celebrating-18-years-of-the-open-source-geospatial-foundation-osgeo/\">Celebrating 18 Years of the Open Source Geospatial Foundation (OSGeo)</a> appeared first on <a href=\"https://neteler.org\">Markus Neteler Consulting</a>.</p>\n"
+msgstr ""

@@ -1,0 +1,240 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/resources/roadmap.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/resources/roadmap.md:0
+msgid "page"
+msgstr ""
+
+#: content/resources/roadmap.md:0 content/resources/roadmap.md:10
+msgid "Road Map"
+msgstr ""
+
+#: content/resources/roadmap.md:8
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/resources/roadmap.md:11
+msgid "{{< roadmap >}}"
+msgstr ""
+
+#: content/resources/roadmap.md:13
+msgid ""
+"Releases and development of QGIS follow a timebased schedule (roadmap)."
+msgstr ""
+
+#: content/resources/roadmap.md:15
+msgid "Even version numbers (2.18, 3.2 etc) are release versions."
+msgstr ""
+
+#: content/resources/roadmap.md:17
+msgid "Odd version numbers (2.99, 3.1 etc) are development versions."
+msgstr ""
+
+#: content/resources/roadmap.md:20
+msgid ""
+"A new release will happen every four months. In the first three months, new "
+"development is taking place. In the last month before a release, a feature "
+"freeze is invoked and the final month is used for testing, bugfixing, "
+"translation and release preparations. When the release happens, a branch "
+"with an even release number is created and the master branch advances to the"
+" next odd version. After the release a call for packaging is issued."
+msgstr ""
+
+#: content/resources/roadmap.md:22
+msgid ""
+"Every third release (starting with 2.8) is a long-term-release (LTR) that is"
+" maintained until the next long-term-release occurs."
+msgstr ""
+
+#: content/resources/roadmap.md:24
+msgid "Development phase"
+msgstr ""
+
+#: content/resources/roadmap.md:26
+msgid ""
+"In the development phase, developers work on adding new features for the "
+"next release. Early adopters can use the nightly builds we have for all "
+"major platforms to see the development progress, do preliminary testing and "
+"provide bug reports and their thoughts to help with development."
+msgstr ""
+
+#: content/resources/roadmap.md:28
+msgid "Feature freeze"
+msgstr ""
+
+#: content/resources/roadmap.md:30
+msgid ""
+"In the feature freeze phase, new features are not allowed in anymore and the"
+" focus of everyone moves from enhancing QGIS to stabilizing it. This also "
+"turns the nightly builds effectively into [prereleases](#qgis-prereleases)."
+msgstr ""
+
+#: content/resources/roadmap.md:32
+msgid ""
+"**Users** should start extensive testing of these prereleases in their "
+"environment to verify that there are no issues, they wouldn’t want to see in"
+" the upcoming release. All such issues should be reported (see [Bugs, "
+"Features and Issues]({{< ref \"resources/support/bug-reporting\" >}})). "
+"Everything that goes unnoticed, will also end up in the next release. Only "
+"in case of serious problems backports to a latest release will occur. "
+"Therefore testing of the prereleases and reporting issues is very important."
+msgstr ""
+
+#: content/resources/roadmap.md:34
+msgid ""
+"In the feature freeze, **developers** monitor the bugtracker and start "
+"working on fixing the reported issues and update the **visual changelog** "
+"with the features they added."
+msgstr ""
+
+#: content/resources/roadmap.md:36
+msgid ""
+"With the start of the feature freeze, the translation files will be updated "
+"so that **translators** can start their work. Note that this might be an "
+"incremental process as although the features are frozen, bug fixes might "
+"still introduce translation string changes."
+msgstr ""
+
+#: content/resources/roadmap.md:38
+msgid ""
+"Two weeks before the release, a hard freeze is initiated after which only "
+"fixes to severe problems and regressions introduced after the feature freeze"
+" are allowed in."
+msgstr ""
+
+#: content/resources/roadmap.md:40
+msgid "The release manager announces this on feature freeze."
+msgstr ""
+
+#: content/resources/roadmap.md:42
+msgid "Release"
+msgstr ""
+
+#: content/resources/roadmap.md:44
+msgid ""
+"On major and minor release dates, the release branch is created and the "
+"release is tagged and tar balls are prepared. Point releases are just tagged"
+" and tar balls are created."
+msgstr ""
+
+#: content/resources/roadmap.md:46
+msgid "The packagers are notified that packaging can begin."
+msgstr ""
+
+#: content/resources/roadmap.md:48
+msgid ""
+"Once some packages are available the release can be announced and the "
+"website is updated accordingly."
+msgstr ""
+
+#: content/resources/roadmap.md:50
+msgid "Release schedule"
+msgstr ""
+
+#: content/resources/roadmap.md:52
+msgid ""
+"The schedule is aligned to produce roughly the same dates for each year "
+"given our four monthly releases with LTRs entering the LTR repo in late "
+"february."
+msgstr ""
+
+#: content/resources/roadmap.md:54
+msgid ""
+"Beginning after 2.12 the development phase is always 12 weeks and the freeze"
+" phase is at least 5 weeks. Remainders are used to extend the freeze phase "
+"of LTR releases."
+msgstr ""
+
+#: content/resources/roadmap.md:56
+msgid ""
+"Point releases will happen every month on the latest release branch branch, "
+"if there are backports. Beginning with the 3.28 release point releases are "
+"only done with new latest releases."
+msgstr ""
+
+#: content/resources/roadmap.md:58
+msgid ""
+"In the first four months after its release, a new LTR is also the current "
+"LR. In this phase, the new LTR doesn’t replace the previous LTR in the LTR "
+"repositories. This happens as soon as a new LR is released."
+msgstr ""
+
+#: content/resources/roadmap.md:60
+msgid ""
+"This schedule is also available as "
+"[“iCalendar”](https://qgis.org/schedule.ics)."
+msgstr ""
+
+#: content/resources/roadmap.md:62
+msgid "Schedule"
+msgstr ""
+
+#: content/resources/roadmap.md:64
+msgid "{{< csv-table file=\"csv/schedule.csv\" />}}"
+msgstr ""
+
+#: content/resources/roadmap.md:66
+msgid "Event legend"
+msgstr ""
+
+#: content/resources/roadmap.md:68
+msgid ""
+"{{< csv-table >}} \"LTR\",\"Long term release, begin of new development "
+"phase\" \"LR\",\"Regular release, begin of new development phase\" "
+"\"FF\",\"Feature freeze, end of development phase\" \"PR\",\"Point release "
+"of latest release and LTR branch\" \"EPR\",\"Extra Point release\" \":rm-"
+"current:current\",\":rm-current:currently supported releases: {{< param "
+"\"ltrrelease\" >}} and {{< param \"release\" >}}\" \":rm-next:next\",\":rm-"
+"next:next releases\" {{< /csv-table >}}"
+msgstr ""
+
+#: content/resources/roadmap.md:78
+msgid "Location of prereleases / nightly builds {#qgis-prereleases}"
+msgstr ""
+
+#: content/resources/roadmap.md:80
+msgid "Platform"
+msgstr ""
+
+#: content/resources/roadmap.md:80
+msgid "Location"
+msgstr ""
+
+#: content/resources/roadmap.md:82
+msgid "Windows"
+msgstr ""
+
+#: content/resources/roadmap.md:82
+msgid "[OSGeo4W]({{< ref \"resources/installation-guide#osgeo4w-installer\" >}})"
+msgstr ""
+
+#: content/resources/roadmap.md:83
+msgid "Linux"
+msgstr ""
+
+#: content/resources/roadmap.md:83
+msgid "[Debian/Ubuntu]({{< ref \"resources/installation-guide#repositories\" >}})"
+msgstr ""
+
+#: content/resources/roadmap.md:84
+msgid "MacOS"
+msgstr ""
+
+#: content/resources/roadmap.md:84
+msgid ""
+"[Mac OS]({{< ref \"resources/installation-guide#qgis-nightly-release\" >}})"
+msgstr ""
+
+#: content/resources/roadmap.md:86
+msgid "{{< content-end >}}"
+msgstr ""

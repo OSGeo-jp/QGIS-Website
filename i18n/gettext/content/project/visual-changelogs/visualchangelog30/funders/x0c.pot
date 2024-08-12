@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-changelogs/visualchangelog30/funders/x0c.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0c.md:0
+msgid "Ager Technology"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0c.md:0
+msgid ""
+"images/projects/thumbnails/7ab30679cc486ecb9981c8c02a6d6ba1fb6ca2c7.png.150x50_q85.jpg"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0c.md:0
+msgid "http://www.agertechnology.com/"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog30/funders/x0c.md:0
+msgid "Small"
+msgstr ""

@@ -1,0 +1,111 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/danish-user-group-becomes-flagship-member.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:0
+msgid "QGIS Project blog: Danish User Group becomes Flagship Member"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:0
+msgid "danish-user-group-becomes-flagship-member."
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:0
+msgid "2024-06-06"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:0
+msgid ""
+"https://blog.qgis.org/2024/06/07/danish-user-group-becomes-flagship-member/"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:11
+msgid ""
+"<p><a href=\"https://qgis.org/en/site/forusers/usergroups.html#qgis-"
+"usergroups\">QGIS User Groups</a> all over the world have become an "
+"essential component of the QGIS community. They provide a point of contact "
+"for local users and developers and help people connect through localized "
+"communication channels or by organizing events. </p>\n"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:15
+msgid ""
+"<p>Another important aspect of users groups is that many of them also have "
+"become <a "
+"href=\"https://qgis.org/en/site/about/sustaining_members.html\">sustaining "
+"members</a> of QGIS.ORG. In total, their contributions account for a "
+"significant share of our project budget.</p>\n"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:19
+msgid ""
+"<p>The <a href=\"https://qgis.dk\">Danish User Group</a> now has opened a "
+"new chapter by becoming the first user group supporting QGIS on the Flagship"
+" level. And that&#8217;s a reason to celebrate <img alt=\"🥳\" class=\"wp-"
+"smiley\" src=\"https://s0.wp.com/wp-content/mu-plugins/wpcom-"
+"smileys/twemoji/2/72x72/1f973.png\" style=\"height: 1em;\" /> and to "
+"reminisce. For example, about the awesome time we had at the <a "
+"href=\"https://qgis2015.wordpress.com\">first QGIS User Conference</a> "
+"organized at the University of Copenhagen campus in Nødebo.</p>\n"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:23
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://blog.qgis.org/wp-content/uploads/2024/06/image-1.png\"><img "
+"alt=\"\" class=\"wp-image-2879\" height=\"351\" "
+"src=\"https://blog.qgis.org/wp-content/uploads/2024/06/image-1.png?w=705\" "
+"tabindex=\"0\" width=\"705\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:27
+msgid ""
+"<p>And who can forget how we all struggled to pronounce QGIS 2.16 "
+"&#8220;Nødebo&#8221;?</p>\n"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:31
+msgid ""
+"<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n"
+"<div class=\"jetpack-video-wrapper\"></div>\n"
+"</div></figure>\n"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:37
+msgid ""
+"<p>And how the <a "
+"href=\"https://github.com/qgis/QGIS/issues/23194\">&#8220;ø&#8221; upset "
+"some services</a>? Good times. </p>\n"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:41
+msgid ""
+"<p>Thank you very much to everyone from the Danish user group and to all the"
+" other user groups, small and large, who support QGIS our project and help "
+"make it even better for everyone.  </p>\n"
+msgstr ""
+
+#: content/community-blogs/danish-user-group-becomes-flagship-member.md:45
+msgid "<p></p>\n"
+msgstr ""

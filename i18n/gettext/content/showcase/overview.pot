@@ -1,0 +1,162 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/showcase/overview.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/showcase/overview.md:0
+msgid "page"
+msgstr ""
+
+#: content/showcase/overview.md:0
+msgid "Gallery"
+msgstr ""
+
+#: content/showcase/overview.md:0
+msgid "Amazing work from our community"
+msgstr ""
+
+#: content/showcase/overview.md:0
+msgid "true"
+msgstr ""
+
+#: content/showcase/overview.md:0
+msgid "img/banners/banner3.png"
+msgstr ""
+
+#: content/showcase/overview.md:0
+msgid "showcase"
+msgstr ""
+
+#: content/showcase/overview.md:13
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/showcase/overview.md:15
+msgid "Welcome to the QGIS Showcase"
+msgstr ""
+
+#: content/showcase/overview.md:17
+msgid ""
+"QGIS is an incredibly powerful toolset, capable of a range of diverse "
+"functionality. In this showcase you can discover some the capabilities of "
+"QGIS and the work and stories of users from around the world who have "
+"applied QGIS to help achieve their goals."
+msgstr ""
+
+#: content/showcase/overview.md:19
+msgid "Name"
+msgstr ""
+
+#: content/showcase/overview.md:19
+msgid "Description"
+msgstr ""
+
+#: content/showcase/overview.md:21 content/showcase/overview.md:27
+#: content/showcase/overview.md:33 content/showcase/overview.md:39
+#: content/showcase/overview.md:45
+msgid "{{< button"
+msgstr ""
+
+#: content/showcase/overview.md:22 content/showcase/overview.md:28
+#: content/showcase/overview.md:34 content/showcase/overview.md:40
+#: content/showcase/overview.md:46
+msgid "fullwidth = \"true\""
+msgstr ""
+
+#: content/showcase/overview.md:23
+msgid "icon = \"fa-solid fa-calendar\""
+msgstr ""
+
+#: content/showcase/overview.md:24 content/showcase/overview.md:30
+#: content/showcase/overview.md:36 content/showcase/overview.md:42
+#: content/showcase/overview.md:48
+msgid "class = \"is-success\""
+msgstr ""
+
+#: content/showcase/overview.md:25
+msgid "link = \"showcase/user-group-events\""
+msgstr ""
+
+#: content/showcase/overview.md:26
+msgid "text = \"User Group News\" >}}"
+msgstr ""
+
+#: content/showcase/overview.md:26
+msgid "User events around the world."
+msgstr ""
+
+#: content/showcase/overview.md:29
+msgid "icon = \"fa-solid fa-blog\""
+msgstr ""
+
+#: content/showcase/overview.md:31
+msgid "link = \"showcase/community-blogs/\""
+msgstr ""
+
+#: content/showcase/overview.md:32
+msgid "text = \"QGIS Blogs\" >}}"
+msgstr ""
+
+#: content/showcase/overview.md:32
+msgid "Blog articles related to QGIS from members of our community."
+msgstr ""
+
+#: content/showcase/overview.md:35
+msgid "icon = \"fa-solid fa-person\""
+msgstr ""
+
+#: content/showcase/overview.md:37
+msgid "link = \"showcase/case-studies/\""
+msgstr ""
+
+#: content/showcase/overview.md:38
+msgid "text = \"Case Studies\" >}}"
+msgstr ""
+
+#: content/showcase/overview.md:38
+msgid "Case studies of QGIS being applied to real world problems."
+msgstr ""
+
+#: content/showcase/overview.md:41
+msgid "icon = \"fa-solid fa-map\""
+msgstr ""
+
+#: content/showcase/overview.md:43
+msgid "link = \"showcase/maps/\""
+msgstr ""
+
+#: content/showcase/overview.md:44
+msgid "text = \"Maps\" >}}"
+msgstr ""
+
+#: content/showcase/overview.md:44
+msgid "Amazing maps created using QGIS."
+msgstr ""
+
+#: content/showcase/overview.md:47
+msgid "icon = \"fa-solid fa-display\""
+msgstr ""
+
+#: content/showcase/overview.md:49
+msgid "link = \"showcase/screenshots/\""
+msgstr ""
+
+#: content/showcase/overview.md:50
+msgid "text = \"Screenshots\" >}}"
+msgstr ""
+
+#: content/showcase/overview.md:50
+msgid "Screenshots of QGIS in action."
+msgstr ""
+
+#: content/showcase/overview.md:54
+msgid "{{< content-end >}}"
+msgstr ""

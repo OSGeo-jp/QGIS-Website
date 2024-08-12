@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/en-direct-des-journees-utilisateurs-qgis-fr.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/en-direct-des-journees-utilisateurs-qgis-fr.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/en-direct-des-journees-utilisateurs-qgis-fr.md:0
+msgid "QGIS Oslandia: (Fr) En direct des Journées Utilisateurs QGIS-fr !"
+msgstr ""
+
+#: content/community-blogs/en-direct-des-journees-utilisateurs-qgis-fr.md:0
+msgid "en-direct-des-journees-utilisateurs-qgis-fr."
+msgstr ""
+
+#: content/community-blogs/en-direct-des-journees-utilisateurs-qgis-fr.md:0
+msgid "2024-03-29"
+msgstr ""
+
+#: content/community-blogs/en-direct-des-journees-utilisateurs-qgis-fr.md:0
+msgid ""
+"https://oslandia.com/en/2024/03/28/en-direct-des-journees-utilisateurs-qgis-"
+"fr/"
+msgstr ""
+
+#: content/community-blogs/en-direct-des-journees-utilisateurs-qgis-fr.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/en-direct-des-journees-utilisateurs-qgis-fr.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/en-direct-des-journees-utilisateurs-qgis-fr.md:11
+msgid ""
+"<p class=\"qtranxs-available-languages-message qtranxs-available-languages-"
+"message-en\">Sorry, this entry is only available in <a class=\"qtranxs-"
+"available-language-link qtranxs-available-language-link-fr\" "
+"href=\"http://oslandia.com/fr/tag/qgis-en/feed/atom/\" "
+"title=\"Fr\">French</a>.</p>\n"
+msgstr ""

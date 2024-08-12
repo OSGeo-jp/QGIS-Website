@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/rencontres-qgis-fr-grenoble-27-28-mars-2024.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/rencontres-qgis-fr-grenoble-27-28-mars-2024.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/rencontres-qgis-fr-grenoble-27-28-mars-2024.md:0
+msgid ""
+"QGIS Oslandia: (Fr) Rencontres QGIS-fr &#8211; Grenoble 27 &#038; 28 mars "
+"2024"
+msgstr ""
+
+#: content/community-blogs/rencontres-qgis-fr-grenoble-27-28-mars-2024.md:0
+msgid "rencontres-qgis-fr-grenoble-27-28-mars-2024."
+msgstr ""
+
+#: content/community-blogs/rencontres-qgis-fr-grenoble-27-28-mars-2024.md:0
+msgid "2024-02-06"
+msgstr ""
+
+#: content/community-blogs/rencontres-qgis-fr-grenoble-27-28-mars-2024.md:0
+msgid ""
+"https://oslandia.com/en/2024/02/06/rencontres-qgis-fr-"
+"grenoble-27-28-mars-2024/"
+msgstr ""
+
+#: content/community-blogs/rencontres-qgis-fr-grenoble-27-28-mars-2024.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/rencontres-qgis-fr-grenoble-27-28-mars-2024.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/rencontres-qgis-fr-grenoble-27-28-mars-2024.md:11
+msgid ""
+"<p class=\"qtranxs-available-languages-message qtranxs-available-languages-"
+"message-en\">Sorry, this entry is only available in <a "
+"href=\"http://oslandia.com/fr/tag/qgis-en/feed/atom/\" class=\"qtranxs-"
+"available-language-link qtranxs-available-language-link-fr\" "
+"title=\"Fr\">French</a>.</p>\n"
+msgstr ""

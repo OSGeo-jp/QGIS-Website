@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis.md:0
+msgid ""
+"Mergin Maps: [Case Study] Improving wildfire prevention and firefighting "
+"readiness"
+msgstr ""
+
+#: content/community-blogs/improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis.md:0
+msgid ""
+"improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis.md:0
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis.md:0
+msgid ""
+"https://merginmaps.com/case-studies/improving-wildfire-prevention-and-"
+"firefighting-readiness?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/improving-wildfire-prevention-and-firefighting-readiness?utm_source=qgis.md:11
+msgid ""
+"David Galloway works as a volunteer with the Wallcliffe Volunteer Fire "
+"Brigade in Western Australia. Volunteer brigades are the front line of "
+"firefighting and prevention across the State."
+msgstr ""

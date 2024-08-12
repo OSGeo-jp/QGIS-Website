@@ -1,0 +1,86 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/grass-gis-8-3-1-released.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/grass-gis-8-3-1-released.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-1-released.md:0
+msgid "Markus Neteler: GRASS GIS 8.3.1 released"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-1-released.md:0
+msgid "grass-gis-8-3-1-released."
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-1-released.md:0
+msgid "2023-10-30"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-1-released.md:0
+msgid "https://neteler.org/blog/grass-gis-8-3-1-released/"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-1-released.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-1-released.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/grass-gis-8-3-1-released.md:11
+msgid ""
+"<h3 id=\"what-s-new-in-a-nutshell\">What’s new in a nutshell</h3>\n"
+"<p>The GRASS GIS 8.3.1 maintenance release provides more than <strong>60 changes</strong> compared to 8.3.0. This new patch release brings in <strong>important fixes and improvements</strong> in GRASS GIS modules and the graphical user interface (GUI) which stabilizes the new <strong>single window layout</strong> active by default.</p>\n"
+"<p>Some of the most relevant changes include: fixes for <code>r.watershed</code> which got partially broken in the 8.3.0 release; and a fix for installing addons on MS Windows with <code>g.extension</code>.</p>\n"
+"<p>Translations continue in <a class=\"ext\" title=\"Weblate\" href=\"https://weblate.osgeo.org/projects/grass-gis/\" target=\"_blank\" rel=\"noopener\">Weblate</a>, which automatically creates pull requests with the translated chunks. We’d like to <strong>thank the translators of all languages</strong> for their ongoing support!</p>\n"
+"<p><a class=\"int\" href=\"https://grass.osgeo.org/images/news/grass831_gui_vector.png\"><img decoding=\"async\" class=\"alignleft\" title=\"GRASS GIS 8.3.1\" src=\"https://grass.osgeo.org/images/news/grass831_gui_vector.png\" alt=\"GRASS GIS 8.3.1 graphical user interface\" width=\"3512\" height=\"2500\" /></a></p>\n"
+"<h3 id=\"full-list-of-changes-and-contributors\">Full list of changes and contributors</h3>\n"
+"<p>For all 60+ changes, see our detailed announcement with the full list of features and bugs fixed at <a class=\"ext\" title=\"GitHub / Releases / 8.3.1\" href=\"https://github.com/OSGeo/grass/releases/tag/8.3.1\" target=\"_blank\" rel=\"noopener\">GitHub / Releases / 8.3.1</a>.</p>\n"
+"<p>Thanks to all contributors!</p>\n"
+"<h2 id=\"software-downloads\">Software downloads</h2>\n"
+"<h4 id=\"binaries-installers-download\">Binaries/Installers download</h4>\n"
+"<ul>\n"
+"<li>Windows\n"
+"<ul>\n"
+"<li><a class=\"int\" href=\"https://grass.osgeo.org/grass83/binary/mswindows/native/WinGRASS-8.3.1-1-Setup.exe\">64bit standalone installer</a></li>\n"
+"</ul>\n"
+"</li>\n"
+"<li>macOS\n"
+"<ul>\n"
+"<li><a class=\"ext\" title=\"Official Application Bundle\" href=\"https://cmbarton.github.io/grass-mac/download/\" target=\"_blank\" rel=\"noopener\">Official Application Bundle</a></li>\n"
+"</ul>\n"
+"</li>\n"
+"<li>Linux\n"
+"<ul>\n"
+"<li><a class=\"ext\" title=\"Debian\" href=\"https://tracker.debian.org/pkg/grass\" target=\"_blank\" rel=\"noopener\">Debian</a></li>\n"
+"<li><a class=\"ext\" title=\"Ubuntu\" href=\"https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable\" target=\"_blank\" rel=\"noopener\">Ubuntu</a></li>\n"
+"<li><a class=\"ext\" title=\"Fedora/Centos/EPEL\" href=\"https://src.fedoraproject.org/rpms/grass\" target=\"_blank\" rel=\"noopener\">Fedora/Centos/EPEL</a></li>\n"
+"<li><a class=\"ext\" title=\"Gentoo\" href=\"https://packages.gentoo.org/packages/sci-geosciences/grass\" target=\"_blank\" rel=\"noopener\">Gentoo</a></li>\n"
+"</ul>\n"
+"</li>\n"
+"</ul>\n"
+"<p>Further binary packages for other platforms and distributions will follow shortly, please check at <a class=\"int\" href=\"https://grass.osgeo.org/download/\">software downloads</a>.</p>\n"
+"<h4 id=\"source-code-download\">Source code download</h4>\n"
+"<ul>\n"
+"<li><a class=\"int\" href=\"https://grass.osgeo.org/grass83/source/\">https://grass.osgeo.org/grass83/source/</a></li>\n"
+"<li><a class=\"int\" href=\"https://grass.osgeo.org/grass83/source/grass-8.3.1.tar.gz\">https://grass.osgeo.org/grass83/source/grass-8.3.1.tar.gz</a></li>\n"
+"<li><a class=\"ext\" title=\"From GitHub\" href=\"https://github.com/OSGeo/grass/releases/tag/8.3.1\" target=\"_blank\" rel=\"noopener\">From GitHub</a></li>\n"
+"</ul>\n"
+"<p>First time users may explore the <a class=\"int\" href=\"https://grass.osgeo.org/learn/\"><strong>first steps tutorial</strong></a> after installation.</p>\n"
+"<p><strong>About GRASS GIS</strong></p>\n"
+"<p>The Geographic Resources Analysis Support System (<a class=\"int\" href=\"https://grass.osgeo.org/\">https://grass.osgeo.org/</a>), commonly referred to as GRASS GIS, is an Open Source Geographic Information System providing powerful raster, vector and <a class=\"int\" href=\"https://grass.osgeo.org/learn/overview/\">geospatial processing capabilities</a>. It can be used either as a stand-alone application, as backend for other software packages such as QGIS and R, or in the cloud. It is distributed freely under the terms of the GNU General Public License (GPL). GRASS GIS is a founding member of the Open Source Geospatial Foundation (OSGeo).</p>\n"
+"<p><em>The GRASS Dev Team</em></p>\n"
+"<p>The post <a href=\"https://neteler.org/blog/grass-gis-8-3-1-released/\">GRASS GIS 8.3.1 released</a> appeared first on <a href=\"https://neteler.org\">Markus Neteler | Geospatial Analysis | Remote sensing | GRASS GIS</a>.</p>\n"
+msgstr ""

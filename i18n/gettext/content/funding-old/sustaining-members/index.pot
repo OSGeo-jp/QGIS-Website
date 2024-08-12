@@ -1,0 +1,385 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funding-old/sustaining-members/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/funding-old/sustaining-members/index.md:0
+msgid "page"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:0
+msgid "QGIS Sustaining Memberships"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:0
+msgid "Sustaining Membership Program Overview"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:0
+msgid "true"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:0
+msgid "img/banners/banner1.png"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:9
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:11
+msgid ""
+"QGIS is an entirely Open Source project. QGIS development is carried out "
+"largely by a group of volunteers, that in time have built up a large, "
+"valuable and useful code base, free to use and improve for everybody. As a "
+"result, you have free access to the source code and binaries that we provide"
+" on our web site. As a result of this volunteer approach, a number of tasks,"
+" less interesting or important for the developers, are sometimes left "
+"behind. In addition, promoting QGIS requires our participation at congresses"
+" and conferences and the production of information material, sometimes very "
+"expensive for volunteer developers."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:21
+#: content/funding-old/sustaining-members/index.md:182
+msgid "{{< content-end >}}"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:23
+msgid ""
+"{{< block title=\"Questions?\" subtitle=\"Organizations or individuals "
+"interested in supporting the QGIS project should contact the QGIS treasurer,"
+" Andreas Neumann (finance@qgis.org), with questions, requests for becoming a"
+" sustaining member, invoices or to make arrangements.\" image=\"\" sub-"
+"block-side=\"left\" class=\"is-primary\"<br />title-size=\"is-4\" subtitle-"
+"size=\"is-6\" link=\"mailto:finance@qgis.org\" link-text=\"Contact QGIS "
+"Treasurer\""
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:33
+msgid "}}{{< /block >}}"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:36
+msgid ""
+"{{< content-start >}} Many organizations have made an investment in using "
+"QGIS as part of their operations, but have not had a way to directly "
+"contribute to the success and long-term health sustainability of the QGIS "
+"project."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:41
+msgid ""
+"We would like to extend our activities and work continually to improve the "
+"quality of QGIS. Your financial contribution will support the maintenance, "
+"improvement, and promotion of QGIS. Becoming a sustaining member is a way of"
+" ensuring the longevity and overall health of the project."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:46
+msgid "With your financial contributions we are able to:"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:49
+msgid ""
+"{{< columns-start >}} {{< column-start class=\"is-half\">}} {{< box-start "
+">}}"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:53
+msgid ""
+"keep the QGIS.ORG IT infrastructure up and running. This includes aspects, "
+"such as:"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:55
+msgid "the QGIS.ORG website and related infrastructure"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:56
+msgid "our issue (bug and feature reporting) system"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:57
+msgid ""
+"the continuous integration system that tests each change or pull request "
+"against a series of automated unit tests"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:59
+msgid "our documentation and API documentation system"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:61
+msgid ""
+"{{< box-end >}} {{< column-end >}} {{< column-start class=\"is-half\">}} {{<"
+" box-start >}}"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:66
+msgid "packaging QGIS for various operating systems"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:67
+msgid "fixing bugs and other issues"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:68
+msgid "managing pull requests and do code reviewing"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:69
+msgid "mentoring new contributors"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:70
+msgid "translating QGIS"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:71
+msgid ""
+"running our QGIS grant system that allows contributors to work on behind the"
+" scenes improvements to the QGIS code base, our infrastructure, "
+"documentation or other aspects of our community. Work that otherwise would "
+"be hard to do by volunteers only or hard to sell to customers of QGIS "
+"development companies"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:75
+msgid "organize and support our contributor meetings and QGIS conferences"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:77
+msgid "{{< box-end >}} {{< column-end >}} {{< columns-end >}}"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:81
+msgid ""
+"QGIS.ORG is to be transparent with the funds we receive and how we spend "
+"them. For more information, consult the financial reports and budgets."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:84
+msgid ""
+"{{< button-bar \"fa-solid fa-money-bill:Annual Financial Reports:reports/\""
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:86
+msgid "}}"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:90
+msgid ""
+"Sustaining members can support QGIS for any amount of money at or above 500 "
+"€ per year. Sustaining memberships last one year, after which they may be "
+"continued with a new payment, or allowed to lapse."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:94
+msgid "Euros"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:94
+msgid "Membership level"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:96
+msgid "27,000+"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:96
+msgid ""
+"Flagship Member (e.g. for companies larger than 100 employees, federal "
+"governmental organizations)"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:97
+msgid "9,000+"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:97
+msgid ""
+"Large Member (e.g. for larger cities, provinces or companies up to 100 "
+"employees)"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:98
+msgid "3,000+"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:98
+msgid ""
+"Medium Member (e.g. for universities, medium size cities or companies up to "
+"50 employees)"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:99
+msgid "500+"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:99
+msgid "Small Member (e.g. for smaller cities or companies up to 10 employees)"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:101
+msgid ""
+"Membership fees are approved or changed by the QGIS general assembly. They "
+"are defined as minimum fees per category, but may be increased if the "
+"sustaining member chooses to do so."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:104
+msgid ""
+"Because QGIS.ORG is a world-wide project and different companies, NGOs or "
+"governmental organizations have different financial prospects, we do not "
+"enforce any membership levels - the organizations pick their own membership "
+"level based on self-assessment."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:108
+msgid "{{< box-start ribbon=\"Note!\" ribbon-class=\"is-warning\">}}"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:110
+msgid ""
+"Acceptance of sustaining members shall be subject to the discretion and "
+"approval of The Board, who reserve the right to accept or reject "
+"applications for sustaining membership and ongoing support memberships as "
+"deemed appropriate."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:115
+msgid ""
+"Sustaining members have no voting rights (unless they are simultaneously "
+"voting members in which case their voting rights are unaffected). At or "
+"above the following levels a sustaining member will be designated as being "
+"one of the following category, based on their size and assigned through self"
+" declaration."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:120
+msgid "{{< box-end >}}"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:123
+msgid "Donation"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:126
+msgid ""
+"Donations can be of any amount, via direct transfers to our bank account "
+"(SEPA payment), credit card payment (through stripe.com) or Paypal "
+"(information available at `Donations <https://donate.qgis.org>`__ page). "
+"Even a small donation can make a difference and help to reach important "
+"project goals!"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:131
+msgid ""
+"If you wish to send us a larger donation, you are strongly encouraged to use"
+" the direct transfer (SEPA payment) to our bank account. If you wish to use "
+"credit card payments, payments through stripe.com are preferred as payment "
+"fees are lower than with PayPal. PayPal payments also imply an unnecessary "
+"currency conversion (€ to CHF and back to €) for reasons only PayPal "
+"understands."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:137
+msgid ""
+"Donations to QGIS are tax-deductible in some countries (e.g. in Germany "
+"through the `German QGIS user group <https://www.qgis.de/#spendenkonto>`_). "
+"Please refer to your local tax office for details."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:141
+msgid "How will you benefit supporting the QGIS Development?"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:144
+msgid ""
+"Supporting the QGIS project as a sustaining member provides the following "
+"benefits:"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:146
+msgid "Ensures the sustainability and health of the QGIS project."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:147
+msgid "Helps with fixing bugs and issues"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:148
+msgid ""
+"All sustaining members and donors will be listed on the project :ref:`QGIS-"
+"sustaining_members` page, ordered by membership category (flagship, large, "
+"medium, small) with a link back to the sustaining members organization or "
+"company website and the logo in a size reflecting their membership category."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:152
+msgid ""
+"flagship, large and medium sustaining members will have their logo on the "
+"QGIS homepage footer banner with a logo size and order reflecting their "
+"membership category"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:154
+msgid ""
+"sustaining membership logos are listed in the visual changelogs produced for"
+" each QGIS software release"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:156
+msgid ""
+"sustaining members will be allowed to use a special version of the QGIS logo"
+" on their web site and promotional materials, which shows they are "
+"supporting the QGIS project"
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:159
+msgid "No advertising will be placed within the QGIS application itself."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:161
+msgid ""
+"Donors will be listed on the :ref:`QGIS-sustaining_members` page, but do not"
+" receive the additional benefits listed above for sustaining members, except"
+" for the first two items."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:165
+msgid ""
+"Decisions on spending of funds will be made by the QGIS Project Steering "
+"Committee, proposed in a budget that will be approved or declined by the "
+"QGIS.ORG general assembly."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:168
+msgid ""
+".. note:: We regret that we cannot accept 'earmarked' funding as it creates "
+"many administrative issues. If you are interested in funding specific "
+"aspects of QGIS development, we encourage you to allocate additional human "
+"resources to the project, e.g. hiring a developer, or participating to our "
+"bug fixing initiative."
+msgstr ""
+
+#: content/funding-old/sustaining-members/index.md:174
+msgid ""
+".. warning:: Acceptance of sustaining membership applications is at the "
+"discretion of the QGIS PSC. We reserve the right to decline offers of "
+"sustaining members if the membership organisation or party seems to be at "
+"odds with the ethos of our project. For example offers from marketing "
+"companies that have nothing to do with GIS / spatial services, or offers "
+"where we have reason to believe the presence of the sustaining member logo "
+"and marketing materials on our site and other materials will degrade the "
+"experience of our users will be declined."
+msgstr ""

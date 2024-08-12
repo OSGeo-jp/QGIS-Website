@@ -1,0 +1,47 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/hello-from-mergin-maps?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/hello-from-mergin-maps?utm_source=qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/hello-from-mergin-maps?utm_source=qgis.md:0
+msgid "Mergin Maps: [Blog] Hello from Mergin Maps!"
+msgstr ""
+
+#: content/community-blogs/hello-from-mergin-maps?utm_source=qgis.md:0
+msgid "hello-from-mergin-maps?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/hello-from-mergin-maps?utm_source=qgis.md:0
+msgid "2024-02-13"
+msgstr ""
+
+#: content/community-blogs/hello-from-mergin-maps?utm_source=qgis.md:0
+msgid "https://merginmaps.com/blog/hello-from-mergin-maps?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/hello-from-mergin-maps?utm_source=qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/hello-from-mergin-maps?utm_source=qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/hello-from-mergin-maps?utm_source=qgis.md:11
+msgid ""
+"Mergin Maps is a QGIS-powered field survey tool designed to collect data "
+"from the field. It is developed by Lutra Consulting, a longstanding "
+"contributor, developer, supporter and trainer within the QGIS community."
+msgstr ""

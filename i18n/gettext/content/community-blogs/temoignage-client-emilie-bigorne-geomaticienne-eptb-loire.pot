@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire.md:0
+msgid ""
+"QGIS Oslandia: (Fr) [Témoignage client] Émilie Bigorne, géomaticienne EPTB "
+"Loire"
+msgstr ""
+
+#: content/community-blogs/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire.md:0
+msgid "temoignage-client-emilie-bigorne-geomaticienne-eptb-loire."
+msgstr ""
+
+#: content/community-blogs/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire.md:0
+msgid "2024-03-19"
+msgstr ""
+
+#: content/community-blogs/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire.md:0
+msgid ""
+"https://oslandia.com/en/2024/04/16/temoignage-client-emilie-bigorne-"
+"geomaticienne-eptb-loire/"
+msgstr ""
+
+#: content/community-blogs/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/temoignage-client-emilie-bigorne-geomaticienne-eptb-loire.md:11
+msgid ""
+"<p class=\"qtranxs-available-languages-message qtranxs-available-languages-"
+"message-en\">Sorry, this entry is only available in <a class=\"qtranxs-"
+"available-language-link qtranxs-available-language-link-fr\" "
+"href=\"http://oslandia.com/fr/tag/qgis-en/feed/atom/\" "
+"title=\"Fr\">French</a>.</p>\n"
+msgstr ""

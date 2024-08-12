@@ -1,0 +1,49 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/v2.6.1.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/v2.6.1.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/v2.6.1.md:0
+msgid "QField releases: 2.6.1 - Geeky Gecko"
+msgstr ""
+
+#: content/community-blogs/v2.6.1.md:0
+msgid "v2.6.1.1"
+msgstr ""
+
+#: content/community-blogs/v2.6.1.md:0
+msgid "2023-01-17"
+msgstr ""
+
+#: content/community-blogs/v2.6.1.md:0
+msgid "https://github.com/opengisch/QField/releases/tag/v2.6.1"
+msgstr ""
+
+#: content/community-blogs/v2.6.1.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/v2.6.1.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/v2.6.1.md:11
+msgid ""
+"<h2>Changes</h2>\n"
+"<h2><g-emoji class=\"g-emoji\" alias=\"rocket\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f680.png\">🚀</g-emoji> Features</h2>\n"
+"<ul>\n"
+"<li>Add a new positioning serial port receiver, unlocking external GNSS device over Bluetooth on windows via virtual serial port (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1533267742\" data-permission-text=\"Title is private\" data-url=\"https://github.com/opengisch/QField/issues/3806\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/opengisch/QField/pull/3806/hovercard\" href=\"https://github.com/opengisch/QField/pull/3806\">#3806</a>)</li>\n"
+"</ul>\n"
+msgstr ""

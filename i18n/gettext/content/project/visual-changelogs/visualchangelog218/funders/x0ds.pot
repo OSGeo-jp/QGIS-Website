@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/project/visual-changelogs/visualchangelog218/funders/x0ds.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/project/visual-changelogs/visualchangelog218/funders/x0ds.md:0
+msgid ""
+"images/projects/thumbnails/207dd8769c4926452e07e39d88716ec518ff5f3a.png.150x50_q85.png"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog218/funders/x0ds.md:0
+msgid "Small"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog218/funders/x0ds.md:0
+msgid "QGIS user group Portugal"
+msgstr ""
+
+#: content/project/visual-changelogs/visualchangelog218/funders/x0ds.md:0
+msgid "http://www.qgis.pt/"
+msgstr ""

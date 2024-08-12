@@ -1,0 +1,40 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funders/mbusltda.com.br.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/funders/mbusltda.com.br.md:0
+msgid "Small"
+msgstr ""
+
+#: content/funders/mbusltda.com.br.md:0
+msgid "Mbus ltda"
+msgstr ""
+
+#: content/funders/mbusltda.com.br.md:0
+msgid "mbusltda.com.br.jpeg"
+msgstr ""
+
+#: content/funders/mbusltda.com.br.md:0
+msgid "2022-09-01"
+msgstr ""
+
+#: content/funders/mbusltda.com.br.md:0
+msgid "2023-02-28"
+msgstr ""
+
+#: content/funders/mbusltda.com.br.md:0
+msgid "https://mbusltda.com.br/"
+msgstr ""
+
+#: content/funders/mbusltda.com.br.md:0
+msgid "Brazil"
+msgstr ""

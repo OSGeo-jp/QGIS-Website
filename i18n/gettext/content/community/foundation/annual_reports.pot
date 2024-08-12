@@ -1,0 +1,103 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community/foundation/annual_reports.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community/foundation/annual_reports.md:0
+msgid "page"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:0
+#: content/community/foundation/annual_reports.md:14
+msgid "Annual Reports"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:0
+msgid "img/involve.jpg"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:0
+#: content/community/foundation/annual_reports.md:15
+msgid ""
+"Starting in 2017, coincident with the establishment of a formal legal entity"
+" (Swiss “Verein”), we are publishing an annual report for the preceding year"
+" highlighting key activities within the QGIS project."
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:12
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:17
+msgid ""
+"Note that the report will contain some financial information which is also "
+"available as a separate report in the finances section of this web site."
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:19
+msgid ""
+"{{< rich-list listLink=\"../annual-project-"
+"reports/QGISAnnualReport2022.pdf\" linkAttr=\"download\" "
+"layoutClass=\"half\" listTitle=\"QGIS Annual Report 2022\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:21
+msgid ""
+"{{< rich-list listLink=\"../annual-project-"
+"reports/QGISAnnualReport2021.pdf\" linkAttr=\"download\" "
+"layoutClass=\"half\" listTitle=\"QGIS Annual Report 2021\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:23
+msgid ""
+"{{< rich-list listLink=\"../annual-project-"
+"reports/QGISAnnualReport2020.pdf\" linkAttr=\"download\" "
+"layoutClass=\"half\" listTitle=\"QGIS Annual Report 2020\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:25
+msgid ""
+"{{< rich-list listLink=\"../annual-project-"
+"reports/QGISAnnualReport2019.pdf\" linkAttr=\"download\" "
+"layoutClass=\"half\" listTitle=\"QGIS Annual Report 2019\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:27
+msgid ""
+"{{< rich-list listLink=\"../annual-project-"
+"reports/QGISAnnualReport2018.pdf\" linkAttr=\"download\" "
+"layoutClass=\"half\" listTitle=\"QGIS Annual Report 2018\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:29
+msgid ""
+"{{< rich-list listLink=\"../annual-project-"
+"reports/QGISAnnualReport2017.pdf\" linkAttr=\"download\" "
+"layoutClass=\"half\" listTitle=\"QGIS Annual Report 2017\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:31
+msgid ""
+"{{< rich-list listLink=\"../annual-project-"
+"reports/QGISAnnualReport2016.pdf\" linkAttr=\"download\" "
+"layoutClass=\"half\" listTitle=\"QGIS Annual Report 2016\" "
+"listSubtitle=\"Download PDF\" >}}"
+msgstr ""
+
+#: content/community/foundation/annual_reports.md:34
+msgid "{{< content-end >}}"
+msgstr ""

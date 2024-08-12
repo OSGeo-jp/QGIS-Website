@@ -1,0 +1,425 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/test.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/test.md:0
+msgid "page"
+msgstr ""
+
+#: content/test.md:0
+msgid "Test page"
+msgstr ""
+
+#: content/test.md:0
+msgid "Here you can test any shortcodes or layout"
+msgstr ""
+
+#: content/test.md:0
+msgid "img/involve.jpg"
+msgstr ""
+
+#: content/test.md:10
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/test.md:14
+msgid ""
+"{{< rich-list listLink=\"../case-studies\" layoutClass=\"half\" "
+"image=\"/img/map2.png\" listTitle=\"Rich-list with image\" "
+"listSubtitle=\"layoutClass=half\" >}}"
+msgstr ""
+
+#: content/test.md:16
+msgid ""
+"{{< rich-list listLink=\"../case-studies\" layoutClass=\"half \" "
+"image=\"/img/map2.png\" listTitle=\"Rich-list with image\" "
+"listSubtitle=\"layoutClass=half\" >}}"
+msgstr ""
+
+#: content/test.md:19
+msgid ""
+"{{< rich-list listLink=\"http://documentation.qgis.org\" icon=\"⭐\" "
+"layoutClass=\"third\" listTitle=\"Rich-list with icon\" "
+"listSubtitle=\"layoutClass=third\" >}}"
+msgstr ""
+
+#: content/test.md:21
+msgid ""
+"{{< rich-list listLink=\"http://documentation.qgis.org\" icon=\"🌀\" "
+"layoutClass=\"third\" listTitle=\"Rich-list with icon\" "
+"listSubtitle=\"layoutClass=third\" >}}"
+msgstr ""
+
+#: content/test.md:23
+msgid ""
+"{{< rich-list listLink=\"http://documentation.qgis.org\" icon=\"🔮\" "
+"layoutClass=\"third\" listTitle=\"Rich-list with icon\" "
+"listSubtitle=\"layoutClass=third\" >}}"
+msgstr ""
+
+#: content/test.md:30
+msgid "Ways of Contributing"
+msgstr ""
+
+#: content/test.md:31
+msgid "💭💬🤔🧑‍🎓🤓🖖✌️🦄🦸⭐🌀🔮🪄🛟💡🕶️"
+msgstr ""
+
+#: content/test.md:33
+msgid "{{< columns-start >}} {{< column-start>}}"
+msgstr ""
+
+#: content/test.md:36
+msgid "{{< rich-box-start >}} {{< rich-content-start themeClass=\"coloring-6\">}}"
+msgstr ""
+
+#: content/test.md:38
+msgid "QGIS Server"
+msgstr ""
+
+#: content/test.md:40
+msgid ""
+"Publish your QGIS projects and layers as OGC compatible WMS, WMTS, WFS and "
+"WCS services. Control which layers, attributes, layoutClasses and coordinate"
+" systems are exported. QGIS server is considered as a reference "
+"implementation for WMS 1.3. {{< rich-content-end >}} {{< rich-box-end >}} "
+"{{< column-end >}} {{< column-start>}}"
+msgstr ""
+
+#: content/test.md:46
+msgid ""
+"{{< rich-box-start >}} {{< rich-content-start themeClass=\"coloring-6\" >}}"
+msgstr ""
+
+#: content/test.md:48
+msgid "QGIS Desktop"
+msgstr ""
+
+#: content/test.md:50
+msgid "Create, edit, visualise, analyse and publish geospatial information."
+msgstr ""
+
+#: content/test.md:52
+msgid ""
+"[Download](#) {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end "
+">}} {{< columns-end >}}"
+msgstr ""
+
+#: content/test.md:59 content/test.md:101 content/test.md:259
+#: content/test.md:262 content/test.md:265 content/test.md:268
+#: content/test.md:271 content/test.md:274 content/test.md:277
+msgid ""
+"On major and minor release dates, the release branch is created and the "
+"release is tagged and tar balls are prepared. Point releases are just tagged"
+" and tar balls are created."
+msgstr ""
+
+#: content/test.md:62
+msgid "{{< rich-box-start>}} {{< rich-content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/test.md:64 content/test.md:77 content/test.md:90
+#: content/test.md:108
+msgid "Participate in Support Channels"
+msgstr ""
+
+#: content/test.md:66 content/test.md:79 content/test.md:92
+#: content/test.md:113
+msgid ""
+"Utilize channels to seek assistance from fellow users and developers or stay"
+" updated on current project events."
+msgstr ""
+
+#: content/test.md:68 content/test.md:81 content/test.md:94
+#: content/test.md:115
+msgid ""
+"Feel free to subscribe to any of the lists, and remember to contribute by "
+"answering questions and sharing your experiences."
+msgstr ""
+
+#: content/test.md:70 content/test.md:83 content/test.md:96
+msgid "[Community support channels page](#)"
+msgstr ""
+
+#: content/test.md:72 content/test.md:85 content/test.md:98
+msgid "{{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/test.md:75
+msgid "{{< rich-box-start>}} {{< rich-content-start themeClass=\"coloring-2\" >}}"
+msgstr ""
+
+#: content/test.md:88
+msgid "{{< rich-box-start>}} {{< rich-content-start themeClass=\"coloring-6\" >}}"
+msgstr ""
+
+#: content/test.md:106 content/test.md:171 content/test.md:200
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right\" >}} {{< rich-content-start "
+"themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/test.md:109
+msgid ""
+"{{< button class=\"is-primary1 is-small is-rounded\" link=\"#\" text=\"QGIS "
+"mailing lists\" >}} {{< button class=\"is-primary1 is-small is-rounded\" "
+"link=\"#\" text=\"Chats rooms\" >}} {{< button class=\"is-primary1 is-small "
+"is-rounded\" link=\"#\" text=\"User groups\" >}}"
+msgstr ""
+
+#: content/test.md:117
+msgid ""
+"[Community support channels page](#) {{< rich-content-end >}} {{< rich-"
+"right-start >}}<br />![](/img/mappp.png) {{< rich-right-end >}}"
+msgstr ""
+
+#: content/test.md:123
+msgid "{{< rich-box-end >}}"
+msgstr ""
+
+#: content/test.md:125
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right\" mode=\"html\">}} {{< rich-"
+"content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/test.md:127
+msgid "Report Bugs"
+msgstr ""
+
+#: content/test.md:129
+msgid ""
+"If you encounter any issues while working with QGIS, let the QGIS developers"
+" know about them."
+msgstr ""
+
+#: content/test.md:131
+msgid ""
+"[Report an issue](#) {{< rich-content-end>}} {{< rich-right-start >}}<br "
+"/>{{< rich-list listLink=\"../case-studies\" image=\"/img/map2.png\" "
+"listTitle=\"Ukrainian open initiative of creating tools for spatial planning"
+" in the QGIS environment\" listSubtitle=\"2023/01\" >}} {{< rich-right-end "
+">}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/test.md:139 content/test.md:152
+msgid "{{< columns-start >}} {{< column-start class=\"is-one-third\">}}"
+msgstr ""
+
+#: content/test.md:141
+msgid "Domains"
+msgstr ""
+
+#: content/test.md:142
+msgid ""
+"{{< column-end >}} {{< column-start class=\"is-two-thirds\">}} {{< box-start"
+" classes=\"notification is-white\">}} **Gary** {{< box-end >}} {{< column-"
+"end >}} {{< columns-end >}}"
+msgstr ""
+
+#: content/test.md:154
+msgid "Main server"
+msgstr ""
+
+#: content/test.md:155
+msgid ""
+"{{< column-end >}} {{< column-start class=\"is-two-thirds\">}} {{< box-start"
+" classes=\"notification is-white\">}} {{< rich-list "
+"listLink=\"http://documentation.qgis.org\" layoutClass=\"half\" "
+"listTitle=\"Main server\" listSubtitle=\"http://documentation.qgis.org\" >}}"
+msgstr ""
+
+#: content/test.md:160
+msgid ""
+"Access: **Alessandro P**, **Werner M**, **Richard D**, **Frank W**, "
+"**Martin**, **Otto D**, **Gary S**, **Jurgen F**, **Tim S**, **Pirmin K**"
+msgstr ""
+
+#: content/test.md:162
+msgid "Root: **Jurgen F**"
+msgstr ""
+
+#: content/test.md:164
+msgid ""
+"Sudo: **Richard D** {{< box-end >}} {{< column-end >}} {{< columns-end >}}"
+msgstr ""
+
+#: content/test.md:173
+msgid "QGIS Documentation"
+msgstr ""
+
+#: content/test.md:175
+msgid ""
+"Creating documentation offers an ideal starting point for your first "
+"contribution to the project. If you're interested in joining the "
+"documentation effort, you can find a gentle introduction and guidelines "
+"here:"
+msgstr ""
+
+#: content/test.md:177
+msgid ""
+"[How to write documentation](#) {{< rich-content-end >}} {{< rich-right-"
+"start >}}<br />![](/img/mappp.png) {{< rich-right-end >}} {{< rich-box-end "
+">}}"
+msgstr ""
+
+#: content/test.md:184
+msgid "[Link to inner page]({{< ref \"/community/foundation/charter.md\" >}})"
+msgstr ""
+
+#: content/test.md:186
+msgid ""
+"{{< rich-box-start icon=\"💁\" layoutClass=\"tips\">}} {{< rich-content-start"
+" themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/test.md:188 content/test.md:195
+msgid "Tips for first launch"
+msgstr ""
+
+#: content/test.md:189 content/test.md:196
+msgid ""
+"After installing QGIS, the first launch attempt may fail due to security "
+"protections. To enable QGIS, control-click on its icon in your Applications "
+"folder and select Open in the context menu. A confirmation dialog will "
+"display where you need to click the Open button again. This only has to be "
+"done once. {{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/test.md:193
+msgid ""
+"{{< rich-box-start icon=\"💁\" layoutClass=\"tips \">}} {{< rich-content-"
+"start themeClass=\"coloring-6\" >}}"
+msgstr ""
+
+#: content/test.md:202
+msgid "Translate QGIS"
+msgstr ""
+
+#: content/test.md:204
+msgid ""
+"If you're interested in contributing to the documentation effort, such as "
+"translating the English manual into another language, find out how to get "
+"started here:"
+msgstr ""
+
+#: content/test.md:206
+msgid ""
+"[How to translate QGIS](#) {{< rich-content-end >}} {{< rich-right-start "
+">}}<br />![](/img/mappp.png) {{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/test.md:213
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right\">}} {{< rich-content-start "
+"themeClass=\"coloring-6\" >}}"
+msgstr ""
+
+#: content/test.md:215
+msgid "Develop a Plugin"
+msgstr ""
+
+#: content/test.md:217
+msgid "Interested in crafting your own? Learn how to get started!"
+msgstr ""
+
+#: content/test.md:219
+msgid ""
+"[Develop Python plugins](#) {{< rich-content-end >}} {{< rich-right-start "
+">}}<br />![](/img/mappp.png) {{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/test.md:226
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right\" >}} {{< rich-content-start "
+"themeClass=\"coloring-6\" >}}"
+msgstr ""
+
+#: content/test.md:228
+msgid "Develop QGIS Core"
+msgstr ""
+
+#: content/test.md:230
+msgid ""
+"QGIS Core comprises libraries for building custom applications through a "
+"robust API. It also includes desktop and server applications that showcase "
+"the library capabilities, providing a user-friendly interface"
+msgstr ""
+
+#: content/test.md:232
+msgid "[Get set up for QGIS Core development](#)"
+msgstr ""
+
+#: content/test.md:234
+msgid ""
+"[QGIS roadmap](#) {{< rich-content-end >}} {{< rich-right-start >}}<br "
+"/>![](/img/mappp.png) {{< rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/test.md:241
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right\" >}} {{< rich-content-start "
+"themeClass=\"coloring-2\" >}}"
+msgstr ""
+
+#: content/test.md:243
+msgid "Sustain & Donate"
+msgstr ""
+
+#: content/test.md:245
+msgid "We welcome two types of financial contributions:"
+msgstr ""
+
+#: content/test.md:247
+msgid ""
+"Sustaining memberships - annual commitments of funds to the project [List of"
+" our sustaining members](#)"
+msgstr ""
+
+#: content/test.md:250
+msgid ""
+"{{< button class = \"is-primary6\" link = \"#\" text = \"Donation\" >}} {{< "
+"rich-content-end >}} {{< rich-right-start >}}<br />![](/img/mappp.png) {{< "
+"rich-right-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/test.md:258
+msgid "Road Map"
+msgstr ""
+
+#: content/test.md:261
+msgid "Development phase"
+msgstr ""
+
+#: content/test.md:264
+msgid "Feature freeze"
+msgstr ""
+
+#: content/test.md:267
+msgid "Release"
+msgstr ""
+
+#: content/test.md:270
+msgid "Release schedule"
+msgstr ""
+
+#: content/test.md:273
+msgid "Release legend"
+msgstr ""
+
+#: content/test.md:276
+msgid "Location of prereleases / nightly builds"
+msgstr ""
+
+#: content/test.md:281
+msgid "{{< content-end >}}"
+msgstr ""

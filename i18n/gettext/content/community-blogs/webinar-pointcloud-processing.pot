@@ -1,0 +1,103 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/webinar-pointcloud-processing.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/webinar-pointcloud-processing.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:0
+msgid "Lutra Consulting: Webinar: Processing LiDAR data in QGIS 3.32"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:0
+msgid "webinar-pointcloud-processing."
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:0
+msgid "2023-06-12"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:0
+msgid ""
+"https://lutraconsulting.co.uk/blog/2023/06/12/webinar-pointcloud-processing/"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:11
+msgid ""
+"<p>Join this webinar to learn more about the new features in QGIS to process"
+" LiDAR data:</p>\n"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:13
+msgid "<p><strong>Date</strong>: Monday, June 26, 2023 at 14:00 GMT</p>\n"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:15
+msgid ""
+"<p><strong>Duration</strong>: 30 minutes + 15 minutes Q&amp;A session</p>\n"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:17
+msgid ""
+"<p><strong>Speaker</strong>: Martin Dobias, CTO at Lutra Consulting with "
+"more than 15 years of QGIS development experience</p>\n"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:19
+msgid ""
+"<p><img title=\"Martin Dobias\" "
+"src=\"https://lutraconsulting.co.uk/img/members/md.png\" alt=\"Martin "
+"Dobias\" /></p>\n"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:21
+msgid ""
+"<h2 id=\"description\">Description</h2>\n"
+"<p>Point clouds are an increasingly popular data type thanks to the decreasing cost of their acquisition through lidar surveys and photogrammetry. On top of that, more and more national mapping agencies release high resolution point cloud data (spanning large areas and consisting of billions of points), unlocking many new use cases.</p>\n"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:24
+msgid ""
+"<p>This webinar will summarize the latest QGIS release 3.32 and the addition"
+" of tools for point cloud analysis right from QGIS Processing toolbox: clip,"
+" filter, merge, export to raster, extract boundaries and more - all backed "
+"by PDAL library that already ships with QGIS, without having to rely on "
+"third party proprietary software.</p>\n"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:26
+msgid ""
+"<p>This work was made possible by the generous donations to our <a "
+"href=\"https://www.lutraconsulting.co.uk/crowdfunding/pointcloud-processing-"
+"qgis/\">crowdfunding</a>.</p>\n"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:28
+msgid ""
+"<p><a href=\"https://youtube.com/live/5tJyC9OdshI?feature=share\"><img src=\"/img/posts/youtube.png\" /></a>\n"
+"<a href=\"https://youtube.com/live/5tJyC9OdshI?feature=share\">Live on Monday, June 26, 2023 at 14:00 GMT</a></p>\n"
+msgstr ""
+
+#: content/community-blogs/webinar-pointcloud-processing.md:31
+msgid ""
+"<p><a href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Mms1cmRqa2o4a29rNmczNXFranQycjl2OG4gamFuLnBhdWxvdmljQG0&amp;tmsrc=jan.paulovic%40gmail.com\"><img src=\"/img/posts/calendar.png\" /></a>\n"
+"<a href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Mms1cmRqa2o4a29rNmczNXFranQycjl2OG4gamFuLnBhdWxvdmljQG0&amp;tmsrc=jan.paulovic%40gmail.com\">Add it to your calendar!</a></p>\n"
+msgstr ""

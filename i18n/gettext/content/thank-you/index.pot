@@ -1,0 +1,124 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/thank-you/index.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/thank-you/index.md:0
+msgid "page"
+msgstr ""
+
+#: content/thank-you/index.md:0 content/thank-you/index.md:12
+msgid "Thank you for choosing QGIS!"
+msgstr ""
+
+#: content/thank-you/index.md:0
+msgid "/download/thank-you"
+msgstr ""
+
+#: content/thank-you/index.md:10
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/thank-you/index.md:14
+msgid "Your freshly baked copy of QGIS is downloading."
+msgstr ""
+
+#: content/thank-you/index.md:16
+msgid ""
+"{{< rich-box-start layoutClass=\"qgis_first_conference mt-6\">}} {{< rich-"
+"content-start >}} ![QGIS Developers 1st meeting](qgis_1st_conference.png "
+"\"QGIS Developers 1st meeting\") {{< rich-content-end >}} {{< rich-box-end "
+">}}"
+msgstr ""
+
+#: content/thank-you/index.md:23
+msgid ""
+"{{< rich-box-start icon=\"🛟\" layoutClass=\"tips mt-6 mb-6\">}} {{< rich-"
+"content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/thank-you/index.md:25
+msgid "Tips for first launch"
+msgstr ""
+
+#: content/thank-you/index.md:26
+msgid ""
+"If you have any questions while starting QGIS, welcome to our complete guide"
+" to installing for the first time. <a href=\"/resources/installation-"
+"guide\">Installation guide </a> {{< rich-content-end >}} {{< rich-box-end "
+">}}"
+msgstr ""
+
+#: content/thank-you/index.md:31
+msgid "What's next?"
+msgstr ""
+
+#: content/thank-you/index.md:33
+msgid ""
+"For testing and learning purposes, [a sample dataset is "
+"available](https://docs.qgis.org/3.28/en/docs/user_manual/introduction/getting_started.html#downloading-"
+"sample-data), which contains collections of data from different sources and "
+"in different formats."
+msgstr ""
+
+#: content/thank-you/index.md:35
+msgid ""
+"You can also look at the cases - there are many inspiring stories there."
+msgstr ""
+
+#: content/thank-you/index.md:37
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right\" mode=\"html\" >}} {{< rich-"
+"content-start themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/thank-you/index.md:39
+msgid "Case Studies"
+msgstr ""
+
+#: content/thank-you/index.md:41
+msgid ""
+"We gather inspiring stories from actual users that showcase the versatility "
+"and power of the QGIS solution"
+msgstr ""
+
+#: content/thank-you/index.md:43
+msgid ""
+"[Find out more]({{< ref \"project/case-studies.md\" >}}) {{< rich-content-"
+"end >}} {{< rich-right-start >}}<br />{{< usecase >}} {{< rich-right-end >}}"
+" {{< rich-box-end >}}"
+msgstr ""
+
+#: content/thank-you/index.md:50
+msgid ""
+"{{< rich-box-start layoutClass=\"has-right rounded\" mode=\"html\" >}} {{< "
+"rich-content-start themeClass=\"coloring-2\" >}}"
+msgstr ""
+
+#: content/thank-you/index.md:52
+msgid "Local user groups"
+msgstr ""
+
+#: content/thank-you/index.md:54
+msgid "Join a community of like-minded individuals in your region."
+msgstr ""
+
+#: content/thank-you/index.md:56
+msgid ""
+"[Local groups list]({{< ref \"community/groups.md\" >}}) {{< rich-content-"
+"end >}} {{< rich-right-start >}}<br />![Local user "
+"groups](../../project/img/groups.jpg \"Local user groups\") {{< rich-right-"
+"end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/thank-you/index.md:65
+msgid "{{< content-end >}}"
+msgstr ""

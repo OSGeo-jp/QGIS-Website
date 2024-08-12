@@ -1,0 +1,408 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:0
+msgid "anitagraser.com: Bringing QGIS maps into Jupyter notebooks"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:0
+msgid "bringing-qgis-maps-into-jupyter-notebooks."
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:0
+msgid "2023-11-10"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:0
+msgid ""
+"https://anitagraser.com/2023/11/10/bringing-qgis-maps-into-jupyter-"
+"notebooks/"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:11
+msgid ""
+"<p>Earlier this year, we explored how to use <a "
+"href=\"https://anitagraser.com/2023/01/21/pyqgis-jupyter-notebooks-on-"
+"windows-using-conda/\">PyQGIS in Juypter notebooks</a> to run QGIS "
+"Processing tools from a notebook and visualize the Processing results using "
+"GeoPandas plots.</p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:15
+msgid ""
+"<p>Today, we&#8217;ll go a step further and replace the GeoPandas plots with"
+" maps rendered by QGIS. </p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:19
+msgid ""
+"<p>The following script presents a minimum solution to this challenge: "
+"initializing a QGIS application, canvas, and project; then loading a GeoJSON"
+" and displaying it: </p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:22
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: python; title: ; notranslate\">\n"
+"from IPython.display import Image\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:25
+msgid ""
+"from PyQt5.QtGui import QColor from PyQt5.QtWidgets import QApplication"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:28
+msgid ""
+"from qgis.core import QgsApplication, QgsVectorLayer, QgsProject, QgsSymbol,"
+" <br />QgsRendererRange, QgsGraduatedSymbolRenderer, <br "
+"/>QgsArrowSymbolLayer, QgsLineSymbol, QgsSingleSymbolRenderer, <br "
+"/>QgsSymbolLayer, QgsProperty from qgis.gui import QgsMapCanvas"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:34
+msgid ""
+"app = QApplication(&#91;]) qgs = QgsApplication(&#91;], False) canvas = "
+"QgsMapCanvas() project = QgsProject.instance()"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:39
+msgid ""
+"vlayer = QgsVectorLayer(\"./data/traj.geojson\", \"My trajectory\") if not "
+"vlayer.isValid(): print(\"Layer failed to load!\")"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:43
+msgid ""
+"def saveImage(path, show=True): canvas.saveAsImage(path) if show: return "
+"Image(path)"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:47
+msgid ""
+"project.addMapLayer(vlayer) canvas.setExtent(vlayer.extent()) "
+"canvas.setLayers(&#91;vlayer]) canvas.show() app.exec_()"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:53
+msgid "saveImage(\"my-traj.png\") </pre></div>"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:57
+msgid ""
+"<p>When this code is executed, it opens a separate window that displays the "
+"map canvas. And in this window, we can even pan and zoom to adjust the map. "
+"The line color, however, is assigned randomly (like when we open a new layer"
+" in QGIS):</p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:61
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/11/image-21.png\"><img "
+"loading=\"lazy\" width=\"912\" height=\"853\" data-attachment-id=\"8567\" "
+"data-permalink=\"https://anitagraser.com/2023/11/10/bringing-qgis-maps-into-"
+"jupyter-notebooks/image-21-2/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-21.png\" data-"
+"orig-size=\"912,853\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-21\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-21.png?w=300\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-21.png?w=545\" "
+"src=\"https://underdark.files.wordpress.com/2023/11/image-21.png?w=912\" "
+"alt=\"\" class=\"wp-image-8567\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/11/image-21.png 912w, "
+"https://underdark.files.wordpress.com/2023/11/image-21.png?w=150 150w, "
+"https://underdark.files.wordpress.com/2023/11/image-21.png?w=300 300w, "
+"https://underdark.files.wordpress.com/2023/11/image-21.png?w=768 768w\" "
+"sizes=\"(max-width: 912px) 100vw, 912px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:65
+msgid "<p>To specify a specific color, we can use: </p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:68
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: python; title: ; notranslate\">\n"
+"vlayer.renderer().symbol().setColor(QColor(\"red\"))\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:71
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:92
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:123
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:156
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:186
+msgid ""
+"vlayer.triggerRepaint() canvas.show() app.exec_() saveImage(\"my-traj.png\")"
+" </pre></div>"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:78
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/11/image-22.png\"><img "
+"loading=\"lazy\" width=\"899\" height=\"547\" data-attachment-id=\"8568\" "
+"data-permalink=\"https://anitagraser.com/2023/11/10/bringing-qgis-maps-into-"
+"jupyter-notebooks/image-22-2/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-22.png\" data-"
+"orig-size=\"899,547\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-22\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-22.png?w=300\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-22.png?w=545\" "
+"src=\"https://underdark.files.wordpress.com/2023/11/image-22.png?w=899\" "
+"alt=\"\" class=\"wp-image-8568\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/11/image-22.png 899w, "
+"https://underdark.files.wordpress.com/2023/11/image-22.png?w=150 150w, "
+"https://underdark.files.wordpress.com/2023/11/image-22.png?w=300 300w, "
+"https://underdark.files.wordpress.com/2023/11/image-22.png?w=768 768w\" "
+"sizes=\"(max-width: 899px) 100vw, 899px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:82
+msgid ""
+"<p>But regular lines are boring. We could easily create those with GeoPandas"
+" plots.</p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:86
+msgid ""
+"<p>Things get way more interesting when we use QGIS&#8217; custom symbols "
+"and renderers. For example, to draw arrows using a QgsArrowSymbolLayer, we "
+"can write: </p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:89
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: python; title: ; notranslate\">\n"
+"vlayer.renderer().symbol().appendSymbolLayer(QgsArrowSymbolLayer())\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:99
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/11/image-23.png\"><img "
+"loading=\"lazy\" width=\"897\" height=\"537\" data-attachment-id=\"8570\" "
+"data-permalink=\"https://anitagraser.com/2023/11/10/bringing-qgis-maps-into-"
+"jupyter-notebooks/image-23-2/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-23.png\" data-"
+"orig-size=\"897,537\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-23\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-23.png?w=300\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-23.png?w=545\" "
+"src=\"https://underdark.files.wordpress.com/2023/11/image-23.png?w=897\" "
+"alt=\"\" class=\"wp-image-8570\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/11/image-23.png 897w, "
+"https://underdark.files.wordpress.com/2023/11/image-23.png?w=150 150w, "
+"https://underdark.files.wordpress.com/2023/11/image-23.png?w=300 300w, "
+"https://underdark.files.wordpress.com/2023/11/image-23.png?w=768 768w\" "
+"sizes=\"(max-width: 897px) 100vw, 897px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:103
+msgid "<p>We can also create a QgsGraduatedSymbolRenderer: </p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:106
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:137
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: python; title: ; notranslate\">\n"
+"geom_type = vlayer.geometryType()\n"
+"myRangeList = &#91;]\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:110
+msgid ""
+"symbol = QgsSymbol.defaultSymbol(geom_type) "
+"symbol.setColor(QColor(\"#3333ff\")) myRange = QgsRendererRange(0, 1, "
+"symbol, 'Group 1') myRangeList.append(myRange)"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:115
+msgid ""
+"symbol = QgsSymbol.defaultSymbol(geom_type) "
+"symbol.setColor(QColor(\"#33ff33\")) myRange = QgsRendererRange(1, 3, "
+"symbol, 'Group 2') myRangeList.append(myRange)"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:120
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:153
+msgid ""
+"myRenderer = QgsGraduatedSymbolRenderer('speed', myRangeList) "
+"vlayer.setRenderer(myRenderer)"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:130
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/11/image-24.png\"><img "
+"loading=\"lazy\" width=\"901\" height=\"800\" data-attachment-id=\"8572\" "
+"data-permalink=\"https://anitagraser.com/2023/11/10/bringing-qgis-maps-into-"
+"jupyter-notebooks/image-24-2/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-24.png\" data-"
+"orig-size=\"901,800\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-24\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-24.png?w=300\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-24.png?w=545\" "
+"src=\"https://underdark.files.wordpress.com/2023/11/image-24.png?w=901\" "
+"alt=\"\" class=\"wp-image-8572\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/11/image-24.png 901w, "
+"https://underdark.files.wordpress.com/2023/11/image-24.png?w=150 150w, "
+"https://underdark.files.wordpress.com/2023/11/image-24.png?w=300 300w, "
+"https://underdark.files.wordpress.com/2023/11/image-24.png?w=768 768w\" "
+"sizes=\"(max-width: 901px) 100vw, 901px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:134
+msgid ""
+"<p>And we can combine both QgsGraduatedSymbolRenderer and "
+"QgsArrowSymbolLayer:</p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:141
+msgid ""
+"symbol = QgsSymbol.defaultSymbol(geom_type) "
+"symbol.appendSymbolLayer(QgsArrowSymbolLayer()) "
+"symbol.setColor(QColor(\"#3333ff\")) myRange = QgsRendererRange(0, 1, "
+"symbol, 'Group 1') myRangeList.append(myRange)"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:147
+msgid ""
+"symbol = QgsSymbol.defaultSymbol(geom_type) "
+"symbol.appendSymbolLayer(QgsArrowSymbolLayer()) "
+"symbol.setColor(QColor(\"#33ff33\")) myRange = QgsRendererRange(1, 3, "
+"symbol, 'Group 2') myRangeList.append(myRange)"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:163
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/11/image-25.png\"><img "
+"loading=\"lazy\" width=\"898\" height=\"889\" data-attachment-id=\"8574\" "
+"data-permalink=\"https://anitagraser.com/2023/11/10/bringing-qgis-maps-into-"
+"jupyter-notebooks/image-25/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-25.png\" data-"
+"orig-size=\"898,889\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-25\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-25.png?w=300\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-25.png?w=545\" "
+"src=\"https://underdark.files.wordpress.com/2023/11/image-25.png?w=898\" "
+"alt=\"\" class=\"wp-image-8574\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/11/image-25.png 898w, "
+"https://underdark.files.wordpress.com/2023/11/image-25.png?w=150 150w, "
+"https://underdark.files.wordpress.com/2023/11/image-25.png?w=300 300w, "
+"https://underdark.files.wordpress.com/2023/11/image-25.png?w=768 768w\" "
+"sizes=\"(max-width: 898px) 100vw, 898px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:167
+msgid ""
+"<p>Maybe the most powerful option is to use data-defined symbology. For "
+"example, to control line width and color: </p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:170
+msgid ""
+"<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: python; title: ; notranslate\">\n"
+"renderer = QgsSingleSymbolRenderer(QgsSymbol.defaultSymbol(geom_type))\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:173
+msgid ""
+"exp_width = 'scale_linear(\"speed\", 0, 3, 0, 7)' exp_color = "
+"\"coalesce(ramp_color('Viridis',scale_linear(\\\"speed\\\", 0, 3, 0, 1)), "
+"'#000000')\""
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:176
+msgid ""
+"https://qgis.org/pyqgis/3.0/core/Symbol/QgsSymbolLayer.html?highlight=property#qgis.core.QgsSymbolLayer.PropertySize"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:177
+msgid ""
+"renderer.symbol().symbolLayer(0).setDataDefinedProperty( "
+"QgsSymbolLayer.PropertyStrokeWidth, QgsProperty.fromExpression(exp_width)) "
+"renderer.symbol().symbolLayer(0).setDataDefinedProperty( "
+"QgsSymbolLayer.PropertyStrokeColor, QgsProperty.fromExpression(exp_color)) "
+"renderer.symbol().symbolLayer(0).setDataDefinedProperty( "
+"QgsSymbolLayer.PropertyCapStyle, QgsProperty.fromExpression(\"'round'\"))"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:184
+msgid "vlayer.setRenderer(renderer)"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:193
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:205
+msgid "<p></p>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:197
+msgid ""
+"<figure class=\"wp-block-image size-large\"><a "
+"href=\"https://underdark.files.wordpress.com/2023/11/image-26.png\"><img "
+"loading=\"lazy\" width=\"904\" height=\"842\" data-attachment-id=\"8575\" "
+"data-permalink=\"https://anitagraser.com/2023/11/10/bringing-qgis-maps-into-"
+"jupyter-notebooks/image-26/\" data-orig-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-26.png\" data-"
+"orig-size=\"904,842\" data-comments-opened=\"1\" data-image-"
+"meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\""
+" data-image-title=\"image-26\" data-image-description=\"\" data-image-"
+"caption=\"\" data-medium-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-26.png?w=300\" "
+"data-large-"
+"file=\"https://underdark.files.wordpress.com/2023/11/image-26.png?w=545\" "
+"src=\"https://underdark.files.wordpress.com/2023/11/image-26.png?w=904\" "
+"alt=\"\" class=\"wp-image-8575\" "
+"srcset=\"https://underdark.files.wordpress.com/2023/11/image-26.png 904w, "
+"https://underdark.files.wordpress.com/2023/11/image-26.png?w=150 150w, "
+"https://underdark.files.wordpress.com/2023/11/image-26.png?w=300 300w, "
+"https://underdark.files.wordpress.com/2023/11/image-26.png?w=768 768w\" "
+"sizes=\"(max-width: 904px) 100vw, 904px\" /></a></figure>\n"
+msgstr ""
+
+#: content/community-blogs/bringing-qgis-maps-into-jupyter-notebooks.md:201
+msgid ""
+"<p>Find the full notebook at: <a href=\"https://github.com/anitagraser/QGIS-"
+"resources/blob/master/qgis3/notebooks/layer-styling.ipynb\" "
+"rel=\"nofollow\">https://github.com/anitagraser/QGIS-"
+"resources/blob/master/qgis3/notebooks/layer-styling.ipynb</a></p>\n"
+msgstr ""

@@ -1,0 +1,383 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/resources/hub.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/resources/hub.md:0
+msgid "page"
+msgstr ""
+
+#: content/resources/hub.md:0
+msgid "QGIS resources"
+msgstr ""
+
+#: content/resources/hub.md:0
+msgid "4 June 2024"
+msgstr ""
+
+#: content/resources/hub.md:0
+msgid "Tim Sutton"
+msgstr ""
+
+#: content/resources/hub.md:0
+msgid "en"
+msgstr ""
+
+#: content/resources/hub.md:12
+msgid "{{< content-start >}}"
+msgstr ""
+
+#: content/resources/hub.md:14
+msgid "Resources"
+msgstr ""
+
+#: content/resources/hub.md:16
+msgid ""
+"{{< rich-box-start icon=\"🖖\" layoutClass=\"tips\">}} {{< rich-content-start"
+" themeClass=\"coloring-1\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:18
+msgid "Installation troubles?"
+msgstr ""
+
+#: content/resources/hub.md:19
+msgid ""
+"If you are looking for information on installing QGIS on all available "
+"platforms, we have prepared a comprehensive guide for you:"
+msgstr ""
+
+#: content/resources/hub.md:21
+msgid ""
+"[Installation guide]({{< ref \"/resources/installation-guide/index.md\" >}})"
+msgstr ""
+
+#: content/resources/hub.md:23 content/resources/hub.md:143
+msgid "{{< rich-content-end >}} {{< rich-box-end >}}"
+msgstr ""
+
+#: content/resources/hub.md:26
+msgid "Documentation"
+msgstr ""
+
+#: content/resources/hub.md:28
+msgid ""
+"QGIS has a lot of documentation. All of the core documentation (user manual,"
+" developer handbooks etc.) is available in English. Some documents such as "
+"the user guide are also available in other languages."
+msgstr ""
+
+#: content/resources/hub.md:30
+msgid ""
+"You will find documentation for every QGIS Long Term Release (LTR) on the "
+"respective documentation website."
+msgstr ""
+
+#: content/resources/hub.md:32
+msgid ""
+"[Get involved]({{< ref \"/community/involve\" >}}) and help us write a "
+"better documentation."
+msgstr ""
+
+#: content/resources/hub.md:34
+msgid ""
+"{{< language-select >}} <span id=\"selected-language-display\">Select a "
+"language</span>"
+msgstr ""
+
+#: content/resources/hub.md:37
+msgid ""
+"{{< tabs tab1=\"QGIS |ltrversion|\" tab2=\"QGIS |version|\" tab3=\"QGIS "
+"testing\" tab4=\"Archived releases\">}}"
+msgstr ""
+
+#: content/resources/hub.md:40
+msgid ""
+"{{< tab-content-start tab=\"1\" >}} **For users (QGIS {{< param "
+"\"ltrversion\" >}}):**"
+msgstr ""
+
+#: content/resources/hub.md:43
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|ltrversion|/<lang>/docs/user_manual\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"Desktop User "
+"Guide — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:45
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|ltrversion|/<lang>/docs/training_manual\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"QGIS Training "
+"manual — <lang>\">}}"
+msgstr ""
+
+#: content/resources/hub.md:47
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|ltrversion|/<lang>/docs/gentle_gis_introduction\""
+" layoutClass=\"inline-block link-with-language\" listTitle=\"Gentle Intro to"
+" GIS — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:49
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|ltrversion|/<lang>/docs/server_manual\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"Server Guide — "
+"<lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:52
+msgid "**For documentation writers (QGIS {{< param \"ltrversion\" >}}):**"
+msgstr ""
+
+#: content/resources/hub.md:54
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|ltrversion|/<lang>/docs/documentation_guidelinesion\""
+" layoutClass=\"inline-block link-with-language\" listTitle=\"Documentation "
+"Guidelines — <lang>\">}}"
+msgstr ""
+
+#: content/resources/hub.md:57
+msgid "**For developers (QGIS {{< param \"ltrversion\" >}}):**"
+msgstr ""
+
+#: content/resources/hub.md:59
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|ltrversion|/<lang>/docs/pyqgis_developer_cookbook\""
+" layoutClass=\"inline-block link-with-language\" listTitle=\"PyQGIS cookbook"
+" (for plugins and scripting) — <lang>\">}}"
+msgstr ""
+
+#: content/resources/hub.md:61
+msgid ""
+"{{< rich-list listLink=\"https://qgis.org/pyqgis/|ltrversion|/\" "
+"layoutClass=\"inline-block\" listTitle=\"PyQGIS - QGIS Python Api "
+"documentation\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:64
+msgid ""
+"{{< rich-list listLink=\"https://qgis.org/api/|ltrversion|/\" "
+"layoutClass=\"inline-block\" listTitle=\"C++ API documentation\" "
+"listSubtitle=\"\">}}"
+msgstr ""
+
+#: content/resources/hub.md:66
+msgid ""
+"{{< rich-list "
+"listLink=\"https://github.com/qgis/QGIS/blob/release-|ltrversion|/INSTALL.md\""
+" layoutClass=\"inline-block\" listTitle=\"Building QGIS from Source\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:68
+msgid "**For download (QGIS {{< param \"ltrversion\" >}}):**"
+msgstr ""
+
+#: content/resources/hub.md:70
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/|ltrversion|/pdf\" "
+"layoutClass=\"inline-block\" listTitle=\"PDF of the manuals\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:72
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/|ltrversion|/zip\" "
+"layoutClass=\"inline-block\" listTitle=\"HTML zip of the manuals\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:74 content/resources/hub.md:110
+#: content/resources/hub.md:118 content/resources/hub.md:132
+msgid "{{< tab-content-end >}}"
+msgstr ""
+
+#: content/resources/hub.md:78
+msgid ""
+"{{< tab-content-start tab=\"2\" >}} **For users (QGIS {{< param \"version\" "
+">}}):**"
+msgstr ""
+
+#: content/resources/hub.md:81
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|version|/<lang>/docs/user_manual\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"Desktop User "
+"Guide — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:83
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|version|/<lang>/docs/training_manual\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"QGIS Training "
+"Manual — <lang>\">}}"
+msgstr ""
+
+#: content/resources/hub.md:85
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|version|/<lang>/docs/gentle_gis_introduction\""
+" layoutClass=\"inline-block link-with-language\" listTitle=\"Gentle Intro to"
+" GIS — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:87
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|version|/<lang>/docs/server_manual\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"Server "
+"Guide/Manual — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:89
+msgid "**For documentation writers (QGIS {{< param \"version\" >}}):**"
+msgstr ""
+
+#: content/resources/hub.md:91
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|version|/<lang>/docs/documentation_guidelinesion\""
+" layoutClass=\"inline-block link-with-language\" listTitle=\"Documentation "
+"Guidelines — <lang>\">}}"
+msgstr ""
+
+#: content/resources/hub.md:94
+msgid "**For developers (QGIS {{< param \"version\" >}}):**"
+msgstr ""
+
+#: content/resources/hub.md:96
+msgid ""
+"{{< rich-list "
+"listLink=\"https://docs.qgis.org/|version|/<lang>/docs/pyqgis_developer_cookbook\""
+" layoutClass=\"inline-block link-with-language\" listTitle=\"PyQGIS cookbook"
+" (for plugins and scripting) — <lang>\">}}"
+msgstr ""
+
+#: content/resources/hub.md:98
+msgid ""
+"{{< rich-list listLink=\"https://qgis.org/api/|version|/\" "
+"layoutClass=\"inline-block\" listTitle=\"C++ API documentation\" "
+"listSubtitle=\"\">}}"
+msgstr ""
+
+#: content/resources/hub.md:100
+msgid ""
+"{{< rich-list listLink=\"https://qgis.org/pyqgis/|version|/\" "
+"layoutClass=\"inline-block\" listTitle=\"PyQGIS - QGIS Python Api "
+"documentation\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:102
+msgid ""
+"{{< rich-list "
+"listLink=\"https://github.com/qgis/QGIS/blob/release-|version|/INSTALL.md\" "
+"layoutClass=\"inline-block\" listTitle=\"Building QGIS from Source\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:104
+msgid "**For download (QGIS {{< param \"version\" >}}):**"
+msgstr ""
+
+#: content/resources/hub.md:106
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/|version|/pdf\" "
+"layoutClass=\"inline-block\" listTitle=\"PDF of the manuals\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:108
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/|version|/zip\" "
+"layoutClass=\"inline-block\" listTitle=\"HTML zip of the manuals\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:112
+msgid "{{< tab-content-start tab=\"3\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:114
+msgid ""
+"We are still updating (not translating yet) the documentation for releases "
+"newer than QGIS {{< param \"version\" >}}. We call this version 'QGIS "
+"Testing' and the documentation can be found here:"
+msgstr ""
+
+#: content/resources/hub.md:116
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/testing\" "
+"layoutClass=\"inline-block\" listTitle=\"QGIS testing\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:120
+msgid "{{< tab-content-start tab=\"4\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:122
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/3.22/<lang>\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"QGIS 3.22 "
+"Documentation — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:124
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/3.16/<lang>\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"QGIS 3.16 "
+"Documentation — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:126
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/3.10/<lang>\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"QGIS 3.10 "
+"Documentation — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:128
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/3.4/<lang>\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"QGIS 3.4 "
+"Documentation — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:130
+msgid ""
+"{{< rich-list listLink=\"https://docs.qgis.org/2.18/<lang>\" "
+"layoutClass=\"inline-block link-with-language\" listTitle=\"QGIS 2.18 "
+"Documentation — <lang>\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:135
+msgid "{{< rich-box-start >}} {{< rich-content-start themeClass=\"coloring-6\">}}"
+msgstr ""
+
+#: content/resources/hub.md:137
+msgid "Support"
+msgstr ""
+
+#: content/resources/hub.md:139
+msgid ""
+"The QGIS community offers a wealth of excellent websites with support "
+"forums."
+msgstr ""
+
+#: content/resources/hub.md:141
+msgid ""
+"{{< button class = \"is-primary6\" link = \"resources/support\" text = "
+"\"View support options\" >}}"
+msgstr ""
+
+#: content/resources/hub.md:146
+msgid "{{< content-end >}}"
+msgstr ""

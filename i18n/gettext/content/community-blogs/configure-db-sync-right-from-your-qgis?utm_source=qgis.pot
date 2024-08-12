@@ -1,0 +1,54 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/community-blogs/configure-db-sync-right-from-your-qgis?utm_source=qgis.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/community-blogs/configure-db-sync-right-from-your-qgis?utm_source=qgis.md:0
+msgid "blog"
+msgstr ""
+
+#: content/community-blogs/configure-db-sync-right-from-your-qgis?utm_source=qgis.md:0
+msgid "Mergin Maps: [Changelog] Configure DB Sync right from your QGIS"
+msgstr ""
+
+#: content/community-blogs/configure-db-sync-right-from-your-qgis?utm_source=qgis.md:0
+msgid "configure-db-sync-right-from-your-qgis?utm_source=qgis."
+msgstr ""
+
+#: content/community-blogs/configure-db-sync-right-from-your-qgis?utm_source=qgis.md:0
+msgid "2024-02-01"
+msgstr ""
+
+#: content/community-blogs/configure-db-sync-right-from-your-qgis?utm_source=qgis.md:0
+msgid ""
+"https://wishlist.merginmaps.com/changelog/configure-db-sync-right-from-your-"
+"qgis?utm_source=qgis"
+msgstr ""
+
+#: content/community-blogs/configure-db-sync-right-from-your-qgis?utm_source=qgis.md:0
+msgid "true"
+msgstr ""
+
+#: content/community-blogs/configure-db-sync-right-from-your-qgis?utm_source=qgis.md:0
+msgid "planet"
+msgstr ""
+
+#: content/community-blogs/configure-db-sync-right-from-your-qgis?utm_source=qgis.md:11
+msgid ""
+"<p>QGIS Plugin now allows you to generate configuration file for DB Sync "
+"based on your PostgreSQL connections. Simply navigate to “Plugins → Mergin "
+"Maps → Configure DB Sync“ and follow the guide. </p><p>Resulting "
+"configuration file can be saved and used for synchronising our GPKG data "
+"with PostgreSQL. Read more about DB Sync here: <a "
+"href=\"https://merginmaps.com/docs/dev/dbsync/\" rel=\"noopener noreferrer "
+"nofollow\" "
+"target=\"_blank\">https://merginmaps.com/docs/dev/dbsync/</a></p>\n"
+msgstr ""

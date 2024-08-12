@@ -1,0 +1,40 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: content/funders/www.cheslatta.com.md 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-11 20:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: content/funders/www.cheslatta.com.md:0
+msgid "Small"
+msgstr ""
+
+#: content/funders/www.cheslatta.com.md:0
+msgid "Cheslatta Carrier nation"
+msgstr ""
+
+#: content/funders/www.cheslatta.com.md:0
+msgid "www.cheslatta.com.png"
+msgstr ""
+
+#: content/funders/www.cheslatta.com.md:0
+msgid "2021-11-19"
+msgstr ""
+
+#: content/funders/www.cheslatta.com.md:0
+msgid "2023-01-31"
+msgstr ""
+
+#: content/funders/www.cheslatta.com.md:0
+msgid "https://www.cheslatta.com/"
+msgstr ""
+
+#: content/funders/www.cheslatta.com.md:0
+msgid "Canada"
+msgstr ""
