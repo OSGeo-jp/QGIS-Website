@@ -1,7 +1,7 @@
 {
   "bucket_name": "qgis-download",
   "prefix": "",
-  "generated_at": "2026-03-16T14:28:12.570313+00:00",
+  "generated_at": "2026-03-16T15:24:19.357103+00:00",
   "statistics": {
     "total_files": 132546,
     "total_size": 4024825434819,
@@ -45,7 +45,7 @@
       ".gpg": 347,
       ".msi": 230
     },
-    "last_updated": "2026-03-16T14:28:12.498838+00:00"
+    "last_updated": "2026-03-16T15:24:19.291316+00:00"
   },
   "tree": {
     "name": "qgis-download",
