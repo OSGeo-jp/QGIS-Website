@@ -151,13 +151,29 @@ Donations can be of any amount through [GitHub Sponsors](https://github.com/spon
   <div class="listcont external-link">
     Jeff Silverman - jeffsilverm
   </div>
-</a><a class="rich-list third mr-2 mb-2" href="https://github.com/muddasirshah" target="_blank">
+</a><a class="rich-list third mr-2 mb-2" href="https://github.com/parallax-geo" target="_blank">
   <div class="listcont external-link">
-    Muddasir Shah - muddasirshah
+    Parallax-Geo - parallax-geo
   </div>
 </a><a class="rich-list third mr-2 mb-2" href="https://github.com/danabauer" target="_blank">
   <div class="listcont external-link">
     Dana Bauer - danabauer
+  </div>
+</a><a class="rich-list third mr-2 mb-2" href="https://github.com/ADS-Fund" target="_blank">
+  <div class="listcont external-link">
+    ADS Fund - ADS-Fund
+  </div>
+</a><a class="rich-list third mr-2 mb-2" href="https://github.com/golden-gecko" target="_blank">
+  <div class="listcont external-link">
+     - golden-gecko
+  </div>
+</a><a class="rich-list third mr-2 mb-2" href="https://github.com/angch" target="_blank">
+  <div class="listcont external-link">
+    Ang Chin Han - angch
+  </div>
+</a><a class="rich-list third mr-2 mb-2" href="https://github.com/edgarbutwilowski" target="_blank">
+  <div class="listcont external-link">
+    Edgar Butwilowski - edgarbutwilowski
   </div>
 </a><!-- sponsors -->
 

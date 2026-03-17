@@ -30,7 +30,7 @@ deploy: ## Deploy the site for www.qgis.org and qgis.org
 	@echo "------------------------------------------------------------------"
 	@echo "Deploy site in production"
 	@echo "------------------------------------------------------------------"
-	git pull && rm -rf archive; mkdir archive; mv public_www public_prod archive; make build
+	git pull && git submodule update --init --recursive && rm -rf archive; mkdir archive; mv public_www public_prod archive; make build
 
 revert-deploy: ## Revert the site for www.qgis.org and qgis.org
 	@echo
@@ -56,7 +56,7 @@ hugo-run-dev: ## Run the server at localhost:1313 with hugo
 	@echo "------------------------------------------------------------------"
 	@echo "Building site in development"
 	@echo "------------------------------------------------------------------"
-	hugo server --config config.toml,config/config.dev.toml
+	hugo server $(HUGOSERVERFLAGS) --config config.toml,config/config.dev.toml
 
 
 # ----------------------------------------------------------------------------

@@ -58,12 +58,18 @@ Alternatively, instead of doing the _Express_ install, you can use the _Advanced
 |Release|Version|Package|Description|
 |---|---|---|---|
 |Latest Release|{{< param "release" >}} {{< param "codename" >}} {{< param "releasenote" >}}|qgis|Release|
+|||qgis-qt6|Release (Qt6)[[2]](#id2)|
 |||qgis-rel-dev [[1]](#id1)|Nightly build of the upcoming point release|
+|||qgis-qt6-rel-dev [[1]](#id1)|Nightly build of the upcoming point release (Qt6)[[2]](#id2)|
 |Long Term Release|{{< param "ltrrelease" >}} {{< param "ltrcodename" >}} {{< param "ltrnote" >}}|qgis-ltr|Release|
-|||qgis-ltr-dev [[1]](#id1)|Nightly build of the upcoming long term point release|
-|Development|{{< param "devversion" >}} master|qgis-dev [[1]](#id1)|Nightly build of the development version|
+|||qgis-qt6-ltr|Release (Qt6)[[2]](#id2)|
+|||qgis-ltr-dev [[1]](#id1)|Nightly build of the upcoming long term point release (Qt5)|
+|||qgis-qt6-ltr-dev [[1]](#id1)|Nightly build of the upcoming long term point release (Qt6)[[2]](#id2)|
+|Development|{{< param "devversion" >}} master|qgis-dev [[1]](#id1)|Nightly build of the development version[[2]](#id2)|
 
 {{< footnote "1" >}} Nightlies are debug builds (including debugging output that can be used by developers to better understand issues with the build).
+
+{{< footnote "2" >}} 3.99 will become 4.0 and marks the switch to Qt6.  Earlier versions of QGIS are experimental with Qt6. Starting with 3.99 only Qt6 is supported.
 
 The packages listed in the above table only install the necessary dependencies needed to run QGIS. Corresponding to those packages there are also meta packages with the suffix `-full-free` and `-full`. The `-full-free` contains additional optional dependencies that some popular (not included in the default QGIS install) plugins use.  The `-full` includes everything from `-full-free` and also adds proprietary extensions like Oracle drivers, ECW and MrSID.
 
@@ -110,7 +116,7 @@ sudo mkdir -m755 -p /etc/apt/keyrings  # not needed since apt version 2.4.0 like
 sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg
 ```
 
-Add the QGIS repo for the latest stable QGIS ({{< param "version" >}}.x {{< param "codename" >}}) to `/etc/apt/sources.list.d/qgis.sources`:
+Add the QGIS repo for the latest stable QGIS ({{< param "version" >}}.x {{< param "codename" >}}) to `/etc/apt/sources.list.d/qgis.sources`. Open the file in a text editor (e.g. `sudo editor /etc/apt/sources.list.d/qgis.sources`) and paste the following content (replace `your-distributions-codename` with your actual distribution codename, see [Available codenames](#available-codenames)):
 
 ```
 Types: deb deb-src
@@ -132,18 +138,17 @@ See [Available codenames](#available-codenames).
 {{< rich-content-end >}}
 {{< rich-box-end >}}
 
-Update your repository information to also reflect the newly added QGIS one:
+Save and close the file, then update your repository information:
 
 ```
 sudo apt update
 ```
 
-Now, install QGIS:
+To install QGIS, run:
 
-```
-sudo apt install qgis qgis-plugin-grass
-```
-
+  ```
+  sudo apt install qgis qgis-plugin-grass
+  ```
 {{< rich-box-start icon="✍️" layoutClass="tips">}}
 {{< rich-content-start themeClass="coloring-1" >}}
 ##### Note
@@ -183,18 +188,16 @@ Lines of packages:
 | ---- | ---- | ---- | ---- |
 | Latest Release | {{< param "version" >}}.x {{< param "codename" >}} {{< param "releasenote">}} | Release for **Debian and Ubuntu** | https://qgis.org/debian <br> https://qgis.org/ubuntu |
 ||| Release with ubuntugis-unstable dependencies | https://qgis.org/ubuntugis |  |  |
-||| Nightly build of upcoming point release for Debian and Ubuntu [[2]](#id2) | https://qgis.org/debian-nightly-release <br> https://qgis.org/ubuntu-nightly-release |  |  |
-||| Nightly build of upcoming point release with ubuntugis-unstable dependencies [[2]](#id2) | https://qgis.org/ubuntugis-nightly-release |  |  |
+||| Nightly build of upcoming point release for Debian and Ubuntu | https://qgis.org/debian-nightly-release <br> https://qgis.org/ubuntu-nightly-release |  |  |
+||| Nightly build of upcoming point release with ubuntugis-unstable dependencies  | https://qgis.org/ubuntugis-nightly-release |  |  |
 | Long Term Release Repository | {{< param "ltrversion" >}}.x {{< param "ltrcodename" >}} {{< param "ltrnote" >}} | Release for **Debian and Ubuntu** | https://qgis.org/debian-ltr https://qgis.org/ubuntu-ltr |
 ||| Release with ubuntugis-unstable dependencies | https://qgis.org/ubuntugis-ltr |  |  |
-||| Nightly build of upcoming point release for Debian and Ubuntu [[2]](#id2) | https://qgis.org/debian-nightly-ltr <br> https://qgis.org/ubuntu-nightly-ltr |  |  |
-||| Nightly build of upcoming point release with ubuntugis-unstable dependencies [[2]](#id2) | https://qgis.org/ubuntugis-nightly-ltr |  |  |
-| Development Version | {{< param "devversion" >}} master [[3]](#id3) | Nightly build for **Debian and Ubuntu** [[2]](#id2) | https://qgis.org/debian-nightly <br> https://qgis.org/ubuntu-nightly |
+||| Nightly build of upcoming point release for Debian and Ubuntu | https://qgis.org/debian-nightly-ltr <br> https://qgis.org/ubuntu-nightly-ltr |  |  |
+||| Nightly build of upcoming point release with ubuntugis-unstable dependencies  | https://qgis.org/ubuntugis-nightly-ltr |  |  |
+| Development Version | {{< param "devversion" >}} master | Nightly build for **Debian and Ubuntu** [[2]](#id2) | https://qgis.org/debian-nightly <br> https://qgis.org/ubuntu-nightly |
 ||| Nightly build with ubuntugis-unstable dependencies [[2]](#id2) | https://qgis.org/ubuntugis-nightly |  |  |
 
 {{< footnote "2" >}} Nightlies are debug builds (including debugging output)
-
-{{< footnote "3" >}} For Debian trixie and sid and Ubuntu plucky and questing the builds of master currently have Qt5 (package qgis) and Qt6 (package qgis-qt6) versions.
 
 <small>
 Next point release: {{< param "nextpointreleasedate" >}}
@@ -206,22 +209,23 @@ Next release: {{< param "nextreleasedate" >}}
 
 #### Supported distribution versions: {#available-codenames}
 
-|Distribution|Version         |Codename             |Also available based on ubuntugis-unstable dependencies?|Qt6 version of master available|
-|------------|----------------|---------------------|--------------------------------------------------------|-------------------------------|
-|Debian      |12.x (stable)   |bookworm             |                                                        |                               |
-|            |13.x (testing)  |trixie [[4]](#id4)   |                                                        | yes                           |
-|            |unstable        |sid                  |                                                        | yes                           |
-|Ubuntu      |25.10           |questing [[5]](#id5) |                                                        | yes                           |
-|            |25.04           |plucky [[4]](#id4)   |                                                        | yes                           |
-|            |24.10           |oracular [[6]](#id5) |                                                        |                               |
-|            |24.04 (LTS)     |noble                |yes                                                     |                               |
-|            |22.04 (LTS)     |jammy                |yes                                                     |                               |
+|Distribution|Version         |Codename             |Master nightlies[[5]](#id5)|ubuntugis[[6]](#id6)|
+|------------|----------------|---------------------|---------------------------|--------------------|
+|Debian      |12.x (stable)   |bookworm             |                           |                    |
+|            |13.x (testing)  |trixie [[3]](#id3)   |yes                        |                    |
+|            |unstable        |sid                  |yes                        |                    |
+|Ubuntu      |25.10           |questing [[4]](#id4) |yes                        |                    |
+|            |25.04           |plucky [[3]](#id3)   |yes                        |                    |
+|            |24.04 (LTS)     |noble                |                           |yes                 |
+|            |22.04 (LTS)     |jammy                |                           |yes                 |
 
-{{< footnote "4" >}} starting with 3.40.8/3.44.0
+{{< footnote "3" >}} starting with 3.40.8/3.44.0
 
-{{< footnote "5" >}} starting with 3.40.11/3.44.3
+{{< footnote "4" >}} starting with 3.40.11/3.44.3
 
-{{< footnote "6" >}} only up to 3.40.7/3.44.2 (oracular EOL)
+{{< footnote "5" >}} based on Qt6
+
+{{< footnote "6" >}} builds based on ubuntugis dependencies
 
 To use the QGIS archive you have to first add the archive’s repository public key:
 
@@ -254,7 +258,7 @@ sudo mkdir -m755 -p /etc/apt/keyrings  # not needed since apt version 2.4.0 like
 sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg
 ```
 
-With the keyring in place you can add the repository as `/etc/apt/sources.list.d/qgis.sources` with following content:
+With the keyring in place you can add the repository. Create or open for editing the file `/etc/apt/sources.list.d/qgis.sources` (e.g. `sudo editor /etc/apt/sources.list.d/qgis.sources`) and add the following content (replace `*repository*` and `*codename*` with values from the table above):
 
 ```
 Types: deb deb-src
@@ -688,17 +692,14 @@ A nightly updated standalone installer from QGIS master can be downloaded from [
 
 ## Binary packages (installers)
 
-Official All-in-one, signed installers for macOS High Sierra (10.13) and newer can be downloaded from the [QGIS download page]({{< ref "download" >}}).
+Official All-in-one, signed and notarized installers for macOS can be downloaded from the [QGIS download page]({{< ref "download" >}}). They are compatible with High Sierra (10.14) and newer for Intel x64 and Apple silicon (ARM) devices.
 
-After downloading QGIS, open the DMG file. Drag and drop the QGIS application into the Applications folder. The first launch attempt may fail due to Apple's security framework. 
+After downloading QGIS, open the DMG file. Drag and drop the QGIS application into the Applications folder.
 
-**For macOS Sonoma (14) and earlier:** To enable QGIS, **control-click** (hold the control key and click) on its icon in your Applications folder and select ***Open*** in the context menu. A confirmation dialog will display where you need to click the ***Open*** button again. This only has to be done once.
-
-**For macOS Sequoia (15) and newer:** To enable QGIS, **control-click** (hold the control key and click) its icon in your Applications folder and select ***Open*** from the context menu. A warning dialog will appear; click the ***Done*** button. Next, navigate to ***System Settings > Privacy & Security*** and scroll to the ***Security*** section. You should see a message stating that ***"QGIS" was blocked to protect your Mac***. Click ***Open Anyway***. A confirmation dialog will appear; click ***Open Anyway*** again. This only has to be done once.
 
 ## MacPorts
 
-The package management system [MacPorts](https://www.macports.org) offers both the latest release version (port `qgis3`) and the long term version (port `qgis3-ltr`). This will install QGIS with native architecture, Intel x86_64 or Apple ARM. Main software dependencies such as GDAL, PDAL and GRASS GIS are usually the latest version available.
+The package management system [MacPorts](https://www.macports.org) offers both the latest release version (port `qgis3`) and the long term version (port `qgis3-ltr`). This will install QGIS with native architecture, Intel x64 or Apple silicon. Main software dependencies such as GDAL, PDAL and GRASS GIS are usually the latest version available.
 
 [Installing MacPorts and updating](https://guide.macports.org) it and the _ports_ are made with the _Terminal_. QGIS is however installed as an app bundle at `/Applications/MacPorts/QGIS3.app`.
 
