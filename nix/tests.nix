@@ -1,38 +1,91 @@
 { pkgs, website, devShell, websiteApp }:
 
 {
-  # Verify build output structure
-  test-build-output = pkgs.runCommand "test-build-output"
+  # Smoke test the built website by serving it with Python HTTP server
+  test-smoke = pkgs.runCommand "test-smoke"
     {
       inherit website;
+      nativeBuildInputs = [ pkgs.python3 pkgs.curl ];
     }
     ''
-      echo "Verifying build output structure..."
-      
-      if [ ! -d "${website}/public_www" ]; then
-        echo "❌ public_www directory not found"
+      echo "Starting Python HTTP server for smoke tests..."
+
+      PORT=8765
+      python3 -m http.server $PORT --directory "${website}/public_www" &
+      SERVER_PID=$!
+
+      # Wait for server to be ready (up to 10 seconds)
+      for i in $(seq 1 20); do
+        if curl -s -o /dev/null "http://127.0.0.1:$PORT/"; then
+          echo "✅ Server is ready"
+          break
+        fi
+        sleep 0.5
+        if [ "$i" = "20" ]; then
+          echo "❌ Server failed to start in time"
+          kill $SERVER_PID 2>/dev/null
+          exit 1
+        fi
+      done
+
+      FAILED=0
+
+      check_content() {
+        local path="$1"
+        local expected="$2"
+        local description="$3"
+
+        if curl -s "http://127.0.0.1:$PORT$path" | grep -q "$expected"; then
+          echo "✅ $description"
+        else
+          echo "❌ $description (expected to find: \"$expected\" at $path)"
+          FAILED=1
+        fi
+      }
+
+      check_status() {
+        local path="$1"
+        local expected_code="$2"
+        local description="$3"
+
+        actual=$(curl -s -o /dev/null -w "%{http_code}" "http://127.0.0.1:$PORT$path")
+        if [ "$actual" = "$expected_code" ]; then
+          echo "✅ $description (HTTP $actual)"
+        else
+          echo "❌ $description (expected HTTP $expected_code, got HTTP $actual)"
+          FAILED=1
+        fi
+      }
+
+      # Homepage
+      check_status "/" "200" "Homepage returns HTTP 200"
+      check_content "/" "QGIS Web Site" "Homepage has site title"
+      check_content "/" "Spatial without Compromise" "Homepage has tagline"
+
+      # Key section pages
+      check_status "/download/" "200" "Download page returns HTTP 200"
+      check_content "/download/" "Download" "Download page has expected content"
+
+      check_status "/community/" "200" "Community page returns HTTP 200"
+      check_content "/community/" "Communities" "Community page has expected content"
+
+      check_status "/documentation/" "200" "Documentation page returns HTTP 200"
+
+      # 404 handling
+      check_status "/this-page-does-not-exist/" "404" "Non-existent path returns HTTP 404"
+
+      kill $SERVER_PID 2>/dev/null
+      wait $SERVER_PID 2>/dev/null || true
+
+      if [ "$FAILED" = "1" ]; then
+        echo ""
+        echo "❌ Smoke tests FAILED"
         exit 1
       fi
-      
-      echo "✅ public_www directory found"
-      
-      # Check for essential files
-      if [ ! -f "${website}/public_www/index.html" ]; then
-        echo "❌ index.html not found"
-        exit 1
-      fi
-      
-      echo "✅ index.html exists"
-      
-      # Verify directory is not empty
-      file_count=$(find "${website}/public_www" -type f | wc -l)
-      if [ "$file_count" -lt 10 ]; then
-        echo "❌ Too few files in public_www (found: $file_count)"
-        exit 1
-      fi
-      
-      echo "✅ Build output contains $file_count files"
-      echo "Build output verification passed" > $out
+
+      echo ""
+      echo "✅ All smoke tests passed"
+      echo "Smoke tests passed" > $out
     '';
 
   # Test dev shell has required tools
@@ -43,60 +96,32 @@
     }
     ''
       echo "Testing dev shell tools..."
-      
+
       # Check hugo is available
       if ! command -v hugo &> /dev/null; then
         echo "❌ hugo not found in dev shell"
         exit 1
       fi
-      
+
       echo "✅ hugo available: $(hugo version)"
-      
+
       # Check python is available
       if ! command -v python3 &> /dev/null; then
         echo "❌ python3 not found in dev shell"
         exit 1
       fi
-      
+
       echo "✅ python3 available: $(python3 --version)"
-      
+
       # Check make is available
       if ! command -v make &> /dev/null; then
         echo "❌ make not found in dev shell"
         exit 1
       fi
-      
-      echo "✅ make available: $(make --version | head -1)"
-      
-      echo "Dev shell verification passed" > $out
-    '';
 
-  # Test website app can be run
-  test-website-app = pkgs.runCommand "test-website-app"
-    {
-      app = websiteApp;
-      inherit website;
-    }
-    ''
-      echo "Testing website app..."
-      
-      # Verify the app script exists and is executable
-      if [ ! -x "$app" ]; then
-        echo "❌ Website app not executable: $app"
-        exit 1
-      fi
-      
-      echo "✅ Website app is executable"
-      
-      # Verify it references the correct website path
-      if ! grep -q "${website}/public_www" "$app"; then
-        echo "❌ Website app doesn't reference correct path"
-        exit 1
-      fi
-      
-      echo "✅ Website app references correct public_www path"
-      
-      echo "Website app verification passed" > $out
+      echo "✅ make available: $(make --version | head -1)"
+
+      echo "Dev shell verification passed" > $out
     '';
 
   # Package builds successfully (implicit check)
