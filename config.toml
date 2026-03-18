@@ -82,7 +82,7 @@ fancy-font = "'Sevillana', cursive"
 menuFontClass = "is-size-6"
 ## Gh repo edit link
 ## This repo is used for the "Edit this page" link
-githubRepo = "https://github.com/qgis/QGIS-Website/"
+githubRepo = "https://github.com/qgis/QGIS-Website"
 githubSubdir = "content"
 githubBranch = "main"
 
