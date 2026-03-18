@@ -96,7 +96,7 @@
         "last_contribution": "2025-12-11"
       },
       "web_sites": {
-        "commits": 6737,
+        "commits": 6760,
         "last_contribution": "2026-03-17"
       }
     }
@@ -278,8 +278,8 @@
         "last_contribution": "2025-01-09"
       },
       "qgis_core": {
-        "commits": 9598,
-        "last_contribution": "2026-03-16"
+        "commits": 9609,
+        "last_contribution": "2026-03-17"
       },
       "web_sites": {
         "commits": 186,
@@ -314,8 +314,8 @@
         "last_contribution": "2025-01-23"
       },
       "qgis_core": {
-        "commits": 23604,
-        "last_contribution": "2026-03-16"
+        "commits": 23605,
+        "last_contribution": "2026-03-17"
       },
       "web_sites": {
         "commits": 4,
@@ -622,7 +622,7 @@
     ],
     "contributions": {
       "documentation": {
-        "commits": 182,
+        "commits": 183,
         "last_contribution": "2020-08-26"
       },
       "qgis_core": {
