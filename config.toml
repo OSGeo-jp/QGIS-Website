@@ -758,9 +758,14 @@ sectionPagesMenu = 'main'
   weight = 15
 
 [[menu.lang]]
+  name = "🇸🇪 Sverige"
+  url = "sv"
+  weight = 16
+
+[[menu.lang]]
   name = "🇨🇳 简体中文"
   url = "zh-Hans"
-  weight = 16
+  weight = 17
 
 [outputs]
   home = ["HTML", "RSS", "JSON", "version", "version-ltr", "version-json"]
