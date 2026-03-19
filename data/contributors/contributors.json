@@ -5,15 +5,15 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-03-18T09:47:29.480904+00:00",
-  "total_contributors": 1009,
+  "generated_at": "2026-03-19T04:09:09.547359+00:00",
+  "total_contributors": 1011,
   "contributors": [
     {
       "login": "nyalldawson",
       "avatar_url": "https://avatars.githubusercontent.com/u/1829991?u=aa8023a3683a5a3799faa0e0fbcccbeb43575af5&v=4",
-      "total_contributions": 24831,
+      "total_contributions": 24845,
       "thematics": {
-        "qgis_core": 24810,
+        "qgis_core": 24824,
         "documentation": 19,
         "web_sites": 2
       },
@@ -174,17 +174,6 @@
       "has_github_account": true
     },
     {
-      "login": "lbartoletti",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7521540?u=25355cbfa6f5894339a920efe8020d2315abe6c1&v=4",
-      "total_contributions": 1156,
-      "thematics": {
-        "qgis_core": 1147,
-        "documentation": 9,
-        "web_sites": 0
-      },
-      "has_github_account": true
-    },
-    {
       "login": "g-sherman",
       "avatar_url": "https://avatars.githubusercontent.com/u/494282?u=83d8f2c771f9a41efcb50143b69993d38d7cc2f7&v=4",
       "total_contributions": 1154,
@@ -213,6 +202,17 @@
       "thematics": {
         "qgis_core": 1061,
         "documentation": 32,
+        "web_sites": 0
+      },
+      "has_github_account": true
+    },
+    {
+      "login": "lbartoletti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7521540?u=25355cbfa6f5894339a920efe8020d2315abe6c1&v=4",
+      "total_contributions": 1008,
+      "thematics": {
+        "qgis_core": 1000,
+        "documentation": 8,
         "web_sites": 0
       },
       "has_github_account": true
@@ -953,6 +953,17 @@
         "web_sites": 0
       },
       "has_github_account": true
+    },
+    {
+      "login": "email:l.bartoletti@free.fr",
+      "avatar_url": "",
+      "total_contributions": 146,
+      "thematics": {
+        "qgis_core": 145,
+        "documentation": 1,
+        "web_sites": 0
+      },
+      "has_github_account": false
     },
     {
       "login": "ccrook",
@@ -7014,6 +7025,17 @@
         "web_sites": 0
       },
       "has_github_account": true
+    },
+    {
+      "login": "email:lbartoletti@tuxfamily.org",
+      "avatar_url": "",
+      "total_contributions": 2,
+      "thematics": {
+        "qgis_core": 2,
+        "documentation": 0,
+        "web_sites": 0
+      },
+      "has_github_account": false
     },
     {
       "login": "Trexerx",
