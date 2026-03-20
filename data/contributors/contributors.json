@@ -5,7 +5,7 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-03-19T09:42:30.364966+00:00",
+  "generated_at": "2026-03-20T04:10:32.672082+00:00",
   "total_contributors": 1011,
   "contributors": [
     {
@@ -33,10 +33,10 @@
     {
       "login": "DelazJ",
       "avatar_url": "https://avatars.githubusercontent.com/u/7983394?u=b2c76a3d83057b6f3b0ce59280ca38cfa69951cf&v=4",
-      "total_contributions": 6502,
+      "total_contributions": 6503,
       "thematics": {
         "qgis_core": 1108,
-        "documentation": 5376,
+        "documentation": 5377,
         "web_sites": 18
       },
       "has_github_account": true
@@ -88,9 +88,9 @@
     {
       "login": "alexbruy",
       "avatar_url": "https://avatars.githubusercontent.com/u/776954?v=4",
-      "total_contributions": 3431,
+      "total_contributions": 3432,
       "thematics": {
-        "qgis_core": 3323,
+        "qgis_core": 3324,
         "documentation": 108,
         "web_sites": 0
       },
@@ -143,9 +143,9 @@
     {
       "login": "rouault",
       "avatar_url": "https://avatars.githubusercontent.com/u/1192433?u=aebaf912a08a734156caf25b26ab78d1959f0ed5&v=4",
-      "total_contributions": 1502,
+      "total_contributions": 1503,
       "thematics": {
-        "qgis_core": 1501,
+        "qgis_core": 1502,
         "documentation": 1,
         "web_sites": 0
       },
@@ -275,9 +275,9 @@
     {
       "login": "uclaros",
       "avatar_url": "https://avatars.githubusercontent.com/u/11358178?v=4",
-      "total_contributions": 776,
+      "total_contributions": 777,
       "thematics": {
-        "qgis_core": 776,
+        "qgis_core": 777,
         "web_sites": 0,
         "documentation": 0
       },
@@ -693,10 +693,10 @@
     {
       "login": "DiGro",
       "avatar_url": "https://avatars.githubusercontent.com/u/5002095?u=a4a3196697d19de65275011d5ff193b7e33887e4&v=4",
-      "total_contributions": 244,
+      "total_contributions": 245,
       "thematics": {
         "qgis_core": 21,
-        "documentation": 222,
+        "documentation": 223,
         "web_sites": 1
       },
       "has_github_account": true
