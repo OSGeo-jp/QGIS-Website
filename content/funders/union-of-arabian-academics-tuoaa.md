@@ -5,11 +5,11 @@
 # To update: Run 'fetch_feeds.py' (automated nightly via GitHub Actions)
 # See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines
 
-level: "Small"
-title: "GIS PRO"
-logo: "gis-pro.svg"
+level: "Medium"
+title: "The Union of Arabian Academics (TUOAA)"
+logo: "union-of-arabian-academics-tuoaa.png"
 startDate: "2026-01-01"
 endDate: "2027-02-28"
-link: "https://gispro.com.au/"
-country: "Australia"
+link: "https://tuoaa.site123.me/"
+country: "Yemen"
 ---
