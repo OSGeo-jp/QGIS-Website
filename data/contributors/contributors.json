@@ -5,7 +5,7 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-03-21T09:31:57.914116+00:00",
+  "generated_at": "2026-03-22T09:28:54.414497+00:00",
   "total_contributors": 1011,
   "contributors": [
     {
@@ -8007,7 +8007,7 @@
     },
     {
       "login": "florisvdh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19164640?u=e487a84a927389f0ca164dc6e77cdce37915a29c&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19164640?u=9759401ef52d95a3b5ebe10f7978542ea547b482&v=4",
       "total_contributions": 1,
       "thematics": {
         "qgis_core": 1,
