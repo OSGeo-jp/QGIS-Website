@@ -3,7 +3,7 @@
   "prefix": "",
   "distribution": "ubuntugis_nightly",
   "source_folder": "ubuntugis-nightly",
-  "generated_at": "2026-03-17T07:23:11.938688+00:00",
+  "generated_at": "2026-03-23T06:23:51.747880+00:00",
   "statistics": {
     "total_files": 982,
     "total_size": 28893699138,
@@ -37,7 +37,7 @@
       ".d71472c4": 1,
       ".dd45f6c3": 1
     },
-    "last_updated": "2026-03-17T07:23:11.938294+00:00"
+    "last_updated": "2026-03-23T06:23:51.747510+00:00"
   },
   "tree": {
     "name": "qgis-download",
@@ -174,8 +174,8 @@
             "path": "db",
             "size": 31,
             "size_formatted": "31.00 B",
-            "last_modified": "2026-03-10T13:11:00.727000+00:00",
-            "last_modified_timestamp": 1773148260,
+            "last_modified": "2026-03-23T06:06:23.258000+00:00",
+            "last_modified_timestamp": 1774245983,
             "extension": "",
             "category": "other"
           }
