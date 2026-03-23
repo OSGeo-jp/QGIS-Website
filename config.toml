@@ -758,7 +758,7 @@ sectionPagesMenu = 'main'
   weight = 15
 
 [[menu.lang]]
-  name = "🇸🇪 Sverige"
+  name = "🇸🇪 Svenska"
   url = "sv"
   weight = 16
 
