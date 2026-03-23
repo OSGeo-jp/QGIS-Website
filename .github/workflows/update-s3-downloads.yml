@@ -13,7 +13,8 @@ jobs:
   update-s3-downloads:
     name: Update S3 Downloads List
     runs-on: ubuntu-latest
-    
+    if: github.repository_owner == 'qgis'
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
