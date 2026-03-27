@@ -5,15 +5,15 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-03-26T09:44:01.702767+00:00",
+  "generated_at": "2026-03-27T09:40:56.604319+00:00",
   "total_contributors": 1012,
   "contributors": [
     {
       "login": "nyalldawson",
       "avatar_url": "https://avatars.githubusercontent.com/u/1829991?u=aa8023a3683a5a3799faa0e0fbcccbeb43575af5&v=4",
-      "total_contributions": 24868,
+      "total_contributions": 24869,
       "thematics": {
-        "qgis_core": 24847,
+        "qgis_core": 24848,
         "documentation": 19,
         "web_sites": 2
       },
@@ -121,9 +121,9 @@
     {
       "login": "nirvn",
       "avatar_url": "https://avatars.githubusercontent.com/u/1728657?u=7dc42c330cd002459a97d8213e26728bb6ccb594&v=4",
-      "total_contributions": 2646,
+      "total_contributions": 2647,
       "thematics": {
-        "qgis_core": 2643,
+        "qgis_core": 2644,
         "documentation": 3,
         "web_sites": 0
       },
@@ -779,6 +779,17 @@
       "has_github_account": true
     },
     {
+      "login": "ViperMiniQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76155901?v=4",
+      "total_contributions": 197,
+      "thematics": {
+        "qgis_core": 193,
+        "documentation": 4,
+        "web_sites": 0
+      },
+      "has_github_account": true
+    },
+    {
       "login": "ahuarte47",
       "avatar_url": "https://avatars.githubusercontent.com/u/5576272?u=7999b6d1a7701d34f6540fc9f723024c648faa05&v=4",
       "total_contributions": 192,
@@ -797,17 +808,6 @@
         "qgis_core": 191,
         "web_sites": 0,
         "documentation": 0
-      },
-      "has_github_account": true
-    },
-    {
-      "login": "ViperMiniQ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76155901?v=4",
-      "total_contributions": 189,
-      "thematics": {
-        "qgis_core": 185,
-        "documentation": 4,
-        "web_sites": 0
       },
       "has_github_account": true
     },
@@ -7182,7 +7182,7 @@
     },
     {
       "login": "M-Dollinger",
-      "avatar_url": "https://avatars.githubusercontent.com/u/107289949?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107289949?u=bbffdec18671a201e91db3bb49d84961f7a2105a&v=4",
       "total_contributions": 1,
       "thematics": {
         "qgis_core": 1,
