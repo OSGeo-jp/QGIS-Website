@@ -5,15 +5,15 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-03-30T09:55:54.647244+00:00",
-  "total_contributors": 1014,
+  "generated_at": "2026-03-31T04:16:07.746556+00:00",
+  "total_contributors": 1015,
   "contributors": [
     {
       "login": "nyalldawson",
       "avatar_url": "https://avatars.githubusercontent.com/u/1829991?u=aa8023a3683a5a3799faa0e0fbcccbeb43575af5&v=4",
-      "total_contributions": 24898,
+      "total_contributions": 24904,
       "thematics": {
-        "qgis_core": 24877,
+        "qgis_core": 24883,
         "documentation": 19,
         "web_sites": 2
       },
@@ -33,10 +33,10 @@
     {
       "login": "DelazJ",
       "avatar_url": "https://avatars.githubusercontent.com/u/7983394?u=b2c76a3d83057b6f3b0ce59280ca38cfa69951cf&v=4",
-      "total_contributions": 6512,
+      "total_contributions": 6513,
       "thematics": {
         "qgis_core": 1108,
-        "documentation": 5384,
+        "documentation": 5385,
         "web_sites": 20
       },
       "has_github_account": true
@@ -77,9 +77,9 @@
     {
       "login": "3nids",
       "avatar_url": "https://avatars.githubusercontent.com/u/127259?u=97c016a3415edf05e629ee8dc20e306dee4f1189&v=4",
-      "total_contributions": 3540,
+      "total_contributions": 3554,
       "thematics": {
-        "qgis_core": 3516,
+        "qgis_core": 3530,
         "documentation": 19,
         "web_sites": 5
       },
@@ -121,9 +121,9 @@
     {
       "login": "nirvn",
       "avatar_url": "https://avatars.githubusercontent.com/u/1728657?u=7dc42c330cd002459a97d8213e26728bb6ccb594&v=4",
-      "total_contributions": 2650,
+      "total_contributions": 2656,
       "thematics": {
-        "qgis_core": 2647,
+        "qgis_core": 2653,
         "documentation": 3,
         "web_sites": 0
       },
@@ -198,9 +198,9 @@
     {
       "login": "troopa81",
       "avatar_url": "https://avatars.githubusercontent.com/u/14358135?u=ab3c9ba66ddabd5b79cd16b5294b50f0a056e9ef&v=4",
-      "total_contributions": 1100,
+      "total_contributions": 1101,
       "thematics": {
-        "qgis_core": 1068,
+        "qgis_core": 1069,
         "documentation": 32,
         "web_sites": 0
       },
@@ -528,9 +528,9 @@
     {
       "login": "selmaVH1",
       "avatar_url": "https://avatars.githubusercontent.com/u/138306509?u=d877cba7008b0123926a73ebd68b467e08e2305b&v=4",
-      "total_contributions": 351,
+      "total_contributions": 355,
       "thematics": {
-        "documentation": 349,
+        "documentation": 353,
         "web_sites": 1,
         "qgis_core": 1
       },
@@ -726,9 +726,9 @@
     {
       "login": "tudorbarascu",
       "avatar_url": "https://avatars.githubusercontent.com/u/3179646?u=da7eeccb1cc807ceafb733190752b415ec01a252&v=4",
-      "total_contributions": 241,
+      "total_contributions": 243,
       "thematics": {
-        "qgis_core": 102,
+        "qgis_core": 104,
         "documentation": 139,
         "web_sites": 0
       },
@@ -781,9 +781,9 @@
     {
       "login": "ViperMiniQ",
       "avatar_url": "https://avatars.githubusercontent.com/u/76155901?v=4",
-      "total_contributions": 197,
+      "total_contributions": 198,
       "thematics": {
-        "qgis_core": 193,
+        "qgis_core": 194,
         "documentation": 4,
         "web_sites": 0
       },
@@ -1078,9 +1078,9 @@
     {
       "login": "ValentinBuira",
       "avatar_url": "https://avatars.githubusercontent.com/u/30632058?v=4",
-      "total_contributions": 115,
+      "total_contributions": 116,
       "thematics": {
-        "qgis_core": 114,
+        "qgis_core": 115,
         "web_sites": 1,
         "documentation": 0
       },
@@ -5683,6 +5683,17 @@
         "web_sites": 0
       },
       "has_github_account": false
+    },
+    {
+      "login": "marcu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1483144?v=4",
+      "total_contributions": 3,
+      "thematics": {
+        "qgis_core": 3,
+        "documentation": 0,
+        "web_sites": 0
+      },
+      "has_github_account": true
     },
     {
       "login": "sewe2000",
