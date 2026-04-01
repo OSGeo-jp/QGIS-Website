@@ -371,23 +371,14 @@ This book covers essential workflows in GIS from data creation to its cartograph
 
 ## Italian
 
-### Analizzare e processare i dati con QGIS  
-**Author:** Faustino Cetraro  
-**Publisher:** Dario Flaccovio Editore (GIS Series)  
-**Year:** 2026  
-**Pages:** 496  
-**EAN:** 9788857917863  
-**Language:** Italian  
+### Analizzare e processare i dati con QGIS
 
-**Description**  
-A comprehensive and practice‑oriented guide designed for professionals, researchers, and advanced users who want to master QGIS as a complete geospatial analysis environment.  
-The book covers the full workflow of spatial data processing: interface customization, advanced vector and raster operations, georeferencing, thematic mapping, spatial SQL, database integration (SQLite, PostgreSQL/PostGIS), and the use of GDAL, GRASS, and SAGA tools.  
-It also introduces automation strategies and plugin development in Python, enabling readers to build reproducible, scalable geospatial solutions.  
-Rich, real‑world examples include heatmaps and temporal animations, 2D/3D flood modelling, urban heat‑island analysis, NDVI extraction from Sentinel imagery, and the creation of professional layouts, atlases, and reports.
+A comprehensive and practice‑oriented guide to spatial data processing, analysis, and automation in QGIS, including real‑world workflows with vector, raster, databases, and Python.
 
-**Purchase links:**  
-- Feltrinelli: https://www.lafeltrinelli.it/analizzare-processare-dati-con-qgis-libro-faustino-cetraro/e/9788857917863  
-- Publisher (Dario Flaccovio Editore): https://www.darioflaccovio.it/gis-open-source/2391-analizzare-e-processare-i-dati-con-qgis.html
+- https://www.lafeltrinelli.it/analizzare-processare-dati-con-qgis-libro-faustino-cetraro/e/9788857917863
+- Author: Faustino Cetraro
+- Publisher: Dario Flaccovio Editore
+- Date: February 2026
 
 
 ### Esercizi svolti in QGIS. Guida pratica all'analisi vettoriale
