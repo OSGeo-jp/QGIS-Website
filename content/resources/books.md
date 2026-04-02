@@ -373,11 +373,12 @@ This book covers essential workflows in GIS from data creation to its cartograph
 
 ### Analizzare e processare i dati con QGIS
 
-A comprehensive and practice‑oriented guide to spatial data processing, analysis, and automation in QGIS, including real‑world workflows with vector, raster, databases, and Python.
+A practical guide to spatial data processing, analysis, and automation in QGIS, covering vector and raster workflows, databases, and Python integration.
 
 - https://www.lafeltrinelli.it/analizzare-processare-dati-con-qgis-libro-faustino-cetraro/e/9788857917863
+ 
 - Author: Faustino Cetraro
-- Publisher: Dario Flaccovio Editore
+  
 - Date: February 2026
 
 
