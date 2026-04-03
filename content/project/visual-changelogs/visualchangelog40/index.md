@@ -1124,7 +1124,8 @@ Note that this requires GDAL \>= 3.13.0
 src="images/entries/60cec0aa212eb189e7749c242ba1ca49423ca845.png"
 class="img-responsive img-rounded" />
 
-This feature was funded by QGIS Anwendergruppe Deutschland
+This feature was funded by [QGIS-DE - Anwendergruppe Deutschland
+e.V.](https://qgis.de/)
 
 This feature was developed by [Even Rouault](https://github.com/rouault)
 
@@ -1435,7 +1436,8 @@ identify](https://gdal--13506.org.readthedocs.build/en/13506/programs/gdal_datas
 src="images/entries/76dfc1189b899bedaa208692766fc765ccb76175.png"
 class="img-responsive img-rounded" />
 
-This feature was funded by QGIS Anwendergruppe Deutschland
+This feature was funded by [QGIS-DE - Anwendergruppe Deutschland
+e.V.](https://qgis.de/)
 
 This feature was developed by [Even Rouault](https://github.com/rouault)
 
@@ -1449,7 +1451,8 @@ extension, which breaks for COG since both GDAL GTiff and COG drivers
 use the extension of `.tif/.tiff`. Users can now explicitly specify
 `-of COG` to enforce COG exports.
 
-This feature was funded by QGIS Anwendergruppe Deutschland
+This feature was funded by [QGIS-DE - Anwendergruppe Deutschland
+e.V.](https://qgis.de/)
 
 This feature was developed by [Even Rouault](https://github.com/rouault)
 
@@ -1500,7 +1503,8 @@ traceability of data operations as they flow through the model.
 src="images/entries/92bf8916e1ddc8d0e44b31f130d2029ac93b438f.png"
 class="img-responsive img-rounded" />
 
-This feature was funded by camptocamp
+This feature was funded by
+[Géo2France](https://www.geo2france.fr/portal/public/overview)
 
 This feature was developed by [Jonathan
 Lurie](https://github.com/jonathanlurie)
@@ -1729,7 +1733,8 @@ GetFeatureInfo response.
 src="images/entries/5cefab81d09c5bf0e1b757238d74940a2c9d9c55"
 class="img-responsive img-rounded" />
 
-This feature was developed by [Björn](https://github.com/pathmapper)
+This feature was developed by [Björn
+Hinkeldey](https://github.com/pathmapper)
 
 ## Profile Plots
 
@@ -1854,7 +1859,8 @@ defined value as the default for new connections.
 src="images/entries/3f0add13c921416314030ca3f9ff12118dd288b2.png"
 class="img-responsive img-rounded" />
 
-This feature was funded by QGIS Anwendergruppe Deutschland
+This feature was funded by [QGIS-DE - Anwendergruppe Deutschland
+e.V.](https://qgis.de/)
 
 This feature was developed by [Even Rouault](https://github.com/rouault)
 
@@ -1956,6 +1962,23 @@ This feature was funded by Ocean Winds
 
 This feature was developed by [Jan Caha](https://github.com/JanCaha)
 
+### Feature: Store connections available and default image format
+
+Stores in the settings the preferred format for a WMS connection.
+
+Allows to detect the formats actually advertized by the server and
+stores them in the settings for future use.
+
+<img
+src="images/entries/9736fdc6bcb34c3bbdf6d85cf3d9eaa567176313.png"
+class="img-responsive img-rounded" />
+
+This feature was funded by [QGIS-DE - Anwendergruppe Deutschland
+e.V.](https://qgis.de/)
+
+This feature was developed by [Alessandro
+Pasotti](https://github.com/elpaso)
+
 ## QGIS Server
 
 ### Feature: Try to reload invalid project layers
@@ -1984,6 +2007,20 @@ class="img-responsive img-rounded" />
 
 This feature was developed by [Jorge Gustavo
 Rocha](https://github.com/jgrocha)
+
+### Feature: OAPIF URL root path configuration option
+
+Make the OAPIF service root path configurable through a new server
+setting  
+QGIS_SERVER_API_WFS3_ROOT_PATH
+
+Change the default from “/wfs3” to “/ogcapi”.
+
+This feature was funded by [QGIS-DE - Anwendergruppe Deutschland
+e.V.](https://qgis.de/)
+
+This feature was developed by [Alessandro
+Pasotti](https://github.com/elpaso)
 
 ## Programmability
 
