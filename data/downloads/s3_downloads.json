@@ -1,10 +1,10 @@
 {
   "bucket_name": "qgis-download",
   "prefix": "",
-  "generated_at": "2026-04-03T05:33:18.808328+00:00",
+  "generated_at": "2026-04-03T12:11:17.107669+00:00",
   "statistics": {
-    "total_files": 135198,
-    "total_size": 4116486717454,
+    "total_files": 135202,
+    "total_size": 4116868084498,
     "total_size_formatted": "3.74 TB",
     "by_category": {
       "installer": {
@@ -13,8 +13,8 @@
         "size_formatted": "3.25 TB"
       },
       "other": {
-        "count": 6233,
-        "size": 19006378904,
+        "count": 6235,
+        "size": 19006379075,
         "size_formatted": "17.70 GB"
       },
       "image": {
@@ -28,9 +28,9 @@
         "size_formatted": "99.34 KB"
       },
       "archive": {
-        "count": 3815,
-        "size": 527928498597,
-        "size_formatted": "491.67 GB"
+        "count": 3817,
+        "size": 528309865470,
+        "size_formatted": "492.03 GB"
       }
     },
     "by_extension": {
@@ -38,14 +38,14 @@
       ".gz": 2976,
       "no extension": 2246,
       ".dsc": 2036,
-      ".bz2": 836,
+      ".bz2": 838,
       ".sha256sum": 431,
       ".exe": 392,
       ".md5sum": 361,
       ".gpg": 350,
       ".msi": 229
     },
-    "last_updated": "2026-04-03T05:33:18.739076+00:00"
+    "last_updated": "2026-04-03T12:11:17.044436+00:00"
   },
   "tree": {
     "name": "qgis-download",
@@ -25281,6 +25281,28 @@
         "category": "other"
       },
       {
+        "key": "qgis-3.44.9.tar.bz2",
+        "name": "qgis-3.44.9.tar.bz2",
+        "path": "",
+        "size": 191550241,
+        "size_formatted": "182.68 MB",
+        "last_modified": "2026-04-03T12:06:17.733000+00:00",
+        "last_modified_timestamp": 1775217977,
+        "extension": ".bz2",
+        "category": "archive"
+      },
+      {
+        "key": "qgis-3.44.9.tar.bz2.sha256",
+        "name": "qgis-3.44.9.tar.bz2.sha256",
+        "path": "",
+        "size": 86,
+        "size_formatted": "86.00 B",
+        "last_modified": "2026-04-03T12:06:09.136000+00:00",
+        "last_modified_timestamp": 1775217969,
+        "extension": ".sha256",
+        "category": "other"
+      },
+      {
         "key": "qgis-3.6.0.tar.bz2",
         "name": "qgis-3.6.0.tar.bz2",
         "path": "",
@@ -25479,6 +25501,28 @@
         "category": "other"
       },
       {
+        "key": "qgis-4.0.1.tar.bz2",
+        "name": "qgis-4.0.1.tar.bz2",
+        "path": "",
+        "size": 191780482,
+        "size_formatted": "182.90 MB",
+        "last_modified": "2026-04-03T12:06:15.176000+00:00",
+        "last_modified_timestamp": 1775217975,
+        "extension": ".bz2",
+        "category": "archive"
+      },
+      {
+        "key": "qgis-4.0.1.tar.bz2.sha256",
+        "name": "qgis-4.0.1.tar.bz2.sha256",
+        "path": "",
+        "size": 85,
+        "size_formatted": "85.00 B",
+        "last_modified": "2026-04-03T12:06:09.310000+00:00",
+        "last_modified_timestamp": 1775217969,
+        "extension": ".sha256",
+        "category": "other"
+      },
+      {
         "key": "qgis-api-doc.7z",
         "name": "qgis-api-doc.7z",
         "path": "",
@@ -25515,10 +25559,10 @@
         "key": "qgis-latest-ltr.tar.bz2",
         "name": "qgis-latest-ltr.tar.bz2",
         "path": "",
-        "size": 191685254,
-        "size_formatted": "182.81 MB",
-        "last_modified": "2026-03-06T12:15:32.428000+00:00",
-        "last_modified_timestamp": 1772799332,
+        "size": 191550241,
+        "size_formatted": "182.68 MB",
+        "last_modified": "2026-04-03T12:06:17.487000+00:00",
+        "last_modified_timestamp": 1775217977,
         "extension": ".bz2",
         "category": "archive"
       },
@@ -25528,8 +25572,8 @@
         "path": "",
         "size": 86,
         "size_formatted": "86.00 B",
-        "last_modified": "2026-03-06T12:15:09.349000+00:00",
-        "last_modified_timestamp": 1772799309,
+        "last_modified": "2026-04-03T12:06:09.929000+00:00",
+        "last_modified_timestamp": 1775217969,
         "extension": ".sha256",
         "category": "other"
       },
@@ -25537,10 +25581,10 @@
         "key": "qgis-latest.tar.bz2",
         "name": "qgis-latest.tar.bz2",
         "path": "",
-        "size": 193609319,
-        "size_formatted": "184.64 MB",
-        "last_modified": "2026-03-06T12:15:16.998000+00:00",
-        "last_modified_timestamp": 1772799316,
+        "size": 191780482,
+        "size_formatted": "182.90 MB",
+        "last_modified": "2026-04-03T12:06:17.843000+00:00",
+        "last_modified_timestamp": 1775217977,
         "extension": ".bz2",
         "category": "archive"
       },
@@ -25550,8 +25594,8 @@
         "path": "",
         "size": 85,
         "size_formatted": "85.00 B",
-        "last_modified": "2026-03-06T12:15:32.459000+00:00",
-        "last_modified_timestamp": 1772799332,
+        "last_modified": "2026-04-03T12:06:09.823000+00:00",
+        "last_modified_timestamp": 1775217969,
         "extension": ".sha256",
         "category": "other"
       },
