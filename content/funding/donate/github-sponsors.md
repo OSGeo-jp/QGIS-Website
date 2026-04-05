@@ -175,6 +175,10 @@ Donations can be of any amount through [GitHub Sponsors](https://github.com/spon
   <div class="listcont external-link">
     Edgar Butwilowski - edgarbutwilowski
   </div>
+</a><a class="rich-list third mr-2 mb-2" href="https://github.com/nikiomori" target="_blank">
+  <div class="listcont external-link">
+    Nikolay - nikiomori
+  </div>
 </a><!-- sponsors -->
 
 {{< content-end >}}
