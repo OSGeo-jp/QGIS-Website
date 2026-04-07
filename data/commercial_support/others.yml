@@ -82,6 +82,12 @@
   url: ""
   description: "(based in italy) provide geographic and ecological analysis services and support and assistance with qgis."
 
+- name: "GIS Mexico"
+  image: "img/contributors/gis_mexico.png"
+  width: "75 px"
+  url: "https://www.gismexico.com/"
+  description: "(based in Mexico) provides commercial support, training, and development for QGIS. We specialize in QGIS (Desktop, Server, and Web) and offer a full range of QGIS-related services to guide all users."
+
 - name: "GKG Kassel, Germany (Dr.-Ing. Claas Leiner)"
   image: "img/contributors/claasleiner.png"
   width: "75 px"
