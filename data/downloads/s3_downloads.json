@@ -1,20 +1,20 @@
 {
   "bucket_name": "qgis-download",
   "prefix": "",
-  "generated_at": "2026-04-08T12:06:54.343505+00:00",
+  "generated_at": "2026-04-08T13:32:19.358591+00:00",
   "statistics": {
-    "total_files": 135600,
-    "total_size": 4134827786108,
+    "total_files": 135636,
+    "total_size": 4136289245367,
     "total_size_formatted": "3.76 TB",
     "by_category": {
       "installer": {
-        "count": 125331,
-        "size": 3583592869305,
+        "count": 125362,
+        "size": 3584827611361,
         "size_formatted": "3.26 TB"
       },
       "other": {
-        "count": 6320,
-        "size": 21331308504,
+        "count": 6323,
+        "size": 21331499864,
         "size_formatted": "19.87 GB"
       },
       "image": {
@@ -28,16 +28,16 @@
         "size_formatted": "99.34 KB"
       },
       "archive": {
-        "count": 3829,
-        "size": 529887526650,
-        "size_formatted": "493.50 GB"
+        "count": 3831,
+        "size": 530114052493,
+        "size_formatted": "493.71 GB"
       }
     },
     "by_extension": {
-      ".deb": 124619,
-      ".gz": 2987,
-      "no extension": 2255,
-      ".dsc": 2043,
+      ".deb": 124650,
+      ".gz": 2989,
+      "no extension": 2257,
+      ".dsc": 2044,
       ".bz2": 839,
       ".sha256sum": 436,
       ".exe": 392,
@@ -45,7 +45,7 @@
       ".gpg": 351,
       ".msi": 229
     },
-    "last_updated": "2026-04-08T12:06:54.268318+00:00"
+    "last_updated": "2026-04-08T13:32:19.293257+00:00"
   },
   "tree": {
     "name": "qgis-download",
