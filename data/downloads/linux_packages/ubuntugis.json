@@ -3,15 +3,15 @@
   "prefix": "",
   "distribution": "ubuntugis",
   "source_folder": "ubuntugis",
-  "generated_at": "2026-03-28T06:19:20.195733+00:00",
+  "generated_at": "2026-04-08T21:15:53.604946+00:00",
   "statistics": {
     "total_files": 1863,
-    "total_size": 65609517377,
+    "total_size": 65609365825,
     "total_size_formatted": "61.10 GB",
     "by_category": {
       "other": {
         "count": 115,
-        "size": 6853322224,
+        "size": 6853170672,
         "size_formatted": "6.38 GB"
       },
       "archive": {
@@ -37,7 +37,7 @@
       ".sh": 1,
       ".d71472c4": 1
     },
-    "last_updated": "2026-03-28T06:19:20.195098+00:00"
+    "last_updated": "2026-04-08T21:15:53.604288+00:00"
   },
   "tree": {
     "name": "qgis-download",
@@ -172,10 +172,10 @@
             "key": "ubuntugis/db/references.db",
             "name": "references.db",
             "path": "db",
-            "size": 352256,
-            "size_formatted": "344.00 KB",
-            "last_modified": "2026-01-19T02:04:04.972000+00:00",
-            "last_modified_timestamp": 1768788244,
+            "size": 200704,
+            "size_formatted": "196.00 KB",
+            "last_modified": "2026-04-08T20:59:20.624000+00:00",
+            "last_modified_timestamp": 1775681960,
             "extension": ".db",
             "category": "other"
           },
@@ -196,8 +196,8 @@
             "path": "db",
             "size": 32,
             "size_formatted": "32.00 B",
-            "last_modified": "2026-03-28T05:59:02.789000+00:00",
-            "last_modified_timestamp": 1774677542,
+            "last_modified": "2026-04-08T20:59:20.205000+00:00",
+            "last_modified_timestamp": 1775681960,
             "extension": "",
             "category": "other"
           }
