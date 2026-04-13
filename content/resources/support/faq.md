@@ -130,13 +130,7 @@ Each QGIS release since release 3.22.4 (2022) has its own version DOI identifyin
 
 Please refer to the QGIS Zenodo Landing Page ([QGIS Zenodo Landing Page](https://zenodo.org/search?q=parent.id%3A6139224&f=allversions%3Atrue&l=list&p=1&s=10&sort=version)) for all specific version DOI.
 
-- QGIS 4.0.1      [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19401447.svg)](https://doi.org/10.5281/zenodo.19401447)
 - QGIS 4.0.0      [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18889261.svg)](https://doi.org/10.5281/zenodo.18889261)
-- QGIS 3.44.9     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19401570.svg)](https://doi.org/10.5281/zenodo.19401570)     
-- QGIS 3.44.8     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18889145.svg)](https://doi.org/10.5281/zenodo.18889145)
-- QGIS 3.44.7     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18268584.svg)](https://doi.org/10.5281/zenodo.18268584)
-- QGIS 3.40.15    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18268583.svg)](https://doi.org/10.5281/zenodo.18268583)
-- QGIS 3.40.14    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17987821.svg)](https://doi.org/10.5281/zenodo.17987821)
   
 - QGIS 3.44 LTR   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15705458.svg)](https://doi.org/10.5281/zenodo.15705458)
 
