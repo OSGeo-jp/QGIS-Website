@@ -66,7 +66,7 @@
     "is_organization": false,
     "is_active": true,
     "avatar_img": "/img/contributors/supporting/marco_bernasocchi.png",
-    "link": "Opengis.ch",
+    "link": "https://Opengis.ch",
     "roles": [
       "QGIS Project Steering Committee",
       "Open Days",
@@ -214,7 +214,7 @@
     "is_organization": false,
     "is_active": true,
     "avatar_img": "/img/contributors/supporting/grant_boxer.png",
-    "link": "grantboxer.github.io",
+    "link": "https://grantboxer.github.io",
     "roles": [
       "Country User Group Coordinator",
       "QGIS Educator / Trainer"
