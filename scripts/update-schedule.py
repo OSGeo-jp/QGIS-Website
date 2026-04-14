@@ -268,6 +268,10 @@ with open("data/conf.json", "w") as f:
         "ltr_sha": f"https://download.qgis.org/downloads/QGIS-OSGeo4W-{ltr_version}-{ltr_binary}.sha256sum",
         "ltr_grids_msi": f"https://download.qgis.org/downloads/QGIS-Grids-OSGeo4W-{ltr_version}-{ltr_binary}.msi",
         "ltr_grids_sha": f"https://download.qgis.org/downloads/QGIS-Grids-OSGeo4W-{ltr_version}-{ltr_binary}.sha256sum",
+        "ltr_dmg": f"https://download.qgis.org/downloads/macos/ltr/qgis_ltr_final-{ "_".join(ltr_version.split(".")) }.dmg",
+        "ltr_dmg_sha": f"https://download.qgis.org/downloads/macos/ltr/qgis_ltr_final-{ "_".join(ltr_version.split(".")) }.sha256sum",
+        "lr_dmg": f"https://download.qgis.org/downloads/macos/pr/qgis_pr_final-{ "_".join(lr_version.split(".")) }.dmg",
+        "lr_dmg_sha": f"https://download.qgis.org/downloads/macos/pr/qgis_pr_final-{ "_".join(lr_version.split(".")) }.sha256sum",
         "weekly_msi": "/downloads/windows/weekly/",
     }, f, indent=4)
 
