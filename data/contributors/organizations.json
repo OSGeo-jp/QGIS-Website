@@ -96,7 +96,7 @@
         "last_contribution": "2025-12-11"
       },
       "web_sites": {
-        "commits": 6796,
+        "commits": 6781,
         "last_contribution": "2026-04-15"
       }
     }
@@ -314,8 +314,8 @@
         "last_contribution": "2025-01-23"
       },
       "qgis_core": {
-        "commits": 23783,
-        "last_contribution": "2026-04-15"
+        "commits": 23785,
+        "last_contribution": "2026-04-16"
       },
       "web_sites": {
         "commits": 4,
