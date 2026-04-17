@@ -88,7 +88,7 @@
     ],
     "contributions": {
       "documentation": {
-        "commits": 536,
+        "commits": 542,
         "last_contribution": "2026-04-07"
       },
       "qgis_core": {
@@ -96,8 +96,8 @@
         "last_contribution": "2025-12-11"
       },
       "web_sites": {
-        "commits": 6771,
-        "last_contribution": "2026-04-03"
+        "commits": 6784,
+        "last_contribution": "2026-04-17"
       }
     }
   },
@@ -278,12 +278,12 @@
         "last_contribution": "2025-01-09"
       },
       "qgis_core": {
-        "commits": 9644,
-        "last_contribution": "2026-04-06"
+        "commits": 9647,
+        "last_contribution": "2026-04-15"
       },
       "web_sites": {
-        "commits": 189,
-        "last_contribution": "2026-04-02"
+        "commits": 205,
+        "last_contribution": "2026-04-16"
       }
     }
   },
@@ -314,8 +314,8 @@
         "last_contribution": "2025-01-23"
       },
       "qgis_core": {
-        "commits": 23743,
-        "last_contribution": "2026-04-07"
+        "commits": 23794,
+        "last_contribution": "2025-12-26"
       },
       "web_sites": {
         "commits": 4,
@@ -344,12 +344,12 @@
         "last_contribution": "2021-07-22"
       },
       "qgis_core": {
-        "commits": 6558,
-        "last_contribution": "2026-03-13"
+        "commits": 6559,
+        "last_contribution": "2026-03-15"
       },
       "web_sites": {
-        "commits": 65,
-        "last_contribution": "2026-04-07"
+        "commits": 67,
+        "last_contribution": "2026-04-13"
       }
     }
   },
@@ -578,12 +578,12 @@
         "last_contribution": "2025-10-13"
       },
       "qgis_core": {
-        "commits": 2825,
-        "last_contribution": "2026-03-31"
+        "commits": 2830,
+        "last_contribution": "2026-04-08"
       },
       "web_sites": {
-        "commits": 22,
-        "last_contribution": "2026-03-31"
+        "commits": 26,
+        "last_contribution": "2026-04-01"
       }
     }
   },
@@ -622,7 +622,7 @@
     ],
     "contributions": {
       "documentation": {
-        "commits": 183,
+        "commits": 182,
         "last_contribution": "2020-08-26"
       },
       "qgis_core": {

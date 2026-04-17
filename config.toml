@@ -255,6 +255,12 @@ sectionPagesMenu = 'main'
   weight = 100
 
 [[menu.main]]
+  parent = "Project Organisation"
+  name = "Grant Program"
+  url = "/community/organisation/grants"
+  weight = 120
+
+[[menu.main]]
   parent = "Community"
   name = "Local User Groups"
   url = "/community/groups"
@@ -414,13 +420,6 @@ sectionPagesMenu = 'main'
   name = "Members"
   url = "/funding/membership/members"
   weight = 240
-
-
-[[menu.main]]
-  parent = "Membership"
-  name = "Past Members"
-  url = "/funding/membership/past_members"
-  weight = 260
 
 [[menu.main]]
   parent = "Donate"
