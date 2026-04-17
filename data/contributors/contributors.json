@@ -5,15 +5,15 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-04-16T09:59:57.938831+00:00",
+  "generated_at": "2026-04-17T04:21:10.983602+00:00",
   "total_contributors": 1024,
   "contributors": [
     {
       "login": "nyalldawson",
       "avatar_url": "https://avatars.githubusercontent.com/u/1829991?u=aa8023a3683a5a3799faa0e0fbcccbeb43575af5&v=4",
-      "total_contributions": 25013,
+      "total_contributions": 25020,
       "thematics": {
-        "qgis_core": 24992,
+        "qgis_core": 24999,
         "documentation": 19,
         "web_sites": 2
       },
@@ -33,9 +33,9 @@
     {
       "login": "DelazJ",
       "avatar_url": "https://avatars.githubusercontent.com/u/7983394?u=b2c76a3d83057b6f3b0ce59280ca38cfa69951cf&v=4",
-      "total_contributions": 6572,
+      "total_contributions": 6573,
       "thematics": {
-        "qgis_core": 1109,
+        "qgis_core": 1110,
         "documentation": 5443,
         "web_sites": 20
       },
@@ -548,6 +548,17 @@
       "has_github_account": true
     },
     {
+      "login": "mbernasocchi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233663?v=4",
+      "total_contributions": 344,
+      "thematics": {
+        "qgis_core": 158,
+        "documentation": 3,
+        "web_sites": 183
+      },
+      "has_github_account": true
+    },
+    {
       "login": "brushtyler",
       "avatar_url": "https://avatars.githubusercontent.com/u/213820?v=4",
       "total_contributions": 341,
@@ -555,17 +566,6 @@
         "qgis_core": 341,
         "web_sites": 0,
         "documentation": 0
-      },
-      "has_github_account": true
-    },
-    {
-      "login": "mbernasocchi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/233663?v=4",
-      "total_contributions": 337,
-      "thematics": {
-        "qgis_core": 158,
-        "documentation": 3,
-        "web_sites": 176
       },
       "has_github_account": true
     },
@@ -7116,7 +7116,7 @@
     },
     {
       "login": "ploewe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20595660?u=120429eadbc72ad7f0458165cfe3a4e146fe0a08&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20595660?u=5456eaddb33b31bd2318c2373261e2f272bd9645&v=4",
       "total_contributions": 2,
       "thematics": {
         "web_sites": 2,
