@@ -8,23 +8,17 @@
 {{ end }}
 {{ $contributors = sort $contributors "total_contributions" "desc" }}
 
-<!-- Split into honorary (founder first) and regular, preserving commit-rank for display -->
+<!-- Split into founder (pinned) and regular, preserving commit-rank for display -->
 {{ $founderRanked := slice }}
-{{ $otherHonoraryRanked := slice }}
 {{ $regularRanked := slice }}
 {{ range $idx, $contributor := $contributors }}
     {{ $isHonorary := index $honoraryMembers $contributor.login }}
-    {{ if $isHonorary }}
-        {{ if in $isHonorary.title "Founder" }}
-            {{ $founderRanked = $founderRanked | append (dict "contributor" $contributor "rank" (add $idx 1) "honorary" $isHonorary) }}
-        {{ else }}
-            {{ $otherHonoraryRanked = $otherHonoraryRanked | append (dict "contributor" $contributor "rank" (add $idx 1) "honorary" $isHonorary) }}
-        {{ end }}
+    {{ if and $isHonorary (in $isHonorary.title "Founder") }}
+        {{ $founderRanked = $founderRanked | append (dict "contributor" $contributor "rank" (add $idx 1) "honorary" $isHonorary) }}
     {{ else }}
         {{ $regularRanked = $regularRanked | append (dict "contributor" $contributor "rank" (add $idx 1)) }}
     {{ end }}
 {{ end }}
-{{ $honoraryRanked := $founderRanked | append $otherHonoraryRanked }}
 
 <!-- Filter and Search Section -->
 <div class="contributors-filter-section notification is-light p-5 mb-5">
@@ -106,8 +100,8 @@
 
 <!-- Contributors Grid -->
 <div class="columns is-multiline is-flex">
-    <!-- Honorary members pinned at the top -->
-    {{ range $honoraryRanked }}
+    <!-- Project founder pinned at the top -->
+    {{ range $founderRanked }}
     {{ $contributor := .contributor }}
     {{ $isHonorary := .honorary }}
     {{ $rank := .rank }}
@@ -168,8 +162,8 @@
         </div>
     </div>
     {{ end }}
-    <!-- Divider between honorary members and regular contributors -->
-    {{ if and (gt (len $honoraryRanked) 0) (gt (len $regularRanked) 0) }}
+    <!-- Divider between founder and regular contributors -->
+    {{ if and (gt (len $founderRanked) 0) (gt (len $regularRanked) 0) }}
     <div class="column is-full">
         <div class="has-text-centered my-4">
             <hr/>
@@ -180,13 +174,22 @@
     {{ range $regularRanked }}
     {{ $contributor := .contributor }}
     {{ $rank := .rank }}
+    {{ $isHonorary := index $honoraryMembers $contributor.login }}
     <div class="column is-one-third-fullhd is-half-tablet is-full-mobile">
-        <div class="card contributor-card individual" id="{{ $contributor.login | urlize }}">
+        <div class="card contributor-card individual{{ if $isHonorary }} honorary-member{{ end }}" id="{{ $contributor.login | urlize }}">
             <div class="card-content has-text-centered">
                 <div class="avatar-container">
                     <img src="{{ $contributor.avatar_url }}" alt="{{ $contributor.login }}" class="avatar" loading="lazy">
                     <span class="level-indicator level-5 p-1"># {{ $rank }}</span>
+                    {{ if $isHonorary }}
+                    <span class="honorary-badge">{{ $isHonorary.icon }}</span>
+                    {{ end }}
                 </div>
+                {{ if $isHonorary }}
+                <div class="honorary-info">
+                    <p class="is-size-6 has-text-grey">{{ $isHonorary.title }}</p>
+                </div>
+                {{ end }}
                 <h3 class="title is-4">
                     <a class="heading-anchor" href="#{{ $contributor.login | urlize }}" style="margin-left: -22.3px;">
                         ¶
