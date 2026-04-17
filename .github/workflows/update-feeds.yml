@@ -42,6 +42,11 @@ jobs:
         cd ./qgis-website
         pipenv run ./scripts/hub_images_harvest.py
 
+    - name: '📰 Fetch Grant Programme Posts'
+      run: |
+        cd ./qgis-website
+        pipenv run ./scripts/fetch_grants.py
+
     - name: '🏢 Update Contributing Organizations'
       run: |
         cd ./qgis-website
