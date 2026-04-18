@@ -5,7 +5,7 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-04-18T04:13:59.934622+00:00",
+  "generated_at": "2026-04-18T09:36:32.116686+00:00",
   "total_contributors": 1024,
   "contributors": [
     {
@@ -121,9 +121,9 @@
     {
       "login": "nirvn",
       "avatar_url": "https://avatars.githubusercontent.com/u/1728657?u=7dc42c330cd002459a97d8213e26728bb6ccb594&v=4",
-      "total_contributions": 2659,
+      "total_contributions": 2664,
       "thematics": {
-        "qgis_core": 2656,
+        "qgis_core": 2661,
         "documentation": 3,
         "web_sites": 0
       },
