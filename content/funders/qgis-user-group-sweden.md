@@ -5,7 +5,7 @@
 # To update: Run 'fetch_feeds.py' (automated nightly via GitHub Actions)
 # See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines
 
-level: "Large"
+level: "Flagship"
 title: "QGIS user group Sweden"
 logo: "qgis-user-group-sweden.png"
 startDate: "2026-03-01"
