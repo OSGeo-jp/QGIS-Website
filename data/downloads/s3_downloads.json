@@ -1,10 +1,10 @@
 {
   "bucket_name": "qgis-download",
   "prefix": "",
-  "generated_at": "2026-04-19T05:48:32.434791+00:00",
+  "generated_at": "2026-04-19T06:33:22.030567+00:00",
   "statistics": {
-    "total_files": 138399,
-    "total_size": 4246853389997,
+    "total_files": 138400,
+    "total_size": 4248304358589,
     "total_size_formatted": "3.86 TB",
     "by_category": {
       "installer": {
@@ -13,9 +13,9 @@
         "size_formatted": "3.35 TB"
       },
       "other": {
-        "count": 6415,
-        "size": 21338851738,
-        "size_formatted": "19.87 GB"
+        "count": 6416,
+        "size": 22789820330,
+        "size_formatted": "21.22 GB"
       },
       "image": {
         "count": 116,
@@ -39,13 +39,13 @@
       "no extension": 2264,
       ".dsc": 2107,
       ".bz2": 840,
-      ".sha256sum": 457,
+      ".sha256sum": 458,
       ".exe": 392,
       ".md5sum": 361,
       ".gpg": 352,
       ".msi": 237
     },
-    "last_updated": "2026-04-19T05:48:32.375668+00:00"
+    "last_updated": "2026-04-19T06:33:21.959440+00:00"
   },
   "tree": {
     "name": "qgis-download",
@@ -5887,6 +5887,17 @@
                 "size_formatted": "108.00 B",
                 "last_modified": "2026-03-19T05:10:47.074000+00:00",
                 "last_modified_timestamp": 1773897047,
+                "extension": ".sha256sum",
+                "category": "other"
+              },
+              {
+                "key": "windows/weekly/QGIS-OSGeo4W-4.1.0-1128-3b8ef1f72a3-1.sha256sum",
+                "name": "QGIS-OSGeo4W-4.1.0-1128-3b8ef1f72a3-1.sha256sum",
+                "path": "windows/weekly",
+                "size": 1450968592,
+                "size_formatted": "1.35 GB",
+                "last_modified": "2026-04-19T06:08:30.018000+00:00",
+                "last_modified_timestamp": 1776578910,
                 "extension": ".sha256sum",
                 "category": "other"
               }
