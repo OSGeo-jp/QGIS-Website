@@ -4,4 +4,4 @@ minify = true
 
 [params]
 langRedirectEnabled = false
-langRedirectThreshold = 80
+langRedirectThreshold = 35
