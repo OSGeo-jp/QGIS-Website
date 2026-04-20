@@ -1,28 +1,28 @@
 ## csv-table
 
-Can render a html table from CSV file or inner content
+Renders an HTML table from a CSV file.
 
 ```
-{{< csv-table file="csv/schedule.csv" />}}
+{{< csv-table file="csv/schedule.csv" >}}
 ```
 
 ![](img/csv-table.png)
 
-Example usage with inner content CSV:
+For simple tables, standard Markdown tables should be used:
 
-```
-{{< csv-table >}}
-"LTR","Long term release, begin of new development phase"
-"LR","Regular release, begin of new development phase"
-"FF","Feature freeze, end of development phase"
-"PR","Point release of latest release and LTR branch"
-"EPR","Extra Point release"
-":rm-current:current",":rm-current:currently supported releases: {{< param "ltrrelease" >}} and {{< param "release" >}}"
-":rm-next:next",":rm-next:next releases"
-{{< /csv-table >}}
+```markdown
+| Abbreviation | Description |
+|-------------|-------------|
+| LTR | Long term release, begin of new development phase |
+| LR | Regular release, begin of new development phase |
+| FF | Feature freeze, end of development phase |
+| PR | Point release of latest release and LTR branch |
+| EPR | Extra Point release |
+| <span class="rm-current"> current </span> | <span class="rm-current"> currently supported releases: {{< param "ltrrelease" >}} and {{< param "release" >}} </span> |
+| <span class="rm-next"> next </span> | <span class="rm-next"> next releases </span> |
 ```
 
-Note: `param` can be used inside to substitute dynamic vars
+Note: Hugo shortcode `param` can be used inside markdown tables to substitute dynamic vars: `{{< param "ltrrelease" >}}`
 
 ![](img/csv-table-1.png)
 
