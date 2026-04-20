@@ -207,6 +207,12 @@ Den här boken behandlar viktiga arbetsflöden i GIS, från skapande av data til
 - Datum: Mars 2015
 
 ## Italienska
+### Analizzare e processare i dati con QGIS
+A practical guide to spatial data processing, analysis, and automation in QGIS, covering vector and raster workflows, databases, and Python integration.
+- https://www.lafeltrinelli.it/analizzare-processare-dati-con-qgis-libro-faustino-cetraro/e/9788857917863
+- Author: Faustino Cetraro
+- Date: February 2026
+
 ### Övningar utförda i QGIS. Praktisk vägledning för analys av vettor
 - [https://www.darioflaccovio.it/libri-universitari-ingegneria-architettura-geologia/1370-esercizi-svolti-in-qgis.html](https://www.darioflaccovio.it/libri-universitari-ingegneria-architettura-geologia/1370-esercizi-svolti-in-qgis.html)
 - Författare: Mauro Fabrizio, Ludovico Frate

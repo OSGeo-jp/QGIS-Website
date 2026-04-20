@@ -8,7 +8,6 @@ subtitle: ''
 title: Ladda ner
 type: page
 
-
 ---
 {{<content-start >}}
 
@@ -26,7 +25,11 @@ Våra allra bästa hälsningar!
 Donationer till QGIS kan vara avdragsgilla i vissa länder. Vänligen kontakta ditt lokala skattekontor för mer information. Om du vill göra skatteavdrag som ett tyskt företag eller en tysk organisation, vänligen donera genom den <a href="https://qgis.de/doku.php/verein/spenden">tyska QGIS-användargruppen</a>. De kan utfärda en betalningsbekräftelse som en skattebefriad tysk förening.
 </p>
 
-{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< payrexx-widget otherMethods="true" skipToDownload="true" >}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< stripe-widget otherMethods="true" skipToDownload="true" >}}
+
+<!-- {{< payrexx-widget otherMethods="true" skipToDownload="true" >}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{<download-platform-selector-start >}}
 
@@ -37,8 +40,6 @@ Donationer till QGIS kan vara avdragsgilla i vissa länder. Vänligen kontakta d
 {{<platform-content-start platform="macos" >}}
 ## macOS
 {{<download-macos >}}
-
-Note: There are no QGIS 3.40 LTR builds available on macOS. QGIS 3.44 is stable and has been designated as the future Long Term Release (LTR); therefore 3.44 is the recommended version for macOS users.
 
 Alternatively, it is also possible to install QGIS via MacPorts, see the [MacPorts Installing Instructions]({{< ref "resources/installation-guide/#macports" >}})
 

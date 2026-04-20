@@ -9,26 +9,26 @@ type: page
 ---
 {{<content-start >}}
 # Praktijkvoorbeelden
-> **Want to showcase your QGIS project?** [Submit your case study](#submit-your-case-study) and inspire the community with your success story.
+> **Wilt u uw QGIS-project als praktijkvoorbeeld laten zien?** [Dien uw praktijkvoorbeeld in](#submit-your-case-study) en inspireer de gemeenschap met uw succesverhaal.
 
 {{<usecases >}}
 _______
 {{< rich-box-start icon="🙋" layoutClass="tips">}} {{< rich-content-start themeClass="coloring-1" >}}
-## Submit Your Case Study
-Share your QGIS success story with the community! We welcome case study submissions that showcase real-world applications and inspire other users.
-### Option 1: Direct Contribution
-1. **Create your case study** - Add a new markdown file under `content/project/case-studies/` in the [QGIS Website repository](https://github.com/qgis/QGIS-Website/)
-2. **Follow the template** - Use existing case studies as a structural guide
-3. **Optimize images** - Add visuals to the `images/` folder in `.webp` format for optimal performance
-4. **Submit via PR** - Create a pull request with your contribution
+## Dien uw praktijvoorbeeld in
+Deel uw succesverhaal in QGIS met de gemeenschap! We verwelkomen ingediende praktijkvoorbeelden die toepassingen in de echte wereld laten zien en andere gebruikers inspireren.
+### Optie 1: Direct bijdragen
+1. **Maak uw praktijkvoorbeeld** - Voeg een nieuw bestand voor Markdown toe onder `content/project/case-studies/` in de [opslagplaats van de QGIS website](https://github.com/qgis/QGIS-Website/)
+2. **Volg het sjabloon** - gebruik bestaande praktijkvoorbeelden als een structurele richtlijn
+3. **Optimaliseer afbeeldingen** - Voeg afbeeldingen toe in de map `images/` in de indeling `.webp` voor optimale uitvoering
+4. **Dien in via PR** - Maak een pull request met uw bijdrage
 
-### Option 2: Submit via Issue
-1. **Open an issue** - Create a new issue in the [QGIS Website repository](https://github.com/qgis/QGIS-Website/issues)
-2. **Share your story** - Write your case study text directly in the issue description
-3. **Attach media** - Upload images, screenshots, or other relevant files to the issue
-4. **Let us handle the rest** - Our team will format and integrate your submission
+### Optie 2: Indienen via een Issue
+1. **Open een issue** - Maak een nieuw issue aan in de [opslagplaats van de QGIS-website](https://github.com/qgis/QGIS-Website/issues)
+2. **Deel uw verhaal** - Schrijf de tekst voor uw praktijkvoorbeeld direct in de beschrijving van het issue
+3. **Voeg media bij** - Upload afbeeldingen, schermafdrukken of andere relevante bestanden naar het issue
+4. **Laat ons de rest afhandelen** - Ons team zal uw bijdrage opmaken en integreren
 
-Your case study demonstrates QGIS capabilities and helps grow our community knowledge base.
+Uw praktijkvoorbeeld demonstreert de mogelijkheden van QGIS en helpt de kennisbank van de gemeenschap te vergroten.
 
 {{< rich-content-end >}} {{< rich-box-end >}}
 

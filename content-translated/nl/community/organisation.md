@@ -55,10 +55,10 @@ QGIS.ORG Via Geinas 2, CH-7031 Laax
 * Harrissou Sant-anna \[vanaf mei 2020\]
 * Nyall Dawson \[vanaf mei 2020\]
 
-### Voting Members
-According to our statutes, for each user group that is formed, that group will select a QGIS User Group Voting Member to represent their interests. These voting members are listed [here]({{< ref "/community/groups.md" >}}) . Please email [trademark@qgis.org](mailto:trademark@qgis.org) if you have registered a new user group, or have changed your user group representative.
+### Stemgerechtigde leden
+Overeenkomstig onze statuten zal, voor elke gebruikersgroep die is gevormd, die groep een QGIS User Group Voting Member kiezen om hun belangen te behartigen. Deze stemmende leden worden [hier]({{< ref "/community/groups.md" >}}) vermeld. E-mail [trademark@qgis.org](mailto:trademark@qgis.org) als u een nieuwe gebruikersgroep hebt geregistreerd, of de vertegenwoordiger van uw groep hebt gewijzigd.
 ### Stemmende leden voor de gemeenschap
-According to our statutes, one member from the broader community can be elected for each voting member. The following list includes the current community voting members:
+Overeenkomstig onze statuten mag één lid uit de bredere gemeenschap worden gekozen voor elk stemgerechtigd lid. De volgende lijst bevat de huidige stemgerechtigde leden voor de gemeenschap:
 * Martin Dobias, Slowakije
 * Nathan Woodrow, Australië
 * Matthias Kuhn, Zwitserland
@@ -81,7 +81,7 @@ Toegevoegd in 2017
 * Mathieu Pellerin, Indonesië
 * Luigi Pirelli, Spanje
 * Alexandre Neto, Portugal
-* Tom Chadwin, Verenigd Koninkrijk
+* Tom Chadwin, United Kingdom
 * Marco Hugentobler, Zwitserland
 
 Toegevoegd 2018
@@ -91,7 +91,7 @@ Toegevoegd in 2019
 * Geen (Geen nieuwe gebruikersgroepen gemaakt)
 
 Toegevoegd in 2020
-* David Signer, Zwitserland
+* David Signer, Switzerland
 * Enrico Ferreguti, Italië
 * Etienne Trimaille, Frankrijk
 * Pedro Venâncio, Portugal
@@ -105,10 +105,13 @@ Toegevoegd in 2022
 * Adelcides Varela, Cabo Verde
 * Germán Carrillo, Colombia
 
-Added 2024
-* Stefanos Natsis, Greece
-* Isabel Kiefer, Switzerland
-* Damiano Lombardi, Switzerland
+Toegevoegd in 2024
+* Stefanos Natsis, Griekenland
+* Isabel Kiefer, Zwitserland
+* Damiano Lombardi, Zwitserland
+
+Added 2026
+* Lova Andriarimalala, Madagascar
 
 ### OSGEO Voting Member
 * Michael Smith [vanaf 2015/16]
@@ -120,7 +123,7 @@ Uitgaven van QGIS worden beheerd door het Release Team (Release Manager en Relea
 ### Team voor de pakketten
 QGIS wordt verpakt voor verschillende typen besturingssystemen. De verantwoordelijke mensen voor die pakketten zijn de volgende:
 * Windows Team: Jürgen E. Fischer
-* MacOS Team: Matthias Kuhn, OPENGIS.ch
+* macOS-team: Matthias Kuhn, OPENGIS.ch
 * Linux Team:
   * OpenSuSE RPM Maintainer: Angelos Tzotsos
   * Fedora RPM Maintainer: Daniel Viganò

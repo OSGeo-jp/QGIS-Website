@@ -1,21 +1,30 @@
 ---
+AnnouncementLabel: QGIS 4.0
+AnnouncementLink: project/visual-changelogs/visualchangelog40/
+AnnouncementLinkText: Explore the changelog
+AnnouncementText: Discover the new features, improvements, and everything that makes
+  this release a landmark moment.
+AnnouncementTitle: QGIS 4.0 is here — our most powerful release yet!
 Badge: img/badges/dpg-badge.png
 BadgeLink: https://blog.qgis.org/2025/02/08/qgis-recognized-as-digital-public-good/
 ButtonLink: download/
 ButtonText: Herunterladen
+HasAnnouncement: true
 HasBanner: true
 HeroImage: img/hegobg1.webp
 LabelText: Kostenlos und Open Source
+OsgeoBadge: img/badges/osgeo-logo-white.svg
+OsgeoBadgeLink: https://www.osgeo.org/projects/qgis/
 SupportedOS: Verfügbar auf Windows, Mac, Linux
 draft: false
 heroLogo: img/logosign.svg
 heroSize: is-medium
-subtitle: Spatial visualization and decision-making tools for everyone
+subtitle: Alati za prostornu vizuelizaciju i donošenje odluka za svakoga
 title: Geodaten ohne Kompromisse
 type: page
 
 ---
-{{<feature title="Karten erstellen" text="Explore QGIS's exceptional cartographic design features to craft outstanding maps for desktop, mobile, cloud, and print media." col-title-1="Class-leading cartography" col-text-1="Experience QGIS's extensive set of design options to bring your maps to life." col-title-2="Professional map production" col-text-2="Use the intuitive layout designer to produce high-quality, large-format print maps." col-title-3="Powerful reporting tools" col-text-3="Create atlases and reports including maps and tabular content." img="img/main-create.webp" order=1 >}}
+{{<feature title="Karten erstellen" text="Istražite izuzetne kartografske karakteristike QGIS-a kako biste kreirali izvanredne mape za desktop, mobilne uređaje, oblak i štampane medije." col-title-1="Class-leading cartography" col-text-1="Experience QGIS's extensive set of design options to bring your maps to life." col-title-2="Professionelle Kartenerstellung" col-text-2="Use the intuitive layout designer to produce high-quality, large-format print maps." col-title-3="Powerful reporting tools" col-text-3="Create atlases and reports including maps and tabular content." img="img/main-create.webp" order=1 >}}
 
 {{<feature title="Layer bearbeiten" text="Harness the unmatched capabilities of powerful digitizing and construction tools." col-title-1="Exceptional digitizing proficiency" col-text-1="Craft and edit points, lines, polygons, and meshes with precision." col-title-2="Advanced construction tools" col-text-2="Build geometries with curves, CAD-like tools, and an extensive range of geometry transformations." col-title-3="Highly customizable forms" col-text-3="Create user-friendly forms using our form designer." img="img/main-edit.webp" order=2 >}}
 

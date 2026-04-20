@@ -4,7 +4,7 @@ heroImage: img/banners/banner4.png
 sidebar: true
 subtitle: QGIS is a professional GIS application, built on top of Free and Open Source
   Software (FOSS), and takes pride in being a part of the FOSS community.
-title: QGIS - přední open source desktop GIS
+title: QGIS – přední open source GIS pro desktop
 type: page
 
 ---

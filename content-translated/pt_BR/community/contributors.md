@@ -3,7 +3,7 @@ HasBanner: true
 draft: false
 heroImage: img/involve.jpg
 sidebar: true
-subtitle: Recognizing the amazing people and organizations that make QGIS possible
+subtitle: Reconhecendo as pessoas e organizações incríveis que tornam o QGIS possível
 title: Contribuidores do QGIS
 type: page
 
@@ -16,19 +16,19 @@ Celebrating QGIS contributors who received the prestigious Sol Katz Award for ex
 
 <div style="text-align:center;">
 	<a href="/community/contributors/sol-katz-award/" class="button is-success">
-		View recipients
+		Ver destinatários
 	</a>
 </div>
 
 {{< rich-content-end >}} {{< rich-right-start >}}<br />{{< contribution-stats "sol-katz" "/community/contributors/sol-katz-award/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Contributing Organizations
-Organizations making meaningful contributions to the QGIS project through development and collaboration
+## Organizações contribuintes
+Organizações que contribuem significativamente para o projeto QGIS por meio de desenvolvimento e colaboração
 
 <div style="text-align:center;">
 	<a href="/community/contributors/organisations/" class="button is-success">
-		View list
+		Ver lista
 	</a>
 </div>
 
@@ -39,24 +39,24 @@ Organizations making meaningful contributions to the QGIS project through develo
 {{<rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Individual Contributors
-Celebrating the developers and contributors who help build QGIS through their code contributions and collaborative efforts.
+## Colaboradores individuais
+Uma homenagem aos desenvolvedores e colaboradores que ajudam a construir o QGIS por meio de suas contribuições de código e esforços colaborativos.
 
 <div style="text-align:center;">
 	<a href="/community/contributors/individuals/" class="button is-success">
-		View list
+		Ver lista
 	</a>
 </div>
 
 {{< rich-content-end >}} {{< rich-right-start >}}<br />{{< contribution-stats "individuals" "/community/contributors/individuals/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Supporting Contributors
+## Colaboradores de apoio 
 Recognizing valuable contributions beyond code commits—community support, outreach, and behind-the-scenes efforts.
 
 <div style="text-align:center;">
 	<a href="/community/contributors/supporting/" class="button is-success">
-		View list
+		Ver lista
 	</a>
 </div>
 

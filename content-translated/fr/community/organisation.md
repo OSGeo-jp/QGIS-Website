@@ -55,10 +55,10 @@ QGIS.ORG Via Geinas 2, CH-7031 Laax
 * Harrissou Sant-anna \[since 5.2020\]
 * Nyall Dawson \[since 5.2020\]
 
-### Voting Members
+### Membres ayant le droit de vote
 According to our statutes, for each user group that is formed, that group will select a QGIS User Group Voting Member to represent their interests. These voting members are listed [here]({{< ref "/community/groups.md" >}}) . Please email [trademark@qgis.org](mailto:trademark@qgis.org) if you have registered a new user group, or have changed your user group representative.
 ### Membres ayant droit de vote de la communauté
-According to our statutes, one member from the broader community can be elected for each voting member. The following list includes the current community voting members:
+Conformément à nos statuts, un membre issu de la communauté au sens large peut être élu pour chaque membre votant. La liste suivante répertorie les membres votants actuels de la communauté :
 * Martin Dobias, Slovaquie
 * Nathan Woodrow, Australie
 * Matthias Kuhn, Suisse
@@ -81,36 +81,39 @@ Ajoutés en 2017
 * Mathieu Pellerin, Indonésie
 * Luigi Pirelli, Espagne
 * Alexandre Neto, Portugal
-* Tom Chadwin, Royaume-Uni
+* Tom Chadwin, United Kingdom
 * Marco Hugentobler, Suisse
 
 Ajouté en 2018
 * Hugo Mercier, France
 
 Ajoutés en 2019
-* None (No new user groups created)
+* Aucun (aucun nouveau groupe d'utilisateurs n'a été créé)
 
 Ajoutés en 2020
-* David Signer, Suisse
+* David Signer, Switzerland
 * Enrico Ferreguti, Italie
 * Etienne Trimaille, France
 * Pedro Venâncio, Portugal
 * Peter Petrik, République Tchèque
 * Richard Duivenvoorde, Pays-Bas
 
-Added 2021
-* Andrea Giudiceandrea, Italy
+Ajouté en 2021
+* Andrea Giudiceandrea, Italie
 
-Added 2022
-* Adelcides Varela, Cabo Verde
-* Germán Carrillo, Colombia
+Ajouté en 2022
+* Adelcides Varela, Cap Vert
+* Germán Carrillo, Colombie
 
-Added 2024
-* Stefanos Natsis, Greece
-* Isabel Kiefer, Switzerland
-* Damiano Lombardi, Switzerland
+Ajouté en 2024
+* Stefanos Natsis, Grèce
+* Isabel Kiefer, Suisse
+* Damiano Lombardi, Suisse
 
-### OSGEO Voting Member
+Added 2026
+* Lova Andriarimalala, Madagascar
+
+### Membre votant de l'OSGEO
 * Michael Smith [since 2015/16]
 
 ## Gestion de la publication
@@ -118,7 +121,7 @@ Gestionnaire actuel des versions: Jürgen E. Fischer
 
 Les différentes versions de QGIS sont gérées par l'équipe de gestion des versions (Release Team, gestionnaire et assistants). En concertation avec de nombreux contributeurs, il planifient des sorties régulières de versions stables, sur les différentes plateformes supportées. L'équipe recrute et assiste les responsables des différents packages d'installations pour les OS gérés. Elle planifie également la maintenance du gestionnaire de tickets (bug tracker).
 ### Équipe d'empaquetage
-QGIS is being packaged for different types of operating systems. The people responsible for these packages are as follows:
+QGIS est disponible sous forme de paquets pour différents types de systèmes d'exploitation. Les personnes chargées de ces paquets sont les suivantes :
 * Equipe Windows : Jürgen E. Fischer
 * MacOS Team: Matthias Kuhn, OPENGIS.ch
 * Équipe Linux :
@@ -133,7 +136,7 @@ QGIS is being packaged for different types of operating systems. The people resp
 * macOS: Denis Rouzaud, Matthias Kuhn, Isabel Kiefer
 
 ### Équipe Sécurité
-For security questions, please write to [security@qgis.org](mailto:security@qgis.org).
+Pour toute question relative à la sécurité, veuillez écrire à [security@qgis.org](mailto:security@qgis.org).
 
 Contributeurs
 -
@@ -143,26 +146,26 @@ Chefs d'équipe communauté actuels :
 * Lene Fischer (tâches communautaires)
 * Matteo Ghetta (documentation)
 
-Find the list of documentation and website translators at: [https://github.com/qgis/QGIS-Documentation](https://github.com/qgis/QGIS-Documentation)
+Vous trouverez la liste des traducteurs de la documentation et du site web à l'adresse suivante : [https://github.com/qgis/QGIS-Documentation](https://github.com/qgis/QGIS-Documentation)
 ### Translation
 Chef actuel de l'équipe de traduction : Werner Macho
 
-The QGIS Translation is managed by the Community Assistant (Translation Team Lead) and supported by additional language specific teams. Information about the current documentation status and the translation process is provided at the [Translators Corner](https://docs.qgis.org/latest/en/docs/documentation_guidelines/do_translations.html).
+La traduction de QGIS est gérée par l'assistant communautaire (responsable de l'équipe de traduction) et soutenue par des équipes supplémentaires dédiées à chaque langue. Vous trouverez des informations sur l'état actuel de la documentation et le processus de traduction sur la page [Le coin des traducteurs](https://docs.qgis.org/latest/en/docs/documentation_guidelines/do_translations.html).
 
 Contact : [qgis-community-team](http://lists.osgeo.org/mailman/listinfo/qgis-community-team) list or [QGIS Translation Mailing list](http://lists.osgeo.org/mailman/listinfo/qgis-tr)
 ### Supports presse et traduction
 Chef actuel de l'équipe presse: Anita Graser
 
-QGIS Press Material and its translations are managed by the Community Assistant (Press Material Team Lead) and supported by additional language specific teams. Information about current activities and the translation process is provided at the Press Centre.
+Les documents de presse de QGIS et leurs traductions sont gérés par l'assistant communautaire (responsable de l'équipe des documents de presse) et pris en charge par des équipes supplémentaires dédiées à chaque langue. Vous trouverez des informations sur les activités en cours et le processus de traduction dans l'espace presse.
 
 Équipe
 -
 Un projet réussi nécessite que de nombreux acteurs jouent beaucoup de rôles. Certains écrivent du code, de la documentation, alors que d'autres sont des auditeurs efficaces, en soumettant des correctifs ou des suggestions. 
 
-The number of Contributors to the project is unbounded. Get involved today. All contributions (adding code or documentation, fixing typo error, reporting issues…) to the project are greatly appreciated.
+Le nombre de contributeurs au projet est illimité. Rejoignez-nous dès aujourd'hui. Toutes les contributions au projet (ajout de code ou de documentation, correction de fautes de frappe, signalement de problèmes…) sont les bienvenues.
 
-These [individuals](https://github.com/qgis/QGIS/graphs/contributors) are recognised as Contributors to the main code [github repository](https://github.com/qgis/QGIS).
+Ces [personnes](https://github.com/qgis/QGIS/graphs/contributors) sont reconnues comme contributeurs au [dépôt GitHub](https://github.com/qgis/QGIS) du code principal.
 
-Follow the lists of maintainers of the [documentation](https://github.com/qgis/QGIS-Documentation/graphs/contributors) and the [website](https://github.com/qgis/QGIS-Website/graphs/contributors). Feel free to join any of those teams.
+Consultez la liste des responsables de la [documentation](https://github.com/qgis/QGIS-Documentation/graphs/contributors) et du [site web](https://github.com/qgis/QGIS-Website/graphs/contributors). N'hésitez pas à rejoindre l'une de ces équipes.
 
 {{<content-end >}}

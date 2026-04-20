@@ -3,13 +3,13 @@ draft: 'true'
 heroImage: img/banners/banner1.png
 sidebar: true
 subtitle: ''
-title: QGIS Value Proposition
+title: Arguments de promotion de QGIS
 type: page
 
 ---
 {{<content-start >}}
 # Résumé
-QGIS is a high impact, global project. QGIS.org provides open access to best-in-class tools for visualising, creating, editing, analysing and publication of spatially linked data and information products. QGIS.org does not prescribe how these tools should be used, but we make these tools freely available and accessible to everyone in order to foster a more just society, the making of better decisions and further the goal of a more sustainable environment. We provide tools for working on traditional desktop PC’s, on mobile devices and in the cloud.
+QGIS est un projet d'envergure mondiale. QGIS.org offre un accès libre aux meilleurs outils disponibles pour la visualisation, la création, l'édition, l'analyse et la publication de données et de produits d'information à caractère spatial. QGIS.org ne dicte pas la manière dont ces outils doivent être utilisés, mais nous les mettons gratuitement à la disposition de tous afin de favoriser une société plus juste, de permettre la prise de meilleures décisions et de contribuer à un environnement plus durable. Nous proposons des outils pour travailler sur des ordinateurs de bureau traditionnels, sur des appareils mobiles et dans le cloud.
 
 {{<button-bar "fa-solid fa-download:Download:download/download/" >}}
 ## Qui utilise QGIS ?
@@ -17,20 +17,20 @@ QGIS est utilisé par les gouvernements, les grandes multinationales, les entrep
 
 {{<button-bar "fa-solid fa-download:License:license/" >}}
 ## QGIS est gratuit, mais pas sans frais.
-It has taken, and will continue to take, a great deal of effort to develop high quality tools like those provided at QGIS.org. Initially this cost was borne exclusively through the efforts of dedicated volunteers. As the project matured, a financial ecosystem developed around the project. Customers began to contract community members to extend the QGIS project (software, documentation, online infrastructure) to better serve their needs.
+Le développement d'outils de haute qualité tels que ceux proposés sur QGIS.org a nécessité, et continuera de nécessiter, des efforts considérables. Au départ, ce coût était entièrement pris en charge par les efforts de bénévoles dévoués. À mesure que le projet a mûri, un écosystème financier s'est développé autour de lui. Des clients ont commencé à faire appel à des membres de la communauté pour étendre le projet QGIS (logiciel, documentation, infrastructure en ligne) afin de mieux répondre à leurs besoins.
 
 Parallèlement à ces efforts de financement ciblés, nous avons mis en place des programmes de soutien au projet grâce à des fonds que nous pouvons utiliser à notre discrétion, via des dons et des adhésions régulières. Ces fonds discrétionnaires nous permettent de fournir l'ensemble de l'infrastructure nécessaire au projet. Ils nous permettent également de financer :
 - améliorations qualitatives au logiciel
-- host developer meetings
+- organiser des réunions avec les développeurs
 - recruter des contributeurs techniques pour améliorer les aspects à grande échelle du projet, et
 - développer la communauté autour du projet afin de renforcer sa viabilité à long terme.
 
-## A value for value model
-Many of our users migrate to QGIS from proprietary alternatives which are financially unsustainable to use within their organisations. We celebrate the fact that we are able to open doors for those needing spatial tools such as QGIS which would have otherwise been closed. However, we also ask you to share some of the value gains that you realise from moving to QGIS with us. The funds you provide to us are used to the direct benefit of all users, who get to enjoy a more feature rich, stable and well documented set of QGIS tools. This ‘value for value’ model helps to ensure the long term sustainability and prosperity of the QGIS project. With nearly half a million daily active users, your contributions can make a huge impact to the lives of many people. The project has received in-kind and financial contributions from many well known international organisations around the world, whom we thank deeply. We invite you to join the ever growing number of organisations who see value in the work we do and share value back to us in the form of financial contributions to support our work.
+## Un modèle basé sur l'échange de valeur
+Bon nombre de nos utilisateurs migrent vers QGIS depuis des solutions propriétaires dont l'utilisation n'est plus viable financièrement au sein de leur organisation. Nous nous réjouissons de pouvoir ouvrir des portes à ceux qui ont besoin d'outils spatiaux tels que QGIS et qui, sans cela, n'y auraient pas eu accès. Cependant, nous vous demandons également de partager avec nous une partie des gains que vous réalisez en adoptant QGIS. Les fonds que vous nous versez sont utilisés au bénéfice direct de tous les utilisateurs, qui peuvent ainsi profiter d’un ensemble d’outils QGIS plus riches en fonctionnalités, plus stables et mieux documentés. Ce modèle basé sur l'échange de valeur contribue à assurer la viabilité et la prospérité à long terme du projet QGIS. Avec près d’un demi-million d’utilisateurs actifs quotidiens, vos contributions peuvent avoir un impact considérable sur la vie de nombreuses personnes. Le projet a reçu des contributions en nature et financières de la part de nombreuses organisations internationales de renom à travers le monde, que nous remercions chaleureusement. Nous vous invitons à rejoindre le nombre toujours croissant d’organisations qui reconnaissent la valeur de notre travail et nous la restituent sous forme de contributions financières pour soutenir nos activités.
 
 {{<button-bar "fa-solid fa-file-pdf:View our License:license/" "fa-solid fa-money-bill:Annual Financial Reports:reports/" >}}
 ## Gouvernance
-QGIS.org is registered as a Swiss Verrein (Association) that is operated in a non-profit manner. It is managed by an elected board and contributed to by hundreds of people from around the world. In the same way that the software we develop is open source, the project is operated with the same principle of openness, with all financial reports, board reports and community decisions carried out in an open and transparent way.
+QGIS.org est enregistré en tant qu'association suisse (Vereins) à but non lucratif. Il est géré par un conseil d'administration élu et bénéficie de la contribution de centaines de personnes à travers le monde. À l'instar du logiciel open source que nous développons, le projet est géré selon le même principe d'ouverture : tous les rapports financiers, les comptes rendus du conseil d'administration et les décisions de la communauté sont rendus publics de manière ouverte et transparente.
 
 {{<button-bar "fa-solid fa-file-pdf:Annual Reports:reports/annual/" >}}
 

@@ -1,10 +1,11 @@
 ---
 HasBanner: false
+aliases:
+- /ro/download/thank-you
 draft: false
 sidebar: true
 title: Vă mulțumim pentru că ați ales QGIS!
 type: page
-aliases: ["/download/thank-you"]
 
 ---
 {{<content-start >}}
@@ -28,7 +29,11 @@ Indiferent dacă alegeți să donați sau nu, sperăm că vă bucurați de rodul
 
 Vă mulțumim!
 
-{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< payrexx-widget otherMethods="true" alreadyDonated="true">}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< stripe-widget otherMethods="true" alreadyDonated="true">}}
+
+<!-- {{< payrexx-widget otherMethods="true" alreadyDonated="true">}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="qgis_first_conference mt-6">}} {{< rich-content-start >}} ![QGIS Developers 1st meeting](qgis_1st_conference.png "QGIS Developers 1st meeting") {{< rich-content-end >}} {{< rich-box-end >}}
 

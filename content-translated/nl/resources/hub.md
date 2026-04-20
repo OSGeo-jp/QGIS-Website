@@ -27,9 +27,9 @@ Documentatie voor elke lange termijn uitgave (LTR) van QGIS kunt u vinden op de 
 
 {{<language-select >}}
 
-{{<tabs tab1="QGIS |ltrversion|" tab2="QGIS |version|" tab3="QGIS testing (>|version|)" tab4="Gearchiveerde uitgaven" tab5="Gegevensbescherming" >}}
+<!--{{< tabs tab1="QGIS |ltrversion|" tab2="QGIS |version|" tab3="QGIS testing (>|version|)" tab4="Archived releases" tab5="Data protection">}} -->
 
-<!--{{< tabs tab1="QGIS |ltrversion|" tab2="QGIS testing (>|ltrversion|)" tab3="Archived releases" tab4="Data protection">}} -->
+{{<tabs tab1="QGIS |ltrversion|" tab2="QGIS testing (>|ltrversion|)" tab3="Gearchiveerde uitgaven" tab4="Gegevensbescherming" >}}
 
 {{< tab-content-start tab="1" >}} **Voor gebruikers (QGIS {{< param "ltrversion" >}}):**
 
@@ -63,39 +63,43 @@ Documentatie voor elke lange termijn uitgave (LTR) van QGIS kunt u vinden op de 
 
 {{<tab-content-end >}}
 
-{{< tab-content-start tab="2" >}} **For users (QGIS {{< param "version" >}}):**
+<!--{{< tab-content-start tab="2" >}}
+**For users (QGIS {{< param "version" >}}):**
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/user_manual" layoutClass="inline-block link-with-language" listTitle="Desktop gebruikershandleiding — <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/user_manual"  layoutClass="inline-block link-with-language" listTitle="Desktop User Guide — <lang>" >}}
+ 
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/training_manual"  layoutClass="inline-block link-with-language" listTitle="QGIS Training manual — <lang>">}}
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/training_manual" layoutClass="inline-block link-with-language" listTitle="QGIS Trainingshandleiding — <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/gentle_gis_introduction"  layoutClass="inline-block link-with-language" listTitle="Gentle Intro to GIS — <lang>" >}}
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/gentle_gis_introduction" layoutClass="inline-block link-with-language" listTitle="Kleine introductie voor GIS — <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/server_manual"  layoutClass="inline-block link-with-language" listTitle="Server Guide — <lang>" >}}
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/server_manual" layoutClass="inline-block link-with-language" listTitle="Server gebruikershandleiding — <lang>" >}}
 
 **For documentation writers (QGIS {{< param "version" >}}):**
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/documentation_guidelines" layoutClass="inline-block link-with-language" listTitle="Richtlijnen voor documentatie — <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/documentation_guidelines"  layoutClass="inline-block link-with-language" listTitle="Documentation Guidelines — <lang>">}}
+
 
 **For developers (QGIS {{< param "version" >}}):**
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/pyqgis_developer_cookbook" layoutClass="inline-block link-with-language" listTitle="PyQGIS kookboek (voor plug-ins en scripten) — <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/pyqgis_developer_cookbook"  layoutClass="inline-block link-with-language" listTitle="PyQGIS cookbook (for plugins and scripting) — <lang>">}}
 
-{{<rich-list listLink="https://qgis.org/pyqgis/|version|/" layoutClass="inline-block" listTitle="PyQGIS - documentatie voor QGIS Python Api " >}}
+{{< rich-list listLink="https://qgis.org/pyqgis/|version|/"  layoutClass="inline-block" listTitle="PyQGIS - QGIS Python Api documentation" >}}
 
-{{<rich-list listLink="https://qgis.org/api/|version|/" layoutClass="inline-block" listTitle="C++ API-documentatie" >}}
 
-{{<rich-list listLink="https://github.com/qgis/QGIS/blob/release-|version|/INSTALL.md" layoutClass="inline-block" listTitle="QGIS bouwen vanuit de bron" >}}
+{{< rich-list listLink="https://qgis.org/api/|version|/"  layoutClass="inline-block" listTitle="C++ API documentation" >}}
+
+{{< rich-list listLink="https://github.com/qgis/QGIS/blob/release-|version|/INSTALL.md"  layoutClass="inline-block" listTitle="Building QGIS from Source" >}}
 
 **For download (QGIS {{< param "version" >}}):**
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/pdf" layoutClass="inline-block" listTitle="PDF van de handleidingen" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/pdf"  layoutClass="inline-block" listTitle="PDF of the manuals" >}}
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/zip" layoutClass="inline-block" listTitle="HTML-zip van de handleidingen" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/zip"  layoutClass="inline-block" listTitle="HTML zip of the manuals" >}}
 
-{{<tab-content-end >}}
+{{< tab-content-end >}} -->
 
-{{<tab-content-start tab="3" >}}
+{{<tab-content-start tab="2" >}}
 
 We zijn nog steeds de documentatie voor uitgaven nieuwer dan QGIS {{< param "ltrversion" >}} aan het bijwerken (nog niet aan het vertalen). We noemen deze versie 'QGIS testing' en de documentatie is hier te vinden:
 
@@ -131,7 +135,9 @@ We zijn nog steeds de documentatie voor uitgaven nieuwer dan QGIS {{< param "ltr
 
 {{<tab-content-end >}}
 
-{{<tab-content-start tab="4" >}}
+{{<tab-content-start tab="3" >}}
+
+{{<rich-list listLink="https://docs.qgis.org/3.40/<lang>" layoutClass="inline-block link-with-language" listTitle="QGIS 3.40 Documentation — <lang>" >}}
 
 {{<rich-list listLink="https://docs.qgis.org/3.34/<lang>" layoutClass="inline-block link-with-language" listTitle="QGIS 3.34 Documentatie — <lang>" >}}
 
@@ -149,7 +155,7 @@ We zijn nog steeds de documentatie voor uitgaven nieuwer dan QGIS {{< param "ltr
 
 {{<tab-content-end >}}
 
-{{<tab-content-start tab="5" >}}
+{{<tab-content-start tab="4" >}}
 
 In lijn met de GDPR en gerelateerde regelgeving met betrekking tot gegevensbescherming verschaffen we de volgende documentatie: 
 

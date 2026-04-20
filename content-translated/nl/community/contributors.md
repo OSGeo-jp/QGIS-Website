@@ -3,7 +3,8 @@ HasBanner: true
 draft: false
 heroImage: img/involve.jpg
 sidebar: true
-subtitle: Recognizing the amazing people and organizations that make QGIS possible
+subtitle: Erkennen van de verbazingwekkende mensen en organisaties die QGIS mogelijk
+  maken
 title: Deelnemers QGIS
 type: page
 
@@ -11,24 +12,24 @@ type: page
 {{<content-start >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Sol Katz Award Recipients
-Celebrating QGIS contributors who received the prestigious Sol Katz Award for exceptional leadership and contributions to geospatial open source software.
+## Ontvangers van de Sol Katz Award
+Erkenning voor de bijdragers aan QGIS die de prestigieuze Sol Katz Award kregen voor buitengewoon leiderschap en hun bijdragen aan de open bron georuimtelijke software.
 
 <div style="text-align:center;">
 	<a href="/community/contributors/sol-katz-award/" class="button is-success">
-		View recipients
+		Ontvangers bekijken
 	</a>
 </div>
 
 {{< rich-content-end >}} {{< rich-right-start >}}<br />{{< contribution-stats "sol-katz" "/community/contributors/sol-katz-award/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Contributing Organizations
-Organizations making meaningful contributions to the QGIS project through development and collaboration
+## Bijdragende organisaties
+Organisaties die door ontwikkeling en samenwerking betekenisvolle bijdragen geven aan het project QGIS
 
 <div style="text-align:center;">
 	<a href="/community/contributors/organisations/" class="button is-success">
-		View list
+		Lijst bekijken
 	</a>
 </div>
 
@@ -39,24 +40,24 @@ Organizations making meaningful contributions to the QGIS project through develo
 {{<rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Individual Contributors
-Celebrating the developers and contributors who help build QGIS through their code contributions and collaborative efforts.
+## Individuele bijdragers
+Erkenning voor de ontwikkelaars en bijdragers die helpen bij het bouwen van QGIS door hun bijdragen van code en inspanningen om samen te werken.
 
 <div style="text-align:center;">
 	<a href="/community/contributors/individuals/" class="button is-success">
-		View list
+		Lijst bekijken
 	</a>
 </div>
 
 {{< rich-content-end >}} {{< rich-right-start >}}<br />{{< contribution-stats "individuals" "/community/contributors/individuals/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Supporting Contributors
-Recognizing valuable contributions beyond code commits—community support, outreach, and behind-the-scenes efforts.
+## Ondersteunende bijdragers
+Erkennen van waardevolle bijdragen, naast indienen van code—ondersteuning van de gemeenschap, hulp en inspanningen achter de schermen.
 
 <div style="text-align:center;">
 	<a href="/community/contributors/supporting/" class="button is-success">
-		View list
+		Lijst bekijken
 	</a>
 </div>
 

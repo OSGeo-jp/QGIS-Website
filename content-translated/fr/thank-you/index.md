@@ -1,10 +1,11 @@
 ---
 HasBanner: false
+aliases:
+- /fr/download/thank-you
 draft: false
 sidebar: true
 title: Merci d'avoir choisi QGIS !
 type: page
-aliases: ["/download/thank-you"]
 
 ---
 {{<content-start >}}
@@ -19,16 +20,20 @@ Downloads may take a while. Please **monitor the progress** using your **downloa
 If your download didn't start, you can manually download QGIS from the [QGIS.org hosted downloads](https://download.qgis.org/downloads/). {{< rich-content-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start mode="html" layoutClass="has-right" id="donate-prompt">}} {{< rich-content-start themeClass="coloring-2" >}}
-## Your support is vital to keep QGIS improving
-Our software is, and always will be, available free of charge if downloaded from QGIS.org.
+## Votre soutien est essentiel pour permettre à QGIS de continuer à s'améliorer
+Notre logiciel est, et restera toujours, disponible gratuitement s'il est téléchargé depuis QGIS.org.
 
-The project is a result of a huge effort and social contribution from many community members who volunteer their time and expertise. In addition, many businesses, government agencies and commercial entities have contributed to the development of QGIS. They do this either to ensure that QGIS meets their specific needs or to contribute to and accelerate the huge social impact that is realised by making a tool such as QGIS freely available. Our goal is the betterment of society through informed spatial decision making. If you are able, we gently request that you support our work.
+Ce projet est le fruit d'un immense effort et d'une contribution sociale de la part de nombreux membres de la communauté qui mettent bénévolement à disposition leur temps et leur expertise. De plus, de nombreuses entreprises, agences gouvernementales et entités commerciales ont contribué au développement de QGIS. Elles le font soit pour s'assurer que QGIS réponde à leurs besoins spécifiques, soit pour contribuer à l'énorme impact social généré par la mise à disposition gratuite d'un outil tel que QGIS et pour l'accélérer. Notre objectif est d'améliorer la société grâce à une prise de décision spatiale éclairée. Si vous en avez la possibilité, nous vous invitons chaleureusement à soutenir notre travail.
 
-Whether you choose to donate or not, we hope that you enjoy using our labour of love and encourage you to share and spread your downloaded copy far and wide so that others may enjoy it too.
+Que vous décidiez de faire un don ou non, nous espérons que vous apprécierez le fruit de notre travail et nous vous encourageons à partager et à diffuser largement votre copie téléchargée afin que d'autres puissent eux aussi en profiter.
 
-Our very best regards!
+Bien cordialement !
 
-{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< payrexx-widget otherMethods="true" alreadyDonated="true">}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< stripe-widget otherMethods="true" alreadyDonated="true">}}
+
+<!-- {{< payrexx-widget otherMethods="true" alreadyDonated="true">}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="qgis_first_conference mt-6">}} {{< rich-content-start >}} ![QGIS Developers 1st meeting](qgis_1st_conference.png "QGIS Developers 1st meeting") {{< rich-content-end >}} {{< rich-box-end >}}
 
@@ -42,7 +47,7 @@ Vous pouvez également consulter les études de cas – on y trouve de nombreuse
 
 {{< rich-box-start layoutClass="has-right" mode="html" >}} {{< rich-content-start themeClass="coloring-1" >}}
 ### Exemples d'utilisation
-We gather inspiring stories from actual users that showcase the versatility and power of the QGIS solution
+Nous recueillons des témoignages inspirants d'utilisateurs réels qui illustrent la polyvalence et la puissance de la solution QGIS
 
 [Find out more]({{< ref "project/case-studies.md" >}}) {{< rich-content-end >}} {{< rich-right-start >}}<br />{{< usecase >}} {{< rich-right-end >}} {{< rich-box-end >}}
 

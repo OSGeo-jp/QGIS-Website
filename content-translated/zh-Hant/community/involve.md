@@ -66,6 +66,10 @@ We welcome two types of financial contributions:
 
 {{< button class = "is-primary1" link = "funding/membership" text = "Become a Sustaining Member" >}} {{< button class = "is-primary6" link = "funding/donate" text = "One-Time Donation" >}}
 
-{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< payrexx-widget otherMethods="true">}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< stripe-widget otherMethods="true">}}
+
+<!-- {{< payrexx-widget otherMethods="true">}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{<content-end >}}

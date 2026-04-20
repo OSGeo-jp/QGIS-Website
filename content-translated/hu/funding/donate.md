@@ -25,9 +25,13 @@ Kössön visszatérő pártoló tagságot.
 
 {{< rich-content-end >}} {{< rich-box-end >}}
 
+{{< rich-box-start layoutClass="has-right mt-6" mode="html" >}} {{< rich-content-start themeClass="coloring-2" >}}
+## Stripe Donation
+We use the [stripe.com](https://stripe.com) service to receive credit card donations. Note that the payment fees at Stripe are substantially lower than at Paypal - so we would appreciate it, if you could use Stripe instead of PayPal. No signup needed. {{< rich-content-end >}} {{< rich-right-start >}}<br />{{< stripe-widget >}} {{< rich-right-end >}} {{< rich-box-end >}}
+
 {{< rich-box-start layoutClass="has-right mt-6" mode="html" >}} {{< rich-content-start themeClass="coloring-1" >}}
 ## Payrexx adományozás
-We use the [payrexx.com](https://payrexx.com) service to receive credit card donations. Note that the payment fees at Payrexx are substantially lower than at Paypal - so we would appreciate it, if you could use Payrexx instead of PayPal. No signup needed. {{< rich-content-end >}} {{< rich-right-start >}}<br />{{< payrexx-widget >}} {{< rich-right-end >}} {{< rich-box-end >}}
+We also use the [payrexx.com](https://payrexx.com) service to receive credit card donations. Note that the payment fees at Payrexx are substantially lower than at Paypal - so we would appreciate it, if you could use [Stripe](#stripe-donation) or Payrexx instead of PayPal. No signup needed. {{< rich-content-end >}} {{< rich-right-start >}}<br />{{< payrexx-widget >}} {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right" mode="html" >}} {{< rich-content-start themeClass="coloring-1" >}}
 ## Banki átutalás

@@ -1,10 +1,11 @@
 ---
 HasBanner: false
+aliases:
+- /sv/download/thank-you
 draft: false
 sidebar: true
 title: Tack för att du valde QGIS!
 type: page
-aliases: ["/download/thank-you"]
 
 ---
 {{<content-start >}}
@@ -16,7 +17,7 @@ aliases: ["/download/thank-you"]
 ##### Övervaka din nedladdning
 Nedladdningar kan ta en stund. Vänligen **övervaka framstegen** med hjälp av din **nedladdningshanterare**.
 
-Om din nedladdning inte startade kan du ladda ner QGIS manuellt från [QGIS.org hosted downloads] (https://download.qgis.org/downloads/). {{< rich-content-end >}} {{< rich-box-end >}}
+Om din nedladdning inte startade kan du ladda ner QGIS manuellt från [QGIS.org hosted downloads] (https://download.qgis.org/downloads/). {{< rich-content-end >}} {{< rich-box-slut >}}
 
 {{< rich-box-start mode="html" layoutClass="has-right" id="donate-prompt">}} {{< rich-content-start themeClass="coloring-2" >}}
 ## Ditt stöd är avgörande för att QGIS ska fortsätta att förbättras
@@ -28,7 +29,11 @@ Oavsett om du väljer att donera eller inte hoppas vi att du tycker om att anvä
 
 Våra allra bästa hälsningar!
 
-{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< payrexx-widget otherMethods="true" alreadyDonated="true">}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< stripe-widget otherMethods="true" alreadyDonated="true">}}
+
+<!-- {{< payrexx-widget otherMethods="true" alreadyDonated="true">}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="qgis_first_conference mt-6">}} {{< rich-content-start >}} ![QGIS-utvecklarnas första möte](qgis_1st_conference.png "QGIS-utvecklarnas första möte") {{< rich-content-end >}} {{< rich-box-end >}}
 

@@ -66,6 +66,10 @@ Acceptăm două tipuri de contribuții financiare:
 
 {{< button class = "is-primary1" link = "funding/membership" text = "Deveniți Membru Susținător" >}} {{< button class = "is-primary6" link = "funding/donate" text = "Donație Singulară" >}}
 
-{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< payrexx-widget otherMethods="true">}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< stripe-widget otherMethods="true">}}
+
+<!-- {{< payrexx-widget otherMethods="true">}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{<content-end >}}

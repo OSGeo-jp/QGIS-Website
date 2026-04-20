@@ -15,10 +15,10 @@ Schrijf naar [psc@qgis.org](mailto:psc%40qgis.org) als u uw boek hier wilt laten
 Opmerking: De volgorde van de boeken is: nieuwste eerst. Opmerking 2: Na de Engelse boeken staan de Franse, Griekse en Poolse en items in andere talen.
 ## Engels
 ### Learn QGIS - Fifth Edition (Early Access)
-Learn QGIS (5th Edition)” offers a hands-on introduction to modern GIS analysis with QGIS and Python for students and professionals alike, covering Earth observation, mobile data collection, and the integration of AI and machine learning in GIS, while addressing data security and ethical aspects.
+Learn QGIS (5th Edition)” biedt een hands-on introductie naar de moderne GIS-analyses met QGIS en Python voor zowel studenten als professionals, behandelt de waarnemingen van de aarde, verzamelen van mobiele gegevens en de integratie van AI en machineleren in GIS, terwijl het ook beveiliging van gegevens en ethische aspecten behandelt.
 - [https://www.packtpub.com/en-de/product/learn-qgis-9781836203308](https://www.packtpub.com/en-de/product/learn-qgis-9781836203308)
-- Authors: Eugenia Sarafova, Ivan Ivanov, Andrew Cutts, Anita Graser
-- Date: March 2026
+- Auteurs: Eugenia Sarafova, Ivan Ivanov, Andrew Cutts, Anita Graser
+- Datum: maart 2026
 
 ### Spatial Analysis of Gender Based Work Force in India Using QGIS
 A Comparative Study Of Village Level Census Data For Three Districts Of Cachar, Karimganj, Hailakandi In Assam State, North East India, voor de jaren 1991, 2001 en 2011
@@ -184,10 +184,10 @@ Een handleiding voor de QGIS software en toepassing.
 - Datum: december 2016
 
 ## Frans
-### Systèmes d'information géographique - 3e édition Avec logiciels libres GRASS et QGIS
+### Systèmes d'information géographique - 3e editie. Met de vrije programma's GRASS en QGIS
 - [https://www.dunod.com/sciences-techniques/systemes-d-information-geographique-avec-logiciels-libres-grass-et-qgis-0](https://www.dunod.com/sciences-techniques/systemes-d-information-geographique-avec-logiciels-libres-grass-et-qgis-0)
 - Auteur : Yves Auda
-- Date: September 2025
+- Datum: september 2025
 
 ### QGIS leren met voorbeelden in het Frans.
 Dit boek behandelt essentiële werkstromen in GIS vanaf het maken van gegevens tot aan de cartografische weergave ervan en enige basis voor ruimtelijke analyses.
@@ -207,6 +207,12 @@ Dit boek behandelt essentiële werkstromen in GIS vanaf het maken van gegevens t
 - Datum: maart 2015
 
 ## Italiaans
+### Analizzare e processare i dati con QGIS
+A practical guide to spatial data processing, analysis, and automation in QGIS, covering vector and raster workflows, databases, and Python integration.
+- https://www.lafeltrinelli.it/analizzare-processare-dati-con-qgis-libro-faustino-cetraro/e/9788857917863
+- Author: Faustino Cetraro
+- Date: February 2026
+
 ### Esercizi svolti in QGIS. Guida pratica all'analisi vettoriale
 - [https://www.darioflaccovio.it/libri-universitari-ingegneria-architettura-geologia/1370-esercizi-svolti-in-qgis.html](https://www.darioflaccovio.it/libri-universitari-ingegneria-architettura-geologia/1370-esercizi-svolti-in-qgis.html)
 - Auteurs: Mauro Fabrizio, Ludovico Frate
@@ -238,11 +244,11 @@ Het boek is voorbereid zoals de serie "for Dummies".
 
 ## Spaans
 ### Descubriendo QGIS 3.x
-Esta segunda edición es una actualización importante del título original Discover QGIS 3.x (English). Todos los ejercicios han sido actualizados para ser compatibles con QGIS 3.26. Los temas abarcan la interfaz de QGIS, conceptos básicos de SIG, análisis espacial, modelado, creación y edición de datos, diseño cartográfico y visualización de datos.Con mejoras en el procesamiento, flujos de trabajo más eficientes, compatibilidad con datos de nubes de puntos, desarrollo del Controlador Temporal y opciones de simbología mejoradas, ¡es un momento emocionante para aprender QGIS!
+Deze tweede editie is behoorlijk bijgewerkt vanuit de originele titel, Discover QGIS 3.x (Engels). Alle oefeningen zijn bijgewerkt om compatibel te zijn met QGIS 3.26. Onderwerpen behandelen de gehele interface van QGIS, basisbeginselen voor GIS, ruimtelijke analyse, modellen maken, maken en bewerken van gegevens, ontwerpen van kaarten en visualiseren van gegevens. Met verbeteringen in Processing, meer efficiënte werkstromen, ondersteuning voor gegevens van puntenwolken en ontwikkeling van Tijdbeheer, biedt deze editie een uitgebreide update.
 - [https://locatepress.com/book/dq32-es](https://locatepress.com/book/dq32-es)
-- Author(s): Kurt Menke, Carlos Lopez, Sofia Logan
-- Organization: Locate Press
-- Date: June 2025
+- Auteur(s): Kurt Menke, Carlos Lopez, Sofia Logan
+- Organisatie: Locate Press
+- Datum: juni 2025
 
 ### QGIS Exercise Guide: beginner, intermediate, and advanced Levels
 Drie praktische oefengidsen voor QGIS (beginner, gemiddeld en gevorderd) ontworpen voor het beheren en analuseren van georuimtelijke gegevens van de Servicio Geológico Colombiano met vrije en open-source software-oplossingen.

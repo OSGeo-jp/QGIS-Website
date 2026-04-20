@@ -60,7 +60,7 @@ type: page
 
 {{<rich-list listLink="https://qgis.es/" icon="🇪🇸" layoutClass="half" listTitle="Association of QGIS users in Spain" listSubtitle="Contatto: Carlos López Quintanilla" >}}
 
-{{<rich-list listLink="https://qgisusers.co" icon="🇨🇴" layoutClass="half" listTitle="Grupo de Usuarios QGIS Colombia" listSubtitle="Contatto: Germán Carrillo" >}}
+{{<rich-list listLink="https://github.com/qgisco" icon="🇨🇴" layoutClass="half" listTitle="Grupo de Usuarios QGIS Colombia" listSubtitle="Contatto: Germán Carrillo" >}}
 ### Rimossi nel 2018
 {{<rich-list listLink="https://teamwork.niwa.co.nz/display/NQUG/NIWA+QGIS+Users+Group" icon="🇳🇿 " layoutClass="half" listTitle="NIWA QGIS user group (New Zealand)" listSubtitle="Contatto: Brent Wood" >}}
 
@@ -81,16 +81,18 @@ type: page
 {{<rich-list listLink="https://qgisghana.org/" icon="🇬🇭" layoutClass="half" listTitle="QGIS Ghana" listSubtitle="Contatto: Enock Seth Nyamador" >}}
 ### Registrati nel 2022
 {{<rich-list listLink="https://qgis.ar/" icon="🇦🇷" layoutClass="half" listTitle="QGIS Argentina" listSubtitle="Contatto: Ariel Anthieni" >}}
-### Registered 2024
-{{<rich-list listLink="https://www.facebook.com/groups/612486875596534" icon="🌐" layoutClass="half" listTitle="QGIS Global virtual FB group" listSubtitle="Contact: Adelcides Varela" >}}
+### Registrati nel 2024
+{{<rich-list listLink="https://www.facebook.com/groups/612486875596534" icon="🌐" layoutClass="half" listTitle="Gruppo virtuale globale FB di QGIS" listSubtitle="Contatto: Adelcides Varela" >}}
 
-{{<rich-list listLink="https://qgis-mk.blogspot.com" icon="🇲🇰" layoutClass="half" listTitle="QGIS North Macedonia" listSubtitle="Contact: Ivica Milevski" >}}
+{{<rich-list listLink="https://qgis-mk.blogspot.com" icon="🇲🇰" layoutClass="half" listTitle="QGIS North Macedonia" listSubtitle="Contatto: Ivica Milevski" >}}
 
-{{<rich-list listLink="https://qgis-al.blogspot.com/" icon="🇦🇱" layoutClass="half" listTitle="QGIS Albania" listSubtitle="Contact: Emiliano Qose" >}}
+{{<rich-list listLink="https://qgis-al.blogspot.com/" icon="🇦🇱" layoutClass="half" listTitle="QGIS Albania" listSubtitle="Contatto: Emiliano Qose" >}}
 
-{{<rich-list listLink="https://www.facebook.com/profile.php?id=100094072457586" icon="🇽🇰" layoutClass="half" listTitle="QGIS Republic of Kosova" listSubtitle="Contact: Milot Lubishtani" >}}
-### Registered 2025
-{{<rich-list listLink="https://heed725.github.io/qgistz/" icon="🇹🇿" layoutClass="half" listTitle="QGIS Tanzania" listSubtitle="Contact: Antidy Kawamala" >}}
+{{<rich-list listLink="https://www.facebook.com/profile.php?id=100094072457586" icon="🇽🇰" layoutClass="half" listTitle="QGIS Repubblica del Kosovo" listSubtitle="Contatto: Milot Lubishtani" >}}
+### Registrati nel 2025
+{{<rich-list listLink="https://heed725.github.io/qgistz/" icon="🇹🇿" layoutClass="half" listTitle="QGIS Tanzania" listSubtitle="Contatto: Antidy Kawamala" >}}
+### Registered 2026
+{{<rich-list listLink="https://in.qgis.org/" icon="🇮🇳" layoutClass="half" listTitle="QGIS India User Group" listSubtitle="Contact: Ujaval Gandhi" >}}
 ## Obiettivi di un gruppo di utenti
 * Organizzazione di incontri per gli utenti
 * Coordinamento dello sviluppo, con particolare attenzione agli standard e ai requisiti regionali/nazionali
@@ -99,7 +101,7 @@ type: page
 * Sponsorizzazione: i gruppi di utenti locali sono incoraggiati a raccogliere quote associative annuali ragionevoli (a seconda del Paese). I fondi raccolti possono essere utilizzati per finanziare lo sviluppo di funzionalità rilevanti, aiutare nella correzione di bug o come donazione al progetto internazionale QGIS.
 * Costituzione di gruppi di interesse, ad esempio topografia, urbanistica, client server/web, ecc.
 * Inizializzazione / coordinamento di moduli applicativi, ad esempio, topografia, urbanistica, client / server web, ecc.
-* Electing a representative to act as a [QGIS Voting Member]({{< ref "/community/organisation#voting-members" >}})
+* Eleggere un rappresentante che agisca come [Membro Votante QGIS]({[< ref "/community/organisation#voting-members" >]})
 
 ## Presupposti generali/raccomandazioni
 * I gruppi di utenti locali dovrebbero rimanere neutrali rispetto a fornitori e aziende
@@ -125,12 +127,12 @@ Si raccomanda di registrare i domini nazionali locali, ad esempio qgis.ch o qgis
 Il sito web del gruppo locale dovrebbe essere utilizzato per pubblicare qualsiasi materiale relativo alle informazioni e alla gestione del gruppo utenti. Per esempio, le riunioni degli utenti, i casi di studio, materiale condiviso, forum di discussione, ecc. Il materiale pubblico dovrebbe essere reso disponibile senza requisiti di accesso (ad esempio, non richiedere alle persone interessate di essere un membro di un social network come Facebook o Google+). L'utilizzo dei social network è consigliato ma non dovrebbe essere l'unico canale di informazione. I feed RSS dovrebbero essere resi disponibili sul sito Web del gruppo di utenti QGIS.
 
 Buona fortuna con l'organizzazione del vostro gruppo locale degli utenti. Si prega di informare il team di QGIS internazionale registrando l'elenco comunità QGIS e fornendo un rapporto sui vostri progressi. Non esitate a chiedere domande riguardanti la creazione e la manutenzione del gruppo locale degli utenti.
-## Starter pack
-### QGIS.org subdomain hosting
-If you prefer to use the official QGIS.org branding and host your user group website on a QGIS.org subdomain (e.g., `sweden.qgis.org`), you can utilize the provided template repository at [https://github.com/qgis/QGIS-User-Group-Website](https://github.com/qgis/QGIS-User-Group-Website). This option ensures consistency with the main QGIS website design. Please carefully read and follow the setup instructions provided in the repository.
-### QGIS News Feed submission access
-Local user groups can request access to the [QGIS News Feed system](https://feed.qgis.org), which allows you to submit news entries (such as events, crowdfunding campaigns, meetups, or announcements) that will appear in the QGIS news section once approved by moderators. This is an excellent way to share your group's activities with the global QGIS community.
-### Template for local country domain qgis.xx
-For local country domain, if you do not wish to host and design your website from scratch, you can use the template provided at [https://github.com/qgis/qgis-template.github.io](https://github.com/qgis/qgis-template.github.io).
+## Pacchetto iniziale
+### Hosting di sottodominio QGIS.org
+Se si preferisce utilizzare il marchio ufficiale QGIS.org e ospitare il sito web del proprio gruppo utenti su un sottodominio QGIS.org (ad es., sweden.qgis.org), è possibile utilizzare il repository di template fornito su https://github.com/qgis/QGIS-User-Group-Website. Questa opzione garantisce la coerenza con il design del sito web principale di QGIS. Si prega di leggere attentamente e seguire le istruzioni di configurazione fornite nel repository.
+### Accesso all'invio di notizie al QGIS News Feed 
+I gruppi utenti locali possono richiedere l'accesso al sistema QGIS News Feed, che consente di inviare notizie (come eventi, campagne di crowdfunding, meetup o annunci) che appariranno nella sezione notizie di QGIS una volta approvate dai moderatori. Questo è un ottimo modo per condividere le attività del proprio gruppo con la comunità QGIS globale.
+### Template per il dominio nazionale locale qgis.xx 
+Per il dominio nazionale locale, se non si desidera ospitare e progettare il proprio sito web da zero, è possibile utilizzare il template fornito su https://github.com/qgis/qgis-template.github.io.
 
 {{<content-end >}}

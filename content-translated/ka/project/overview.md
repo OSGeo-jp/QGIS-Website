@@ -5,7 +5,7 @@ HasBanner: true
 LabelText: Free and open source
 Reviewed: 1 June 2024
 Reviewer: Tim Sutton
-SupportedOS: Available on Windows, Mac, Linux
+SupportedOS: ხელმისაწვდომია Windows, Mac, Linux პლატფორმებზე
 draft: false
 heroImage: img/project.jpg
 og_image: img/project.jpg
@@ -17,14 +17,14 @@ type: page
 ---
 {{<content-start >}}
 ## Key features
-{{<tabs tab1="Create maps" tab2="Edit layers" tab3="Process and analyze" tab4="Share maps" >}}
+{{<tabs tab1="რუკების შედგენა" tab2="შრეების რედაქტირება" tab3="დამუშავება და ანალიზი" tab4="Share maps" >}}
 
 {{< columns-start id="content-tab-1" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Create map](../img/create.gif "Create maps") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
 ###### Class-leading cartography
 Experience QGIS' extensive set of design options to bring your cartographic ideas to life.
-###### Professional map production
+###### პროფესიონალური რუკების შედგენა
 Use the intuitive layout design tool to produce high-quality, large-format print maps.
 ###### Powerful reporting tools
 Create atlases and reports with maps, media and tabular content. {{< column-end >}} {{< columns-end >}}
@@ -44,9 +44,9 @@ Create user-friendly forms using our form designer.
 {{< columns-start id="content-tab-3" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![visualize map](../img/visualize.gif "visualize map") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
-###### Comprehensive analysis toolset
+###### ანალიტიკური ხელსაწყოების სრული ნაკრები
 Uncover insights from your data with our comprehensive array of hundreds of analysis tools.
-###### Automated analysis workflows
+###### ანალიზის ავტომატიზებული სამუშაო პროცესები
 Visually combine analysis tools to create reproducible workflows easily.
 ###### Extensible analysis environment
 Explore our diverse plugin ecosystem of third-party analysis tools for expanded capabilities.

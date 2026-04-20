@@ -10,9 +10,9 @@ type: page
 ## Version 1.0
 Il s'agit de notre Guide de style visuel QGIS. Ce document définit les normes pour l'utilisation de notre identité visuelle. Il propose une modernisation de la marque QGIS pour la rendre plus forte, plus visible et plus adaptable à un large éventail de cas d'utilisation.
 
-The Visual Style Guide is a living document, initiated with the goal of developing a consistent message and image for QGIS. It is a "living" document because we expect it to expand as we cover more use cases where visual consistency is important and can be described using simpler rules. The standards and simple policies described here are designed to maintain the uniformity of presentation necessary for successful promotion and marketing efforts for the QGIS project.
+Le Guide de style visuel est un document évolutif, créé dans le but de développer un message et une image cohérents pour QGIS. Il s'agit d'un document « évolutif » car nous prévoyons qu'il s'étoffera à mesure que nous aborderons davantage de cas d'utilisation où la cohérence visuelle est importante et peut être décrite à l'aide de règles plus simples. Les normes et les directives simples décrites ici visent à maintenir l'uniformité de présentation nécessaire à la réussite des efforts de promotion et de marketing du projet QGIS.
 
-Our visual identity symbolizes QGIS's strength, promise of quality and competence. Proper treatment of logo, fonts and color ensures that QGIS will be recognized and stand out amid communications clutter. Graphic standards are a visual expression of QGIS and should serve as the base for our overall communications strategy.
+Notre identité visuelle symbolise la force de QGIS, ainsi que sa promesse de qualité et de compétence. Une utilisation appropriée du logo, des polices et des couleurs garantit que QGIS sera reconnaissable et se démarquera dans le flot incessant des communications. Les normes graphiques constituent l'expression visuelle de QGIS et doivent servir de base à notre stratégie de communication globale.
 
 Cette première version du Guide des styles graphiques présente les éléments clés du nouveau logo QGIS. Les futures versions mettront l'accent sur l'image de marque des actifs et sur la façon de diffuser la marque QGIS sur le Web, les appareils mobiles et les documents imprimés.
 ## Logotype
@@ -72,11 +72,11 @@ Les changements proposés sont listés ci-dessous.
 [`PNG white 128px`](visual/qgis-icon-white128.png) [`PNG white 64px`](visual/qgis-icon-white64.png) [`PNG white 32px`](visual/qgis-icon-white32.png)
 ## Typographie
 ### Les polices de caractères Trueno
-Trueno is a free Font Library serif font. In order to embed it, please use
+Trueno est une police à serif disponible gratuitement dans la bibliothèque de polices Font Library. Pour l'intégrer, veuillez utiliser
 ```
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css"/>
 ```
-in the site header {{< table >}} | Name | Font-family |:-------:|:----------------------:|------------| | Trueno Ultra light | 'TruenoUltraLight' | | Trueno Regular | 'TruenoRegular' | | Trueno Bold | 'TruenoBold' | {{< /table >}}
+dans l'en-tête du site {{< table >}} | Nom | Font-family |:-------:|:----------------------:|------------| | Trueno Ultra light | 'TruenoUltraLight' | | Trueno Regular | 'TruenoRegular' | | Trueno Bold | 'TruenoBold' | {{< /table >}}
 ## Couleur
 ### Couleurs primaires
 **Dark Green** {{< columns-start >}} {{< column-start class="is-one-third">}} ![Dark green](visual/dark_green.png) {{< column-end >}} {{< column-start class="is-two-thirds">}} HEX: #589632<br />RGB: 88, 150, 50<br />CMYK: 70.53, 18.84, 100, 3.7<br />{{< column-end >}} {{< columns-end >}}

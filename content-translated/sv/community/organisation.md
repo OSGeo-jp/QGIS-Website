@@ -81,7 +81,7 @@ Tillkom 2017
 * Mathieu Pellerin, Indonesien
 * Luigi Pirelli, Spanien
 * Alexandre Neto, Portugal
-* Tom Chadwin, United Kingdeom
+* Tom Chadwin, United Kingdom
 * Marco Hugentobler, Schweiz
 
 Tillkom 2018
@@ -91,7 +91,7 @@ Tillkom 2019
 * Ingen (inga nya användargrupper skapas)
 
 Tillagd 2020
-* David signer, Schweiz
+* David Signer, Switzerland
 * Enrico Ferreguti, Italien
 * Etienne Trimaille, Frankrike
 * Pedro Venâncio, Portugal
@@ -109,6 +109,9 @@ Added 2024
 * Stefanos Natsis, Greece
 * Isabel Kiefer, Switzerland
 * Damiano Lombardi, Switzerland
+
+Added 2026
+* Lova Andriarimalala, Madagascar
 
 ### OSGEO Röstberättigad medlem
 * Michael Smith [sedan 2015/16]

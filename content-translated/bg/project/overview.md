@@ -2,7 +2,7 @@
 ButtonLink: download/
 ButtonText: Изтегляне
 HasBanner: true
-LabelText: Free and open source
+LabelText: Безплатно и с отворен код
 Reviewed: 1 June 2024
 Reviewer: Tim Sutton
 SupportedOS: Available on Windows, Mac, Linux

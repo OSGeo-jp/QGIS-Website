@@ -11,7 +11,7 @@ type: page
 
 ---
 {{<content-start >}}
-## Ways of Contributing
+## Cesty jak přispět
 [Participate in Support Channels](#participate-in-support-channels "scroll-on-page") [Report Bugs](#report-bugs "scroll-on-page") [QGIS Documentation](#qgis-documentation "scroll-on-page") [Translate QGIS](#translate-qgis "scroll-on-page") [Develop a Plugin](#develop-a-plugin "scroll-on-page") [Develop QGIS Core](#develop-qgis-core "scroll-on-page") [Sustain & Donate](#sustain--donate "scroll-on-page")
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
@@ -66,6 +66,10 @@ We welcome two types of financial contributions:
 
 {{< button class = "is-primary1" link = "funding/membership" text = "Become a Sustaining Member" >}} {{< button class = "is-primary6" link = "funding/donate" text = "One-Time Donation" >}}
 
-{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< payrexx-widget otherMethods="true">}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< stripe-widget otherMethods="true">}}
+
+<!-- {{< payrexx-widget otherMethods="true">}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{<content-end >}}

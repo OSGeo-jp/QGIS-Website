@@ -81,7 +81,7 @@ Sumados en 2017
 * Mathieu Pellerin, Indonesia
 * Luigi Pirelli, España
 * Alexandre Neto, Portugal
-* Tom Chadwin, Reino Unido
+* Tom Chadwin, United Kingdom
 * Marco Hugentobler, Suiza
 
 Sumados en 2018
@@ -91,7 +91,7 @@ Añadido 2019
 * Ninguno (no se han creado nuevos grupos de usuarios)
 
 Añadido 2020
-* David Signer, Suiza
+* David Signer, Switzerland
 * Enrico Ferreguti, Italia
 * Etienne Trimaille, Francia
 * Pedro Venâncio, Portugal
@@ -109,6 +109,9 @@ Added 2024
 * Stefanos Natsis, Greece
 * Isabel Kiefer, Switzerland
 * Damiano Lombardi, Switzerland
+
+Added 2026
+* Lova Andriarimalala, Madagascar
 
 ### OSGEO Voting Member
 * Michael Smith [since 2015/16]

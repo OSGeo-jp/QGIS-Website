@@ -60,7 +60,7 @@ type: page
 
 {{<rich-list listLink="https://qgis.es/" icon="🇪🇸" layoutClass="half" listTitle="Förening för QGIS-användare i Spanien" listSubtitle="Kontakt: Carlos López Quintanilla" >}}
 
-{{<rich-list listLink="https://qgisusers.co" icon="🇨🇴" layoutClass="half" listTitle="Användargrupp QGIS Colombia" listSubtitle="Kontakt: Germán Carrillo" >}}
+{{<rich-list listLink="https://github.com/qgisco" icon="🇨🇴" layoutClass="half" listTitle="Användargrupp QGIS Colombia" listSubtitle="Kontakt: Germán Carrillo" >}}
 ### Borttagen 2018
 {{<rich-list listLink="https://teamwork.niwa.co.nz/display/NQUG/NIWA+QGIS+Users+Group" icon="🇳🇿 " layoutClass="half" listTitle="NIWA QGIS användargrupp (Nya Zeeland)" listSubtitle="Kontakt: Brent Wood" >}}
 
@@ -91,6 +91,8 @@ type: page
 {{<rich-list listLink="https://www.facebook.com/profile.php?id=100094072457586" icon="🇽🇰" layoutClass="half" listTitle="QGIS Republic of Kosova" listSubtitle="Contact: Milot Lubishtani" >}}
 ### Registered 2025
 {{<rich-list listLink="https://heed725.github.io/qgistz/" icon="🇹🇿" layoutClass="half" listTitle="QGIS Tanzania" listSubtitle="Contact: Antidy Kawamala" >}}
+### Registered 2026
+{{<rich-list listLink="https://in.qgis.org/" icon="🇮🇳" layoutClass="half" listTitle="QGIS India User Group" listSubtitle="Contact: Ujaval Gandhi" >}}
 ## Mål för en användargrupp
 * Organisering av användarträffar
 * Samordning av utveckling, med tonvikt på regionala/nationella standarder och krav

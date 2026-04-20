@@ -42,21 +42,21 @@ Learn to master the Mergin Maps platform to collect, share and manage your field
 A workbook for Classroom or Independent Study Updated to QGIS 3.24+
 - [https://locatepress.com/book/dq32](https://locatepress.com/book/dq32)
 - Autor: Kurt Menke
-- Date: August 2022
+- Data: Agosto de 2022
 
 ### QGIS for Hydrological Applications - Second Edition
 Recipes for Catchment Hydrology and Water Management Updated to QGIS 3.22+
 - [https://locatepress.com/book/hyd2](https://locatepress.com/book/hyd2)
 - Autores: Hans van der Kwast, Kurt Menke
-- Date: May 2022
+- Data: Maio de 2022
 
 ### Land Use Cover Datasets and Validation Tools. Validation Practices with QGIS
-Introduction to Land Use Cover mapping, Land Use Cover Change Modelling and the validation of Land Use Cover datasets. The book includes practical exercises on the validation of Land Use Cover datasets with QGIS, as well as a comprehensive review of the Land Use Cover datasets currently available at global and continental scales.
+Introdução ao Mapeamento de Uso e Cobertura da Terra, Modelagem de Mudanças no Uso e Cobertura da Terra e validação de conjunto de dados de Uso e Cobertura da Terra. O livro inclui exercícios práticos sobre a validação de conjunto de dados de Uso e Cobertura da Terra com o QGIS, bem como uma revisão abrangente do conjunto de dados de Uso e Cobertura da Terra atualmente disponíveis em escalas global e continental.
 - [https://link.springer.com/book/10.1007/978-3-030-90998-7](https://link.springer.com/book/10.1007/978-3-030-90998-7)
-- Authors: David García-Álvarez, María Teresa Camacho Olmedo, Martin Paegelow, Jean François Mas
-- Date: June 2022
+- Autores: David García-Álvarez, María Teresa Camacho Olmedo, Martin Paegelow, Jean François Mas
+- Data: Junho de 2022
 
-### Introduction to QGIS
+### Introdução ao QGIS
 Get started with QGIS with this introduction covering everything needed to get you going.
 - [https://locatepress.com/book/itq](https://locatepress.com/book/itq)
 - Authors: Professor Scott Madry
@@ -169,14 +169,14 @@ Years of experience in a single book─the official Quantum GIS Training Manual 
 ### QGIS软件与应用教程
 A tutorial of QGIS software and application.
 - [https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=57814](https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=57814)
-- Authors: Yu Dong, Yunfeng Hu, Na Wang
-- Date: March 2021
+- Autores: Yu Dong, Yunfeng Hu, Na Wang
+- Data: Março de 2021
 
 ## Holandês
 ### QGIS voor landmeters en wegontwerpers
 - [https://huiz.net/boek/qgis-voor-landmeters-en-wegontwerpers/](https://huiz.net/boek/qgis-voor-landmeters-en-wegontwerpers/)
 - Anton Huizinga
-- Date: November 2020
+- Data: Novembro de 2020
 
 ### QGIS no nível secundário - Estudos de Geografia - Cartografia no nível secundário - GISwijzer GO game
 - [https://www.giswijzer.nl/?product=qgis-op-vo-niveau-geografie-studies-cartografie-op-vo-niveau-giswijzer-go-spel](https://www.giswijzer.nl/?product=qgis-op-vo-niveau-geografie-studies-cartografie-op-vo-niveau-giswijzer-go-spel)
@@ -187,7 +187,7 @@ A tutorial of QGIS software and application.
 ### Systèmes d'information géographique - 3e édition Avec logiciels libres GRASS et QGIS
 - [https://www.dunod.com/sciences-techniques/systemes-d-information-geographique-avec-logiciels-libres-grass-et-qgis-0](https://www.dunod.com/sciences-techniques/systemes-d-information-geographique-avec-logiciels-libres-grass-et-qgis-0)
 - Autora : Yves Auda
-- Date: September 2025
+- Data: Setembro de 2025
 
 ### Learning QGIS by example em fracês
 Este livro cobre fluxos de trabalho essenciais em SIG desde a criação de dados até sua representação cartográfica e algumas noções básicas em análise espacial.
@@ -207,9 +207,15 @@ Este livro cobre fluxos de trabalho essenciais em SIG desde a criação de dados
 - Data: Março de 2015
 
 ## Italiano
+### Analizzare e processare i dati con QGIS
+A practical guide to spatial data processing, analysis, and automation in QGIS, covering vector and raster workflows, databases, and Python integration.
+- https://www.lafeltrinelli.it/analizzare-processare-dati-con-qgis-libro-faustino-cetraro/e/9788857917863
+- Author: Faustino Cetraro
+- Date: February 2026
+
 ### Esercizi svolti in QGIS. Guida pratica all'analisi vettoriale
 - [https://www.darioflaccovio.it/libri-universitari-ingegneria-architettura-geologia/1370-esercizi-svolti-in-qgis.html](https://www.darioflaccovio.it/libri-universitari-ingegneria-architettura-geologia/1370-esercizi-svolti-in-qgis.html)
-- Authors: Mauro Fabrizio, Ludovico Frate
+- Autores: Mauro Fabrizio, Ludovico Frate
 - Data: Setembro 2019
 
 ## Japonês

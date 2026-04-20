@@ -17,16 +17,16 @@ type: page
 ---
 {{<content-start >}}
 ## Key features
-{{<tabs tab1="Buat Peta" tab2="Ubah Lapisan" tab3="Proses dan Analisa" tab4="Bagikan Peta" >}}
+{{<tabs tab1="Buat Peta" tab2="Ubah lapisan" tab3="Proses dan Analisa" tab4="Bagikan Peta" >}}
 
 {{< columns-start id="content-tab-1" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Create map](../img/create.gif "Create maps") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
-###### Class-leading cartography
+###### Kartografi terbaik
 Experience QGIS' extensive set of design options to bring your cartographic ideas to life.
-###### Professional map production
+###### Penggambaran peta profesional
 Use the intuitive layout design tool to produce high-quality, large-format print maps.
-###### Powerful reporting tools
+###### Aplikasi pelaporan canggih
 Create atlases and reports with maps, media and tabular content. {{< column-end >}} {{< columns-end >}}
 
 {{< columns-start id="content-tab-2" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Edit map](../img/edit.gif "Edit map") {{< column-end >}}
@@ -46,7 +46,7 @@ Create user-friendly forms using our form designer.
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
 ###### Comprehensive analysis toolset
 Uncover insights from your data with our comprehensive array of hundreds of analysis tools.
-###### Automated analysis workflows
+###### Alur analisis otomatis
 Visually combine analysis tools to create reproducible workflows easily.
 ###### Extensible analysis environment
 Explore our diverse plugin ecosystem of third-party analysis tools for expanded capabilities.

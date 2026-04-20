@@ -8,7 +8,6 @@ subtitle: ''
 title: Downloaden
 type: page
 
-
 ---
 {{<content-start >}}
 
@@ -26,7 +25,11 @@ Onze allerbeste groeten!
 Donaties aan QGIS zijn in sommige landen af te trekken van de belastingen. Vraag uw lokale belastingkantoor naar de details. Als u als Duits bedrijf of organisatie uw gift wilt aftrekken van de belasting, doneer dan via de <a href="https://qgis.de/doku.php/verein/spenden">Duitse QGIS gebruikersgroep</a>. Zij kunnen u, als een van belasting vrijgestelde Duitse vereniging, een bevestiging van de betaling verschaffen.
 </p>
 
-{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< payrexx-widget otherMethods="true" skipToDownload="true" >}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< stripe-widget otherMethods="true" skipToDownload="true" >}}
+
+<!-- {{< payrexx-widget otherMethods="true" skipToDownload="true" >}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{<download-platform-selector-start >}}
 
@@ -38,9 +41,7 @@ Donaties aan QGIS zijn in sommige landen af te trekken van de belastingen. Vraag
 ## macOS
 {{<download-macos >}}
 
-Note: There are no QGIS 3.40 LTR builds available on macOS. QGIS 3.44 is stable and has been designated as the future Long Term Release (LTR); therefore 3.44 is the recommended version for macOS users.
-
-Alternatively, it is also possible to install QGIS via MacPorts, see the [MacPorts Installing Instructions]({{< ref "resources/installation-guide/#macports" >}})
+Alts alternatief is het ook mogelijk QGIS te installeren via MacPorts, bekijk de  [MacPorts installatie-instructies]({{< ref "resources/installation-guide/#macports" >}})
 
 {{<platform-content-end >}}
 
@@ -48,7 +49,7 @@ Alternatively, it is also possible to install QGIS via MacPorts, see the [MacPor
 
 {{<platform-content-start platform="linux" >}}
 ## Linux
-GNU/Linux is a Free operating system built on the same principles that QGIS is built on. We provide installers for many flavors of GNU/Linux binary packages (including rpm and deb packages). Please select your choice of distro below:
+GNU/Linux is een gratis besturingssysteem, gebouwd op dezelfde principes als waar QGIS op is gebouwd. We verschaffen installatieprogramma's voor vele soorten van binaire pakketten van GNU/Linux (inclusief pakketten rpm en deb). Selecteer de distributie van uw keuze hieronder:
 - [Debian/Ubuntu]({{< ref "resources/installation-guide#debian--ubuntu" >}})
 - [Fedora]({{< ref "resources/installation-guide#fedora" >}})
 - [NixOS]({{< ref "resources/installation-guide#nixos" >}})
@@ -63,29 +64,29 @@ GNU/Linux is a Free operating system built on the same principles that QGIS is b
 
 {{<platform-content-start platform="bsd" >}}
 ## BSD
-[BSD Installation Instructions]({{< ref "resources/installation-guide#freebsd" >}}) {{< platform-content-end >}}
+[BSD-installatie-instructies]({{< ref "resources/installation-guide#freebsd" >}}) {{< platform-content-end >}}
 
 {{<platform-content-start platform="container" >}}
-## Container Images
-[Container Images Installation Instructions]({{< ref "resources/installation-guide#container-images" >}}) {{< platform-content-end >}}
+## Container-images
+[Container-images Installatie-Instructies]({{< ref "resources/installation-guide#container-images" >}}) {{< platform-content-end >}}
 
 {{<platform-content-start platform="mobile" >}}
-## Mobile and tablet
+## Mobiel en tablet
 {{< mobile-downloads >}} {{< platform-content-end >}}
 
 {{<platform-content-start platform="source" >}}
-## Source Code
-QGIS is open source software available under the terms of the <b>GNU General Public License</b> meaning that its source code can be downloaded through 'tarballs' or the git repository.
+## Broncode
+QGIS is open bron-software, beschikbaar onder de termen van de <b>GNU General Public License</b> wat betekent dat zijn broncode kan worden gedownload in 'tarballs' of vanuit de opslagplaats van Git.
 
 QGIS broncode is beschikbaar <a href="/downloads/qgis-latest.tar.bz2">hier (laatste uitgave)</a> en <a href="/downloads/qgis-latest-ltr.tar.bz2">hier (lange termijn uitgave)</a>
 
 Bekijk de installatiegids om te zien hoe QGIS te compileren vanuit de bron voor de verschillende platforms: [hier](https://github.com/qgis/QGIS/blob/master/INSTALL.md)
 
-You can also obtain the source code by cloning or forking our <a href="https://github.com/qgis/QGIS">GitHub repository</a>. {{< platform-content-end >}}
+U kunt de broncode ook verkrijgen door onze <a href="https://github.com/qgis/QGIS">opslagplaats van GitHub</a>te klonen of te forken. {{< platform-content-end >}}
 
 {{<platform-content-start platform="example" >}}
-## Example Datasets
-For testing and learning purposes, [a sample dataset is available](https://docs.qgis.org/latest/en/docs/user_manual/introduction/getting_started.html#downloading-sample-data), which contains collections of data from different sources and in different formats. {{< platform-content-end >}}
+## Voorbeeld gegevenssets
+Voor doeleinden van testen en leren, [is een voorbeeld gegevensset beschikbaar](https://docs.qgis.org/latest/en/docs/user_manual/introduction/getting_started.html#downloading-sample-data), die collecties van gegevens bevat uit verschillende bronnen en in verschillende indelingen. {{< platform-content-end >}}
 
 {{<download-platform-selector-end >}}
 

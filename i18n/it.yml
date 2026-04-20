@@ -5,39 +5,42 @@
 - id: addToCalendar
   translation: Add al Calendario
 - id: addYourLogoHere
-  translation: ''
+  translation: Vuoi aggiungere il tuo logo qui?
 - id: addYourMapHere
-  translation: ''
+  translation: Aggiungi la tua mappa qui!
 - id: advancedCartography
-  translation: ''
+  translation: Cartografia avanzata
 - id: alreadyDonated
-  translation: ''
+  translation: Hai già donato? Nascondi questo messaggio
 - id: annualInternationalConference
-  translation: ''
+  translation: Conferenza internazionale annuale
 - id: archive
   translation: Archivio
 - id: availablePlatforms
   translation: QGIS è disponibile per Windows, macOS, Linux, Android e iOS.
 - id: becauseOfOurLicense
-  translation: ''
+  translation: Grazie alla nostra licenza, QGIS è un Software libero e Open Source,
+    per sempre.
 - id: chooseYourLanguage
   translation: Scegli la tua lingua
 - id: codeOfConduct
   translation: Codice di comportamento
 - id: commitRevision
-  translation: ''
+  translation: Revisione commit
 - id: communityDevelopmentModel
-  translation: ''
+  translation: Il modello di sviluppo della nostra comunità offre a tutti la possibilità
+    di plasmare il futuro di QGIS in base alle proprie esigenze.
 - id: cookieNotice
-  translation: ''
+  translation: Utilizziamo cookies 🍪. Questo migliora le prestazioni del sito e lo
+    rende più efficiente. Continuando a utilizzare questo sito, accetti la nostra
 - id: cookiePolicy
-  translation: ''
+  translation: informativa sui cookie
 - id: current
   translation: Attuale
 - id: currentVersion
   translation: La versione attuale di QGIS è la %s '%s' ed è stata rilasciata il %s.
 - id: cursorLocation
-  translation: ''
+  translation: Posizione Cursore
 - id: days
   translation: Giorni
 - id: developmentVersion
@@ -47,147 +50,159 @@
 - id: donate
   translation: Donate
 - id: donateAndDownload
-  translation: ''
+  translation: Dona e scarica
 - id: download
   translation: Scarica
 - id: downloadDirectly
-  translation: ''
+  translation: Download diretto
 - id: downloadQGISForYourPlatform
   translation: Scarica QGIS per il tuo Sistema Operativo
 - id: environmentalPolicy
-  translation: ''
+  translation: Politica ambientale
 - id: exploreQgis
-  translation: ''
+  translation: Esplora QGIS
 - id: featureFreeze
   translation: Feature freeze
 - id: featureFreezeTip
-  translation: ''
+  translation: Durante il feature freeze, non vengono accettate nuove funzionalità,
+    solo correzioni di bug e pulizia del codice.
 - id: featureInformation
-  translation: ''
+  translation: Informazioni sulle funzionalità
 - id: features
   translation: Funzionalità
 - id: financiallySupportsUs
-  translation: ''
+  translation: Ci sostiene finanziariamente
 - id: findLocalGroups
-  translation: ''
+  translation: Trova i gruppi di utenti locali e i fornitori di supporto.
 - id: flagshipMembership
-  translation: ''
+  translation: Adesione Flagship
 - id: forever
-  translation: ''
+  translation: per sempre
 - id: free
   translation: Libero
 - id: freeAndOpenSource
-  translation: ''
+  translation: Free and open source
 - id: freeDownload
-  translation: ''
+  translation: Scarica gratuitamente
 - id: future
-  translation: ''
+  translation: Foturo
 - id: getInvolved
   translation: Partecipa
 - id: getItForIOS
-  translation: ''
+  translation: Scaricalo per iOS
 - id: getItForWindows
-  translation: ''
+  translation: Scaricalo per Windows
 - id: getItOnGitHub
-  translation: ''
+  translation: Ottienilo su GitHub
 - id: getItOnGooglePlay
-  translation: ''
+  translation: Disponibile su Google Play
 - id: goToQgis
-  translation: ''
+  translation: Vai a QGIS
 - id: goodies
   translation: Chicche
 - id: gotIt
-  translation: ''
+  translation: Capito
 - id: governmentsAndEnterprises
-  translation: ''
+  translation: Enti pubblici e aziende
 - id: growingTeams
-  translation: ''
+  translation: Team in crescita
 - id: helpsEnsureLongTermSustainability
-  translation: ''
+  translation: Contribuisce a garantire la nostra sostenibilità a lungo termine
 - id: homepage
-  translation: ''
+  translation: Pagina iniziale
 - id: hours
   translation: Ore
 - id: initialRelease
-  translation: ''
+  translation: Versione iniziale
 - id: initialReleaseTip
-  translation: ''
+  translation: Le nostre versioni stabili vengono create prendendo periodicamente
+    una versione di sviluppo e "consolidandola" concentrandosi esclusivamente sulla
+    correzione dei bug.
 - id: installersAvailable
-  translation: ''
+  translation: Programmi di installazione disponibili
 - id: installersAvailableTip
-  translation: ''
+  translation: Il periodo esatto tra il confezionamento e la disponibilità dei programmi
+    di installazione varia a seconda della piattaforma, poiché i maintainer preparano
+    i propri pacchetti. Consultare le pagine di download per aggiornamenti sulla disponibilità.
 - id: intramapsRoam
-  translation: ''
+  translation: IntraMaps Roam
 - id: joinConference1
-  translation: ''
+  translation: Unisciti alla nostra
 - id: joinConference2
-  translation: ''
+  translation: per esplorare il futuro del GIS.
 - id: largeMembership
-  translation: ''
+  translation: Ampia base di membri
 - id: latestPointReleaseTip
-  translation: ''
+  translation: Ogni mese creiamo una nuova versione minore per la nostra versione
+    più recente. Queste versioni non contengono nuove funzionalità, ma solo correzioni
+    di bug.
 - id: latestRelease
   translation: Ultima versione
 - id: latestVersionForMacOS
-  translation: ''
+  translation: Versione standard per macOS
 - id: latestVersionForWindows
-  translation: ''
+  translation: 'Versione più recente per Windows (%s)
+
+     '
 - id: latestVersionForWindowsQt6
-  translation: ''
+  translation: Versione più recente per Windows (%s) con Qt6 (sperimentale)
 - id: learnHowPeopleSolveProblems
-  translation: ''
+  translation: Scopri come persone in tutto il mondo risolvono problemi con QGIS.
 - id: learnMore
   translation: Per saperne di più
 - id: license
   translation: Licenza
 - id: liveDemos
-  translation: ''
+  translation: Dimostrazioni dal vivo
 - id: loading
   translation: Caricamento...
 - id: longTermBuilds
-  translation: ''
+  translation: Le build a lungo termine forniscono attualmente %s '%s'. Le build Long
+    Term Release (LTR) sono destinate a coloro che privilegiano la stabilità rispetto
+    alle funzionalità più recenti. Se non si è sicuri di quale versione sia la più
+    adatta, scaricare la LTR.
 - id: longTermRelease
-  translation: ''
+  translation: Long Term Release (LTR)
 - id: longTermVersionForMacOS
-  translation: ''
+  translation: Versione Long Term per macOS
 - id: longTermVersionForWindows
-  translation: ''
+  translation: Versione Long Term per Windows (%s %s)
 - id: longTermVersionForWindowsQt6
-  translation: ''
+  translation: Versione Long Term per Windows (%s) con Qt6 (sperimentale)
 - id: mapEast
-  translation: ''
+  translation: Mappa Est
 - id: mapNorth
-  translation: ''
+  translation: Mappa Nord
 - id: mapSouth
-  translation: ''
+  translation: Mappa Sud
 - id: mapWest
-  translation: ''
+  translation: Mappa Ovest
 - id: menuAllNews
-  translation: ''
+  translation: Tutte le notizie
 - id: menuAnnualGeneralMeetings
-  translation: ''
+  translation: 'Assemblee generali annuali '
 - id: menuAnnualReports
-  translation: ''
+  translation: Rapporti annuali
 - id: menuArchLinux
   translation: Arch Linux
 - id: menuArchive
   translation: Archivio
 - id: menuBinaryPackagesInstallers
-  translation: ''
+  translation: Pacchetti binari (programmi di installazione)
 - id: menuBlog
-  translation: ''
+  translation: Blog
 - id: menuBooks
   translation: Libri
 - id: menuBrandGuidelines
-  translation: ''
+  translation: Linee guida del marchio
 - id: menuBugReporting
-  translation: ''
+  translation: Segnalazione dei bug
 - id: menuCaseStudies
   translation: Casi di Studio
 - id: menuCertificationProgramme
   translation: Programma di Certificazione
 - id: menuCharter
-  translation: ''
+  translation: Statuto
 - id: menuCommercialSupport
   translation: Supporto commerciale
 - id: menuCommunicationChannels
@@ -197,13 +212,13 @@
 - id: menuContactAndSupport
   translation: Contatti e Supporto
 - id: menuContainerImages
-  translation: ''
+  translation: 'Immagini container '
 - id: menuContributorCredits
-  translation: ''
+  translation: Crediti dei contributori
 - id: menuContributorRequirements
-  translation: ''
+  translation: Requisiti per i contributori
 - id: menuDebianUbuntu
-  translation: ''
+  translation: Debian / Ubuntu
 - id: menuDocumentation
   translation: Documentazione
 - id: menuDonate
@@ -223,11 +238,11 @@
 - id: menuFreeBSD
   translation: FreeBSD
 - id: menuFunding
-  translation: ''
+  translation: 'Finanziamento '
 - id: menuGetInvolved
   translation: Partecipa
 - id: menuGitHubSponsors
-  translation: ''
+  translation: GitHub Sponsors
 - id: menuGoodies
   translation: Chicche
 - id: menuInfrastructure
@@ -263,17 +278,17 @@
 - id: menuOGCCertification
   translation: Certificazione OGC
 - id: menuOfflineStandaloneInstallers
-  translation: ''
+  translation: Programmi di installazione offline (standalone)
 - id: menuOldReleases
   translation: Vecchie versioni
 - id: menuOnlineOSGeo4WInstaller
-  translation: ''
+  translation: Installer online (OSGeo4W)
 - id: menuOpenBSD
   translation: OpenBSD
 - id: menuOverview
   translation: Panoramica
 - id: menuPastMembers
-  translation: ''
+  translation: 'Ex membri '
 - id: menuPerformance
   translation: Prestazioni
 - id: menuPlugins
@@ -291,7 +306,7 @@
 - id: menuQGISTestingWarning
   translation: Avviso QGIS testing
 - id: menuQGISUC2025
-  translation: ''
+  translation: 'QGIS UC 2025 '
 - id: menuQGISUserMeetings
   translation: Riunioni degli utenti di QGIS
 - id: menuReimbursementsForDeveloperMeetings
@@ -309,7 +324,7 @@
 - id: menuScreenshots
   translation: Screenshots
 - id: menuSecurity
-  translation: ''
+  translation: Sicurezza
 - id: menuSlackware
   translation: Slackware
 - id: menuSpack
@@ -317,75 +332,81 @@
 - id: menuStackExchange
   translation: StackExchange
 - id: menuTesting
-  translation: ''
+  translation: 'Testing '
 - id: menuVisualChangelogs
   translation: Elenco cambiamenti visivi
 - id: menuWindows
   translation: Windows
 - id: merginMapsPlatforms
-  translation: ''
+  translation: App mobile Mergin Maps (disponibile per dispositivi Android, iOS e
+    Windows)
 - id: minutes
-  translation: ''
+  translation: Min.
 - id: monthly
-  translation: ''
+  translation: Mensile
 - id: newer
-  translation: ''
+  translation: Più recente
 - id: news
   translation: Notizie
 - id: noDataAvailable
-  translation: ''
+  translation: 'Errore: nessun dato disponibile '
 - id: of
-  translation: ''
+  translation: di
 - id: offlineInstallers
-  translation: ''
+  translation: Programmi di installazione offline (standalone)
 - id: offlineInstallersDescription
-  translation: ''
+  translation: Questi programmi di installazione sono destinati agli utenti che desiderano
+    condividere facilmente il download, ad esempio salvandolo su una chiavetta USB
+    o una cartella di rete condivisa.
 - id: older
-  translation: ''
+  translation: Precedente
 - id: oneTime
-  translation: ''
+  translation: Una tantum
 - id: onlineInstaller
-  translation: ''
+  translation: Installer online (OSGeo4W)
 - id: onlineInstallerDescription
   translation: ''
 - id: osgeo4wNetworkInstaller
   translation: Programma di Installazione di Rete OSGeo4W
 - id: otherMethodsMoreInfo
-  translation: ''
+  translation: 'Altri metodi, ulteriori informazioni '
 - id: otherPlatforms
-  translation: ''
+  translation: Altre piattaforme
 - id: overview
   translation: Panoramica
 - id: packaging
-  translation: ''
+  translation: Confezionamento
 - id: packagingTip
-  translation: ''
+  translation: Qui viene contrassegnata la versione e resa disponibile per il confezionamento
+    su diverse piattaforme.
 - id: page
   translation: Pagina
 - id: pageNotFound
   translation: Oooppssss! Pagina non trovata
 - id: pagination
-  translation: ''
+  translation: Pagina %d di %d
 - id: perDownload
   translation: /download
 - id: perYear
   translation: /year
 - id: pointRelease
-  translation: ''
+  translation: 'Versione minore '
 - id: pointReleaseTip
-  translation: ''
+  translation: Il freeze termina con una nuova versione che viene ramificata e inizia
+    un nuovo ciclo di sviluppo.
 - id: powerOfOpenSourceCommunity
   translation: La forza di una comunità open source
 - id: preferFree
-  translation: ''
+  translation: Preferisci il software libero
 - id: privacyPolicy
   translation: informativa sulla privacy
 - id: publicationQualityMapProduction
-  translation: ''
+  translation: Produzione di mappe di qualità editoriale
 - id: qfieldPlatforms
   translation: QField (Android, iOS, Windows, macOS, Linux)
 - id: qgisIsPublicProject
-  translation: ''
+  translation: QGIS è un progetto pubblico ospitato su QGIS.org, rilasciato sotto
+    licenza GNU GPLv2+, di proprietà dei suoi contributori.
 - id: qgisMobileExperience
   translation: La possibilità di usare di QGIS non si ferma alla scrivania. Varie
     app, ottimizzate per touch screen, ti permettono di usare QGIS direttamente sul
@@ -393,40 +414,41 @@
 - id: qgisSustainingMembers
   translation: Membri sostenitori di QGIS
 - id: quickStartTutorials
-  translation: ''
+  translation: Tutorial introduttivi
 - id: readMore
   translation: Per saperne di più
 - id: reportIssue
-  translation: ''
+  translation: Problemi con questo sito web? Segnala un problema qui 🐙
 - id: searchResults
   translation: Risultati della ricerca
 - id: seconds
-  translation: ''
+  translation: Sec.
 - id: skipToDownload
   translation: Salta e vai al download
 - id: spatialAnalysis
-  translation: ''
+  translation: 'Analisi spaziale '
 - id: startUsingQgis
-  translation: ''
+  translation: Inizia a usare QGIS
 - id: startupsAndSmallBusinesses
-  translation: ''
+  translation: Startup e piccole imprese
 - id: subscribeAndDownload
-  translation: ''
+  translation: Iscriviti e scarica
 - id: supportFromVolunteerCommunity
-  translation: ''
+  translation: Supporto dalla nostra comunità di volontari
 - id: thirdPartyTouchOptimizedApps
   translation: Applicazioni di terze parti ottimizzate per touch screen
 - id: upToDateDocumentation
-  translation: ''
+  translation: 'Documentazione aggiornata '
 - id: usedBy
-  translation: ''
+  translation: Usato da
 - id: vectorAndRasterFormats
-  translation: ''
+  translation: Formati vettoriali e raster
 - id: vectorEditing
-  translation: ''
+  translation: Editing vettoriale
 - id: viewDocumentation
-  translation: ''
+  translation: 'Visualizza la documentazione '
 - id: visualStyleGuide
   translation: Guida per lo Stile Visivo
 - id: windows64BitOnly
-  translation: ''
+  translation: ⚠ A partire da QGIS 3.20 vengono distribuiti solo eseguibili Windows
+    a 64 bit.

@@ -207,6 +207,12 @@ This book covers essential workflows in GIS from data creation to its cartograph
 - Date: March 2015
 
 ## Italia
+### Analizzare e processare i dati con QGIS
+A practical guide to spatial data processing, analysis, and automation in QGIS, covering vector and raster workflows, databases, and Python integration.
+- https://www.lafeltrinelli.it/analizzare-processare-dati-con-qgis-libro-faustino-cetraro/e/9788857917863
+- Author: Faustino Cetraro
+- Date: February 2026
+
 ### Esercizi svolti in QGIS. Guida pratica all'analisi vettoriale
 - [https://www.darioflaccovio.it/libri-universitari-ingegneria-architettura-geologia/1370-esercizi-svolti-in-qgis.html](https://www.darioflaccovio.it/libri-universitari-ingegneria-architettura-geologia/1370-esercizi-svolti-in-qgis.html)
 - Authors: Mauro Fabrizio, Ludovico Frate

@@ -360,8 +360,7 @@
 - id: onlineInstaller
   translation: Online-installationsprogram (OSGeo4W)
 - id: onlineInstallerDescription
-  translation: Detta installationsprogram är det bästa sättet att hålla QGIS uppdaterat,
-    köra flera versioner på ditt system och minimera belastningen på våra nedladdningsservrar.
+  translation: ''
 - id: osgeo4wNetworkInstaller
   translation: OSGeo4W nätverksinstallationsprogram
 - id: otherMethodsMoreInfo

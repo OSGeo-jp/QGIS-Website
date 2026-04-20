@@ -357,9 +357,7 @@
 - id: onlineInstaller
   translation: Сетевой установщик (OSGeo4W)
 - id: onlineInstallerDescription
-  translation: Данный установщик является налучшим для поддержания в актуальном состоянии
-    QGIS, позволяет запускать разные версии на вашей системе и снижать нагрузку на
-    наши сервера.
+  translation: ''
 - id: osgeo4wNetworkInstaller
   translation: Сетевой установщик OSGeo4W
 - id: otherMethodsMoreInfo

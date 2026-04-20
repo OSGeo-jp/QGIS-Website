@@ -5,7 +5,7 @@ HasBanner: true
 LabelText: Free and open source
 Reviewed: 1 June 2024
 Reviewer: Tim Sutton
-SupportedOS: Available on Windows, Mac, Linux
+SupportedOS: 'Disponível para Windows, Mac, Linux '
 draft: false
 heroImage: img/project.jpg
 og_image: img/project.jpg
@@ -17,14 +17,14 @@ type: page
 ---
 {{<content-start >}}
 ## Key features
-{{<tabs tab1="Create maps" tab2="Edit layers" tab3="Process and analyze" tab4="Share maps" >}}
+{{<tabs tab1="Criar mapas" tab2="Edição de camadas " tab3="Processar e analisar" tab4="Compartilhar mapas" >}}
 
 {{< columns-start id="content-tab-1" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Create map](../img/create.gif "Create maps") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
 ###### Class-leading cartography
 Experience QGIS' extensive set of design options to bring your cartographic ideas to life.
-###### Professional map production
+###### Produção profissional de mapa
 Use the intuitive layout design tool to produce high-quality, large-format print maps.
 ###### Powerful reporting tools
 Create atlases and reports with maps, media and tabular content. {{< column-end >}} {{< columns-end >}}
@@ -32,9 +32,9 @@ Create atlases and reports with maps, media and tabular content. {{< column-end 
 {{< columns-start id="content-tab-2" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Edit map](../img/edit.gif "Edit map") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
-###### Exceptional digitizing proficiency
+###### Proficiência excepcional em digitalização
 Create and edit points, lines, polygons, and meshes with precision.
-###### Advanced construction tools
+###### Ferramentas avançadas de construção
 Build geometries with curves, CAD-like tools, and an extensive range of geometry transformations.
 ###### Highly customizable forms
 Create user-friendly forms using our form designer.
@@ -44,11 +44,11 @@ Create user-friendly forms using our form designer.
 {{< columns-start id="content-tab-3" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![visualize map](../img/visualize.gif "visualize map") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
-###### Comprehensive analysis toolset
+###### Conjunto de ferramentas de análise abrangente
 Uncover insights from your data with our comprehensive array of hundreds of analysis tools.
-###### Automated analysis workflows
+###### Fluxos de trabalho de análise automatizados
 Visually combine analysis tools to create reproducible workflows easily.
-###### Extensible analysis environment
+###### Ambiente de análise extensível
 Explore our diverse plugin ecosystem of third-party analysis tools for expanded capabilities.
 
 {{< column-end >}} {{< columns-end >}}
@@ -58,10 +58,10 @@ Explore our diverse plugin ecosystem of third-party analysis tools for expanded 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
 ###### Industry-leading format support
 Conquer data integration challenges with support for a multitude of data sources and formats.
-###### Standards and interoperability
-Amplify your impact by exploring, utilizing, and creating web services based on industry standards.
-###### Publish your work
-Extend QGIS to the cloud and mobile devices for wider accessibility.
+###### Padrões e interoperabilidade
+Amplie seu impacto explorando, utilizando e criando serviços web baseados em padrões da indústria.
+###### Publique seu trabalho 
+Amplie o alcance do QGIS para a nuvem e dispositivos móveis, proporcionando maior acessibilidade.
 
 {{< column-end >}} {{< columns-end >}}
 ## Level up with community resources

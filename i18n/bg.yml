@@ -1,209 +1,220 @@
 - id: activeDevelopment
-  translation: ''
+  translation: Активно развитие
 - id: activeDevelopmentTip
-  translation: ''
+  translation: Това е отвореният етап за приемане на нови функции.
 - id: addToCalendar
-  translation: ''
+  translation: Добавяне към календара
 - id: addYourLogoHere
-  translation: ''
+  translation: Да добавим ли логото си тук?
 - id: addYourMapHere
-  translation: ''
+  translation: Добавете вашата карта тук!
 - id: advancedCartography
-  translation: ''
+  translation: Разширена картография
 - id: alreadyDonated
-  translation: ''
+  translation: Вече сте дарили? Скрийте тази подкана
 - id: annualInternationalConference
-  translation: ''
+  translation: годишна международна конференция
 - id: archive
-  translation: ''
+  translation: Архив
 - id: availablePlatforms
-  translation: ''
+  translation: QGIS е достъпен за Windows, macOS, Linux, Android и iOS.
 - id: becauseOfOurLicense
-  translation: ''
+  translation: Благодарение на нашия лиценз, QGIS е безплатен софтуер с отворен код,
+    завинаги.
 - id: chooseYourLanguage
-  translation: ''
+  translation: Изберете езика си
 - id: codeOfConduct
-  translation: ''
+  translation: Кодекс за поведение
 - id: commitRevision
-  translation: ''
+  translation: Потвърди редакцията
 - id: communityDevelopmentModel
-  translation: ''
+  translation: Нашият модел за развитие на общността дава възможност на всеки да оформи
+    бъдещето на QGIS според своите нужди.
 - id: cookieNotice
-  translation: ''
+  translation: Използваме „бисквитки“ 🍪. Това подобрява работата на сайта и го прави
+    по-ефективен. Като продължите да използвате този сайт, вие се съгласявате с нашите
 - id: cookiePolicy
-  translation: ''
+  translation: политика за бисквитките
 - id: current
   translation: Текущ
 - id: currentVersion
   translation: Tекущата версия на QGIS е %s '%s' и е пусната на %s.
 - id: cursorLocation
-  translation: ''
+  translation: Местоположение на курсора
 - id: days
-  translation: ''
+  translation: Дни
 - id: developmentVersion
   translation: Версия в развитие
 - id: diversityStatement
-  translation: ''
+  translation: Декларация за многообразие
 - id: donate
   translation: Donate
 - id: donateAndDownload
-  translation: ''
+  translation: Дарете и изтеглете
 - id: download
   translation: Изтегляне
 - id: downloadDirectly
-  translation: ''
+  translation: Изтегляне директно
 - id: downloadQGISForYourPlatform
   translation: Изтеглете QGIS за вашата платформа - операционна система
 - id: environmentalPolicy
-  translation: ''
+  translation: Екологична политика
 - id: exploreQgis
-  translation: ''
+  translation: Разгледайте QGIS
 - id: featureFreeze
-  translation: ''
+  translation: Замразяване на функциите
 - id: featureFreezeTip
-  translation: ''
+  translation: По време на замразяването на функциите не се приемат нови функции,
+    а само корекции на грешки и почистване на кода.
 - id: featureInformation
-  translation: ''
+  translation: Информация за функцията
 - id: features
   translation: Свойства
 - id: financiallySupportsUs
-  translation: ''
+  translation: Финансово ни подкрепя
 - id: findLocalGroups
-  translation: ''
+  translation: Намерете местни потребителски групи и доставчици на поддръжка.
 - id: flagshipMembership
-  translation: ''
+  translation: Флагманско членство
 - id: forever
-  translation: ''
+  translation: завинаги
 - id: free
-  translation: ''
+  translation: Безплатно
 - id: freeAndOpenSource
-  translation: ''
+  translation: Безплатно и с отворен код
 - id: freeDownload
-  translation: ''
+  translation: Безплатно изтегляне
 - id: future
-  translation: ''
+  translation: Бъдеще
 - id: getInvolved
   translation: Get involved
 - id: getItForIOS
-  translation: ''
+  translation: Изтеглете го за iOS
 - id: getItForWindows
-  translation: ''
+  translation: Изтеглете го за Windows
 - id: getItOnGitHub
-  translation: ''
+  translation: Вземете го от GitHub
 - id: getItOnGooglePlay
-  translation: ''
+  translation: Изтеглете го от Google Play
 - id: goToQgis
-  translation: ''
+  translation: Отидете на QGIS
 - id: goodies
   translation: Goodies
 - id: gotIt
-  translation: ''
+  translation: Разбрах
 - id: governmentsAndEnterprises
-  translation: ''
+  translation: Правителства и предприятия
 - id: growingTeams
-  translation: ''
+  translation: Развиващи се екипи
 - id: helpsEnsureLongTermSustainability
-  translation: ''
+  translation: Помага за осигуряване на нашата дългосрочна устойчивост
 - id: homepage
-  translation: ''
+  translation: Начална страница
 - id: hours
-  translation: ''
+  translation: Часове
 - id: initialRelease
-  translation: ''
+  translation: Първоначално издание
 - id: initialReleaseTip
-  translation: ''
+  translation: Нашите стабилни версии се създават, като периодично се взема развойна
+    версия и се „заздравява“ с фокусиране само върху корекции на грешки.
 - id: installersAvailable
-  translation: ''
+  translation: Достъпни за инсталиране
 - id: installersAvailableTip
-  translation: ''
+  translation: Точният период между пакетирането и наличността на инсталаторите варира
+    в зависимост от платформата, тъй като поддръжката подготвя своите пакети. Вижте
+    страниците за изтегляне за актуализации относно наличността.
 - id: intramapsRoam
-  translation: ''
+  translation: IntraMaps Скитане
 - id: joinConference1
-  translation: ''
+  translation: Присъединете се към нашия
 - id: joinConference2
-  translation: ''
+  translation: да се проучи бъдещето на ГИС.
 - id: largeMembership
-  translation: ''
+  translation: Голямо членство
 - id: latestPointReleaseTip
-  translation: ''
+  translation: Всеки месец създаваме ново издание за най-новата ни версия. Тези издания
+    не съдържат нови функции, а само корекции на грешки.
 - id: latestRelease
   translation: Последно обновяване
 - id: latestVersionForMacOS
-  translation: ''
+  translation: Стандартна версия за macOS
 - id: latestVersionForWindows
-  translation: ''
+  translation: Най-нова версия за Windows (%s)
 - id: latestVersionForWindowsQt6
-  translation: ''
+  translation: Най-нова версия за Windows (%s) с Qt6 (експериментална)
 - id: learnHowPeopleSolveProblems
-  translation: ''
+  translation: Научете как хора по света решават проблеми с QGIS.
 - id: learnMore
-  translation: ''
+  translation: Научете повече
 - id: license
   translation: Лиценз
 - id: liveDemos
-  translation: ''
+  translation: Демонстрации на живо
 - id: loading
   translation: Зареждане...
 - id: longTermBuilds
-  translation: ''
+  translation: Дългосрочните компилации в момента предоставят %s '%s'. Компилациите
+    с дългосрочно издание (LTR) са предназначени за тези, които ценят стабилността
+    пред най-новите функции. Ако не сте сигурни коя версия е най-подходяща за вас,
+    изтеглете LTR.
 - id: longTermRelease
-  translation: ''
+  translation: Дългосрочно издание (LTR)
 - id: longTermVersionForMacOS
-  translation: ''
+  translation: Дългосрочна версия за macOS
 - id: longTermVersionForWindows
-  translation: ''
+  translation: Дългосрочна версия за Windows (%s %s)
 - id: longTermVersionForWindowsQt6
-  translation: ''
+  translation: Дългосрочна версия за Windows (%s) с Qt6 (експериментална)
 - id: mapEast
-  translation: ''
+  translation: Карта Изток
 - id: mapNorth
-  translation: ''
+  translation: Карта на север
 - id: mapSouth
-  translation: ''
+  translation: Карта Юг
 - id: mapWest
-  translation: ''
+  translation: Карта Запад
 - id: menuAllNews
-  translation: ''
+  translation: Всички новини
 - id: menuAnnualGeneralMeetings
-  translation: ''
+  translation: Годишни общи събрания
 - id: menuAnnualReports
-  translation: ''
+  translation: Годишни отчети
 - id: menuArchLinux
-  translation: ''
+  translation: Arch Linux
 - id: menuArchive
-  translation: ''
+  translation: Архив
 - id: menuBinaryPackagesInstallers
-  translation: ''
+  translation: Бинарни пакети (инсталатори)
 - id: menuBlog
-  translation: ''
+  translation: Блог
 - id: menuBooks
   translation: Books
 - id: menuBrandGuidelines
-  translation: ''
+  translation: Насоки за марката
 - id: menuBugReporting
-  translation: ''
+  translation: Докладване на грешки
 - id: menuCaseStudies
-  translation: ''
+  translation: Казуси
 - id: menuCertificationProgramme
   translation: Certification Programme
 - id: menuCharter
-  translation: ''
+  translation: Харта
 - id: menuCommercialSupport
   translation: Платена поддръжка
 - id: menuCommunicationChannels
-  translation: ''
+  translation: Комуникационни канали
 - id: menuCommunity
   translation: Community
 - id: menuContactAndSupport
   translation: Contact and Support
 - id: menuContainerImages
-  translation: ''
+  translation: Изображения на контейнери
 - id: menuContributorCredits
-  translation: ''
+  translation: Заслуги на сътрудниците
 - id: menuContributorRequirements
-  translation: ''
+  translation: Изисквания към сътрудниците
 - id: menuDebianUbuntu
-  translation: ''
+  translation: Debian / Ubuntu
 - id: menuDocumentation
   translation: Документация
 - id: menuDonate
@@ -217,33 +228,33 @@
 - id: menuFedora
   translation: Fedora
 - id: menuFinance
-  translation: ''
+  translation: Финанси
 - id: menuFlatpak
-  translation: ''
+  translation: Флатпак
 - id: menuFreeBSD
   translation: FreeBSD
 - id: menuFunding
-  translation: ''
+  translation: Финансиране
 - id: menuGetInvolved
   translation: Get involved
 - id: menuGitHubSponsors
-  translation: ''
+  translation: Спонсори на GitHub
 - id: menuGoodies
   translation: Goodies
 - id: menuInfrastructure
-  translation: ''
+  translation: Инфраструктура
 - id: menuInstallationGuide
-  translation: ''
+  translation: Ръководство за инсталиране
 - id: menuInstallingFromSource
-  translation: ''
+  translation: Инсталиране от Източник
 - id: menuLinux
   translation: Linux
 - id: menuLocalUserGroups
   translation: Local User Groups
 - id: menuMacOSX
-  translation: ''
+  translation: Mac OS X / macOS
 - id: menuMacPorts
-  translation: ''
+  translation: MacPorts
 - id: menuMailingLists
   translation: Пощенски списъци
 - id: menuMandriva
@@ -255,27 +266,27 @@
 - id: menuMembers
   translation: Членове
 - id: menuMembersBlogs
-  translation: ''
+  translation: Блогове на членовете
 - id: menuMembership
-  translation: ''
+  translation: Членство
 - id: menuNixOS
-  translation: ''
+  translation: NixOS
 - id: menuOGCCertification
-  translation: ''
+  translation: OGC Сертифициране
 - id: menuOfflineStandaloneInstallers
-  translation: ''
+  translation: Офлайн (самостоятелни) инсталатори
 - id: menuOldReleases
-  translation: ''
+  translation: Стари версии
 - id: menuOnlineOSGeo4WInstaller
-  translation: ''
+  translation: Онлайн инсталатор (OSGeo4W)
 - id: menuOpenBSD
-  translation: ''
+  translation: OpenBSD
 - id: menuOverview
   translation: Преглед
 - id: menuPastMembers
-  translation: ''
+  translation: Бивши членове
 - id: menuPerformance
-  translation: ''
+  translation: Производителност
 - id: menuPlugins
   translation: Добавки
 - id: menuProject
@@ -283,19 +294,19 @@
 - id: menuProjectOrganisation
   translation: Project Organisation
 - id: menuQGISDeveloperMeetings
-  translation: ''
+  translation: Срещи на разработчици на QGIS
 - id: menuQGISFoundation
   translation: QGIS Foundation
 - id: menuQGISMetrics
   translation: QGIS Metrics
 - id: menuQGISTestingWarning
-  translation: ''
+  translation: Предупреждение за тестване на QGIS
 - id: menuQGISUC2025
-  translation: ''
+  translation: QGIS UC 2025
 - id: menuQGISUserMeetings
   translation: QGIS Срещи на потребителите
 - id: menuReimbursementsForDeveloperMeetings
-  translation: ''
+  translation: Възстановявания за срещи с разработчици
 - id: menuReports
   translation: Доклади
 - id: menuResources
@@ -303,128 +314,135 @@
 - id: menuResourcesHub
   translation: Resources Hub
 - id: menuRoadmap
-  translation: ''
+  translation: Пътна карта
 - id: menuSUSEOpenSUSE
   translation: SUSE / openSUSE
 - id: menuScreenshots
   translation: Снимки на екрани
 - id: menuSecurity
-  translation: ''
+  translation: Сигурност
 - id: menuSlackware
   translation: Slackware
 - id: menuSpack
-  translation: ''
+  translation: Spack
 - id: menuStackExchange
-  translation: ''
+  translation: StackExchange
 - id: menuTesting
-  translation: ''
+  translation: Тестване
 - id: menuVisualChangelogs
-  translation: ''
+  translation: Визуални дневници на промените
 - id: menuWindows
   translation: Windows
 - id: merginMapsPlatforms
-  translation: ''
+  translation: Мобилно приложение за Сливане на карти (достъпно за устройства с Android,
+    iOS и Windows)
 - id: minutes
-  translation: ''
+  translation: Мин.
 - id: monthly
-  translation: ''
+  translation: Месечно
 - id: newer
-  translation: ''
+  translation: По-нови
 - id: news
-  translation: ''
+  translation: Новини
 - id: noDataAvailable
-  translation: ''
+  translation: 'Грешка: Няма налични данни'
 - id: of
-  translation: ''
+  translation: от
 - id: offlineInstallers
-  translation: ''
+  translation: Офлайн (самостоятелни) инсталатори
 - id: offlineInstallersDescription
-  translation: ''
+  translation: Тези инсталатори са за потребители, които желаят лесно да споделят
+    изтегления файл, например като го поставят на USB памет или мрежово споделяне.
 - id: older
-  translation: ''
+  translation: По-стари
 - id: oneTime
-  translation: ''
+  translation: Еднократно
 - id: onlineInstaller
-  translation: ''
+  translation: Онлайн инсталатор (OSGeo4W)
 - id: onlineInstallerDescription
   translation: ''
 - id: osgeo4wNetworkInstaller
-  translation: ''
+  translation: OSGeo4W Мрежов инсталатор
 - id: otherMethodsMoreInfo
-  translation: ''
+  translation: Други методи, повече информация
 - id: otherPlatforms
-  translation: ''
+  translation: Други платформи
 - id: overview
   translation: Преглед
 - id: packaging
-  translation: ''
+  translation: Опаковка
 - id: packagingTip
-  translation: ''
+  translation: Тук маркираме изданието и го правим достъпно за пакетиране на различни
+    платформи.
 - id: page
   translation: Страница
 - id: pageNotFound
-  translation: ''
+  translation: Опа! Страницата не е намерена
 - id: pagination
-  translation: ''
+  translation: ' Страница %d от %d'
 - id: perDownload
-  translation: ''
+  translation: /изтегляне
 - id: perYear
-  translation: ''
+  translation: /година
 - id: pointRelease
-  translation: ''
+  translation: Точково издание
 - id: pointReleaseTip
-  translation: ''
+  translation: Замразяването приключва с ново издание, което се разклонява и започва
+    нов цикъл на разработка.
 - id: powerOfOpenSourceCommunity
-  translation: ''
+  translation: Силата на общността с отворен код
 - id: preferFree
-  translation: ''
+  translation: Предпочитам безплатно
 - id: privacyPolicy
-  translation: ''
+  translation: политика за поверителност
 - id: publicationQualityMapProduction
-  translation: ''
+  translation: Производство на карта за качество на публикациите
 - id: qfieldPlatforms
-  translation: ''
+  translation: QField (Android, iOS, Windows, macOS, Linux)
 - id: qgisIsPublicProject
-  translation: ''
+  translation: QGIS е публичен проект, хостван на QGIS.org, лицензиран под GNU GPLv2+,
+    собственост на неговите сътрудници.
 - id: qgisMobileExperience
-  translation: ''
+  translation: Изживяването с QGIS не спира само на настолния компютър. Различни приложения,
+    оптимизирани за докосване, ви позволяват да използвате QGIS на терен.
 - id: qgisSustainingMembers
-  translation: ''
+  translation: Поддържащи членове на QGIS
 - id: quickStartTutorials
-  translation: ''
+  translation: Бързи уроци
 - id: readMore
-  translation: ''
+  translation: Прочетете още
 - id: reportIssue
-  translation: ''
+  translation: Проблеми с този уебсайт? Съобщете за проблем тук 🐙
 - id: searchResults
   translation: Резултати от търсене
 - id: seconds
-  translation: ''
+  translation: Сек.
 - id: skipToDownload
-  translation: ''
+  translation: Пропуснете го и отидете на изтегляне
 - id: spatialAnalysis
-  translation: ''
+  translation: Пространствени анализи
 - id: startUsingQgis
-  translation: ''
+  translation: Започнете да използвате QGIS
 - id: startupsAndSmallBusinesses
-  translation: ''
+  translation: Стартиращи компании & Малки Предприятия
 - id: subscribeAndDownload
-  translation: ''
+  translation: Абонирайте се и изтеглете
 - id: supportFromVolunteerCommunity
-  translation: ''
+  translation: Подкрепа от нашата доброволческа общност
 - id: thirdPartyTouchOptimizedApps
-  translation: ''
+  translation: Приложения на трети страни, оптимизирани за докосване
 - id: upToDateDocumentation
-  translation: ''
+  translation: Актуална документация
 - id: usedBy
-  translation: ''
+  translation: Използва се от
 - id: vectorAndRasterFormats
-  translation: ''
+  translation: Векторни и растерни формати
 - id: vectorEditing
-  translation: ''
+  translation: Векторно редактиране
 - id: viewDocumentation
-  translation: ''
+  translation: Преглед на документацията
 - id: visualStyleGuide
-  translation: ''
+  translation: Ръководство за визуален стил
 - id: windows64BitOnly
-  translation: ''
+  translation: ⚠️ От QGIS 3.20 нататък доставяме само 64-битови изпълними файлове
+    за Windows.

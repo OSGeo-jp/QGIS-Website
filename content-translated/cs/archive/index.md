@@ -10,7 +10,7 @@ type: page
 ---
 {{<content-start >}}
 # Archivovat
-Previous releases of QGIS are available at the following locations:
+Předchozí vydání QGISu jsou dostupná na následujících místech:
 * [QGIS.org hosted downloads](/downloads)
 * [Older releases for macOS / OS X](/downloads/macOS/)
 * [OSGeo hosted downloads](https://download.osgeo.org/qgis/)

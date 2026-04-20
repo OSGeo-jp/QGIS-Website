@@ -27,9 +27,9 @@ Du hittar dokumentation för varje QGIS Long Term Release (LTR) på respektive d
 
 {{<language-select >}}
 
-{{<tabs tab1="QGIS |ltrversion|" tab2="QGIS |version|" tab3="QGIS testing (>|version|)" tab4="Arkiverade utgåvor" tab5="Dataskydd" >}}
+<!--{{< tabs tab1="QGIS |ltrversion|" tab2="QGIS |version|" tab3="QGIS testing (>|version|)" tab4="Archived releases" tab5="Data protection">}} -->
 
-<!--{{< tabs tab1="QGIS |ltrversion|" tab2="QGIS testing (>|ltrversion|)" tab3="Archived releases" tab4="Data protection">}} -->
+{{<tabs tab1="QGIS |ltrversion|" tab2="QGIS-testning (>|ltrversion|)" tab3="Arkiverade utgåvor" tab4="Dataskydd" >}}
 
 {{< tab-content-start tab="1" >}} **För användare (QGIS {{< param "ltrversion" >}}):**
 
@@ -63,39 +63,43 @@ Du hittar dokumentation för varje QGIS Long Term Release (LTR) på respektive d
 
 {{<tab-content-end >}}
 
-{{< tab-content-start tab="2" >}} **For users (QGIS {{< param "version" >}}):**
+<!--{{< tab-content-start tab="2" >}}
+**For users (QGIS {{< param "version" >}}):**
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/user_manual" layoutClass="inline-block link-with-language" listTitle="Användarhandbok för stationära datorer <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/user_manual"  layoutClass="inline-block link-with-language" listTitle="Desktop User Guide — <lang>" >}}
+ 
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/training_manual"  layoutClass="inline-block link-with-language" listTitle="QGIS Training manual — <lang>">}}
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/training_manual" layoutClass="inline-block link-with-language" listTitle="QGIS Utbildningshandbok - <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/gentle_gis_introduction"  layoutClass="inline-block link-with-language" listTitle="Gentle Intro to GIS — <lang>" >}}
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/gentle_gis_introduction" layoutClass="inline-block link-with-language" listTitle="Lätt introduktion till GIS <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/server_manual"  layoutClass="inline-block link-with-language" listTitle="Server Guide — <lang>" >}}
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/server_manual" layoutClass="inline-block link-with-language" listTitle="Serverhandbok - <lang>" >}}
 
 **For documentation writers (QGIS {{< param "version" >}}):**
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/documentation_guidelines" layoutClass="inline-block link-with-language" listTitle="Riktlinjer för dokumentation - <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/documentation_guidelines"  layoutClass="inline-block link-with-language" listTitle="Documentation Guidelines — <lang>">}}
+
 
 **For developers (QGIS {{< param "version" >}}):**
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/pyqgis_developer_cookbook" layoutClass="inline-block link-with-language" listTitle="PyQGIS kokbok (för insticksprogram och skript) - <lang>" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/<lang>/docs/pyqgis_developer_cookbook"  layoutClass="inline-block link-with-language" listTitle="PyQGIS cookbook (for plugins and scripting) — <lang>">}}
 
-{{<rich-list listLink="https://qgis.org/pyqgis/|version|/" layoutClass="inline-block" listTitle="PyQGIS - QGIS Python Api-dokumentation" >}}
+{{< rich-list listLink="https://qgis.org/pyqgis/|version|/"  layoutClass="inline-block" listTitle="PyQGIS - QGIS Python Api documentation" >}}
 
-{{<rich-list listLink="https://qgis.org/api/|version|/" layoutClass="inline-block" listTitle="Dokumentation av C++ API" >}}
 
-{{<rich-list listLink="https://github.com/qgis/QGIS/blob/release-|version|/INSTALL.md" layoutClass="inline-block" listTitle="Bygga QGIS från källkod" >}}
+{{< rich-list listLink="https://qgis.org/api/|version|/"  layoutClass="inline-block" listTitle="C++ API documentation" >}}
+
+{{< rich-list listLink="https://github.com/qgis/QGIS/blob/release-|version|/INSTALL.md"  layoutClass="inline-block" listTitle="Building QGIS from Source" >}}
 
 **For download (QGIS {{< param "version" >}}):**
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/pdf" layoutClass="inline-block" listTitle="PDF av manualerna" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/pdf"  layoutClass="inline-block" listTitle="PDF of the manuals" >}}
 
-{{<rich-list listLink="https://docs.qgis.org/|version|/zip" layoutClass="inline-block" listTitle="HTML-zip av manualerna" >}}
+{{< rich-list listLink="https://docs.qgis.org/|version|/zip"  layoutClass="inline-block" listTitle="HTML zip of the manuals" >}}
 
-{{<tab-content-end >}}
+{{< tab-content-end >}} -->
 
-{{<tab-content-start tab="3" >}}
+{{<tab-content-start tab="2" >}}
 
 Vi håller fortfarande på att uppdatera (inte översätta ännu) dokumentationen för versioner som är nyare än QGIS {{< param "ltrversion" >}}. Vi kallar den här versionen för "QGIS Testing" och dokumentationen finns här:
 
@@ -131,7 +135,9 @@ Vi håller fortfarande på att uppdatera (inte översätta ännu) dokumentatione
 
 {{<tab-content-end >}}
 
-{{<tab-content-start tab="4" >}}
+{{<tab-content-start tab="3" >}}
+
+{{<rich-list listLink="https://docs.qgis.org/3.40/<lang>" layoutClass="inline-block link-with-language" listTitle="QGIS 3.40 Documentation — <lang>" >}}
 
 {{<rich-list listLink="https://docs.qgis.org/3.34/<lang>" layoutClass="inline-block link-with-language" listTitle="QGIS 3.34 Dokumentation - (på engelska) <lang>" >}}
 
@@ -149,7 +155,7 @@ Vi håller fortfarande på att uppdatera (inte översätta ännu) dokumentatione
 
 {{<tab-content-end >}}
 
-{{<tab-content-start tab="5" >}}
+{{<tab-content-start tab="4" >}}
 
 I enlighet med GDPR och relaterade dataskyddsbestämmelser tillhandahåller vi följande dokumentation:
 

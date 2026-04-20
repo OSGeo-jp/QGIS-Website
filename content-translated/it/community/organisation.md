@@ -8,13 +8,13 @@ type: page
 ---
 {{<content-start >}}
 # Who's Who
-QGIS as a Project is currently organised as an association legally based in Switzerland with the following structure:
+QGIS come Progetto è correntemente organizzato come associazione con sede legale in Svizzera, con la seguente struttura:
 
 ![QGIS Organizational Structure](./QGIS-ORG_Organizational_structure.png)
 
 Struttura Organizzativa di QGIS
 
-The QGIS project is managed by the Board (3 members, legal representation) and the PSC which consists of 6 members (with their individual responsibilities listed in brackets):
+Il Progetto QGIS è gestito dal Board (3 membri, rappresentazione legale) e dal PSC composto da 6 membri (con le rispettive responsabilità indicate tra parentesi):
 
 Consiglio
 -
@@ -22,7 +22,7 @@ Consiglio
 * Anita Graser (Vice chair) \[dal 9.2022\]
 * Andreas Neumann (Tesoriere; Referente per i Membri Sostenitori) \[da 11.2015\]
 
-To contact the board, please write to [board@qgis.org](mailto:board@qgis.org).
+Per contattare il Board, si prega di scrivere a [board@qgis.org](mailto:board@qgis.org).
 
 Project Steering Committee (Consiglio Direttivo del Progetto)
 -
@@ -55,10 +55,10 @@ QGIS.ORG Via Geinas 2, CH-7031 Laax
 * Harrissou Sant-anna \[dal 5.2020\]
 * Nyall Dawson \[dal 5.2020\]
 
-### Voting Members
-According to our statutes, for each user group that is formed, that group will select a QGIS User Group Voting Member to represent their interests. These voting members are listed [here]({{< ref "/community/groups.md" >}}) . Please email [trademark@qgis.org](mailto:trademark@qgis.org) if you have registered a new user group, or have changed your user group representative.
+### Membri votanti
+In base al nostro statuto, ogni gruppo di utenti che viene costituito seleziona un membro votante del gruppo di utenti QGIS che ne rappresenti gli interessi. L'elenco dei membri votanti è disponibile [qui]({{< ref "/community/groups.md" >}}). Se avete registrato un nuovo gruppo di utenti o avete cambiato il rappresentante del vostro gruppo, inviate un'e-mail all'indirizzo [trademark@qgis.org](mailto:trademark@qgis.org).
 ### Membri con diritto di voto della Comunità
-According to our statutes, one member from the broader community can be elected for each voting member. The following list includes the current community voting members:
+In base ai nostri statuti, per ogni membro votante può essere eletto un membro della comunità più ampia. Il seguente elenco include i membri votanti correnti della comunità:
 * Martin Dobias, Slovacchia
 * Nathan Woodrow, Australia
 * Matthias Kuhn, Svizzera
@@ -81,7 +81,7 @@ Aggiunti nel 2017
 * Mathieu Pellerin, Indonesia
 * Luigi Pirelli, Spagna
 * Alexandre Neto, Portogallo
-* Tom Chadwin, Regno Unito
+* Tom Chadwin, United Kingdom
 * Marco Hugentobler, Svizzera
 
 Aggiunti nel 2018
@@ -91,7 +91,7 @@ Aggiunti nel 2019
 * Nessuno (nessun nuovo gruppo di utenti creato)
 
 Aggiunti nel 2020
-* David Signer, Svizzera
+* David Signer, Switzerland
 * Enrico Ferreguti, Italia
 * Etienne Trimaille, Francia
 * Pedro Venâncio, Portogallo
@@ -106,9 +106,12 @@ Aggiunti nel 2022
 * Germán Carrillo, Colombia
 
 Added 2024
-* Stefanos Natsis, Greece
-* Isabel Kiefer, Switzerland
-* Damiano Lombardi, Switzerland
+* Stefanos Natsis, Grecia
+* Isabel Kiefer, Svizzera
+* Damiano Lombardi, Svizzera
+
+Added 2026
+* Lova Andriarimalala, Madagascar
 
 ### Membro con diritto di voto di OSGEO
 * Michael Smith [dal 2015/16]
@@ -118,7 +121,7 @@ Attuale Responsabile delle Release: Jürgen E. Fischer
 
 I rilasci di QGIS sono gestiti dal Release Team (Release Manager e Release Assistants). Insieme a numerosi collaboratori, essi cercano di garantire rilasci puntuali, regolari e stabili di QGIS sulle varie piattaforme supportate. Il Release Team recluta e aiuta volontari a creare pacchetti per le varie piattaforme supportate e gestiscono il sistema di bug tracking.
 ### Packaging Team
-QGIS is being packaged for different types of operating systems. The people responsible for these packages are as follows:
+QGIS viene pacchettizzato per diversi tipi di sistemi operativi. Le persone responsabili di questi pacchetti sono le seguenti:
 * Windows Team: Jürgen E. Fischer
 * MacOS Team: Matthias Kuhn, OPENGIS.ch
 * Team Linux:
@@ -133,11 +136,11 @@ QGIS is being packaged for different types of operating systems. The people resp
 * macOS: Denis Rouzaud, Matthias Kuhn, Isabel Kiefer
 
 ### Team Sicurezza
-For security questions, please write to [security@qgis.org](mailto:security@qgis.org).
+Per domande di sicurezza, si prega di scrivere a [security@qgis.org](mailto:security@qgis.org).
 
 Risorse della comunità
 -
-The QGIS community resources are managed by the Community Team (Community Manager and Assistants). With numerous contributors they keep contact to the community, take care of QGIS events, documentation, GUI translations, and ensure smooth running of the QGIS.org online experience including web sites, blog, and mailing lists.
+Le risorse della comunità QGIS sono gestite dal Community Team (Community Manager e Assistenti). Con numerosi contributori mantengono i contatti con la comunità, si occupano degli eventi QGIS, della documentazione, delle traduzioni della GUI, e garantiscono il corretto funzionamento dell'esperienza online di QGIS.org, inclusi siti web, blog e mailing list.
 
 Current Community Team Leaders:
 * Lene Fischer (community tasks)

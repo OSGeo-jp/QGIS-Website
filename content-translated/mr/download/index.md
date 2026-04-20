@@ -8,7 +8,6 @@ subtitle: ''
 title: डाउनलोड करा
 type: page
 
-
 ---
 {{<content-start >}}
 
@@ -26,7 +25,11 @@ Our very best regards!
 Donations to QGIS might be tax-deductible in some countries. Please refer to your local tax office for details. If you want to tax-deduct as a German company or organization, please donate through the <a href="https://qgis.de/doku.php/verein/spenden">German QGIS user group</a>. They can issue a payment confirmation as a tax-exempt German association.
 </p>
 
-{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< payrexx-widget otherMethods="true" skipToDownload="true" >}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< stripe-widget otherMethods="true" skipToDownload="true" >}}
+
+<!-- {{< payrexx-widget otherMethods="true" skipToDownload="true" >}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{<download-platform-selector-start >}}
 
@@ -37,8 +40,6 @@ Donations to QGIS might be tax-deductible in some countries. Please refer to you
 {{<platform-content-start platform="macos" >}}
 ## macOS
 {{<download-macos >}}
-
-Note: There are no QGIS 3.40 LTR builds available on macOS. QGIS 3.44 is stable and has been designated as the future Long Term Release (LTR); therefore 3.44 is the recommended version for macOS users.
 
 Alternatively, it is also possible to install QGIS via MacPorts, see the [MacPorts Installing Instructions]({{< ref "resources/installation-guide/#macports" >}})
 

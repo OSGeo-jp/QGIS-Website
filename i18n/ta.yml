@@ -33,13 +33,13 @@
 - id: cookiePolicy
   translation: ''
 - id: current
-  translation: ''
+  translation: மின்னோட்ட்ம், ஓட்டம்
 - id: currentVersion
   translation: ''
 - id: cursorLocation
   translation: ''
 - id: days
-  translation: ''
+  translation: நாட்கள்
 - id: developmentVersion
   translation: ''
 - id: diversityStatement
@@ -107,7 +107,7 @@
 - id: homepage
   translation: ''
 - id: hours
-  translation: ''
+  translation: மணி
 - id: initialRelease
   translation: ''
 - id: initialReleaseTip
@@ -137,9 +137,9 @@
 - id: learnHowPeopleSolveProblems
   translation: ''
 - id: learnMore
-  translation: ''
+  translation: மேலும் அறிக
 - id: license
-  translation: ''
+  translation: உரிமம்
 - id: liveDemos
   translation: ''
 - id: loading
@@ -209,7 +209,7 @@
 - id: menuDonate
   translation: Donate
 - id: menuDonors
-  translation: ''
+  translation: Donors
 - id: menuDownload
   translation: Download
 - id: menuFAQ
@@ -249,7 +249,7 @@
 - id: menuMandriva
   translation: ''
 - id: menuMaps
-  translation: ''
+  translation: வரைபடங்கள்
 - id: menuMeetings
   translation: Meetings
 - id: menuMembers
@@ -271,7 +271,7 @@
 - id: menuOpenBSD
   translation: ''
 - id: menuOverview
-  translation: ''
+  translation: கண்ணோட்டம்
 - id: menuPastMembers
   translation: ''
 - id: menuPerformance
@@ -279,7 +279,7 @@
 - id: menuPlugins
   translation: Plugins
 - id: menuProject
-  translation: ''
+  translation: திட்டம்
 - id: menuProjectOrganisation
   translation: Project Organisation
 - id: menuQGISDeveloperMeetings
@@ -297,7 +297,7 @@
 - id: menuReimbursementsForDeveloperMeetings
   translation: ''
 - id: menuReports
-  translation: ''
+  translation: அறிக்கைகள்
 - id: menuResources
   translation: Resources
 - id: menuResourcesHub
@@ -321,7 +321,7 @@
 - id: menuVisualChangelogs
   translation: ''
 - id: menuWindows
-  translation: ''
+  translation: சாளரங்கள்
 - id: merginMapsPlatforms
   translation: ''
 - id: minutes
@@ -355,13 +355,13 @@
 - id: otherPlatforms
   translation: ''
 - id: overview
-  translation: ''
+  translation: கண்ணோட்டம்
 - id: packaging
   translation: ''
 - id: packagingTip
   translation: ''
 - id: page
-  translation: ''
+  translation: பக்கம்
 - id: pageNotFound
   translation: ''
 - id: pagination

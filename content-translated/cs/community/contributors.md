@@ -16,7 +16,7 @@ Celebrating QGIS contributors who received the prestigious Sol Katz Award for ex
 
 <div style="text-align:center;">
 	<a href="/community/contributors/sol-katz-award/" class="button is-success">
-		View recipients
+		Zobrazit příjemce
 	</a>
 </div>
 
@@ -39,12 +39,12 @@ Organizations making meaningful contributions to the QGIS project through develo
 {{<rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Individual Contributors
+## Jednotliví přispěvatelé
 Celebrating the developers and contributors who help build QGIS through their code contributions and collaborative efforts.
 
 <div style="text-align:center;">
 	<a href="/community/contributors/individuals/" class="button is-success">
-		View list
+		Zobrazit seznam
 	</a>
 </div>
 

@@ -361,9 +361,7 @@
 - id: onlineInstaller
   translation: Online (OSGeo4W) telepítő
 - id: onlineInstallerDescription
-  translation: Ez a telepítő a legjobb módja annak, hogy naprakészen tartsa a QGIS-t,
-    több verziót futtasson a rendszerén, és minimálisra csökkentse a letöltési szervereink
-    terhelését.
+  translation: ''
 - id: osgeo4wNetworkInstaller
   translation: OSGeo4W hálózati telepítő
 - id: otherMethodsMoreInfo

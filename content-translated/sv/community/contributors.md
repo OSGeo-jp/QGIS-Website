@@ -39,7 +39,7 @@ Organizations making meaningful contributions to the QGIS project through develo
 {{<rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Individual Contributors
+## Individuella bidragsgivare
 Celebrating the developers and contributors who help build QGIS through their code contributions and collaborative efforts.
 
 <div style="text-align:center;">

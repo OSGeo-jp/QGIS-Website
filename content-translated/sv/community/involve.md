@@ -66,6 +66,10 @@ Vi välkomnar två typer av finansiella bidrag:
 
 {{< button class = "is-primary1" link = "funding/membership" text = "Bli en stödmedlem" >}} {{< button class = "is-primary6" link = "funding/donate" text = "Engångsdonation" >}}
 
-{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< payrexx-widget otherMethods="true">}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< stripe-widget otherMethods="true">}}
+
+<!-- {{< payrexx-widget otherMethods="true">}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{<content-end >}}

@@ -66,6 +66,10 @@ Er zijn twee soorten financiële bijdragen die we verwelkomen:
 
 {{< button class = "is-primary1" link = "funding/membership" text = "Dragend lid worden" >}} {{< button class = "is-primary6" link = "funding/donate" text = "Eenamlige donatie" >}}
 
-{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< payrexx-widget otherMethods="true">}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< stripe-widget otherMethods="true">}}
+
+<!-- {{< payrexx-widget otherMethods="true">}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{<content-end >}}

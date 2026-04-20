@@ -3,7 +3,8 @@ HasBanner: true
 draft: false
 heroImage: img/involve.jpg
 sidebar: true
-subtitle: Recognizing the amazing people and organizations that make QGIS possible
+subtitle: Riconoscimento alle persone e alle organizzazioni straordinarie che rendono
+  possibile QGIS
 title: Contributori di QGIS
 type: page
 
@@ -11,55 +12,43 @@ type: page
 {{<content-start >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Sol Katz Award Recipients
-Celebrating QGIS contributors who received the prestigious Sol Katz Award for exceptional leadership and contributions to geospatial open source software.
+## Vincitori del Premio Sol Katz
+Celebrazione dei collaboratori di QGIS che hanno ricevuto il prestigioso premio Sol Katz per la loro eccezionale leadership e il loro contributo al software geospaziale open source.
 
-<div style="text-align:center;">
-	<a href="/community/contributors/sol-katz-award/" class="button is-success">
-		View recipients
-	</a>
-</div>
+1  → 2  → Visualizza destinatari  → 2  → 1
 
-{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< contribution-stats "sol-katz" "/community/contributors/sol-katz-award/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start >}}{{< contribution-stats "sol-katz" "/community/contributors/sol-katz-award/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Contributing Organizations
-Organizations making meaningful contributions to the QGIS project through development and collaboration
+## Organizzazioni Sostenitrici
+Organizzazioni che contribuiscono in modo significativo al progetto QGIS attraverso lo sviluppo e la collaborazione
 
 <div style="text-align:center;">
 	<a href="/community/contributors/organisations/" class="button is-success">
-		View list
+		Visualizza elenco
 	</a>
 </div>
 
 {{<rich-content-end >}}
 
-{{< rich-right-start >}}<br />{{< contribution-stats "orgs" "/community/contributors/organisations/" >}} {{< rich-right-end >}}
+{{< rich-right-start >}}{{< contribution-stats "orgs" "/community/contributors/organisations/" >}} {{< rich-right-end >}}
 
 {{<rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Individual Contributors
-Celebrating the developers and contributors who help build QGIS through their code contributions and collaborative efforts.
+## Collaboratori individuali
+Celebriamo gli sviluppatori e i collaboratori che contribuiscono alla realizzazione di QGIS attraverso i loro contributi di codice e il loro lavoro di squadra.
 
-<div style="text-align:center;">
-	<a href="/community/contributors/individuals/" class="button is-success">
-		View list
-	</a>
-</div>
+1  → 2  → Visualizza elenco  → 2  → 1
 
-{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< contribution-stats "individuals" "/community/contributors/individuals/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start >}}{{< contribution-stats "individuals" "/community/contributors/individuals/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-## Supporting Contributors
-Recognizing valuable contributions beyond code commits—community support, outreach, and behind-the-scenes efforts.
+## Collaboratori sostenitori
+Riconoscendo i contributi preziosi al di là dei commit di codice—supporto alla comunità, divulgazione e sforzi dietro le quinte.
 
-<div style="text-align:center;">
-	<a href="/community/contributors/supporting/" class="button is-success">
-		View list
-	</a>
-</div>
+1  → 2  → Visualizza elenco  → 2  → 1 
 
-{{< rich-content-end >}} {{< rich-right-start >}}<br />{{< contribution-stats "supporting" "/community/contributors/supporting/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start >}}{{< contribution-stats "supporting" "/community/contributors/supporting/" >}} {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{<content-end >}}

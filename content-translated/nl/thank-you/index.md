@@ -1,10 +1,11 @@
 ---
 HasBanner: false
+aliases:
+- /nl/download/thank-you
 draft: false
 sidebar: true
 title: Dank u voor het kiezen van QGIS!
 type: page
-aliases: ["/download/thank-you"]
 
 ---
 {{<content-start >}}
@@ -28,7 +29,11 @@ Of u ervoor kiest om te doneren of niet, we hopen dat u geniet van ons werk van 
 
 Onze allerbeste groeten!
 
-{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< payrexx-widget otherMethods="true" alreadyDonated="true">}} {{< rich-right-end >}} {{< rich-box-end >}}
+{{< rich-content-end >}} {{< rich-right-start mode="html" >}} {{< stripe-widget otherMethods="true" alreadyDonated="true">}}
+
+<!-- {{< payrexx-widget otherMethods="true" alreadyDonated="true">}} -->
+
+{{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="qgis_first_conference mt-6">}} {{< rich-content-start >}} ![QGIS ontwikkelaars 1ste bijeenkomst](qgis_1st_conference.png "QGIS ontwikkelaars 1ste bijeenkomst") {{< rich-content-end >}} {{< rich-box-end >}}
 

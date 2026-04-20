@@ -81,7 +81,7 @@ Adăugați în 2017
 * Mathieu Pellerin, Indonezia
 * Luigi Pirelli, Spania
 * Alexandre Neto, Portugalia
-* Tom Chadwin, Marea Britanie
+* Tom Chadwin, United Kingdom
 * Marco Hugentobler, Elveția
 
 Adăugați în 2018
@@ -91,7 +91,7 @@ Adăugați în 2019
 * Niciunul (nu s-au înființat noi grupuri de utilizatori)
 
 Adăugați în 2020
-* David Signer, Elveția
+* David Signer, Switzerland
 * Enrico Ferreguti, Italia
 * Etienne Trimaille, Franța
 * Pedro Venâncio, Portugalia
@@ -109,6 +109,9 @@ Added 2024
 * Stefanos Natsis, Greece
 * Isabel Kiefer, Switzerland
 * Damiano Lombardi, Switzerland
+
+Added 2026
+* Lova Andriarimalala, Madagascar
 
 ### Membrii OSGEO cu Drept de Vot
 * Michael Smith [din 2015/16]

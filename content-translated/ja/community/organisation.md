@@ -81,7 +81,7 @@ According to our statutes, one member from the broader community can be elected 
 * Mathieu Pellerin, インドネシア
 * Luigi Pirelli, スペイン
 * Alexandre Neto, ポルトガル
-* Tom Chadwin, イギリス
+* Tom Chadwin, United Kingdom
 * Marco Hugentobler, スイス
 
 2018年追加
@@ -91,7 +91,7 @@ According to our statutes, one member from the broader community can be elected 
 * なし （新しいユーザーグループは作られませんでした）
 
 2020年追加
-* David signer, スイス
+* David Signer, Switzerland
 * Enrico Ferreguti, イタリア
 * Etienne Trimaille, フランス
 * Pedro Venâncio, ポルトガル
@@ -109,6 +109,9 @@ Added 2024
 * Stefanos Natsis, Greece
 * Isabel Kiefer, Switzerland
 * Damiano Lombardi, Switzerland
+
+Added 2026
+* Lova Andriarimalala, Madagascar
 
 ### OSGEO Voting Member
 * Michael Smith [since 2015/16]

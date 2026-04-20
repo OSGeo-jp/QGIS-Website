@@ -11,15 +11,15 @@ type: page
 ---
 {{<content-start >}}
 # Certification Programme
-## QGIS Certificate
+## Certificado QGIS
 Are you looking for courses with the official QGIS certificate? At the [QGIS Certification Programme website](https://certification.qgis.org/), you can explore an interactive map to locate organisations in your country that offer certified QGIS training and find upcoming courses that provide an official QGIS certificate.
 
 ![Students with certificate](../students_with_certificate.webp "Students with certificate")
-## Become a QGIS certified training organisation
+## Torne-se uma organização de treinamento certificada em QGIS
 Does your organisation participate actively in the QGIS community and offer high-quality training courses with QGIS? Then consider applying for the **QGIS Certification Programme**. As a member, you'll be able to issue the official QGIS certificate to participants of your courses, workshops and training. Each certificate contributes €20 to QGIS.
 ### Processo de Certificação
-#### Requirements
-The QGIS Certification Programme is designed to promote both community involvement in the QGIS project and quality education for QGIS software. The application process requires applicants to detail their contributions to the QGIS project and make their training materials available for review. Contributions to the QGIS project include activities such as:
+#### Requerimentos
+O Programa de Certificação QGIS foi concebido para promover tanto o envolvimento da comunidade no projeto QGIS quanto a educação de qualidade no software QGIS. O processo de aplicação exige que os candidatos detalhem suas contribuições para o projeto QGIS e disponibilizem seus materiais de treinamento para avaliação. As contribuições para o projeto QGIS incluem atividades como:
 * Desenvolvimento/ comprometimento ao QGIS
 * Contribuições a documentação e materiais de treinamento do QGIS
 * Tradução de materiais para o QGIS

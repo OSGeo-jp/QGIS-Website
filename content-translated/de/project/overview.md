@@ -24,7 +24,7 @@ type: page
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
 ###### Class-leading cartography
 Experience QGIS' extensive set of design options to bring your cartographic ideas to life.
-###### Professional map production
+###### Professionelle Kartenerstellung
 Use the intuitive layout design tool to produce high-quality, large-format print maps.
 ###### Powerful reporting tools
 Create atlases and reports with maps, media and tabular content. {{< column-end >}} {{< columns-end >}}

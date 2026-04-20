@@ -56,12 +56,12 @@ Explore our diverse plugin ecosystem of third-party analysis tools for expanded 
 {{< columns-start id="content-tab-4" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![share map](../img/share.gif "share map") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
-###### Industry-leading format support
+###### Prise en charge des formats à la pointe du secteur
 Conquer data integration challenges with support for a multitude of data sources and formats.
 ###### Standards et interopérabilité
-Amplify your impact by exploring, utilizing, and creating web services based on industry standards.
+Renforcez votre impact en explorant, en exploitant et en créant des services web basés sur les normes du secteur.
 ###### Publiez votre travail
-Extend QGIS to the cloud and mobile devices for wider accessibility.
+Étendre QGIS au cloud et aux appareils mobiles pour une accessibilité accrue.
 
 {{< column-end >}} {{< columns-end >}}
 ## Level up with community resources
