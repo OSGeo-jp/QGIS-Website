@@ -1070,11 +1070,14 @@ sectionPagesMenu = 'main'
     weight = 2
     contentDir = "content-translated/ru"
 
-    [languages.hu]
-    languageCode = "hu"
-    weight = 2
-    contentDir = "content-translated/hu"
 
+    [languages.fr]
+    languageCode = "fr"
+    weight = 2
+
+    [languages.it]
+    languageCode = "it"
+    weight = 2
 [module]
   # English (base language) - only original content
   [[module.mounts]]
@@ -1120,11 +1123,19 @@ sectionPagesMenu = 'main'
     lang = "ru"
 
   [[module.mounts]]
-    source = "content-translated/hu"
+    source = "content-translated/fr"
     target = "content"
-    lang = "hu"
+    lang = "fr"
   [[module.mounts]]
     source = "content"
     target = "content"
-    lang = "hu"
+    lang = "fr"
 
+  [[module.mounts]]
+    source = "content-translated/it"
+    target = "content"
+    lang = "it"
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    lang = "it"
