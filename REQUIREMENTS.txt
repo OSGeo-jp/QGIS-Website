@@ -26,4 +26,5 @@ icalendar==5.0.12
 pillow==10.4.0 
 stripe==11.4.1
 hugo-gettext==0.6.0
+polib>=1.2.0
 boto3>=1.28.0
