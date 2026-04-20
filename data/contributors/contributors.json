@@ -5,15 +5,15 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-04-19T09:34:50.873773+00:00",
-  "total_contributors": 1024,
+  "generated_at": "2026-04-20T04:26:44.651964+00:00",
+  "total_contributors": 1025,
   "contributors": [
     {
       "login": "nyalldawson",
       "avatar_url": "https://avatars.githubusercontent.com/u/1829991?u=aa8023a3683a5a3799faa0e0fbcccbeb43575af5&v=4",
-      "total_contributions": 25023,
+      "total_contributions": 25025,
       "thematics": {
-        "qgis_core": 25002,
+        "qgis_core": 25004,
         "documentation": 19,
         "web_sites": 2
       },
@@ -33,10 +33,10 @@
     {
       "login": "DelazJ",
       "avatar_url": "https://avatars.githubusercontent.com/u/7983394?u=b2c76a3d83057b6f3b0ce59280ca38cfa69951cf&v=4",
-      "total_contributions": 6576,
+      "total_contributions": 6583,
       "thematics": {
         "qgis_core": 1110,
-        "documentation": 5446,
+        "documentation": 5453,
         "web_sites": 20
       },
       "has_github_account": true
@@ -77,9 +77,9 @@
     {
       "login": "3nids",
       "avatar_url": "https://avatars.githubusercontent.com/u/127259?u=97c016a3415edf05e629ee8dc20e306dee4f1189&v=4",
-      "total_contributions": 3562,
+      "total_contributions": 3570,
       "thematics": {
-        "qgis_core": 3538,
+        "qgis_core": 3546,
         "documentation": 19,
         "web_sites": 5
       },
@@ -5725,6 +5725,17 @@
         "documentation": 3,
         "web_sites": 0,
         "qgis_core": 0
+      },
+      "has_github_account": true
+    },
+    {
+      "login": "mpetroff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1450212?u=53346a237599c6bf7a898d46f3ca487e76e22175&v=4",
+      "total_contributions": 3,
+      "thematics": {
+        "qgis_core": 3,
+        "documentation": 0,
+        "web_sites": 0
       },
       "has_github_account": true
     },
