@@ -18,21 +18,22 @@ help:
 build: ## Build the site for www.qgis.org and qgis.org
 	@echo
 	@echo "------------------------------------------------------------------"
-	@echo "Building site in production (staging dirs)"
+	@echo "Building site in production (qgis.org)"
 	@echo "------------------------------------------------------------------"
 	sh ./scripts/get_commit_hash.sh
 	PUBLIC_DIR=public_prod.build CONFIG_PROD=config/config.prod.toml bash scripts/build_prod_per_lang.sh
-	PUBLIC_DIR=public_www.build CONFIG_PROD=config/config.www.toml bash scripts/build_prod_per_lang.sh
-	@echo "------------------------------------------------------------------"
-	@echo "Swapping staging builds into place"
-	@echo "------------------------------------------------------------------"
 	@if [ -d public_prod ]; then mv public_prod public_prod.old; fi
 	@mv public_prod.build public_prod
 	@rm -rf public_prod.old
+	@echo "public_prod is now live."
+	@echo "------------------------------------------------------------------"
+	@echo "Building site in production (www.qgis.org)"
+	@echo "------------------------------------------------------------------"
+	PUBLIC_DIR=public_www.build CONFIG_PROD=config/config.www.toml bash scripts/build_prod_per_lang.sh
 	@if [ -d public_www ]; then mv public_www public_www.old; fi
 	@mv public_www.build public_www
 	@rm -rf public_www.old
-	@echo "Done. public_prod and public_www are now live."
+	@echo "public_www is now live."
 
 
 deploy: ## Deploy the site for www.qgis.org and qgis.org
