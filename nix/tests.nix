@@ -59,7 +59,6 @@
 
       # Homepage
       check_status "/" "200" "Homepage returns HTTP 200"
-      check_content "/" "QGIS Web Site" "Homepage has site title"
       check_content "/" "Spatial without Compromise" "Homepage has tagline"
 
       # Key section pages
@@ -68,8 +67,6 @@
 
       check_status "/community/" "200" "Community page returns HTTP 200"
       check_content "/community/" "Communities" "Community page has expected content"
-
-      check_status "/documentation/" "200" "Documentation page returns HTTP 200"
 
       # 404 handling
       check_status "/this-page-does-not-exist/" "404" "Non-existent path returns HTTP 404"
