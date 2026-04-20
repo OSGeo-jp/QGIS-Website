@@ -50,7 +50,7 @@ A megjelenést követő első négy hónapban az új LTR (hosszútávú kiadás)
 
 Ez az ütemezés [“iCalendar”](https://qgis.org/schedule.ics) formában is elérhető.
 ### Ütemterv
-{{<csv-table file="csv/schedule.csv" />}}
+{{< csv-table file="csv/schedule.csv" />}}
 ### Az események magyarázata
 | Rövidítés | Leírás |
 | --- | --- |

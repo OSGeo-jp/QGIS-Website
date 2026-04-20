@@ -27,7 +27,7 @@ Upplev QGIS omfattande uppsättning designalternativ för att förverkliga dina 
 ###### Professionell kartproduktion
 Använd det intuitiva verktyget för layoutdesign för att producera högkvalitativa kartor i storformat.
 ###### Kraftfulla rapporteringsverktyg
-Skapa atlaser och rapporter med kartor, media och tabellinnehåll. {{< column-end >}} {{< column-end >}}
+Skapa atlaser och rapporter med kartor, media och tabellinnehåll. {{< column-end >}} {{< columns-end >}}
 
 {{< columns-start id="content-tab-2" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Redigera karta](../img/edit.gif "Redigera karta") {{< column-end >}}
 

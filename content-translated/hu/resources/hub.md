@@ -29,7 +29,7 @@ Minden QGIS hosszútávú kiadás (LTR) dokumentációját megtalálja a megfele
 
 <!--{{< tabs tab1="QGIS |ltrversion|" tab2="QGIS |version|" tab3="QGIS testing (>|version|)" tab4="Archived releases" tab5="Data protection">}} -->
 
-{{<tabs tab1="QGIS |ltrversion|" tab2="QGIS testing (>|ltrversion|)" tab3="Archivált kiadások" tab4="Adatvédelem" >}}
+{{<tabs tab1="QGIS |ltrversion|" tab2="QGIS próbaverzió (>|ltrversion|)" tab3="Archivált kiadások" tab4="Adatvédelem" >}}
 
 {{< tab-content-start tab="1" >}} **Felhasználóknak (QGIS {{< param "ltrversion" >}}):**
 

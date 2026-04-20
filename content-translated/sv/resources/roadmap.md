@@ -50,7 +50,7 @@ Under de första fyra månaderna efter utgivningen är en ny LTR också den aktu
 
 Detta schema finns även tillgängligt som ["iCalendar"] (https://qgis.org/schedule.ics).
 ### Schema
-{{<csv-table file="csv/schedule.csv" />}}
+{{< csv-table file="csv/schedule.csv" />}}
 ### Händelseförklaring
 | Förkortning | Beskrivning |
 | --- | --- |

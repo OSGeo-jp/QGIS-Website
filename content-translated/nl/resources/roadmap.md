@@ -50,7 +50,7 @@ In de eerste vier maanden na zijn uitgave is een nieuwe LTR ook de huidige LR. I
 
 Dit schema is ook beschikbaar als [“iCalendar”](https://qgis.org/schedule.ics).
 ### Schema
-{{<csv-table file="csv/schedule.csv" />}}
+{{< csv-table file="csv/schedule.csv" />}}
 ### Legenda gebeurtenissen
 | Afkorting | Beschrijving |
 | --- | --- |
