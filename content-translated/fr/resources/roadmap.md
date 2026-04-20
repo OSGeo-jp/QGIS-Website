@@ -50,7 +50,7 @@ Au cours des quatre premiers mois suivant sa publication, une nouvelle version L
 
 Ce calendrier est également disponible au format [“iCalendar”](https://qgis.org/schedule.ics).
 ### Programme
-{{<csv-table file="csv/schedule.csv" >}}
+{{<csv-table file="csv/schedule.csv" />}}
 ### Légende des évènements
 | Abréviation | Description |
 | --- | --- |

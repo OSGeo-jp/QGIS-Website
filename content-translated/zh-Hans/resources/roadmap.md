@@ -50,7 +50,7 @@ In the first four months after its release, a new LTR is also the current LR. In
 
 This schedule is also available as [“iCalendar”](https://qgis.org/schedule.ics).
 ### 计划表
-{{<csv-table file="csv/schedule.csv" >}}
+{{<csv-table file="csv/schedule.csv" />}}
 ### 版本说明
 | Abbreviation | 描述 |
 | --- | --- |

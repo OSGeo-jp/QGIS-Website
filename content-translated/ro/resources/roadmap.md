@@ -50,7 +50,7 @@ Versiunile minore au loc în fiecare lună, pe cea mai recentă ramură de dezvo
 
 Planificarea este disponibilă și sub formă de [“iCalendar”](https://qgis.org/schedule.ics).
 ### Programare
-{{<csv-table file="csv/schedule.csv" >}}
+{{<csv-table file="csv/schedule.csv" />}}
 ### Legenda evenimentelor
 | Abreviere | Descriere |
 | --- | --- |
