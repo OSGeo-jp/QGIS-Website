@@ -6,10 +6,10 @@
 # See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines
 
 level: "Medium"
-title: "WIGeoGIS"
+title: "WIGeoGIS Softwareerstellungs- und HandelsgmbH"
 logo: "wigeogis.png"
-startDate: "2025-03-01"
-endDate: "2026-02-28"
+startDate: "2026-03-01"
+endDate: "2027-02-28"
 link: "https://www.wigeogis.com/"
 country: "Austria"
 ---

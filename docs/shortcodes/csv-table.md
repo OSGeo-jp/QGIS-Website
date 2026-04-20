@@ -24,4 +24,6 @@ For simple tables, standard Markdown tables should be used:
 
 Note: Hugo shortcode `param` can be used inside markdown tables to substitute dynamic vars: `{{< param "ltrrelease" >}}`
 
-`:rm-next:`, `:rm-current:`, etc. are transformed into CSS classes from themes/hugo-bulma-blocks-theme/assets/sass/bulma/components/roadmap.sass. These are used for styling roadmap tables.
+![](img/csv-table-1.png)
+
+`:rm-next:`, `:rm-current:`, etc. are transformed into CSS classes from themes/qgis-website-theme/assets/sass/bulma/components/roadmap.sass. Currently this shortcode is used only for roadmap tables, that's why it's called roadmap.sass

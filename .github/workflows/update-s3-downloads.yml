@@ -13,18 +13,21 @@ jobs:
   update-s3-downloads:
     name: Update S3 Downloads List
     runs-on: ubuntu-latest
-    
+    if: github.repository_owner == 'qgis'
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
       
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: 'pip'
+          cache-dependency-path: 'REQUIREMENTS.txt'
       
       - name: Install dependencies
         run: |

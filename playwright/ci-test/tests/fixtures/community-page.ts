@@ -256,11 +256,11 @@ export class CommunityPage {
         this.sustainDonateLink = this.page.getByRole("link", {
             name: "Sustain & Donate",
         });
-        this.submitButton = this.page.locator("#payrexx-submit-button");
+        this.submitButton = this.page.locator("#stripe-submit-button");
         this.otherMethodsInfoLink = this.page.getByRole("link", {
             name: "Other methods, more info",
         });
-        this.currencyInput = this.page.locator("#payrexx-currency");
+        this.currencyInput = this.page.locator("#stripe-currency");
         this.workflowCertificationImg = this.page.getByRole("img", {
             name: "Workflow Certification",
         });

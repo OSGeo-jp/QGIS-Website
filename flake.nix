@@ -8,11 +8,17 @@
 
   inputs = {
     nixpkgs-version.url = "github:QGIS/qgis-nixpkgs-version";
-    nixpkgs.follows = "nixpkgs-version/nixpkgs-25-05";
+    nixpkgs.follows = "nixpkgs-version/nixpkgs-25-11";
+
+    # Fetch the Hugo theme submodule directly as a flake input
+    qgis-website-theme = {
+      url = "github:qgis/QGIS-Hugo-Website-Theme";
+      flake = false; # it's not a flake, just a source tree
+    };
   };
 
   outputs =
-    { self, nixpkgs, ... }:
+    { self, nixpkgs, qgis-website-theme,... }:
 
     let
       # Flake system
@@ -43,7 +49,9 @@
           pkgs = nixpkgsFor.${system};
         in
         rec {
-          website = pkgs.callPackage ./nix/package.nix { };
+          website = pkgs.callPackage ./nix/package.nix {
+            theme = qgis-website-theme; # <-- pass the theme source in
+           };
           default = website;
         }
       );
@@ -117,6 +125,23 @@
               echo "-----------------------"
             '';
           };
+        }
+      );
+
+      #
+      ### CHECKS
+      #
+
+      checks = forAllSystems (
+        system:
+        let
+          pkgs = nixpkgsFor.${system};
+        in
+        import ./nix/tests.nix {
+          inherit pkgs;
+          website = self.packages.${system}.website;
+          devShell = self.devShells.${system}.default;
+          websiteApp = self.apps.${system}.website.program;
         }
       );
     };

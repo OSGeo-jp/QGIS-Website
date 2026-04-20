@@ -16,6 +16,7 @@ jobs:
       with:
         ref: main
         path: ./qgis-website
+        submodules: recursive
 
     - name: '🐍 Setup Python'
       uses: actions/setup-python@v6
@@ -41,6 +42,11 @@ jobs:
         cd ./qgis-website
         pipenv run ./scripts/hub_images_harvest.py
 
+    - name: '📰 Fetch Grant Programme Posts'
+      run: |
+        cd ./qgis-website
+        pipenv run ./scripts/fetch_grants.py
+
     - name: '🏢 Update Contributing Organizations'
       run: |
         cd ./qgis-website
@@ -51,9 +57,22 @@ jobs:
         cd ./qgis-website
         pipenv run ./scripts/update_individual_contributors.py
 
+    - name: '⬇️ Pull latest changes before commit'
+      run: |
+        cd ./qgis-website
+        # Stash any changes, pull with rebase, then pop the stash
+        if ! git diff --quiet || ! git diff --cached --quiet; then
+          echo "Changes detected, stashing..."
+          git stash push -u -m "Auto-stash before pull"
+          git pull --rebase origin main || echo "No upstream changes to pull"
+          git stash pop || echo "No stash to pop or conflicts resolved"
+        else
+          echo "No changes to stash, pulling directly..."
+          git pull --rebase origin main || echo "No upstream changes to pull"
+        fi
+
     - name: '✉️ Commit'
       uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: 'Funders scraped and committed via a GitHub Action.'
         repository: ./qgis-website
-        # push_options: --force

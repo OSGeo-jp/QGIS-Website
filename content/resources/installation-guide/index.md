@@ -38,6 +38,24 @@ Standalone installers include everything QGIS needs in a single download. Once y
 |Long Term Release|{{< param "ltrrelease" >}} {{< param "ltrcodename" >}} {{< param "ltrnote" >}}|[Installer]({{< param "ltr_msi">}}) [Checksum]({{< param "ltr_sha">}})|
 |Development|{{< param "devversion" >}} master|[Weekly snapshots]({{< param "weekly_msi">}})|
 
+Due to their extensive size the optional projection grids were excluded from
+the default installer.  QGIS will identify at runtime when grids are required
+for reprojection and ask for manual download.
+
+For environments where that isn't possible or inconvienient there are still
+standalone installers that include the grids.  As of 4.0.1 the regular
+installer is 0.5 GiB, while the installer including all the grids is 1.2 GiB.
+
+|Release|Version|Package|
+|---|---|---|
+|Latest Release|{{< param "release" >}} {{< param "codename" >}} {{< param "releasenote" >}}|[Installer]({{< param "lr_grids_msi" >}}) [Checksum]({{< param "lr_grids_sha" >}})|
+|Long Term Release|{{< param "ltrrelease" >}} {{< param "ltrcodename" >}} {{< param "ltrnote" >}}|[Installer]({{< param "ltr_grids_msi">}}) [Checksum]({{< param "ltr_grids_sha">}})|
+
+It's also possible to add the grids later by using the included "OSGeo4W Setup" to
+install the `proj-data` package.  Or to use the also included command line tool
+[projsync](https://proj.org/en/stable/apps/projsync.html) to download grids for
+a given area.
+
 The weekly snapshots of the nightly qgis-dev package of OSGeo4W are for users that cannot use OSGeo4W (see below) for some reason or just prefer standalone installers. In the feature freeze phase, these also act as **release candidate** installers.
 
 ## Online (OSGeo4W) installer
@@ -58,22 +76,20 @@ Alternatively, instead of doing the _Express_ install, you can use the _Advanced
 |Release|Version|Package|Description|
 |---|---|---|---|
 |Latest Release|{{< param "release" >}} {{< param "codename" >}} {{< param "releasenote" >}}|qgis|Release|
-|||qgis-qt6|Release (Qt6)[[2]](#id2)|
 |||qgis-rel-dev [[1]](#id1)|Nightly build of the upcoming point release|
-|||qgis-qt6-rel-dev [[1]](#id1)|Nightly build of the upcoming point release (Qt6)[[2]](#id2)|
 |Long Term Release|{{< param "ltrrelease" >}} {{< param "ltrcodename" >}} {{< param "ltrnote" >}}|qgis-ltr|Release|
-|||qgis-qt6-ltr|Release (Qt6)[[2]](#id2)|
 |||qgis-ltr-dev [[1]](#id1)|Nightly build of the upcoming long term point release (Qt5)|
-|||qgis-qt6-ltr-dev [[1]](#id1)|Nightly build of the upcoming long term point release (Qt6)[[2]](#id2)|
 |Development|{{< param "devversion" >}} master|qgis-dev [[1]](#id1)|Nightly build of the development version[[2]](#id2)|
 
 {{< footnote "1" >}} Nightlies are debug builds (including debugging output that can be used by developers to better understand issues with the build).
 
-{{< footnote "2" >}} 3.99 will become 4.0 and marks the switch to Qt6.  Earlier versions of QGIS are experimental with Qt6. Starting with 3.99 only Qt6 is supported.
+{{< footnote "2" >}} 4.0 marks the switch to Qt6.  Earlier versions of QGIS were experimental with Qt6. Starting with 4.0 only Qt6 is supported.
 
 The packages listed in the above table only install the necessary dependencies needed to run QGIS. Corresponding to those packages there are also meta packages with the suffix `-full-free` and `-full`. The `-full-free` contains additional optional dependencies that some popular (not included in the default QGIS install) plugins use.  The `-full` includes everything from `-full-free` and also adds proprietary extensions like Oracle drivers, ECW and MrSID.
 
 The Express installs reference the corresponding `-full` variant and the standalone installers are also made from these OSGeo4W package sets.
+
+The `-full-grids` variants include the optional projection grids (ie. `-full` plus the `proj-data` package).  The huge standalones are based on these.
 
 Before installing any of the nightly builds note the [warnings](#warning) below.
 
@@ -116,7 +132,7 @@ sudo mkdir -m755 -p /etc/apt/keyrings  # not needed since apt version 2.4.0 like
 sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg
 ```
 
-Add the QGIS repo for the latest stable QGIS ({{< param "version" >}}.x {{< param "codename" >}}) to `/etc/apt/sources.list.d/qgis.sources`:
+Add the QGIS repo for the latest stable QGIS ({{< param "version" >}}.x {{< param "codename" >}}) to `/etc/apt/sources.list.d/qgis.sources`. Open the file in a text editor (e.g. `sudo editor /etc/apt/sources.list.d/qgis.sources`) and paste the following content (replace `your-distributions-codename` with your actual distribution codename, see [Available codenames](#available-codenames)):
 
 ```
 Types: deb deb-src
@@ -138,7 +154,7 @@ See [Available codenames](#available-codenames).
 {{< rich-content-end >}}
 {{< rich-box-end >}}
 
-Update your repository information to also reflect the newly added QGIS one:
+Save and close the file, then update your repository information:
 
 ```
 sudo apt update
@@ -209,23 +225,28 @@ Next release: {{< param "nextreleasedate" >}}
 
 #### Supported distribution versions: {#available-codenames}
 
-|Distribution|Version         |Codename             |Master nightlies[[5]](#id5)|ubuntugis[[6]](#id6)|
-|------------|----------------|---------------------|---------------------------|--------------------|
-|Debian      |12.x (stable)   |bookworm             |                           |                    |
-|            |13.x (testing)  |trixie [[3]](#id3)   |yes                        |                    |
-|            |unstable        |sid                  |yes                        |                    |
-|Ubuntu      |25.10           |questing [[4]](#id4) |yes                        |                    |
-|            |25.04           |plucky [[3]](#id3)   |yes                        |                    |
-|            |24.04 (LTS)     |noble                |                           |yes                 |
-|            |22.04 (LTS)     |jammy                |                           |yes                 |
+|Distribution|Version         |Codename           |Only LTR[[1]](#id1)|ubuntugis[[2]](#id2)|
+|------------|----------------|-------------------|-------------------|--------------------|
+|Debian      |12.x (oldstable)|bookworm           |yes                |                    |
+|            |13.x (stable)   |trixie[[3]](#id3)  |                   |                    |
+|            |unstable        |sid                |                   |                    |
+|Ubuntu      |26.04 (LTS)     |resolute[[5]](#id5)|                   |                    |
+|            |25.10           |questing[[4]](#id4)|                   |                    |
+|            |25.04           |plucky[[3]](#id3)  |                   |                    |
+|            |24.04 (LTS)     |noble              |yes                |yes                 |
+|            |22.04 (LTS)     |jammy              |yes                |yes                 |
+
+{{< footnote "1" >}} available dependencies in debian/ubuntu not QGIS 4 ready (Qt6 or dependant package, python or sip to old)
+
+{{< footnote "2" >}} builds based on ubuntugis dependencies
 
 {{< footnote "3" >}} starting with 3.40.8/3.44.0
 
 {{< footnote "4" >}} starting with 3.40.11/3.44.3
 
-{{< footnote "5" >}} based on Qt6
+{{< footnote "5" >}} starting with 4.0.1/3.44.9
 
-{{< footnote "6" >}} builds based on ubuntugis dependencies
+
 
 To use the QGIS archive you have to first add the archive’s repository public key:
 
@@ -258,7 +279,7 @@ sudo mkdir -m755 -p /etc/apt/keyrings  # not needed since apt version 2.4.0 like
 sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg
 ```
 
-With the keyring in place you can add the repository as `/etc/apt/sources.list.d/qgis.sources` with following content:
+With the keyring in place you can add the repository. Create or open for editing the file `/etc/apt/sources.list.d/qgis.sources` (e.g. `sudo editor /etc/apt/sources.list.d/qgis.sources`) and add the following content (replace `*repository*` and `*codename*` with values from the table above):
 
 ```
 Types: deb deb-src
