@@ -26,7 +26,7 @@ jobs:
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
         run: |
-          python scripts/tx_fetch_coverage.py \
+          python scripts/i18n/tx_fetch_coverage.py \
             --project qgis-website \
             --resources qgis-hugo-docs-md \
             --output data/tx_coverage.json
@@ -34,7 +34,7 @@ jobs:
       - name: Apply language coverage filter
         id: filter
         run: |
-          python scripts/filter_languages_by_coverage.py \
+          python scripts/i18n/filter_languages_by_coverage.py \
             --threshold 35 \
             --config config.toml \
             --coverage data/tx_coverage.json \

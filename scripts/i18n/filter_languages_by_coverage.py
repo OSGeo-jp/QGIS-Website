@@ -11,7 +11,7 @@ it right after fetching fresh coverage data, and config.toml will immediately
 reflect any language promotions or demotions — no hugo-gettext run required.
 
 Usage:
-    python3 scripts/filter_languages_by_coverage.py [options]
+    python3 scripts/i18n/filter_languages_by_coverage.py [options]
 
 Options:
     --threshold FLOAT     Minimum coverage % to include a language (default: 35)

@@ -108,7 +108,7 @@ cookiesstate = false
 ## Language redirect: only redirect users to their language when Transifex
 ## coverage for that language meets this minimum percentage (0-100).
 ## Languages below this threshold stay on the English root path.
-## Also used by scripts/filter_languages_by_coverage.py to decide which
+## Also used by scripts/i18n/filter_languages_by_coverage.py to decide which
 ## languages to include in the build at all.
 langRedirectThreshold = 35
 

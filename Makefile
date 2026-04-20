@@ -87,12 +87,17 @@ mktxtemp:
 
 txpush: mktxtemp
 	rm -rf $(TEMP)
-	python3 scripts/tx_convert_push.py i18n/en.yml $(TEMP)/en.yml --lang en
+	python3 scripts/i18n/tx_convert_push.py i18n/en.yml $(TEMP)/en.yml --lang en
 	tx push -s
 
 txpull: mktxtemp
 	tx pull -a -f
-	python3 scripts/tx_convert_pull.py $(TEMP) i18n
+	python3 scripts/i18n/tx_convert_pull.py $(TEMP) i18n
+	$(MAKE) sanitize-shortcodes
+
+sanitize-shortcodes: ## Restore corrupted Hugo shortcode names in translated .po files
+	@echo "Sanitizing shortcode names in translations..."
+	python3 scripts/i18n/sanitize_shortcodes.py
 
 messages-extract:
 	hugo-gettext extract translations/en/
@@ -102,7 +107,7 @@ messages-compile: fix-newlines
 
 fix-newlines:
 	@echo "Fixing newlines in translation files..."
-	@python3 scripts/fix_newlines.py
+	@python3 scripts/i18n/fix_newlines.py
 
 generate-translations: ## Generate translated content and then apply the 35% coverage filter
 	hugo-gettext generate
@@ -110,7 +115,7 @@ generate-translations: ## Generate translated content and then apply the 35% cov
 
 filter-languages: ## Add/remove languages in config.toml based on the 35% Transifex coverage threshold
 	@echo "Syncing languages by Transifex coverage (threshold: 35%)..."
-	python3 scripts/filter_languages_by_coverage.py \
+	python3 scripts/i18n/filter_languages_by_coverage.py \
 		--threshold 35 \
 		--config config.toml \
 		--coverage data/tx_coverage.json \
@@ -126,7 +131,7 @@ clean-translations:
 
 txcoverage: ## Fetch translation coverage from Transifex into data/tx_coverage.json (uses TX_TOKEN)
 	@echo "Fetching translation coverage from Transifex..."
-	python3 scripts/tx_fetch_coverage.py \
+	python3 scripts/i18n/tx_fetch_coverage.py \
 		--project qgis-website \
 		--resources qgis-hugo-docs-md \
 		--output data/tx_coverage.json
