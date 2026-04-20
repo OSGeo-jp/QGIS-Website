@@ -155,7 +155,7 @@
 - id: osgeo4wNetworkInstaller
   translation: "OSGeo4W Network Installer"
 - id: onlineInstallerDescription
-  translation: "This installer is the best way to keep QGIS up to date, run multiple versions on your system and keep the load on our download servers to a minimum."
+  translation: "These installers are for users who wish to easily share the download e.g. putting it on a USB key or network share. Note that above installers don't include the optional projection grids."
 - id: learnMore
   translation: "Learn more"
 - id: offlineInstallers
