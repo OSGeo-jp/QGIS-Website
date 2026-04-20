@@ -3,7 +3,7 @@
   "prefix": "",
   "distribution": "ubuntugis",
   "source_folder": "ubuntugis",
-  "generated_at": "2026-04-19T18:25:24.809419+00:00",
+  "generated_at": "2026-04-20T15:19:48.724166+00:00",
   "statistics": {
     "total_files": 1863,
     "total_size": 65609365825,
@@ -37,7 +37,7 @@
       ".sh": 1,
       ".d71472c4": 1
     },
-    "last_updated": "2026-04-19T18:25:24.808733+00:00"
+    "last_updated": "2026-04-20T15:19:48.723568+00:00"
   },
   "tree": {
     "name": "qgis-download",
@@ -196,8 +196,8 @@
             "path": "db",
             "size": 32,
             "size_formatted": "32.00 B",
-            "last_modified": "2026-04-19T18:13:33.305000+00:00",
-            "last_modified_timestamp": 1776622413,
+            "last_modified": "2026-04-20T15:08:52.896000+00:00",
+            "last_modified_timestamp": 1776697732,
             "extension": "",
             "category": "other"
           }
