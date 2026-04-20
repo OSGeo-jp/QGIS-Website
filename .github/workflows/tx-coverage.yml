@@ -31,13 +31,32 @@ jobs:
             --resources qgis-hugo-docs-md \
             --output data/tx_coverage.json
 
+      - name: Apply language coverage filter
+        id: filter
+        run: |
+          python scripts/filter_languages_by_coverage.py \
+            --threshold 35 \
+            --config config.toml \
+            --coverage data/tx_coverage.json \
+            --languages data/languages.json
+          if [[ -n "$(git status --porcelain config.toml)" ]]; then
+            echo "config_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "config_changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Commit changes
         run: |
-          if [[ -n "$(git status --porcelain data/tx_coverage.json)" ]]; then
+          changed_files=$(git status --porcelain data/tx_coverage.json config.toml)
+          if [[ -n "$changed_files" ]]; then
             git config --global user.name 'GitHub Actions'
             git config --global user.email 'github-actions@github.com'
-            git add data/tx_coverage.json
-            git commit -m "Update translation coverage [skip ci]"
+            git add data/tx_coverage.json config.toml
+            if [[ "${{ steps.filter.outputs.config_changed }}" == "true" ]]; then
+              git commit -m "chore: update translation coverage and language filter"
+            else
+              git commit -m "Update translation coverage [skip ci]"
+            fi
             git push
           else
             echo "No coverage changes"

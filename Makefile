@@ -104,8 +104,17 @@ fix-newlines:
 	@echo "Fixing newlines in translation files..."
 	@python3 scripts/fix_newlines.py
 
-generate-translations:
+generate-translations: ## Generate translated content and then apply the 35% coverage filter
 	hugo-gettext generate
+	$(MAKE) filter-languages
+
+filter-languages: ## Add/remove languages in config.toml based on the 35% Transifex coverage threshold
+	@echo "Syncing languages by Transifex coverage (threshold: 35%)..."
+	python3 scripts/filter_languages_by_coverage.py \
+		--threshold 35 \
+		--config config.toml \
+		--coverage data/tx_coverage.json \
+		--languages data/languages.json
 
 clean-translations:
 	@echo "Cleaning translated content..."

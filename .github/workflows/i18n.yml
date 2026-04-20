@@ -2,7 +2,7 @@ name: 🌐 i18n Automation
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight UTC
+    - cron: '0 4 * * *'  # Run daily at 04:00 UTC (after tx-coverage at 03:00)
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
@@ -70,5 +70,5 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add content-translated/* i18n/*
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update translations [skip ci]" && git push) 
+          git add content-translated/* i18n/* config.toml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update translations [skip ci]" && git push)
