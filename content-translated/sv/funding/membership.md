@@ -174,7 +174,7 @@ Tidigare stödmedlemmar listas separat under en period av två år för att uppm
 
 {{< rich-box-start icon="💡" layoutClass="tips">}} {{< rich-content-start themeClass="coloring-1" >}}
 ##### Engångsbetalningar
-Donationer kan vara av valfritt belopp, via direktöverföring till vårt bankkonto (SEPA-betalning), kreditkortsbetalning (via stripe.com) eller Paypal (information finns på [Donationer]({{< ref "/funding/donate.md" >}}) sidan). Även en liten donation kan göra skillnad och hjälpa oss att nå viktiga projektmål! {{< rich-content-end >}} {{< rich-box-slut >}}
+Donationer kan vara av valfritt belopp, via direktöverföring till vårt bankkonto (SEPA-betalning), kreditkortsbetalning (via stripe.com) eller Paypal (information finns på [Donationer]({{< ref "/funding/donate.md" >}}) sidan). Även en liten donation kan göra skillnad och hjälpa oss att nå viktiga projektmål! {{< rich-content-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start icon="💁" layoutClass="tips">}} {{< rich-content-start themeClass="coloring-1" >}}
 ##### Om "öronmärkt" finansiering
