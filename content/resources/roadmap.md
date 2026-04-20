@@ -64,7 +64,7 @@ This schedule is also available as [“iCalendar”](https://qgis.org/schedule.i
 
 ### Schedule
 
-{{< csv-table file="csv/schedule.csv" >}}
+{{< csv-table file="csv/schedule.csv" />}}
 
 ### Event legend
 | Abbreviation | Description |
