@@ -39,7 +39,7 @@ except ImportError:
 # Operates on plain (unescaped) strings as delivered by polib.
 # ---------------------------------------------------------------------------
 SHORTCODE_RE = re.compile(
-    r'(\{\{(?:<|%)[ \t]*)(/?)([A-Za-z0-9_-]+)((?:[^>%]|>(?!\}\})|%(?!\}\}))*?)(?:>|%)(\}\})',
+    r'(\{\{(?:<|%)[ \t]*)(/?)([A-Za-z0-9_-]+)((?:[^>%]|>(?!\}\})|%(?!\}\}))*?)(>|%)(\}\})',
     re.DOTALL,
 )
 
@@ -84,7 +84,7 @@ def restore_names(msgid: str, msgstr: str, valid: set[str]) -> tuple[str, list[s
         if correct_name == name:
             continue
 
-        new_tag = m.group(1) + m.group(2) + correct_name + m.group(4) + m.group(5)
+        new_tag = m.group(1) + m.group(2) + correct_name + m.group(4) + m.group(5) + m.group(6)
         start = m.start() + offset
         end = m.end() + offset
         result = result[:start] + new_tag + result[end:]
