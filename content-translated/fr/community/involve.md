@@ -43,13 +43,13 @@ La rédaction de la documentation constitue un excellent point de départ pour v
 ### Traduire QGIS
 Si vous souhaitez contribuer à la documentation, par exemple en traduisant le manuel anglais dans une autre langue, découvrez ici comment vous lancer :
 
-[How to translate QGIS](https://docs.qgis.org/latest/en/docs/documentation_guidelines/do_translations.html ) {{< rich-content-end >}} {{< rich-right-start >}}<br />![](../img/Translate.jpg) {{< rich-right-end >}} {{< rich-box-end >}}
+[Comment traduire QGIS](https://docs.qgis.org/latest/fr/docs/documentation_guidelines/do_translations.html ) {{< rich-content-end >}} {{< rich-right-start >}}<br />![](../img/Translate.jpg) {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded">}} {{< rich-content-start themeClass="coloring-6" >}}
 ### Développer une extension
 Vous souhaitez fabriquer le vôtre ? Découvrez comment vous y prendre !
 
-[Develop Python plugins](https://docs.qgis.org/latest/en/docs/pyqgis_developer_cookbook/index.html) {{< rich-content-end >}} {{< rich-right-start >}}<br />![](../img/Plugin.jpg) {{< rich-right-end >}} {{< rich-box-end >}}
+[Développer des extensions Python](https://docs.qgis.org/latest/fr/docs/pyqgis_developer_cookbook/index.html) {{< rich-content-end >}} {{< rich-right-start >}}<br />![](../img/Plugin.jpg) {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-6" >}}
 ### Développer le noyau de QGIS

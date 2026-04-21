@@ -1074,10 +1074,13 @@ sectionPagesMenu = 'main'
     [languages.fr]
     languageCode = "fr"
     weight = 2
+    contentDir = "content-translated/fr"
 
     [languages.it]
     languageCode = "it"
     weight = 2
+    contentDir = "content-translated/it"
+
 [module]
   # English (base language) - only original content
   [[module.mounts]]

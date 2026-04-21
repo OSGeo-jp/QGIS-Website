@@ -365,7 +365,10 @@
 - id: onlineInstaller
   translation: Installer online (OSGeo4W)
 - id: onlineInstallerDescription
-  translation: ''
+  translation: Questi programmi di installazione sono adatti agli utenti che voglio
+    condividerli, per esempio salvandoli su una memoria USB o in una risorsa condivisa
+    in rete. Tieni presente che tali programmi di installazione non includono i grigliati
+    di proiezione opzionali.
 - id: osgeo4wNetworkInstaller
   translation: Programma di Installazione di Rete OSGeo4W
 - id: otherMethodsMoreInfo
