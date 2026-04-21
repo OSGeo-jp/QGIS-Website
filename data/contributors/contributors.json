@@ -5,7 +5,7 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-04-21T04:25:14.942178+00:00",
+  "generated_at": "2026-04-21T09:54:45.546252+00:00",
   "total_contributors": 1026,
   "contributors": [
     {
@@ -33,10 +33,10 @@
     {
       "login": "DelazJ",
       "avatar_url": "https://avatars.githubusercontent.com/u/7983394?u=b2c76a3d83057b6f3b0ce59280ca38cfa69951cf&v=4",
-      "total_contributions": 6583,
+      "total_contributions": 6593,
       "thematics": {
         "qgis_core": 1110,
-        "documentation": 5453,
+        "documentation": 5463,
         "web_sites": 20
       },
       "has_github_account": true
@@ -5744,7 +5744,9 @@
       "avatar_url": "",
       "total_contributions": 3,
       "thematics": {
-        "web_sites": 3
+        "web_sites": 3,
+        "qgis_core": 0,
+        "documentation": 0
       },
       "has_github_account": false
     },
