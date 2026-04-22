@@ -359,7 +359,9 @@
 - id: onlineInstaller
   translation: Online (OSGeo4W) installatieporgramma
 - id: onlineInstallerDescription
-  translation: ''
+  translation: Deze installatieprogramma's zijn voor gebruikers die de download gemakkelijk
+    willen delen, bijv. door hem op een USB-stick of netwerk-share te plaatsen. Onthoud
+    dat bovenstaande programma's niet de optionele projectierasters bevatten.
 - id: osgeo4wNetworkInstaller
   translation: OSGeo4W netwerk Installatiepakket
 - id: otherMethodsMoreInfo

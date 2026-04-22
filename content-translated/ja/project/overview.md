@@ -2,7 +2,7 @@
 ButtonLink: download/
 ButtonText: ダウンロード
 HasBanner: true
-LabelText: Free and open source
+LabelText: フリーかつオープンソース
 Reviewed: 1 June 2024
 Reviewer: Tim Sutton
 SupportedOS: Available on Windows, Mac, Linux
