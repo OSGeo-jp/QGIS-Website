@@ -5,8 +5,8 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-04-25T04:20:21.973014+00:00",
-  "total_contributors": 1026,
+  "generated_at": "2026-04-25T09:42:16.135508+00:00",
+  "total_contributors": 1027,
   "contributors": [
     {
       "login": "nyalldawson",
@@ -44,9 +44,9 @@
     {
       "login": "m-kuhn",
       "avatar_url": "https://avatars.githubusercontent.com/u/588407?u=ad5df5522dafe2a5b1b6b5cbebf2abc18e0f9d50&v=4",
-      "total_contributions": 5922,
+      "total_contributions": 5923,
       "thematics": {
-        "qgis_core": 5846,
+        "qgis_core": 5847,
         "documentation": 67,
         "web_sites": 9
       },
@@ -11186,6 +11186,17 @@
     },
     {
       "login": "email:r.abdullaev@nextgis.com",
+      "avatar_url": "",
+      "total_contributions": 1,
+      "thematics": {
+        "qgis_core": 1,
+        "documentation": 0,
+        "web_sites": 0
+      },
+      "has_github_account": false
+    },
+    {
+      "login": "email:dhd@dhd.ecolingui.ca",
       "avatar_url": "",
       "total_contributions": 1,
       "thematics": {
