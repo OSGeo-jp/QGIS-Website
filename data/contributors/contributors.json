@@ -5,15 +5,15 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-04-25T09:42:16.135508+00:00",
+  "generated_at": "2026-04-26T04:32:39.368858+00:00",
   "total_contributors": 1027,
   "contributors": [
     {
       "login": "nyalldawson",
       "avatar_url": "https://avatars.githubusercontent.com/u/1829991?u=aa8023a3683a5a3799faa0e0fbcccbeb43575af5&v=4",
-      "total_contributions": 25064,
+      "total_contributions": 25065,
       "thematics": {
-        "qgis_core": 25043,
+        "qgis_core": 25044,
         "documentation": 19,
         "web_sites": 2
       },
@@ -757,6 +757,17 @@
       "has_github_account": true
     },
     {
+      "login": "ViperMiniQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76155901?v=4",
+      "total_contributions": 214,
+      "thematics": {
+        "qgis_core": 210,
+        "documentation": 4,
+        "web_sites": 0
+      },
+      "has_github_account": true
+    },
+    {
       "login": "olivierdalang",
       "avatar_url": "https://avatars.githubusercontent.com/u/1894106?v=4",
       "total_contributions": 208,
@@ -774,17 +785,6 @@
       "thematics": {
         "qgis_core": 192,
         "documentation": 11,
-        "web_sites": 0
-      },
-      "has_github_account": true
-    },
-    {
-      "login": "ViperMiniQ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76155901?v=4",
-      "total_contributions": 202,
-      "thematics": {
-        "qgis_core": 198,
-        "documentation": 4,
         "web_sites": 0
       },
       "has_github_account": true
