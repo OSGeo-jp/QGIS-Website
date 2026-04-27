@@ -5,7 +5,7 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-04-26T09:38:48.619664+00:00",
+  "generated_at": "2026-04-27T04:32:11.815679+00:00",
   "total_contributors": 1027,
   "contributors": [
     {
@@ -2231,6 +2231,17 @@
       "has_github_account": true
     },
     {
+      "login": "hxbb00",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14104435?u=d7d86ee2cbc68c0d8411f9b1595fee8b9e49f89c&v=4",
+      "total_contributions": 19,
+      "thematics": {
+        "qgis_core": 19,
+        "web_sites": 0,
+        "documentation": 0
+      },
+      "has_github_account": true
+    },
+    {
       "login": "phidrho",
       "avatar_url": "https://avatars.githubusercontent.com/u/1849293?v=4",
       "total_contributions": 18,
@@ -2326,17 +2337,6 @@
         "qgis_core": 4,
         "web_sites": 13,
         "documentation": 1
-      },
-      "has_github_account": true
-    },
-    {
-      "login": "hxbb00",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14104435?u=d7d86ee2cbc68c0d8411f9b1595fee8b9e49f89c&v=4",
-      "total_contributions": 18,
-      "thematics": {
-        "qgis_core": 18,
-        "web_sites": 0,
-        "documentation": 0
       },
       "has_github_account": true
     },
