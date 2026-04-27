@@ -29,6 +29,13 @@ from pathlib import Path
 from typing import List, Dict, Optional
 
 try:
+    from tqdm import tqdm
+except ImportError:
+    print("❌ Error: tqdm is not installed. Install it with:")
+    print("   pip install tqdm")
+    sys.exit(1)
+
+try:
     import boto3
     from botocore.exceptions import ClientError, NoCredentialsError
 except ImportError:
@@ -115,44 +122,46 @@ class S3FileExplorer:
         continuation_token = None
 
         try:
-            while True:
-                list_kwargs = {"Bucket": self.bucket_name, "MaxKeys": 1000}
-                if self.prefix:
-                    list_kwargs["Prefix"] = self.prefix + "/"
-                if continuation_token:
-                    list_kwargs["ContinuationToken"] = continuation_token
+            with tqdm(desc="   Listing objects", unit="file") as pbar:
+                while True:
+                    list_kwargs = {"Bucket": self.bucket_name, "MaxKeys": 1000}
+                    if self.prefix:
+                        list_kwargs["Prefix"] = self.prefix + "/"
+                    if continuation_token:
+                        list_kwargs["ContinuationToken"] = continuation_token
 
-                response = self.s3_client.list_objects_v2(**list_kwargs)
+                    response = self.s3_client.list_objects_v2(**list_kwargs)
 
-                if "Contents" not in response:
-                    print("   No objects found in bucket")
-                    break
+                    if "Contents" not in response:
+                        print("   No objects found in bucket")
+                        break
 
-                for obj in response["Contents"]:
-                    key = obj["Key"]
-                    if key.endswith("/") or "//" in key:
-                        continue
+                    for obj in response["Contents"]:
+                        key = obj["Key"]
+                        if key.endswith("/") or "//" in key:
+                            continue
 
-                    if mtime_cache and key in mtime_cache:
-                        last_modified_iso = mtime_cache[key]
-                        last_modified_ts = int(
-                            datetime.datetime.fromisoformat(last_modified_iso).timestamp()
-                        )
-                    else:
-                        last_modified_iso = obj["LastModified"].isoformat()
-                        last_modified_ts = int(obj["LastModified"].timestamp())
+                        if mtime_cache and key in mtime_cache:
+                            last_modified_iso = mtime_cache[key]
+                            last_modified_ts = int(
+                                datetime.datetime.fromisoformat(last_modified_iso).timestamp()
+                            )
+                        else:
+                            last_modified_iso = obj["LastModified"].isoformat()
+                            last_modified_ts = int(obj["LastModified"].timestamp())
 
-                    files.append({
-                        "key": key,
-                        "name": Path(key).name,
-                        "path": str(Path(key).parent) if Path(key).parent != Path(".") else "",
-                        "size": obj["Size"],
-                        "size_formatted": self.format_size(obj["Size"]),
-                        "last_modified": last_modified_iso,
-                        "last_modified_timestamp": last_modified_ts,
-                        "extension": Path(key).suffix.lower(),
-                        "category": self.get_file_category(key),
-                    })
+                        files.append({
+                            "key": key,
+                            "name": Path(key).name,
+                            "path": str(Path(key).parent) if Path(key).parent != Path(".") else "",
+                            "size": obj["Size"],
+                            "size_formatted": self.format_size(obj["Size"]),
+                            "last_modified": last_modified_iso,
+                            "last_modified_timestamp": last_modified_ts,
+                            "extension": Path(key).suffix.lower(),
+                            "category": self.get_file_category(key),
+                        })
+                        pbar.update(1)
 
                     if response.get("IsTruncated"):
                         continuation_token = response.get("NextContinuationToken")
