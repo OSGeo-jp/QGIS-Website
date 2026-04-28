@@ -1085,6 +1085,8 @@ sectionPagesMenu = 'main'
     [languages.bg]
     languageCode = "bg"
     weight = 2
+    contentDir = "content-translated/bg"
+
 [module]
   # English (base language) - only original content
   [[module.mounts]]
