@@ -41,11 +41,11 @@ You will find documentation for every QGIS Long Term Release (LTR) on the respec
 
 {{<rich-list listLink="https://docs.qgis.org/|ltrversion|/<lang>/docs/server_manual" layoutClass="inline-block link-with-language" listTitle="Ръководство за сървъра — <lang>" >}}
 
-**За автори на документация (QGIS {{< параметър "LTR Версия" >}}):**
+**За автори на документация (QGIS {{< param "ltrversion" >}}):**
 
 {{<rich-list listLink="https://docs.qgis.org/|ltrversion|/<lang>/docs/documentation_guidelines" layoutClass="inline-block link-with-language" listTitle="Указания за документация — <lang>" >}}
 
-**За разработчици (QGIS {{< параметър "LTR версия" >}}):**
+**За разработчици (QGIS {{< param "ltrversion" >}}):**
 
 {{<rich-list listLink="https://docs.qgis.org/|ltrversion|/<lang>/docs/pyqgis_developer_cookbook" layoutClass="inline-block link-with-language" listTitle="PyQGIS готварска книга (за плъгини и скриптове) — <lang>" >}}
 
@@ -55,7 +55,7 @@ You will find documentation for every QGIS Long Term Release (LTR) on the respec
 
 {{<rich-list listLink="https://github.com/qgis/QGIS/blob/release-|ltrversion|/INSTALL.md" layoutClass="inline-block" listTitle="Изграждане на QGIS от изходния код" >}}
 
-**За изтегляне (QGIS {{< параметър "LTR версия" >}}):**
+**За изтегляне (QGIS {{< param "ltrversion" >}}):**
 
 {{<rich-list listLink="https://docs.qgis.org/|ltrversion|/pdf" layoutClass="inline-block" listTitle="PDF файл с ръководствата" >}}
 
