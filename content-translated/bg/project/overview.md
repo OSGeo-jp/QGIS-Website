@@ -82,7 +82,7 @@ Connect with professionals, enthusiasts, and QGIS users for networking and knowl
 ### Местни потребителски групи и доставчици на поддръжка
 Присъединете се към общност от хора със сходни интереси във вашия регион.
 
-[Списък с местни групи]({{<реф. "community/groups.md" >}}) {{< column-end >}} {{< columns-end >}}
+[Списък с местни групи]({{< ref "community/groups.md" >}}) {{< column-end >}} {{< columns-end >}}
 
 [Присъединете се към общността]({{< ref "community/involve.md" >}} "is-size-5 mb-4")
 ## Кросплатформен
