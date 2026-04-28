@@ -1,10 +1,10 @@
 {
   "bucket_name": "qgis-download",
   "prefix": "",
-  "generated_at": "2026-04-28T03:14:20.969655+00:00",
+  "generated_at": "2026-04-28T05:06:53.633513+00:00",
   "statistics": {
     "total_files": 140797,
-    "total_size": 4343820536561,
+    "total_size": 4343814061385,
     "total_size_formatted": "3.95 TB",
     "by_category": {
       "installer": {
@@ -29,8 +29,8 @@
       },
       "archive": {
         "count": 3951,
-        "size": 561113006153,
-        "size_formatted": "522.58 GB"
+        "size": 561106530977,
+        "size_formatted": "522.57 GB"
       }
     },
     "by_extension": {
@@ -45,7 +45,7 @@
       ".gpg": 352,
       ".msi": 237
     },
-    "last_updated": "2026-04-28T03:14:20.904890+00:00"
+    "last_updated": "2026-04-28T05:06:53.573925+00:00"
   },
   "tree": {
     "name": "qgis-download",
@@ -26197,7 +26197,7 @@
         "key": "qgis-api-doc.7z",
         "name": "qgis-api-doc.7z",
         "path": "",
-        "size": 3515487836,
+        "size": 3509012660,
         "size_formatted": "3.27 GB",
         "last_modified": "2026-04-26T02:52:59+00:00",
         "last_modified_timestamp": 1777171979,
