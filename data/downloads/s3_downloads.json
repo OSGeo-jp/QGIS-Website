@@ -1,21 +1,21 @@
 {
   "bucket_name": "qgis-download",
   "prefix": "",
-  "generated_at": "2026-04-29T11:42:26.688658+00:00",
+  "generated_at": "2026-04-29T13:08:01.819665+00:00",
   "statistics": {
-    "total_files": 140993,
-    "total_size": 4286177730531,
+    "total_files": 141027,
+    "total_size": 4285714795323,
     "total_size_formatted": "3.90 TB",
     "by_category": {
       "installer": {
-        "count": 130480,
-        "size": 3700425460236,
+        "count": 130511,
+        "size": 3701144748144,
         "size_formatted": "3.37 TB"
       },
       "other": {
-        "count": 6434,
-        "size": 22789849997,
-        "size_formatted": "21.22 GB"
+        "count": 6436,
+        "size": 21340523125,
+        "size_formatted": "19.87 GB"
       },
       "image": {
         "count": 116,
@@ -28,24 +28,24 @@
         "size_formatted": "99.34 KB"
       },
       "archive": {
-        "count": 3958,
-        "size": 562943912690,
-        "size_formatted": "524.28 GB"
+        "count": 3959,
+        "size": 563211016446,
+        "size_formatted": "524.53 GB"
       }
     },
     "by_extension": {
-      ".deb": 129790,
-      ".gz": 3115,
+      ".deb": 129821,
+      ".gz": 3116,
       "no extension": 2264,
-      ".dsc": 2167,
+      ".dsc": 2168,
       ".bz2": 840,
-      ".sha256sum": 416,
+      ".sha256sum": 417,
       ".exe": 391,
       ".md5sum": 361,
       ".gpg": 352,
       ".msi": 187
     },
-    "last_updated": "2026-04-29T11:42:26.625706+00:00"
+    "last_updated": "2026-04-29T13:08:01.747941+00:00"
   },
   "tree": {
     "name": "qgis-download",
@@ -5957,6 +5957,17 @@
                 "category": "other"
               },
               {
+                "key": "windows/weekly/QGIS-Grids-OSGeo4W-4.1.0-1137-f0967d69a29-1.sha256sum",
+                "name": "QGIS-Grids-OSGeo4W-4.1.0-1137-f0967d69a29-1.sha256sum",
+                "path": "windows/weekly",
+                "size": 114,
+                "size_formatted": "114.00 B",
+                "last_modified": "2026-04-29T13:05:50.819000+00:00",
+                "last_modified_timestamp": 1777467950,
+                "extension": ".sha256sum",
+                "category": "other"
+              },
+              {
                 "key": "windows/weekly/QGIS-OSGeo4W-3.99.0-1076-67f8c78b1cd-1.msi",
                 "name": "QGIS-OSGeo4W-3.99.0-1076-67f8c78b1cd-1.msi",
                 "path": "windows/weekly",
@@ -6092,10 +6103,10 @@
                 "key": "windows/weekly/QGIS-OSGeo4W-4.1.0-1137-f0967d69a29-1.sha256sum",
                 "name": "QGIS-OSGeo4W-4.1.0-1137-f0967d69a29-1.sha256sum",
                 "path": "windows/weekly",
-                "size": 1449332231,
-                "size_formatted": "1.35 GB",
-                "last_modified": "2026-04-29T08:09:16.589000+00:00",
-                "last_modified_timestamp": 1777450156,
+                "size": 108,
+                "size_formatted": "108.00 B",
+                "last_modified": "2026-04-29T13:06:14.335000+00:00",
+                "last_modified_timestamp": 1777467974,
                 "extension": ".sha256sum",
                 "category": "other"
               }
