@@ -98,19 +98,19 @@ According to our statutes, one member from the broader community can be elected 
 * Peter Petrik, チェコ
 * Richard Duivenvoorde, オランダ
 
-Added 2021
+2021年追加
 * Andrea Giudiceandrea, Italy
 
-Added 2022
+2022年追加
 * Adelcides Varela, Cabo Verde
 * Germán Carrillo, Colombia
 
-Added 2024
+2024年追加
 * Stefanos Natsis, Greece
 * Isabel Kiefer, Switzerland
 * Damiano Lombardi, Switzerland
 
-Added 2026
+2026年追加
 * Lova Andriarimalala, Madagascar
 
 ### OSGEO Voting Member

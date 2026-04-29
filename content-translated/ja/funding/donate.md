@@ -88,7 +88,7 @@ You can use Paypal to donate using your own credit card (but we prefer to use [P
 
 {{< column-start class="is-flex-direction-column is-two-thirds ">}} {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-1" >}}
 #### Empowering Our Volunteers
-* Mentoring new contributors, fostering a welcoming and productive community.
+* 新規コントリビューターへのメンタリングを通じて、誰もが参加しやすく生産性の高いコミュニティを育てています。
 * Translating QGIS into multiple languages, making the software truly global.
 * Running the QGIS grant system, enabling focused work on significant improvements and innovations that are often challenging for volunteers to undertake on their own. {{< rich-content-end >}} {{< rich-box-end >}}
 
