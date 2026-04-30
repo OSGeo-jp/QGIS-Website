@@ -1,10 +1,9 @@
 ---
 AnnouncementLabel: QGIS 4.0
 AnnouncementLink: project/visual-changelogs/visualchangelog40/
-AnnouncementLinkText: Explore the changelog
-AnnouncementText: Discover the new features, improvements, and everything that makes
-  this release a landmark moment.
-AnnouncementTitle: QGIS 4.0 is here — our most powerful release yet!
+AnnouncementLinkText: 探索更新日志
+AnnouncementText: 探索新功能、改进，以及让此版本成为里程碑的重要亮点。
+AnnouncementTitle: QGIS 4.0 正式发布 — 这是迄今为止功能最强大的版本！
 Badge: img/badges/dpg-badge.png
 BadgeLink: https://blog.qgis.org/2025/02/08/qgis-recognized-as-digital-public-good/
 ButtonLink: download/
@@ -12,19 +11,19 @@ ButtonText: 下载
 HasAnnouncement: true
 HasBanner: true
 HeroImage: img/hegobg1.webp
-LabelText: 自由和开放源码
+LabelText: 免费开源
 OsgeoBadge: img/badges/osgeo-logo-white.svg
 OsgeoBadgeLink: https://www.osgeo.org/projects/qgis/
-SupportedOS: 在Windows、Mac、Linux上可用
+SupportedOS: 适用于 Windows、Mac、Linux 系统
 draft: false
 heroLogo: img/logosign.svg
 heroSize: is-medium
-subtitle: Spatial visualization and decision-making tools for everyone
-title: Spatial without Compromise
+subtitle: 面向所有人的空间可视化与决策分析工具
+title: 极致空间
 type: page
 
 ---
-{{<feature title="创建地图" text="Explore QGIS's exceptional cartographic design features to craft outstanding maps for desktop, mobile, cloud, and print media." col-title-1="Class-leading cartography" col-text-1="Experience QGIS's extensive set of design options to bring your maps to life." col-title-2="Professional map production" col-text-2="Use the intuitive layout designer to produce high-quality, large-format print maps." col-title-3="Powerful reporting tools" col-text-3="Create atlases and reports including maps and tabular content." img="img/main-create.webp" order=1 >}}
+{{<feature title="创建地图" text="探索QGIS卓越的制图设计功能，为桌面端、移动端、云端及印刷介质制作精美的专业地图。" col-title-1="业界顶级制图软件" col-text-1="体验QGIS丰富多样的设计功能，为您的地图赋予生动质感。" col-title-2="专业地图制作" col-text-2="借助直观的布局设计器，制作高品质、大尺寸的打印地图。" col-title-3="强大的报告工具" col-text-3="可创建包含地图与表格内容的地图集及报告。" img="img/main-create.webp" order=1 >}}
 
 {{<feature title="编辑图层" text="Harness the unmatched capabilities of powerful digitizing and construction tools." col-title-1="Exceptional digitizing proficiency" col-text-1="Craft and edit points, lines, polygons, and meshes with precision." col-title-2="Advanced construction tools" col-text-2="Build geometries with curves, CAD-like tools, and an extensive range of geometry transformations." col-title-3="Highly customizable forms" col-text-3="Create user-friendly forms using our form designer." img="img/main-edit.webp" order=2 >}}
 

@@ -39,7 +39,7 @@ type: page
 - Текстът на логото на QGIS е базиран на безплатния шрифт Trueno Bold.
 
 ### Минимално
-![Минимално](visual/minimal.png)
+![Минималистично](visual/minimal.png)
 
 **Изтеглете минималистично лого**
 
@@ -47,7 +47,7 @@ type: page
 
 [`PNG 128px`](visual/qgis-icon128.png) [`PNG 64px`](visual/qgis-icon64.png) [`PNG 32px`](visual/qgis-icon32.png)
 
-![Minimal black](visual/minimal_black.png)
+![Минималистично черно](visual/minimal_black.png)
 
 **Изтеглете минималистично черно**
 
@@ -57,7 +57,7 @@ type: page
 
 ![Minimal green](visual/minimal_green.png)
 
-**Изтеглете минимално зелено**
+**Изтеглете минималистично зелено**
 
 [`SVG green 128px`](visual/qgis-icon-green128.svg) [`SVG green 64px`](visual/qgis-icon-green64.svg) [`SVG green 32px`](visual/qgis-icon-green32.svg)
 

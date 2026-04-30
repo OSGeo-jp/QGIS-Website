@@ -2,10 +2,10 @@
 ButtonLink: download/
 ButtonText: 下载
 HasBanner: true
-LabelText: Free and open source
+LabelText: 免费和开源
 Reviewed: 1 June 2024
 Reviewer: Tim Sutton
-SupportedOS: 在Windows、Mac、Linux上可用
+SupportedOS: 适用于 Windows、Mac、Linux 系统
 draft: false
 heroImage: img/project.jpg
 og_image: img/project.jpg
@@ -22,11 +22,11 @@ type: page
 {{< columns-start id="content-tab-1" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Create map](../img/create.gif "Create maps") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
-###### Class-leading cartography
+###### 业界顶级制图软件
 Experience QGIS' extensive set of design options to bring your cartographic ideas to life.
-###### Professional map production
+###### 专业地图制作
 Use the intuitive layout design tool to produce high-quality, large-format print maps.
-###### Powerful reporting tools
+###### 强大的报告工具
 Create atlases and reports with maps, media and tabular content. {{< column-end >}} {{< columns-end >}}
 
 {{< columns-start id="content-tab-2" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Edit map](../img/edit.gif "Edit map") {{< column-end >}}
@@ -88,7 +88,7 @@ Join a community of like-minded individuals in your region.
 {{< columns-start >}} {{< column-start>}}
 
 {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-6">}}
-### QGIS 服务器
+### QGIS服务器
 Publish your QGIS projects and layers as OGC compatible WMS, WMTS, WFS and WCS services. Control which layers, attributes, layouts and coordinate systems are exported. QGIS server is considered as a reference implementation for WMS 1.3. {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< column-start>}}
 
 {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-6" >}}
@@ -113,7 +113,7 @@ Benefit from the powerful symbology, labeling and blending features to impress t
 ### 手机和平板电脑上的QGIS
 The QGIS experience does not stop on the desktop. Various third-party touch optimized apps allow you to take QGIS out of the office.
 * [QField]({{< ref "download.md" >}})
-* [Mergin Maps mobile app]({{< ref "download.md" >}})
+* [Mergin Maps 移动应用]({{< ref "download.md" >}})
 * [IntraMaps Roam]({{< ref "download.md" >}})
 
 {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< columns-end >}}

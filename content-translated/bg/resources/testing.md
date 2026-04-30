@@ -11,7 +11,7 @@ type: page
 {{<content-start >}}
 # Тест
 ## Тестове за непрекъсната интеграция
-Както QGIS Desktop, така и QGIS сървърът са стриктно тествани. Всеки pull request (т.е. принос на код) към QGIS преминава през автоматизирани тестове за непрекъсната интеграция (работни процеси в GitHub). Нашата платформа QGIS Server е тествана с помощта на нашия пакет за тестване за съответствие с OGC.
+Както QGIS Настолни, както и QGIS Сървърът са стриктно тествани. Всеки pull request (т.е. принос на код) към QGIS преминава през автоматизирани тестове за непрекъсната интеграция (работни процеси в GitHub). Нашата платформа QGIS Server е тествана с помощта на нашия пакет за тестване за съответствие с OGC.
 
 <a href="https://github.com/qgis/QGIS/actions/workflows/run-tests.yml?query=branch%3Amaster+event%3Apush" target="_blank">
 <img src="https://github.com/qgis/QGIS/actions/workflows/run-tests.yml/badge.svg">

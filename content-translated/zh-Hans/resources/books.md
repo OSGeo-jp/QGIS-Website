@@ -2,12 +2,12 @@
 draft: false
 sidebar: true
 subtitle: ''
-title: 书籍
+title: 图书
 type: page
 
 ---
 {{<content-start >}}
-# 书籍
+# 图书
 This page lists books available from other publishers. QGIS does not manage any of them, and they are listed here only for your convenience.
 
 Please write to [psc@qgis.org](mailto:psc%40qgis.org) if you want to have your book added here. Alternatively, you can edit this page on GitHub and submit a pull request.

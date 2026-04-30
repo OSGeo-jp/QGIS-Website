@@ -129,10 +129,10 @@ type: page
 地域ユーザーグループの運営がうまくいくことを願っています！QGISコミュニティリストにご登録いただき、進捗状況をご報告いただくことで、国際QGISチームへのご連絡をお願いします。地域ユーザーグループの設立・維持に関するご質問は、どうぞお気軽にお尋ねください。
 ## 導入セット
 ### QGIS.org サブドメインホスティング
-If you prefer to use the official QGIS.org branding and host your user group website on a QGIS.org subdomain (e.g., `sweden.qgis.org`), you can utilize the provided template repository at [https://github.com/qgis/QGIS-User-Group-Website](https://github.com/qgis/QGIS-User-Group-Website). This option ensures consistency with the main QGIS website design. Please carefully read and follow the setup instructions provided in the repository.
+公式のQGIS.orgブランドを使用し、ユーザーグループのウェブサイトをQGIS.orgのサブドメイン（例：[sweden.qgis.org](http://sweden.qgis.org)）上でホストしたい場合は、https://github.com/qgis/QGIS-User-Group-Websiteのテンプレートリポジトリをご活用ください。このオプションにより、メインのQGISウェブサイトとデザインの一貫性が保たれます。リポジトリに記載されたセットアップ手順をよくお読みの上、設定を行ってください。
 ### QGIS News Feed submission access
-Local user groups can request access to the [QGIS News Feed system](https://feed.qgis.org), which allows you to submit news entries (such as events, crowdfunding campaigns, meetups, or announcements) that will appear in the QGIS news section once approved by moderators. This is an excellent way to share your group's activities with the global QGIS community.
-### Template for local country domain qgis.xx
-For local country domain, if you do not wish to host and design your website from scratch, you can use the template provided at [https://github.com/qgis/qgis-template.github.io](https://github.com/qgis/qgis-template.github.io).
+地域のユーザーグループは、 [QGISニュースフィードシステム](https://feed.qgis.org) へのアクセスを申請できます。このシステムでは、イベント・クラウドファンディングキャンペーン・ミートアップ・お知らせなどのニュースを投稿でき、モデレーターの承認を経てQGISニュースセクションに掲載されます。グループの活動をグローバルなQGISコミュニティと共有する絶好の手段です。
+### ローカルコミュニティのドメイン qgis.xx 用のテンプレート
+地域の国別ドメインをご利用の場合、ウェブサイトをゼロから構築・デザインしたくない場合は、　 [https://github.com/qgis/qgis-template.github.io](https://github.com/qgis/qgis-template.github.io) で提供されているテンプレートをご利用いただけます。
 
 {{<content-end >}}

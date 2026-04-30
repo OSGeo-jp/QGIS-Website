@@ -93,7 +93,7 @@ type: page
 Публикувайте вашите QGIS проекти и слоеве като OGC съвместими WMS, WMTS, WFS и WCS услуги. Контролирайте кои слоеве, атрибути, оформления и координатни системи се експортират. QGIS сървърът се счита за референтна имплементация за WMS 1.3. {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< column-start>}}
 
 {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-6" >}}
-### QGIS Десктоп
+### QGIS Настолен
 Създаване, редактиране, визуализиране, анализиране и публикуване на геопространствена информация.
 
 [Изтегляне]({{< ref "download.md" >}}) за Windows, Mac, Linux, BSD и Android. {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< columns-end >}}
@@ -128,14 +128,14 @@ type: page
 {{<rich-box-end >}}
 
 {{< columns-start >}} {{< column-start class="is-flex-direction-column is-one-third mb-6">}}
-## Витрина на Карти
+## Галерия с Карти
 Демонстрации на креативността на нашите потребители, показващи мощните възможности за създаване на карти на QGIS.
 
-[Към витрината на картите]({{< ref "project/overview/maps.md" >}})
+[Към галерията с картите]({{< ref "project/overview/maps.md" >}})
 
 {{<column-end >}}
 
-{{< column-start class="is-flex-direction-column is-two-thirds">}} {{< hub-images showcase="map" quantity="4" columns="gallery" >}}
+{{< column-start class="is-flex-direction-column is-two-thirds">}} {{< hub-images showcase="карта" quantity="4" columns="галерия" >}}
 
 {{< column-end >}} {{< columns-end >}}
 
@@ -145,7 +145,7 @@ type: page
 
 [Отидете на екранните снимки]({{< ref "project/overview/screenshots.md" >}}) {{< column-end >}}
 
-{{< column-start class="is-flex-direction-column is-two-thirds">}} {{< hub-images showcase="screenshot" quantity="4" columns="gallery" >}}
+{{< column-start class="is-flex-direction-column is-two-thirds">}} {{< hub-images showcase="screenshot" quantity="4" columns="галерия" >}}
 
 {{< column-end >}} {{< columns-end >}}
 
