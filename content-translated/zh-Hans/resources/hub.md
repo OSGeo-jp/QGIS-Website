@@ -5,31 +5,31 @@ draft: false
 selected_language: 英语
 sidebar: true
 subtitle: ''
-title: QGIS resources
+title: QGIS资源
 type: page
 
 ---
 {{<content-start >}}
-# Resources
+# 资源
 {{< rich-box-start icon="🖖" layoutClass="tips">}} {{< rich-content-start themeClass="coloring-1" >}}
-#### Installation troubles?
-If you are looking for information on installing QGIS on all available platforms, we have prepared a comprehensive guide for you:
+#### 安装问题?
+如果您想了解在所有支持平台安装QGIS的信息，我们已为您准备了一份完整的安装指南：
 
-[Installation guide]({{< ref "/resources/installation-guide/index.md" >}})
+[安装指南]({{< ref "/resources/installation-guide/index.md" >}})
 
 {{< rich-content-end >}} {{< rich-box-end >}}
-## 帮助文档
-QGIS has a lot of documentation. All of the core documentation (user manual, developer handbooks etc.) is available in English. Some documents such as the user guide are also available in other languages.
+## 文档
+QGIS拥有丰富的文档资料。所有核心文档 (用户手册、开发者手册等) 均提供英文版本。用户指南等部分文档还提供其他语言版本。
 
-You will find documentation for every QGIS Long Term Release (LTR) on the respective documentation website.
+您可以在相应的文档网站中，查阅每个QGIS长期维护版 (LTR) 的相关文档。
 
-[Get involved]({{< ref "/community/involve" >}}) and help us write a better documentation.
+[请参与进来]({{< ref "/community/involve" >}}) 并助力编写更优质的文档。
 
 {{<language-select >}}
 
 <!--{{< tabs tab1="QGIS |ltrversion|" tab2="QGIS |version|" tab3="QGIS testing (>|version|)" tab4="Archived releases" tab5="Data protection">}} -->
 
-{{<tabs tab1="QGIS |ltrversion|" tab2="QGIS testing (>|ltrversion|)" tab3="Archived releases" tab4="数据保护" >}}
+{{<tabs tab1="QGIS |ltrversion|" tab2="QGIS测试版 (>|ltrversion|)" tab3="归档版本" tab4="数据保护" >}}
 
 {{< tab-content-start tab="1" >}} **For users (QGIS {{< param "ltrversion" >}}):**
 

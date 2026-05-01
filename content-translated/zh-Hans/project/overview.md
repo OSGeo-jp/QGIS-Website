@@ -17,7 +17,7 @@ type: page
 ---
 {{<content-start >}}
 ## Key features
-{{<tabs tab1="创建地图" tab2="编辑图层" tab3="Process and analyze" tab4="Share maps" >}}
+{{<tabs tab1="创建地图" tab2="编辑图层" tab3="处理与分析" tab4="分享地图" >}}
 
 {{< columns-start id="content-tab-1" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Create map](../img/create.gif "Create maps") {{< column-end >}}
 
@@ -32,23 +32,23 @@ Create atlases and reports with maps, media and tabular content. {{< column-end 
 {{< columns-start id="content-tab-2" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Edit map](../img/edit.gif "Edit map") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
-###### Exceptional digitizing proficiency
+###### 卓越的数字化功能
 Create and edit points, lines, polygons, and meshes with precision.
-###### Advanced construction tools
-Build geometries with curves, CAD-like tools, and an extensive range of geometry transformations.
-###### Highly customizable forms
-Create user-friendly forms using our form designer.
+###### 高级构建工具
+使用曲线、类CAD工具以及广泛的几何图形变换，快速构建几何图形。
+###### 高度可定制的表单
+借助表单设计器，轻松创建简洁易用的表单。
 
 {{< column-end >}} {{< columns-end >}}
 
 {{< columns-start id="content-tab-3" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![visualize map](../img/visualize.gif "visualize map") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
-###### Comprehensive analysis toolset
+###### 综合分析工具集
 Uncover insights from your data with our comprehensive array of hundreds of analysis tools.
-###### Automated analysis workflows
+###### 自动化分析工作流
 Visually combine analysis tools to create reproducible workflows easily.
-###### Extensible analysis environment
+###### 可扩展分析环境
 Explore our diverse plugin ecosystem of third-party analysis tools for expanded capabilities.
 
 {{< column-end >}} {{< columns-end >}}
@@ -56,12 +56,12 @@ Explore our diverse plugin ecosystem of third-party analysis tools for expanded 
 {{< columns-start id="content-tab-4" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![share map](../img/share.gif "share map") {{< column-end >}}
 
 {{<column-start class="is-flex-direction-column is-justify-content-center is-one-third" >}}
-###### Industry-leading format support
+###### 业界领先的格式支持
 Conquer data integration challenges with support for a multitude of data sources and formats.
-###### Standards and interoperability
-Amplify your impact by exploring, utilizing, and creating web services based on industry standards.
-###### Publish your work
-Extend QGIS to the cloud and mobile devices for wider accessibility.
+###### 标准与互操作性
+通过探索、利用和创建基于行业标准的Web服务，赋能价值升级。
+###### 成果发布
+将QGIS拓展至云端与移动端，实现随时随地便捷访问。
 
 {{< column-end >}} {{< columns-end >}}
 ## Level up with community resources
@@ -92,7 +92,7 @@ Join a community of like-minded individuals in your region.
 Publish your QGIS projects and layers as OGC compatible WMS, WMTS, WFS and WCS services. Control which layers, attributes, layouts and coordinate systems are exported. QGIS server is considered as a reference implementation for WMS 1.3. {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< column-start>}}
 
 {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-6" >}}
-### QGIS 桌面版
+### QGIS桌面版
 创建、编辑、可视化、分析与发布地理空间信息。
 
 [Download]({{< ref "download.md" >}}) for Windows, Mac, Linux, BSD and Android. {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< columns-end >}}
@@ -119,7 +119,7 @@ The QGIS experience does not stop on the desktop. Various third-party touch opti
 {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< columns-end >}}
 
 {{< rich-box-start layoutClass="has-right mt-6 mb-6" mode="html" >}} {{< rich-content-start themeClass="coloring-1" >}}
-### 案例分析
+### 案例研究
 We gather inspiring stories from our users that showcase the versatility and power of the QGIS project.
 
 [Find out more]({{< ref "project/case-studies.md" >}}) {{< rich-content-end >}} {{< rich-right-start >}}<br />{{< usecase >}} {{< rich-right-end >}}
