@@ -5,7 +5,7 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-05-01T04:43:24.382240+00:00",
+  "generated_at": "2026-05-01T09:54:03.731865+00:00",
   "total_contributors": 1029,
   "contributors": [
     {
@@ -11212,7 +11212,8 @@
       "total_contributions": 1,
       "thematics": {
         "documentation": 1,
-        "web_sites": 0
+        "web_sites": 0,
+        "qgis_core": 0
       },
       "has_github_account": true
     },
