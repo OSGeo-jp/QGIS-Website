@@ -36,8 +36,6 @@ Create atlases and reports with maps, media and tabular content. {{< column-end 
 Create and edit points, lines, polygons, and meshes with precision.
 ###### 高機能な作図ツール
 カーブやCAD風ツール、充実したジオメトリ変換機能を活用して、高度なジオメトリを作成しましょう。
-
- 
 ###### 高度にカスタマイズ可能なフォーム
 フォームデザイナーを使用して、使いやすいフォームを作成できます。
 

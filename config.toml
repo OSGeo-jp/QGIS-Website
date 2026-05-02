@@ -1097,6 +1097,12 @@ sectionPagesMenu = 'main'
     [languages.zh-hans]
     languageCode = "zh-hans"
     weight = 2
+
+  [languages.zh-Hans]
+  languageCode = "zh-Hans"
+  weight = 2
+  contentDir = "content-translated/zh-Hans"
+
 [module]
   # English (base language) - only original content
   [[module.mounts]]
