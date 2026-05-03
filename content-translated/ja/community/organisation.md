@@ -162,10 +162,10 @@ QGIS Press Material and its translations are managed by the Community Assistant 
 -
 プロジェクトが成功するためには多くの異なる役割を演じる多くの人々が必要です。コードやドキュメントを書くメンバーがいる一方、テスターとして貴重であり、パッチと提案を提出する人もいます。
 
-The number of Contributors to the project is unbounded. Get involved today. All contributions (adding code or documentation, fixing typo error, reporting issues…) to the project are greatly appreciated.
+プロジェクトへのコントリビューターに人数制限はありません。ぜひ今日から参加しましょう。コードやドキュメントの追加、誤字の修正、問題の報告など、どんな小さな貢献も大変ありがたく思っています。
 
-These [individuals](https://github.com/qgis/QGIS/graphs/contributors) are recognised as Contributors to the main code [github repository](https://github.com/qgis/QGIS).
+以下の [方々] (https://github.com/qgis/QGIS/graphs/contributors)  は、メインコードの [GitHubリポジトリ](https://github.com/qgis/QGIS) へのコントリビューターとして認定されています。
 
-Follow the lists of maintainers of the [documentation](https://github.com/qgis/QGIS-Documentation/graphs/contributors) and the [website](https://github.com/qgis/QGIS-Website/graphs/contributors). Feel free to join any of those teams.
+[ドキュメント](https://github.com/qgis/QGIS-Documentation/graphs/contributors) および [ウェブサイト]](https://github.com/qgis/QGIS-Website/graphs/contributors) のメンテナーのリストをご覧ください。どのチームにもお気軽にご参加ください。
 
 {{<content-end >}}

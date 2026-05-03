@@ -3,21 +3,22 @@ HasBanner: true
 HeroImage: img/involve.jpg
 draft: false
 sidebar: true
-subtitle: QGISをグローバルなGISコミュニティに欠かせないツールとして発展・普及させていくために、皆さまのご支援が大きな力となります。
-title: 寄贈
+subtitle: Your support is vital to enhance and promote QGIS as an essential tool for
+  the global GIS community
+title: 捐助
 type: page
 
 ---
 {{<content-start >}}
 
-QGISは、専用ボランティア、企業、組織のチームによって開発されています。
+QGIS由一群敬业的志愿者，公司和组织开发。
 
-私たちの活動資金の多くは、スポンサーシップと寄付によって支えられています。ご支援をご検討の方は、ぜひ寄付をお寄せください。寄付は電子送金・クレジットカード・PayPalにてお受けしております。
+We rely on sponsorships and donations for much of our funding. If you would like to support us, donations are very welcome. Donations can be made by electronic funds transfer, by credit card, or by PayPal.
 
-QGISへの寄付は、一部の国において税控除の対象となる場合があります。詳細については、地域の税務署にお問い合わせください。ドイツの企業や組織として税控除を受けたい場合は、 [German QGIS user group](https://qgis.de/doku.php/verein/spenden) を通じて寄付してください。彼らは税免除のドイツ団体として支払い確認書を発行することができます。
+Donations to QGIS might be tax-deductible in some countries. Please refer to your local tax office for details. If you want to tax-deduct as a german company or organization, please donate through the [German QGIS user group](https://qgis.de/doku.php/verein/spenden). They can issue a payment confirmation as a tax-exempt german association.
 
 {{< rich-box-start layoutClass="mt-6">}} {{< rich-content-start themeClass="coloring-2" >}}
-## 継続支援会員制度
+## Sustaining Membership
 Create a recurring sustaining membership.
 
 {{<button class="is-primary6" link="funding/membership" text="Subscribe" >}}
@@ -57,18 +58,18 @@ VAT-number:   CHE-489.853.176
 ## Paypal Donation
 You can use Paypal to donate using your own credit card (but we prefer to use [Payrexx](#payrexx-donation) for that). The payment is processed by PayPal but you don't need to have a PayPal account or sign-up for one if you are paying by credit card.
 
-ご自身のPayPalアカウントを使って寄付することもできます.
+您也可以使用自己的Paypal帐户进行捐助。
 
 {{< paypal-button >}} {{< rich-content-end >}} {{< rich-right-start >}}<br />![](../paypal.png) {{< rich-right-end >}} {{< rich-box-end >}}
 ## Your support is vital to keep QGIS improving
-私たちは活動を拡大し、QGISの品質を向上させたいと考えています。皆様の寄付は、QGISの保守、改善、および宣伝を支援します。維持会員になることは、プロジェクトの寿命と全体的な健全性を確保する方法の1つです。
+我们希望扩展我们的活动并提高QGIS的质量，您的资金贡献将支持QGIS的维护、改进和推广。成为赞助会员是确保项目持续和整体健康发展的一种方式。
 
 {{< columns-start >}} {{< column-start class="is-flex-direction-column is-one-third left-title">}}
-## インフラと開発への強化支援
+## Enhanced Infrastructure & Development Support
 {{<column-end >}}
 
 {{< column-start class="is-flex-direction-column is-two-thirds">}} {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-1" >}}
-#### コアインフラの維持管理
+#### Maintaining Core Infrastructure
 * The official QGIS.org website, a central hub for all things QGIS.
 * Our issue tracking system for efficient bug and feature reporting.
 * The continuous integration system, ensuring code quality and stability through automated tests. {{< rich-content-end >}} {{< rich-box-end >}}
@@ -87,16 +88,16 @@ You can use Paypal to donate using your own credit card (but we prefer to use [P
 
 {{< column-start class="is-flex-direction-column is-two-thirds ">}} {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-1" >}}
 #### Empowering Our Volunteers
-* 新規コントリビューターへのメンタリングを通じて、誰もが参加しやすく生産性の高いコミュニティを育てています。
-* QGISの多言語翻訳による、真のグローバル化への貢献
-* QGISグラントシステムを運営し、ボランティアが単独で取り組むことが難しい重要な改善やイノベーションに集中して取り組めるようにすること。{{< rich-content-end >}}{{< rich-box-end >}}
+* Mentoring new contributors, fostering a welcoming and productive community.
+* Translating QGIS into multiple languages, making the software truly global.
+* Running the QGIS grant system, enabling focused work on significant improvements and innovations that are often challenging for volunteers to undertake on their own. {{< rich-content-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-1" >}}
-#### 協力体制と知識共有の促進
-* コントリビューターミーティングやQGISカンファレンスの開催・支援を通じて、知識の共有、協力、そしてQGISプロジェクトの共同発展を促進しています。 {{< rich-content-end >}}{{< rich-box-end >}}
+#### Fostering Collaboration & Knowledge Sharing
+* Organizing and supporting contributor meetings and QGIS conferences, essential for knowledge exchange, collaboration, and the collective advancement of the QGIS project. {{< rich-content-end >}} {{< rich-box-end >}}
 
 {{< column-end >}} {{< columns-end >}}
 
-QGIS.ORGは、受け取った資金とその使途について透明性を確保することを大切にしています。[財務]({{< ref "/community/foundation/finance" >}})セクションにて財務報告書と予算をご確認いただけます。
+QGIS.ORG wants to be transparent with the funds we receive and how we spend them. Please have a look at the financial reports and budgets in our [Finance]({{< ref "/community/foundation/finance" >}}) section.
 
 {{<content-end >}}

@@ -61,7 +61,7 @@ QGIS Core comprises libraries for building custom applications through a robust 
 [QGIS roadmap]({{< ref "resources/roadmap" >}}) {{< rich-content-end >}} {{< rich-right-start >}}<br />![](../img/Core.jpg) {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" mode="html">}} {{< rich-content-start themeClass="coloring-2" >}}
-### 支持 & 捐助
+### 支持与捐助
 We welcome two types of financial contributions:
 
 {{< button class = "is-primary1" link = "funding/membership" text = "Become a Sustaining Member" >}} {{< button class = "is-primary6" link = "funding/donate" text = "One-Time Donation" >}}
