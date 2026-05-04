@@ -1,10 +1,10 @@
 {
   "bucket_name": "qgis-download",
   "prefix": "",
-  "generated_at": "2026-05-04T09:02:20.398554+00:00",
+  "generated_at": "2026-05-04T10:27:56.794334+00:00",
   "statistics": {
     "total_files": 142902,
-    "total_size": 4360120217754,
+    "total_size": 4360120236262,
     "total_size_formatted": "3.97 TB",
     "by_category": {
       "installer": {
@@ -14,7 +14,7 @@
       },
       "other": {
         "count": 6546,
-        "size": 23668917940,
+        "size": 23668917941,
         "size_formatted": "22.04 GB"
       },
       "image": {
@@ -29,7 +29,7 @@
       },
       "archive": {
         "count": 4000,
-        "size": 573566664329,
+        "size": 573566682836,
         "size_formatted": "534.18 GB"
       }
     },
@@ -45,7 +45,7 @@
       ".gpg": 352,
       ".msi": 193
     },
-    "last_updated": "2026-05-04T09:02:20.327139+00:00"
+    "last_updated": "2026-05-04T10:27:56.719483+00:00"
   },
   "tree": {
     "name": "qgis-download",
@@ -25350,8 +25350,8 @@
         "key": "qgis-latest-ltr.tar.bz2",
         "name": "qgis-latest-ltr.tar.bz2",
         "path": "",
-        "size": 191550241,
-        "size_formatted": "182.68 MB",
+        "size": 191960210,
+        "size_formatted": "183.07 MB",
         "last_modified": "2026-04-03T12:03:46+00:00",
         "last_modified_timestamp": 1775217826,
         "extension": ".bz2",
@@ -25361,8 +25361,8 @@
         "key": "qgis-latest-ltr.tar.bz2.sha256",
         "name": "qgis-latest-ltr.tar.bz2.sha256",
         "path": "",
-        "size": 86,
-        "size_formatted": "86.00 B",
+        "size": 87,
+        "size_formatted": "87.00 B",
         "last_modified": "2026-04-03T12:03:46+00:00",
         "last_modified_timestamp": 1775217826,
         "extension": ".sha256",
@@ -25372,8 +25372,8 @@
         "key": "qgis-latest.tar.bz2",
         "name": "qgis-latest.tar.bz2",
         "path": "",
-        "size": 191780482,
-        "size_formatted": "182.90 MB",
+        "size": 191389020,
+        "size_formatted": "182.52 MB",
         "last_modified": "2026-04-03T12:03:34+00:00",
         "last_modified_timestamp": 1775217814,
         "extension": ".bz2",
