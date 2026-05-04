@@ -63,6 +63,11 @@ jobs:
       - name: Generate translated content
         run: make generate-translations
 
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+
+      - name: Validate build
+        run: nix flake check
       
       - name: Check for changes
         id: git-check

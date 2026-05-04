@@ -28,7 +28,7 @@ type: page
 ###### Професионално изработване на карти
 Използвайте интуитивния инструмент за проектиране на оформление, за да създавате висококачествени карти за печат в голям формат.
 ###### Мощни инструменти за отчитане
-Създавайте атласи и отчети с карти, медийно съдържание и таблично съдържание. {{< край на колоната >}} {{< край на колоната >}}
+Създавайте атласи и отчети с карти, медийно съдържание и таблично съдържание. {{< column-end >}} {{< column-end >}}
 
 {{< columns-start id="content-tab-2" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Редактиране на картата](../img/edit.gif "Редактиране на картата") {{< column-end >}}
 
@@ -66,13 +66,13 @@ type: page
 
 {{< column-end >}} {{< columns-end >}}
 ## Повишете нивото си с ресурси на общността
-{{< columns-start >}} {{< column-start class="is-flex-direction-column заоблена" >}} ![Създаване на карта](../img/plugs.jpg "Създаване на карта") {{< column-end >}} {{< column-start class="is-flex-direction-column is-justify-content-center ">}}
+{{< columns-start >}} {{< column-start class="is-flex-direction-column rounded" >}} ![Създаване на карта](../img/plugs.jpg "Създаване на карта") {{< column-end >}} {{< column-start class="is-flex-direction-column is-justify-content-center ">}}
 ### 2000+ плъгина, разработени от общността
 Подобрете функционалността на приложението QGIS с хиляди безплатни допълнителни функции.
 
 [Отидете на плъгините](https://plugins.qgis.org/) {{< column-end >}} {{< columns-end >}}
 
-{{< columns-start >}} {{< column-start class="is-flex-direction-column заоблена" >}} ![Международна конференция](../img/meetings.jpg "International conference") {{< column-end >}} {{< column-start class="is-flex-direction-column is-justify-content-center ">}}
+{{< columns-start >}} {{< column-start class="is-flex-direction-column rounded" >}} ![Международна конференция](../img/meetings.jpg "International conference") {{< column-end >}} {{< column-start class="is-flex-direction-column is-justify-content-center ">}}
 ### Годишна международна конференция
 Свържете се с професионалисти, ентусиасти и потребители на QGIS за работа в мрежа и споделяне на знания на нашата годишна международна потребителска конференция.
 
@@ -82,7 +82,7 @@ type: page
 ### Местни потребителски групи и доставчици на поддръжка
 Присъединете се към общност от хора със сходни интереси във вашия регион.
 
-[Списък с местни групи]({{<реф. "community/groups.md" >}}) {{< column-end >}} {{< columns-end >}}
+[Списък с местни групи]({{< ref "community/groups.md" >}}) {{< column-end >}} {{< columns-end >}}
 
 [Присъединете се към общността]({{< ref "community/involve.md" >}} "is-size-5 mb-4")
 ## Кросплатформен
@@ -135,7 +135,7 @@ type: page
 
 {{<column-end >}}
 
-{{< column-start class="is-flex-direction-column is-two-thirds">}} {{< hub-images showcase="карта" quantity="4" columns="галерия" >}}
+{{< column-start class="is-flex-direction-column is-two-thirds">}} {{< hub-images showcase="map" quantity="4" columns="gallery" >}}
 
 {{< column-end >}} {{< columns-end >}}
 
@@ -145,7 +145,7 @@ type: page
 
 [Отидете на екранните снимки]({{< ref "project/overview/screenshots.md" >}}) {{< column-end >}}
 
-{{< column-start class="is-flex-direction-column is-two-thirds">}} {{< hub-images showcase="screenshot" quantity="4" columns="галерия" >}}
+{{< column-start class="is-flex-direction-column is-two-thirds">}} {{< hub-images showcase="screenshot" quantity="4" columns="gallery" >}}
 
 {{< column-end >}} {{< columns-end >}}
 

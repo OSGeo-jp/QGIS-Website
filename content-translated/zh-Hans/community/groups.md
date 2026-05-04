@@ -95,16 +95,16 @@ type: page
 {{<rich-list listLink="https://in.qgis.org/" icon="🇮🇳" layoutClass="half" listTitle="QGIS印度用户组" listSubtitle="联系人: Ujaval Gandhi" >}}
 ## 用户组目的
 * 组织用户会议
-* Coordination of development, with an emphasis on regional/national standards and requirements
-* QGIS information dissemination: meetings, articles in GIS magazines, QGIS information in social media, GIS discussion boards, etc.
-* Collection of case studies of local QGIS usage
-* Sponsoring: local user groups are encouraged to collect reasonable annual membership fees (depending on the country). These collected funds can be used to fund the development of relevant features, help with bug-fixing or as a donation to the international QGIS project.
-* Establishment of interest groups, e.g. surveying, urban planning, server/web client, etc.
-* Initialization/coordination of application modules, e.g. surveying, urban planning, server/web client, etc.
-* Electing a representative to act as a [QGIS Voting Member]({{< ref "/community/organisation#voting-members" >}})
+* 统筹协调发展，重点契合区域及国家相关标准与规范要求
+* QGIS信息宣传渠道：会议、GIS杂志的文章、社交媒体的QGIS信息、GIS讨论板块等。
+* 本地QGIS应用案例研究汇编
+* 赞助：鼓励本地用户组 (根据当地实际情况) 收取合理的年度会员费。所筹集的资金可用于资助相关功能的开发、协助修复Bug，或作为对国际QGIS项目的捐助。
+* 成立专业兴趣小组，例如测绘、城市规划、服务器/Web客户端等。
+* 应用模块初始化与统筹协同，例如测绘、城市规划、服务器/Web客户端等。
+* 推选一名代表担任 [QGIS投票成员]({{< ref "/community/organisation#voting-members" >}})
 
-## General assumptions/recommendations
-* local user groups should stay vendor/company neutral
+## 意见或建议
+* 本地用户组应保持供应商/公司中立
 * establish democratic structures for the local steering committee, voting and making important decisions
 * stay transparent, especially if you deal with membership-fees and how you spend them
 * inform the international project from time to time about your local activities
