@@ -60,9 +60,10 @@ jobs:
       - name: Verify sanitization worked
         run: |
           echo "Checking for corrupted shortcodes in .po files..."
-          # Search for common Cyrillic shortcode translations that would break builds
-          if grep -r "край" translations/*/messages.po 2>/dev/null | grep -v "^#"; then
-            echo "ERROR: Found untranslated shortcode names in .po files!"
+          # Search for actual corrupted shortcode patterns like {{< край or {{< край-
+          # Not just the word appearing in normal text
+          if grep -rE '\{\{<\s*(край|slut|koniec|конец|slutt|колона|параметър|реф)(\s|>|-)' translations/*/messages.po 2>/dev/null; then
+            echo "ERROR: Found corrupted shortcode names in .po files!"
             exit 1
           fi
           echo "✅ Sanitization check passed"
