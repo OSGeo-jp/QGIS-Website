@@ -5,15 +5,15 @@
     "how_to_update": "Run 'python scripts/update_individual_contributors.py --token YOUR_TOKEN'",
     "documentation": "See CONTRIBUTING.md section: Automated Content and Manual Edit Guidelines"
   },
-  "generated_at": "2026-05-04T04:38:58.528373+00:00",
+  "generated_at": "2026-05-04T10:09:50.880203+00:00",
   "total_contributors": 1030,
   "contributors": [
     {
       "login": "nyalldawson",
       "avatar_url": "https://avatars.githubusercontent.com/u/1829991?u=aa8023a3683a5a3799faa0e0fbcccbeb43575af5&v=4",
-      "total_contributions": 25146,
+      "total_contributions": 25150,
       "thematics": {
-        "qgis_core": 25125,
+        "qgis_core": 25129,
         "documentation": 19,
         "web_sites": 2
       },
@@ -110,9 +110,9 @@
     {
       "login": "wonder-sk",
       "avatar_url": "https://avatars.githubusercontent.com/u/193367?v=4",
-      "total_contributions": 2890,
+      "total_contributions": 2894,
       "thematics": {
-        "qgis_core": 2879,
+        "qgis_core": 2883,
         "documentation": 8,
         "web_sites": 3
       },
@@ -451,9 +451,9 @@
     {
       "login": "benoitdm-oslandia",
       "avatar_url": "https://avatars.githubusercontent.com/u/64401067?u=85e5e2118921f9f6948e8087e5402dfc3f59e848&v=4",
-      "total_contributions": 488,
+      "total_contributions": 492,
       "thematics": {
-        "qgis_core": 415,
+        "qgis_core": 419,
         "documentation": 73,
         "web_sites": 0
       },
