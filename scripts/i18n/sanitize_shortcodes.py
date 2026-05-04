@@ -157,11 +157,16 @@ def restore_technical_content(msgid: str, msgstr: str) -> tuple[str, list[str]]:
     
     # Pattern for shortcode parameters that should not be translated
     # These are technical values like showcase="map", columns="gallery", class="rounded"
+    # Note: 'title' and 'subtitle' are user-facing content and SHOULD be translated
+    # Note: 'tab1'-'tab4' are handled separately to preserve only Hugo variables (|var|)
     technical_params = {
         'showcase', 'columns', 'id', 'class', 'layoutClass', 
-        'themeClass', 'link', 'icon', 'platform', 'tab1', 'tab2', 
-        'tab3', 'tab4', 'mode', 'title'
+        'themeClass', 'link', 'icon', 'platform', 'mode'
     }
+    
+    # Tab parameters need special handling: preserve Hugo template variables |var|
+    # but allow surrounding text to be translated
+    tab_params = {'tab1', 'tab2', 'tab3', 'tab4'}
     
     # Extract shortcodes from msgid to get correct parameter values
     msgid_shortcodes = list(SHORTCODE_RE.finditer(msgid))
@@ -213,6 +218,94 @@ def restore_technical_content(msgid: str, msgstr: str) -> tuple[str, list[str]]:
                             
                             # Refresh the shortcode matches after modification
                             msgstr_shortcodes = list(SHORTCODE_RE.finditer(result))
+        
+        # Special handling for tab parameters: preserve only Hugo template variables |var|
+        for param_name in tab_params:
+            if param_name in params_id and param_name in params_str:
+                value_id = params_id[param_name]
+                value_str = params_str[param_name]
+                
+                # Find all Hugo template variables (inside |...|) in the source
+                pipe_pattern = r'\|[^|]+\|'
+                variables_in_source = re.findall(pipe_pattern, value_id)
+                
+                if variables_in_source and value_id != value_str:
+                    # Restore Hugo variables from source while keeping translated text
+                    new_value = value_str
+                    
+                    # For each |variable| in source, ensure it exists in translation
+                    for var in variables_in_source:
+                        if var not in new_value:
+                            # Variable was translated/corrupted, restore all variables from source
+                            # Extract all |...| patterns from both source and translation
+                            vars_in_translation = re.findall(pipe_pattern, value_str)
+                            
+                            # If count matches, replace each translated var with source var
+                            if len(vars_in_translation) == len(variables_in_source):
+                                new_value = value_str
+                                for src_var, trans_var in zip(variables_in_source, vars_in_translation):
+                                    if src_var != trans_var:
+                                        new_value = new_value.replace(trans_var, src_var, 1)
+                            else:
+                                # Mismatch in variable count, restore entire value
+                                new_value = value_id
+                            break
+                    
+                    if new_value != value_str:
+                        old_param = f'{param_name}="{value_str}"'
+                        new_param = f'{param_name}="{new_value}"'
+                        
+                        # Replace within this specific shortcode's parameter section
+                        sc_start = sc_msgstr.start(4)
+                        sc_end = sc_msgstr.end(4)
+                        before = result[:sc_start]
+                        sc_params = result[sc_start:sc_end]
+                        after = result[sc_end:]
+                        
+                        if old_param in sc_params:
+                            sc_params = sc_params.replace(old_param, new_param, 1)
+                            result = before + sc_params + after
+                            fixes.append(f'param {param_name}: "{value_str}" → "{new_value}"')
+                            
+                            # Refresh the shortcode matches after modification
+                            msgstr_shortcodes = list(SHORTCODE_RE.finditer(result))
+    
+    return result, fixes
+
+
+def restore_hugo_variables(msgid: str, msgstr: str) -> tuple[str, list[str]]:
+    """
+    Restore Hugo template variables that were translated.
+    Hugo template variables use pipe notation: |variable|, |ltrversion|, |version|
+    These should NEVER be translated as they are template variable names.
+    """
+    result = msgstr
+    fixes = []
+    
+    # Find all Hugo template variables in source (msgid)
+    pipe_pattern = r'\|[a-zA-Z][a-zA-Z0-9_]*\|'
+    variables_in_source = re.findall(pipe_pattern, msgid)
+    
+    if not variables_in_source:
+        return result, fixes
+    
+    # Check each variable exists in translation
+    for var in variables_in_source:
+        if var not in result:
+            # Variable was translated or corrupted
+            # Find what it was translated to (any |...| pattern in roughly the same position)
+            variables_in_translation = re.findall(r'\|[^|]+\|', result)
+            
+            # Try to match by position/context
+            # For now, simple approach: replace first occurrence of any translated |...| with correct variable
+            if variables_in_translation:
+                for trans_var in variables_in_translation:
+                    # Check if this translated variable doesn't exist in source
+                    if trans_var not in msgid:
+                        # This is likely the translated version of our variable
+                        result = result.replace(trans_var, var, 1)
+                        fixes.append(f'Hugo variable: "{trans_var}" → "{var}"')
+                        break
     
     return result, fixes
 
@@ -241,7 +334,10 @@ def process_po_file(path: str, valid: set[str], dry_run: bool) -> int:
         # Then, fix technical content (paths, parameters)
         new_msgstr, tech_fixes = restore_technical_content(entry.msgid, new_msgstr)
         
-        all_fixes = name_fixes + tech_fixes
+        # Finally, restore Hugo template variables that were translated
+        new_msgstr, var_fixes = restore_hugo_variables(entry.msgid, new_msgstr)
+        
+        all_fixes = name_fixes + tech_fixes + var_fixes
         
         if not all_fixes:
             continue

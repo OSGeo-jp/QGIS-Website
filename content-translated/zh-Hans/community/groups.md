@@ -105,20 +105,20 @@ type: page
 
 ## 意见或建议
 * 本地用户组应保持供应商/公司中立
-* establish democratic structures for the local steering committee, voting and making important decisions
-* stay transparent, especially if you deal with membership-fees and how you spend them
-* inform the international project from time to time about your local activities
+* 为地方指导委员会建立民主运作机制，开展投票表决并审议重大事项。
+* 保持公开透明，尤其是在处理会费及使用支出方面。
+* 及时向国际项目组汇报本地的相关活动情况
 
-## 机构
-Depending on your country, a smaller legal entity, e.g. an association or non-profit organisation, can be established. Depending on local legislation, such an entity implies that you meet at least once per year (general assembly), publish a yearly report and make the financial report available to your members. Often it also implies the creation of statutes.
+## 组织
+根据所在国家实际情况，可注册成立小型法人实体，例如协会或非营利组织。依据当地法律，此类实体每年至少需要召开一次会议 (全体会员大会)，发布年度工作报告，并向会员公开财务报告。通常，还要求制定组织章程。
 
-Statutes of the Swiss QGIS user group as an example:
-* German (master): [https://www.qgis.ch/assets/pdf/StatutenderQGISAnwendergruppeSchweiz.pdf](https://www.qgis.ch/assets/pdf/StatutenderQGISAnwendergruppeSchweiz.pdf)
-* French (translation): [https://www.qgis.ch/assets/pdf/StatutsdugroupedutilisateursQGISSuisse.pdf](https://www.qgis.ch/assets/pdf/StatutsdugroupedutilisateursQGISSuisse.pdf)
+以瑞士QGIS用户组的章程为例：
+* 德语 (原版): [https://www.qgis.ch/assets/pdf/StatutenderQGISAnwendergruppeSchweiz.pdf](https://www.qgis.ch/assets/pdf/StatutenderQGISAnwendergruppeSchweiz.pdf)
+* 法语 (译本): [https://www.qgis.ch/assets/pdf/StatutsdugroupedutilisateursQGISSuisse.pdf](https://www.qgis.ch/assets/pdf/StatutsdugroupedutilisateursQGISSuisse.pdf)
 
-Membership application forms:
-* German: [https://www.qgis.ch/assets/pdf/QGIS%20Usergruppe%20Beitrittserklaerung.pdf](https://www.qgis.ch/assets/pdf/QGIS%20Usergruppe%20Beitrittserklaerung.pdf)
-* French: [https://www.qgis.ch/assets/pdf/QGIS%20groupe%20d%20utilisateurs%20Suisse%20declaration%20d%20adhesion.pdf](https://www.qgis.ch/assets/pdf/QGIS%20groupe%20d%20utilisateurs%20Suisse%20declaration%20d%20adhesion.pdf)
+入会申请表:
+* 德语: [https://www.qgis.ch/assets/pdf/QGIS%20Usergruppe%20Beitrittserklaerung.pdf](https://www.qgis.ch/assets/pdf/QGIS%20Usergruppe%20Beitrittserklaerung.pdf)
+* 法语: [https://www.qgis.ch/assets/pdf/QGIS%20groupe%20d%20utilisateurs%20Suisse%20declaration%20d%20adhesion.pdf](https://www.qgis.ch/assets/pdf/QGIS%20groupe%20d%20utilisateurs%20Suisse%20declaration%20d%20adhesion.pdf)
 
 You can use these statutes and membership application forms as a reference and change them as needed for your local situation.
 ## Local Country domain qgis.xx
