@@ -4,14 +4,14 @@ aliases:
 - /ja/linux-packages/ubuntu-ltr
 draft: false
 sidebar: true
-subtitle: QGIS Long Term Release packages for Debian and Ubuntu
+subtitle: Debian・Ubuntu向けQGIS長期サポート（LTS）リリースパッケージ
 title: Debian / Ubuntu LTR パッケージ
 type: page
 
 ---
 {{<content-start >}}
 # Debian / Ubuntu LTR パッケージ
-Browse and download QGIS Long Term Release (LTR) packages for Debian and Ubuntu distributions.
+Debian・Ubuntu向けのQGIS長期サポートリリース（LTR）パッケージをご覧いただき、ダウンロードできます。
 
 {{<linux-packages-explorer distribution="debian_ubuntu_ltr" >}}
 

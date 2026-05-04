@@ -95,30 +95,30 @@ type: page
 {{<rich-list listLink="https://in.qgis.org/" icon="🇮🇳" layoutClass="half" listTitle="QGIS印度用户组" listSubtitle="联系人: Ujaval Gandhi" >}}
 ## 用户组目的
 * 组织用户会议
-* Coordination of development, with an emphasis on regional/national standards and requirements
-* QGIS information dissemination: meetings, articles in GIS magazines, QGIS information in social media, GIS discussion boards, etc.
-* Collection of case studies of local QGIS usage
-* Sponsoring: local user groups are encouraged to collect reasonable annual membership fees (depending on the country). These collected funds can be used to fund the development of relevant features, help with bug-fixing or as a donation to the international QGIS project.
-* Establishment of interest groups, e.g. surveying, urban planning, server/web client, etc.
-* Initialization/coordination of application modules, e.g. surveying, urban planning, server/web client, etc.
-* Electing a representative to act as a [QGIS Voting Member]({{< ref "/community/organisation#voting-members" >}})
+* 统筹协调发展，重点契合区域及国家相关标准与规范要求
+* QGIS信息宣传渠道：会议、GIS杂志的文章、社交媒体的QGIS信息、GIS讨论板块等。
+* 本地QGIS应用案例研究汇编
+* 赞助：鼓励本地用户组 (根据当地实际情况) 收取合理的年度会员费。所筹集的资金可用于资助相关功能的开发、协助修复Bug，或作为对国际QGIS项目的捐助。
+* 成立专业兴趣小组，例如测绘、城市规划、服务器/Web客户端等。
+* 应用模块初始化与统筹协同，例如测绘、城市规划、服务器/Web客户端等。
+* 推选一名代表担任 [QGIS投票成员]({{< ref "/community/organisation#voting-members" >}})
 
-## General assumptions/recommendations
-* local user groups should stay vendor/company neutral
-* establish democratic structures for the local steering committee, voting and making important decisions
-* stay transparent, especially if you deal with membership-fees and how you spend them
-* inform the international project from time to time about your local activities
+## 意见或建议
+* 本地用户组应保持供应商/公司中立
+* 为地方指导委员会建立民主运作机制，开展投票表决并审议重大事项。
+* 保持公开透明，尤其是在处理会费及使用支出方面。
+* 及时向国际项目组汇报本地的相关活动情况
 
-## 机构
-Depending on your country, a smaller legal entity, e.g. an association or non-profit organisation, can be established. Depending on local legislation, such an entity implies that you meet at least once per year (general assembly), publish a yearly report and make the financial report available to your members. Often it also implies the creation of statutes.
+## 组织
+根据所在国家实际情况，可注册成立小型法人实体，例如协会或非营利组织。依据当地法律，此类实体每年至少需要召开一次会议 (全体会员大会)，发布年度工作报告，并向会员公开财务报告。通常，还要求制定组织章程。
 
-Statutes of the Swiss QGIS user group as an example:
-* German (master): [https://www.qgis.ch/assets/pdf/StatutenderQGISAnwendergruppeSchweiz.pdf](https://www.qgis.ch/assets/pdf/StatutenderQGISAnwendergruppeSchweiz.pdf)
-* French (translation): [https://www.qgis.ch/assets/pdf/StatutsdugroupedutilisateursQGISSuisse.pdf](https://www.qgis.ch/assets/pdf/StatutsdugroupedutilisateursQGISSuisse.pdf)
+以瑞士QGIS用户组的章程为例：
+* 德语 (原版): [https://www.qgis.ch/assets/pdf/StatutenderQGISAnwendergruppeSchweiz.pdf](https://www.qgis.ch/assets/pdf/StatutenderQGISAnwendergruppeSchweiz.pdf)
+* 法语 (译本): [https://www.qgis.ch/assets/pdf/StatutsdugroupedutilisateursQGISSuisse.pdf](https://www.qgis.ch/assets/pdf/StatutsdugroupedutilisateursQGISSuisse.pdf)
 
-Membership application forms:
-* German: [https://www.qgis.ch/assets/pdf/QGIS%20Usergruppe%20Beitrittserklaerung.pdf](https://www.qgis.ch/assets/pdf/QGIS%20Usergruppe%20Beitrittserklaerung.pdf)
-* French: [https://www.qgis.ch/assets/pdf/QGIS%20groupe%20d%20utilisateurs%20Suisse%20declaration%20d%20adhesion.pdf](https://www.qgis.ch/assets/pdf/QGIS%20groupe%20d%20utilisateurs%20Suisse%20declaration%20d%20adhesion.pdf)
+入会申请表:
+* 德语: [https://www.qgis.ch/assets/pdf/QGIS%20Usergruppe%20Beitrittserklaerung.pdf](https://www.qgis.ch/assets/pdf/QGIS%20Usergruppe%20Beitrittserklaerung.pdf)
+* 法语: [https://www.qgis.ch/assets/pdf/QGIS%20groupe%20d%20utilisateurs%20Suisse%20declaration%20d%20adhesion.pdf](https://www.qgis.ch/assets/pdf/QGIS%20groupe%20d%20utilisateurs%20Suisse%20declaration%20d%20adhesion.pdf)
 
 You can use these statutes and membership application forms as a reference and change them as needed for your local situation.
 ## Local Country domain qgis.xx
