@@ -310,6 +310,47 @@ def restore_hugo_variables(msgid: str, msgstr: str) -> tuple[str, list[str]]:
     return result, fixes
 
 
+def fix_malformed_shortcodes(msgstr: str, valid: set[str]) -> tuple[str, list[str]]:
+    """
+    Fix malformed shortcode syntax where punctuation or typos corrupt the shortcode structure.
+    Examples:
+    - {{<ref. "path" >}} → {{< ref "path" >}}
+    - {{<column-start. >}} → {{< column-start >}}
+    - {{<button, text="foo" >}} → {{< button text="foo" >}}
+    
+    Note: We fix malformed syntax regardless of whether the shortcode is in our valid set,
+    because built-in Hugo shortcodes (like 'ref', 'relref', 'param') won't be in the custom
+    shortcodes directory but still need syntax fixes.
+    """
+    result = msgstr
+    fixes = []
+    
+    # Pattern to detect malformed shortcodes with punctuation after shortcode name
+    # Matches: {{< or {{<, then shortcode name, then punctuation (., , ; :), then space or >
+    malformed_pattern = r'\{\{<\s*(/?)(\w+[\w-]*)([\.,;:])\s*([^>]*?)(/?)>\}\}'
+    
+    for match in re.finditer(malformed_pattern, result, re.UNICODE):
+        closing_slash = match.group(1)  # / for closing tags
+        shortcode_name = match.group(2)
+        punctuation = match.group(3)    # The offending punctuation
+        params = match.group(4)         # Parameters
+        self_closing = match.group(5)   # / for self-closing
+        
+        # Fix the malformed shortcode regardless of valid set
+        # (could be built-in Hugo shortcode like 'ref' or 'param')
+        old_shortcode = match.group(0)
+        
+        # Reconstruct with proper spacing
+        space_before = '' if closing_slash else ' '
+        space_after = ' ' if params.strip() else ''
+        new_shortcode = f'{{{{<{space_before}{closing_slash}{shortcode_name}{space_after}{params.strip()}{self_closing} >}}}}'
+        
+        result = result.replace(old_shortcode, new_shortcode, 1)
+        fixes.append(f'malformed shortcode: "{{{{<{closing_slash}{shortcode_name}{punctuation}" → "{{{{< {closing_slash}{shortcode_name}"')
+    
+    return result, fixes
+
+
 def process_po_file(path: str, valid: set[str], dry_run: bool) -> int:
     """Process one .po file using polib. Returns number of shortcode names fixed."""
     try:
@@ -331,13 +372,16 @@ def process_po_file(path: str, valid: set[str], dry_run: bool) -> int:
         # First, fix shortcode names
         new_msgstr, name_fixes = restore_names(entry.msgid, entry.msgstr, valid)
         
+        # Fix malformed shortcode syntax (e.g., {{<ref. instead of {{< ref)
+        new_msgstr, syntax_fixes = fix_malformed_shortcodes(new_msgstr, valid)
+        
         # Then, fix technical content (paths, parameters)
         new_msgstr, tech_fixes = restore_technical_content(entry.msgid, new_msgstr)
         
         # Finally, restore Hugo template variables that were translated
         new_msgstr, var_fixes = restore_hugo_variables(entry.msgid, new_msgstr)
         
-        all_fixes = name_fixes + tech_fixes + var_fixes
+        all_fixes = name_fixes + syntax_fixes + tech_fixes + var_fixes
         
         if not all_fixes:
             continue
