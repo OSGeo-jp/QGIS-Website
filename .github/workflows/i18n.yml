@@ -57,6 +57,16 @@ jobs:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
         run: make txpull
 
+      - name: Verify sanitization worked
+        run: |
+          echo "Checking for corrupted shortcodes in .po files..."
+          # Search for common Cyrillic shortcode translations that would break builds
+          if grep -r "край" translations/*/messages.po 2>/dev/null | grep -v "^#"; then
+            echo "ERROR: Found untranslated shortcode names in .po files!"
+            exit 1
+          fi
+          echo "✅ Sanitization check passed"
+
       - name: Compile translations
         run: make messages-compile
 

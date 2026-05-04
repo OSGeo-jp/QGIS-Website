@@ -43,10 +43,11 @@ except ImportError:
 # ---------------------------------------------------------------------------
 # Hugo shortcode tag pattern — matches both {{< name ... >}} and {{% name %}}
 # Operates on plain (unescaped) strings as delivered by polib.
+# Updated to match Unicode characters (including Cyrillic, Chinese, etc.) for corrupted shortcodes
 # ---------------------------------------------------------------------------
 SHORTCODE_RE = re.compile(
-    r'(\{\{(?:<|%)[ \t]*)(/?)([A-Za-z0-9_-]+)((?:[^>%]|>(?!\}\})|%(?!\}\}))*?)(>|%)(\}\})',
-    re.DOTALL,
+    r'(\{\{(?:<|%)[ \t]*)(/?)(\w+[\w-]*)((?:[^>%]|>(?!\}\})|%(?!\}\}))*?)(>|%)(\}\})',
+    re.DOTALL | re.UNICODE,
 )
 
 
@@ -90,12 +91,29 @@ def restore_names(msgid: str, msgstr: str, valid: set[str]) -> tuple[str, list[s
         if correct_name == name:
             continue
 
-        new_tag = m.group(1) + m.group(2) + correct_name + m.group(4) + m.group(5) + m.group(6)
+        # Get the correct shortcode from msgid (includes all its params)
+        id_shortcode_match = id_shortcodes[i][0]
+        params_from_msgid = id_shortcode_match.group(4)  # params from source
+        params_from_msgstr = m.group(4)  # params from translation
+        
+        # Check if params look like translated text (not key="value" syntax)
+        # If params contain non-ASCII and no "=" signs, they're probably part of translated shortcode name
+        has_param_syntax = '=' in params_from_msgstr
+        has_non_ascii = any(ord(c) > 127 for c in params_from_msgstr)
+        
+        if has_non_ascii and not has_param_syntax and params_from_msgstr.strip():
+            # Translated shortcode name had spaces - use params from msgid instead
+            new_tag = m.group(1) + m.group(2) + correct_name + params_from_msgid + m.group(5) + m.group(6)
+            fixes.append(f'{name!r} (with translated params) → {correct_name!r}')
+        else:
+            # Normal case - just fix the name, keep the params
+            new_tag = m.group(1) + m.group(2) + correct_name + m.group(4) + m.group(5) + m.group(6)
+            fixes.append(f'{name!r} → {correct_name!r}')
+        
         start = m.start() + offset
         end = m.end() + offset
         result = result[:start] + new_tag + result[end:]
         offset += len(new_tag) - len(m.group(0))
-        fixes.append(f'{name!r} → {correct_name!r}')
 
     return result, fixes
 
@@ -208,11 +226,14 @@ def process_po_file(path: str, valid: set[str], dry_run: bool) -> int:
         return 0
 
     total_fixes = 0
+    entries_processed = 0
 
     for entry in po:
         # polib gives us already-unescaped strings; handles quoting on save.
         if not entry.msgid or not entry.msgstr:
             continue
+        
+        entries_processed += 1
 
         # First, fix shortcode names
         new_msgstr, name_fixes = restore_names(entry.msgid, entry.msgstr, valid)
@@ -230,7 +251,12 @@ def process_po_file(path: str, valid: set[str], dry_run: bool) -> int:
         print(f'  {os.path.basename(path)}: {"; ".join(all_fixes)}')
 
     if total_fixes and not dry_run:
-        po.save(path)
+        try:
+            po.save(path)
+            print(f'  ✓ Saved {os.path.basename(path)} ({entries_processed} entries, {total_fixes} fixes)')
+        except Exception as e:
+            print(f'  ERROR: Failed to save {os.path.basename(path)}: {e}', file=sys.stderr)
+            return 0
 
     return total_fixes
 
@@ -277,16 +303,44 @@ def main() -> None:
         print('No .po files found — nothing to do.')
         return
 
+    print(f'Processing {len(po_files)} .po file(s)...')
+    
     total = 0
+    processed_files = 0
     for po_file in po_files:
         n = process_po_file(po_file, valid, args.dry_run)
         total += n
+        if n > 0:
+            processed_files += 1
 
     if total:
         action = 'Would fix' if args.dry_run else 'Fixed'
-        print(f'{action} {total} corrupted shortcode name(s) across {len(po_files)} file(s).')
+        print(f'{action} {total} corrupted shortcode name(s) across {processed_files} file(s).')
     else:
         print('No corrupted shortcode names found.')
+    
+    # Validation: Check for common corrupted patterns that shouldn't be there
+    if not args.dry_run and total > 0:
+        print('\nValidating fixes...')
+        corrupted_patterns = ['край', 'slut', 'koniec', 'fin', 'конец', 'slutt']
+        found_issues = False
+        for po_file in po_files:
+            try:
+                with open(po_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    for pattern in corrupted_patterns:
+                        # Look for patterns like {{< <pattern> or <pattern> >}}
+                        if re.search(rf'{{\{{[<{pattern}].*?{pattern}.*?[>}}]\}}}}', content):
+                            print(f'  WARNING: Possible corrupted shortcode "{pattern}" still in {os.path.basename(po_file)}', file=sys.stderr)
+                            found_issues = True
+            except Exception:
+                pass
+        
+        if found_issues:
+            print('\n❌ ERROR: Validation found remaining corrupted shortcodes after sanitization!', file=sys.stderr)
+            sys.exit(1)
+        else:
+            print('✅ Validation passed - no corrupted patterns detected')
 
 
 if __name__ == '__main__':
