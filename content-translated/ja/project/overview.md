@@ -16,7 +16,7 @@ type: page
 
 ---
 {{<content-start >}}
-## Key features
+## 主な機能
 {{<tabs tab1="地図を作成する" tab2="レイヤを編集する" tab3="処理と解析機能" tab4="地図を共有します" >}}
 
 {{< columns-start id="content-tab-1" >}} {{< column-start class="is-flex-direction-column is-two-thirds rounded mb-4" >}} ![Create map](../img/create.gif "Create maps") {{< column-end >}}
@@ -64,7 +64,7 @@ Conquer data integration challenges with support for a multitude of data sources
 QGISをクラウドやモバイルデバイスに展開して、より多くのユーザーがアクセスできる環境を実現しましょう。
 
 {{< column-end >}} {{< columns-end >}}
-## Level up with community resources
+## コミュニティリソースを活用してレベルアップ
 {{< columns-start >}} {{< column-start class="is-flex-direction-column rounded" >}} ![Create map](../img/plugs.jpg "Create map") {{< column-end >}} {{< column-start class="is-flex-direction-column is-justify-content-center ">}}
 ### 2000+ plugins developed by community
 Enhance the functionality of QGIS application with thousands of free additional features.
@@ -72,30 +72,30 @@ Enhance the functionality of QGIS application with thousands of free additional 
 [Go to plugins](https://plugins.qgis.org/) {{< column-end >}} {{< columns-end >}}
 
 {{< columns-start >}} {{< column-start class="is-flex-direction-column rounded" >}} ![International conference](../img/meetings.jpg "International conference") {{< column-end >}} {{< column-start class="is-flex-direction-column is-justify-content-center ">}}
-### Annual international conference
-Connect with professionals, enthusiasts, and QGIS users for networking and knowledge sharing at our annual international user conference.
+### 年次国際カンファレンス
+年次国際ユーザーカンファレンスで、専門家・愛好家・QGISユーザーとネットワークを築き、知識を共有しましょう。
 
-[Community meetings]({{< ref "community/organisation/meetings/user_meetings.md" >}}) {{< column-end >}} {{< columns-end >}}
+[コミュニティミーティング]({{< ref "community/organisation/meetings/user_meetings.md" >}}) {{< column-end >}} {{< columns-end >}}
 
 {{< columns-start >}} {{< column-start class="is-flex-direction-column rounded mb-4" >}} ![Local user groups](../img/groups.jpg "Local user groups") {{< column-end >}} {{< column-start class="is-flex-direction-column is-justify-content-center ">}}
-### Local user groups and support providers
-Join a community of like-minded individuals in your region.
+### 地域のユーザーグループとサポートプロバイダー
+あなたの地域で、同じ関心を持つ仲間たちのコミュニティに加わりましょう。
 
-[Local groups list]({{< ref "community/groups.md" >}}) {{< column-end >}} {{< columns-end >}}
+[ローカルグループリスト]({{< ref "community/groups.md" >}}) {{< column-end >}} {{< columns-end >}}
 
-[Join the community]({{< ref "community/involve.md" >}} "is-size-5 mb-4")
-## Cross platform
+[コミュニティへの参加]({{< ref "community/involve.md" >}} "is-size-5 mb-4")
+## クロスプラットフォーム
 {{< columns-start >}} {{< column-start>}}
 
 {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-6">}}
 ### QGISサーバー
-Publish your QGIS projects and layers as OGC compatible WMS, WMTS, WFS and WCS services. Control which layers, attributes, layouts and coordinate systems are exported. QGIS server is considered as a reference implementation for WMS 1.3. {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< column-start>}}
+QGISのプロジェクトとレイヤーを、OGC互換のWMS・WMTS・WFS・WCSサービスとして公開できます。エクスポートするレイヤー・属性・レイアウト・座標系を細かく制御できます。QGISサーバーはWMS 1.3のリファレンス実装として認定されています。 {{< rich-content-end >}}{{< rich-box-end >}}{{< column-end >}}{{< column-start>}}
 
 {{< rich-box-start >}} {{< rich-content-start themeClass="coloring-6" >}}
 ### QGISデスクトップ
 地理空間情報の作成、編集、解析と公開を行います。
 
-[Download]({{< ref "download.md" >}}) for Windows, Mac, Linux, BSD and Android. {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< columns-end >}}
+[ダウンロード]({{< ref "download.md" >}}) for Windows, Mac, Linux, BSD and Android. {{< rich-content-end >}} {{< rich-box-end >}} {{< column-end >}} {{< columns-end >}}
 
 {{< columns-start >}} {{< column-start>}}
 

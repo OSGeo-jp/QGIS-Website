@@ -4,7 +4,7 @@ draft: false
 heroImage: img/involve.jpg
 sidebar: true
 subtitle: Recognizing the amazing people and organizations that make QGIS possible
-title: QGIS 贡献者
+title: QGIS贡献者
 type: page
 
 ---

@@ -27,19 +27,19 @@ Feel free to subscribe to any of the lists, and remember to contribute by answer
 {{<rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-1" >}}
-### 报告缺陷
+### 报告Bug
 If you encounter any issues while working with QGIS, let the QGIS developers know about them.
 
 [Report an issue]({{< ref "resources/support/bug-reporting" >}}) {{< rich-content-end>}} {{< rich-right-start >}}<br />![](../img/Bugs.jpg) {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-4" >}}
-### QGIS帮助文档
+### QGIS文档
 Creating documentation offers an ideal starting point for your first contribution to the project. If you're interested in joining the documentation effort, you can find a gentle introduction and guidelines here:
 
 [How to write documentation](https://docs.qgis.org/latest/en/docs/documentation_guidelines/) {{< rich-content-end >}} {{< rich-right-start >}}<br />![](../img/Documentation.jpg) {{< rich-right-end >}} {{< rich-box-end >}}
 
 {{< rich-box-start layoutClass="has-right rounded" >}} {{< rich-content-start themeClass="coloring-4" >}}
-### 翻译 QGIS
+### 翻译QGIS
 If you're interested in contributing to the documentation effort, such as translating the English manual into another language, find out how to get started here:
 
 [How to translate QGIS](https://docs.qgis.org/latest/en/docs/documentation_guidelines/do_translations.html ) {{< rich-content-end >}} {{< rich-right-start >}}<br />![](../img/Translate.jpg) {{< rich-right-end >}} {{< rich-box-end >}}
