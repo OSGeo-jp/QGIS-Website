@@ -60,9 +60,9 @@ def get_valid_shortcodes(themes_dir: str) -> set[str]:
     return names
 
 
-def list_shortcodes(text: str) -> list[tuple[str, str]]:
-    """Return ordered list of (slash, name) for all shortcode tags in text."""
-    return [(m.group(2), m.group(3)) for m in SHORTCODE_RE.finditer(text)]
+def list_shortcodes(text: str) -> list[tuple]:
+    """Return ordered list of (match_obj, slash, name) for all shortcode tags in text."""
+    return [(m, m.group(2), m.group(3)) for m in SHORTCODE_RE.finditer(text)]
 
 
 def restore_names(msgid: str, msgstr: str, valid: set[str]) -> tuple[str, list[str]]:
@@ -87,12 +87,12 @@ def restore_names(msgid: str, msgstr: str, valid: set[str]) -> tuple[str, list[s
             continue
         if i >= len(id_shortcodes):
             continue  # more shortcodes in msgstr than msgid — leave alone
-        correct_name = id_shortcodes[i][1]
+        correct_name = id_shortcodes[i][2]  # Now index 2 is the name
         if correct_name == name:
             continue
 
         # Get the correct shortcode from msgid (includes all its params)
-        id_shortcode_match = id_shortcodes[i][0]
+        id_shortcode_match = id_shortcodes[i][0]  # Now index 0 is the match object
         params_from_msgid = id_shortcode_match.group(4)  # params from source
         params_from_msgstr = m.group(4)  # params from translation
         
@@ -322,17 +322,21 @@ def main() -> None:
     # Validation: Check for common corrupted patterns that shouldn't be there
     if not args.dry_run and total > 0:
         print('\nValidating fixes...')
-        corrupted_patterns = ['край', 'slut', 'koniec', 'fin', 'конец', 'slutt']
+        # Only check for specific corrupted shortcode patterns, not general word occurrences
+        corrupted_patterns = ['край', 'slut', 'koniec', 'конец', 'slutt', 'колона', 'параметър']
         found_issues = False
         for po_file in po_files:
             try:
                 with open(po_file, 'r', encoding='utf-8') as f:
                     content = f.read()
                     for pattern in corrupted_patterns:
-                        # Look for patterns like {{< <pattern> or <pattern> >}}
-                        if re.search(rf'{{\{{[<{pattern}].*?{pattern}.*?[>}}]\}}}}', content):
-                            print(f'  WARNING: Possible corrupted shortcode "{pattern}" still in {os.path.basename(po_file)}', file=sys.stderr)
+                        # Look for actual shortcode tags: {{< pattern OR {{< pattern-something
+                        # This is much more specific than the previous regex
+                        shortcode_pattern = rf'\{{\{{<\s*{re.escape(pattern)}(?:\s|>|-)'
+                        if re.search(shortcode_pattern, content):
+                            print(f'  WARNING: Corrupted shortcode "{{{{< {pattern}" still in {os.path.basename(po_file)}', file=sys.stderr)
                             found_issues = True
+                            break  # Don't spam multiple warnings for the same file
             except Exception:
                 pass
         
