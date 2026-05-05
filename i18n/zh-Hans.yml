@@ -11,13 +11,13 @@
 - id: advancedCartography
   translation: 高级制图
 - id: alreadyDonated
-  translation: 已经捐赠？隐藏此提示
+  translation: 已捐助？隐藏此提示
 - id: annualInternationalConference
   translation: 年度国际会议
 - id: archive
   translation: 档案
 - id: availablePlatforms
-  translation: QGIS可以在 Windows、macOS、Linux、Android 和 iOS 平台上运行。
+  translation: QGIS可以在Windows、macOS、Linux、Android和iOS平台运行。
 - id: becauseOfOurLicense
   translation: 由于我们的许可证，QGIS永远是免费和开源软件。
 - id: chooseYourLanguage
@@ -35,7 +35,7 @@
 - id: current
   translation: 新颜色
 - id: currentVersion
-  translation: 当前版本是 QGIS %s“%s”，发布于 %s。
+  translation: 当前版本是 QGIS %s '%s'，发布于 %s。
 - id: cursorLocation
   translation: 光标位置
 - id: days
@@ -45,9 +45,9 @@
 - id: diversityStatement
   translation: 多元化声明
 - id: donate
-  translation: 捐赠
+  translation: 捐助
 - id: donateAndDownload
-  translation: 捐赠与下载
+  translation: 捐助与下载
 - id: download
   translation: 下载
 - id: downloadDirectly
@@ -111,7 +111,7 @@
 - id: initialRelease
   translation: 首发版本
 - id: initialReleaseTip
-  translation: ''
+  translation: 稳定版是通过定期选取开发版本，仅专注于漏洞修复对其进行 "加固" 完善，最终正式发布。
 - id: installersAvailable
   translation: ''
 - id: installersAvailableTip
@@ -145,7 +145,7 @@
 - id: loading
   translation: 加载...
 - id: longTermBuilds
-  translation: ''
+  translation: 当前长期版本为 %s '%s'。长期维护版 (LTR) 适用于优先看重稳定性而非最新功能的用户。如果不确定哪个版本更适合您，请下载长期维护版。
 - id: longTermRelease
   translation: 长期维护版 (LTR)
 - id: longTermVersionForMacOS
@@ -185,7 +185,7 @@
 - id: menuCaseStudies
   translation: 案例分析
 - id: menuCertificationProgramme
-  translation: 认证项目
+  translation: 认证计划
 - id: menuCharter
   translation: 许可证
 - id: menuCommercialSupport
@@ -207,7 +207,7 @@
 - id: menuDocumentation
   translation: 帮助文档
 - id: menuDonate
-  translation: 捐赠
+  translation: 捐助
 - id: menuDonors
   translation: 捐赠
 - id: menuDownload
@@ -287,7 +287,7 @@
 - id: menuQGISFoundation
   translation: QGIS基金会
 - id: menuQGISMetrics
-  translation: QGIS数据统计
+  translation: QGIS指标
 - id: menuQGISTestingWarning
   translation: QGIS测试警告
 - id: menuQGISUC2025
@@ -347,7 +347,7 @@
 - id: onlineInstaller
   translation: 离线 (OSGeo4W) 安装程序
 - id: onlineInstallerDescription
-  translation: ''
+  translation: 此安装程序是让QGIS保持最新状态、在操作系统运行多个版本，以及将下载服务器负载降至最低的最佳方式。
 - id: osgeo4wNetworkInstaller
   translation: OSGeo4W网络安装程序
 - id: otherMethodsMoreInfo
@@ -355,11 +355,11 @@
 - id: otherPlatforms
   translation: 其他平台
 - id: overview
-  translation: 概览图
+  translation: 概览
 - id: packaging
   translation: 打包
 - id: packagingTip
-  translation: ''
+  translation: 在此，我们对版本进行标记，并使其可以在不同平台进行打包。
 - id: page
   translation: 页
 - id: pageNotFound
@@ -379,7 +379,7 @@
 - id: preferFree
   translation: 优先免费
 - id: privacyPolicy
-  translation: ''
+  translation: 隐私政策
 - id: publicationQualityMapProduction
   translation: ''
 - id: qfieldPlatforms
@@ -407,7 +407,7 @@
 - id: startUsingQgis
   translation: 开始使用QGIS
 - id: startupsAndSmallBusinesses
-  translation: 初创企业与小型企业
+  translation: 初创企业与小微企业
 - id: subscribeAndDownload
   translation: 订阅并下载
 - id: supportFromVolunteerCommunity

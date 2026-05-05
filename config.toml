@@ -1093,6 +1093,16 @@ sectionPagesMenu = 'main'
     weight = 2
     contentDir = "content-translated/ja"
 
+
+    [languages.zh-hans]
+    languageCode = "zh-hans"
+    weight = 2
+
+  [languages.zh-Hans]
+  languageCode = "zh-Hans"
+  weight = 2
+  contentDir = "content-translated/zh-Hans"
+
 [module]
   # English (base language) - only original content
   [[module.mounts]]
@@ -1172,3 +1182,12 @@ sectionPagesMenu = 'main'
     source = "content"
     target = "content"
     lang = "ja"
+
+  [[module.mounts]]
+    source = "content-translated/zh-hans"
+    target = "content"
+    lang = "zh-hans"
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    lang = "zh-hans"

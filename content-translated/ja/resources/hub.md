@@ -2,28 +2,28 @@
 Reviewed: 4 June 2024
 Reviewer: Tim Sutton
 draft: false
-selected_language: ja
+selected_language: en
 sidebar: true
 subtitle: ''
-title: QGIS resources
+title: QGIS リソース
 type: page
 
 ---
 {{<content-start >}}
-# Resources
+# リソース
 {{< rich-box-start icon="🖖" layoutClass="tips">}} {{< rich-content-start themeClass="coloring-1" >}}
-#### Installation troubles?
-If you are looking for information on installing QGIS on all available platforms, we have prepared a comprehensive guide for you:
+#### インストールでトラブルがありますか？
+あらゆるプラットフォームへのQGISのインストール方法については、詳細なガイドをご用意していますのでご参照ください:
 
 [Installation guide]({{< ref "/resources/installation-guide/index.md" >}})
 
 {{< rich-content-end >}} {{< rich-box-end >}}
 ## 文書化
-QGIS has a lot of documentation. All of the core documentation (user manual, developer handbooks etc.) is available in English. Some documents such as the user guide are also available in other languages.
+QGISには充実したドキュメントが揃っています。ユーザーマニュアル・開発者ハンドブックなどのコアドキュメントはすべて英語で提供されています。ユーザーガイドなど一部のドキュメントは他の言語でもご利用いただけます。
 
-You will find documentation for every QGIS Long Term Release (LTR) on the respective documentation website.
+各QGISの長期サポートリリース（LTR）のドキュメントは、それぞれのドキュメントウェブサイトでご覧いただけます。
 
-[Get involved]({{< ref "/community/involve" >}}) and help us write a better documentation.
+[Get involved]({{< ref "/community/involve" >}}) より良いドキュメントの作成にご協力ください。
 
 {{<language-select >}}
 
